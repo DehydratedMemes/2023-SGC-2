@@ -1,17 +1,19 @@
 \documentclass[letterpaper,10pt,twoside]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Control de versiónes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{changelog}
 
-%\special{dvipdfmx:config z 0}	% Desactivar compresión
-%\special{pdf:majorversion 2}	% PDFv2.0
-%\special{pdf:minorversion 0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% ESPECIALES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\special{dvipdfmx:config z 0}	% Desactivar compresión
+\special{pdf:minorversion 7}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%% PREAMBULO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \usepackage{fontspec}
 	\setmainfont{Carlito}
 
 \usepackage{polyglossia}
 	\setmainlanguage[variant=mexican]{spanish}
-    
+
+\input{src/glosario-def.tex}
 \usepackage{tabularray}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -26,7 +28,8 @@
 %\usepackage{pdfpages}
 %\usepackage{lipsum}
 
-\usepackage[hmargin=2cm,top=5cm,headheight=85pt]{geometry}
+\usepackage[margin=2cm,bmargin=2cm,tmargin=5cm,headheight=97pt]{geometry}
+%\addtolength{\topmargin}{-12pt}
 	%\usepackage{geometry}
 	%\setlength{\parindent}{0.95cm}
 	%\renewcommand{\labelitemi}{\textemdash}
@@ -34,7 +37,7 @@
 \usepackage{enumitem}
 	\setlist[1]{labelindent=\parindent} % < Usually a good idea
 	\setlist[itemize]{leftmargin=*}
-	\setlist[itemize,1]{label=$\textemdash$}
+	\setlist[itemize,1]{label=---}
 	\setlist{noitemsep}
 
 \usepackage{fancyhdr}
@@ -67,9 +70,12 @@
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
 
+
+
 \begin{document}
 \pagestyle{formato}
 \include{src/ToC.tex}
+
 \include{src/BPM-1.1.tex}
 \include{src/BPM-1.2.tex}
 \include{src/BPM-1.3.tex}
@@ -83,4 +89,5 @@
 \include{src/BPM-1.11.tex}
 \include{src/BPM-A.1.tex}
 \include{src/BPM-A.2.tex}
+\include{src/glosario.tex}
 \end{document}
