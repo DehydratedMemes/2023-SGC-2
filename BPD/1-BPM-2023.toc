@@ -1,0 +1,136 @@
+\selectlanguage *{spanish}
+\contentsline {section}{\numberline {1}Politica de calidad}{2}{section.1}%
+\contentsline {section}{\numberline {2}Programa de buenas prácticas de distribución (BPD)}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Objetivo}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Alcance}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Responsables}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Metodología}{3}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Introducción}{3}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Programas}{3}{subsubsection.2.4.2}%
+\contentsline {section}{\numberline {3}Manual de calidad y Buenas Prácticas de Distribución}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Objetivos}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Alcance}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Propósito del manual de buenas prácticas de distribución}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Introducción}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Protección al producto}{5}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Control de plagas}{6}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Práctica de empleados}{7}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Limpieza de equipos}{8}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Mantenimiento de equipos y edificio}{8}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Higiene y sanidad}{9}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Diseño, construcción y mantenimiento}{9}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.12}Exteriores}{9}{subsection.3.12}%
+\contentsline {subsubsection}{\numberline {3.12.1}Interiores}{10}{subsubsection.3.12.1}%
+\contentsline {subsubsection}{\numberline {3.12.2}Iluminación}{10}{subsubsection.3.12.2}%
+\contentsline {subsubsection}{\numberline {3.12.3}Ventilación}{10}{subsubsection.3.12.3}%
+\contentsline {subsubsection}{\numberline {3.12.4}Basura}{10}{subsubsection.3.12.4}%
+\contentsline {subsection}{\numberline {3.13}Instalaciones sanitarias}{11}{subsection.3.13}%
+\contentsline {subsubsection}{\numberline {3.13.1}Instalaciones para el personal}{11}{subsubsection.3.13.1}%
+\contentsline {subsection}{\numberline {3.14}Lavado de equipo e instalaciones sanitarias:}{11}{subsection.3.14}%
+\contentsline {subsection}{\numberline {3.15}Operaciones sanitarias}{11}{subsection.3.15}%
+\contentsline {subsection}{\numberline {3.16}Calidad y abastecimiento de agua}{12}{subsection.3.16}%
+\contentsline {subsubsection}{\numberline {3.16.1}Controles}{12}{subsubsection.3.16.1}%
+\contentsline {subsection}{\numberline {3.17}Transporte}{12}{subsection.3.17}%
+\contentsline {subsection}{\numberline {3.18}Almacenamiento}{12}{subsection.3.18}%
+\contentsline {subsection}{\numberline {3.19}Recepción y almacenamiento de productos}{12}{subsection.3.19}%
+\contentsline {subsection}{\numberline {3.20}Recepción y almacenamiento de productos no-comestibles}{13}{subsection.3.20}%
+\contentsline {subsection}{\numberline {3.21}Equipo}{13}{subsection.3.21}%
+\contentsline {subsubsection}{\numberline {3.21.1}Diseño e instalación}{13}{subsubsection.3.21.1}%
+\contentsline {subsubsection}{\numberline {3.21.2}Superficies en contacto con aliementos}{13}{subsubsection.3.21.2}%
+\contentsline {subsubsection}{\numberline {3.21.3}Calibración y mantenimiento de equipos}{13}{subsubsection.3.21.3}%
+\contentsline {subsection}{\numberline {3.22}Controles escritos de mantenimiento}{13}{subsection.3.22}%
+\contentsline {subsection}{\numberline {3.23}Control de calibración}{14}{subsection.3.23}%
+\contentsline {subsection}{\numberline {3.24}Personal}{14}{subsection.3.24}%
+\contentsline {subsubsection}{\numberline {3.24.1}Capacitaciones}{14}{subsubsection.3.24.1}%
+\contentsline {paragraph}{\numberline {3.24.1.1}Entrenamiento en higiene alimentaria}{14}{paragraph.3.24.1.1}%
+\contentsline {paragraph}{\numberline {3.24.1.2}Entrenamiento técnico}{14}{paragraph.3.24.1.2}%
+\contentsline {subsubsection}{\numberline {3.24.2}Requisitos de seguridad e higiene}{14}{subsubsection.3.24.2}%
+\contentsline {subsubsection}{\numberline {3.24.3}Enfermedades contagiosas y heridas}{15}{subsubsection.3.24.3}%
+\contentsline {subsection}{\numberline {3.25}Visitantes}{15}{subsection.3.25}%
+\contentsline {subsection}{\numberline {3.26}Prevención de la contaminación cruzada}{15}{subsection.3.26}%
+\contentsline {subsection}{\numberline {3.27}Programa de limpieza}{15}{subsection.3.27}%
+\contentsline {subsection}{\numberline {3.28}Controles sanitarios}{16}{subsection.3.28}%
+\contentsline {subsection}{\numberline {3.29}Programa de control de plagas}{16}{subsection.3.29}%
+\contentsline {subsection}{\numberline {3.30}Controles del programa de control de plagas}{16}{subsection.3.30}%
+\contentsline {subsection}{\numberline {3.31}Rastreo}{16}{subsection.3.31}%
+\contentsline {subsection}{\numberline {3.32}Codificación de productos}{17}{subsection.3.32}%
+\contentsline {subsection}{\numberline {3.33}Registros}{17}{subsection.3.33}%
+\contentsline {section}{\numberline {4}Reglamento de ingreso a las instalaciones}{18}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Objetivos}{18}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Alcance}{18}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Terminología y definiciones}{18}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Documentos y/o normas relacionados}{18}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Reglamento de ingreso al almacén}{18}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Disposiciones generales}{18}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Ingreso de personal interno}{19}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Ingreso de visitantes o personal contratado por clientes de RDF (PCPC)}{19}{subsubsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.6}Responsable(s) de la actividad}{19}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Acciones preventivas}{19}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Acciones correctivas}{20}{subsection.4.8}%
+\contentsline {section}{\numberline {5}Reglamento de almacén}{21}{section.5}%
+\contentsline {section}{\numberline {6}Sanción por no cumplir el reglamento de BPD}{22}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Objetivo}{22}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Alcance}{22}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Documentos y/o normas relacionados}{22}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Procedimiento}{22}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Instrucciones}{22}{subsubsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.5}Responsable de la actividad}{22}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Acciones preventivas}{22}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Acciones correctivas}{22}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Frecuencia}{22}{subsection.6.8}%
+\contentsline {section}{\numberline {7}Análisis clínicos del personal}{24}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Objetivo}{24}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Alcance}{24}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Terminología y definiciones}{24}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Documentos y/o normas relacionados}{24}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Procedimiento}{24}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {7.5.1}Programa de análisis clínico externo}{24}{subsubsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.6}Responsable de la actividad}{24}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Acciones correctivas}{24}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Frecuencia}{24}{subsection.7.8}%
+\contentsline {subsection}{\numberline {7.9}Historial de modificaciones}{24}{subsection.7.9}%
+\contentsline {subsection}{\numberline {7.10}Objetivo}{26}{subsection.7.10}%
+\contentsline {subsection}{\numberline {7.11}Alcance}{26}{subsection.7.11}%
+\contentsline {subsection}{\numberline {7.12}Procedimiento}{26}{subsection.7.12}%
+\contentsline {subsubsection}{\numberline {7.12.1}Personal con heridas}{26}{subsubsection.7.12.1}%
+\contentsline {subsubsection}{\numberline {7.12.2}Personal con enfermedades infecto-contagiosas o afecciones en la piel}{26}{subsubsection.7.12.2}%
+\contentsline {subsection}{\numberline {7.13}Frecuencia}{26}{subsection.7.13}%
+\contentsline {subsection}{\numberline {7.14}Responsables}{26}{subsection.7.14}%
+\contentsline {subsection}{\numberline {7.15}Acciones preventivas}{26}{subsection.7.15}%
+\contentsline {subsection}{\numberline {7.16}Acciones correctivas}{27}{subsection.7.16}%
+\contentsline {subsection}{\numberline {7.17}Historial de modificaciones}{27}{subsection.7.17}%
+\contentsline {section}{\numberline {8}Política de igualdad laboral}{28}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Objetivo}{28}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Alcance}{28}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Documentos y/o normas relacionadas}{28}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Política de igualdad laboral}{28}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Historial de modificaciones}{28}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Compra de recursos}{29}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Objetivo}{29}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Alcance}{29}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Terminología y definiciones}{29}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Documentos y/o normas relacionadas}{29}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Procedimiento}{29}{subsection.9.5}%
+\contentsline {subsubsection}{\numberline {9.5.1}Compra de insumos frecuentes}{29}{subsubsection.9.5.1}%
+\contentsline {subsubsection}{\numberline {9.5.2}Compra de recursos fuera de la lista de proveedores autorizados}{29}{subsubsection.9.5.2}%
+\contentsline {subsection}{\numberline {9.6}Frecuencia}{30}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}Historial de modificaciones}{30}{subsection.9.7}%
+\contentsline {section}{\numberline {10}Llenado de formularios de orden de salida}{31}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Objetivo}{31}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Alcance}{31}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Terminología y definiciones}{31}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Documentos y/o normas relacionadas}{33}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Instrucciones}{33}{subsection.10.5}%
+\contentsline {subsubsection}{\numberline {10.5.1}Materiales}{33}{subsubsection.10.5.1}%
+\contentsline {subsubsection}{\numberline {10.5.2}Instrucciones}{33}{subsubsection.10.5.2}%
+\contentsline {paragraph}{\numberline {10.5.2.1}§A - Datos de identificación}{33}{paragraph.10.5.2.1}%
+\contentsline {paragraph}{\numberline {10.5.2.2}§B - Condiciones del producto}{33}{paragraph.10.5.2.2}%
+\contentsline {paragraph}{\numberline {10.5.2.3}§C - Servicios}{33}{paragraph.10.5.2.3}%
+\contentsline {paragraph}{\numberline {10.5.2.4}§D - Observaciones}{33}{paragraph.10.5.2.4}%
+\contentsline {subsection}{\numberline {10.6}Responsables de la actividad}{33}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}Acciones preventivas}{34}{subsection.10.7}%
+\contentsline {subsection}{\numberline {10.8}Acciones correctivas}{34}{subsection.10.8}%
+\contentsline {subsection}{\numberline {10.9}Frecuencia}{34}{subsection.10.9}%
+\contentsline {subsection}{\numberline {10.10}Historial de modificaciones}{34}{subsection.10.10}%
+\contentsline {section}{\numberline {A}BPD --- Apéndice 1}{35}{appendix.A}%
+\contentsline {section}{\numberline {B}Carta compromiso de cumplimiento del reglamento interno}{36}{appendix.B}%
