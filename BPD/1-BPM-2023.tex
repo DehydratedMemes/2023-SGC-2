@@ -1,3 +1,10 @@
+% arara: xelatex: {
+% arara: --> shell: yes,
+% arara: --> synctex: yes
+% arara: --> }
+% arara: makeglossaries
+% arara: xindy
+
 \documentclass[letterpaper,10pt,twoside]{article}
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Control de versiónes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{changelog}
@@ -11,9 +18,15 @@
 	\setmainfont{Carlito}
 
 \usepackage{polyglossia}
-	\setmainlanguage[variant=mexican]{spanish}
+	\setmainlanguage{spanish}
 
-\input{src/glosario-def.tex}
+\usepackage[automake,toc=true,postpunc=comma]{glossaries-extra}
+\makeglossaries
+\loadglsentries[main]{glosario-def.tex}
+
+\usepackage{makeidx}
+\makeindex
+
 \usepackage{tabularray}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -70,12 +83,9 @@
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
 
-
-
 \begin{document}
 \pagestyle{formato}
 \include{src/ToC.tex}
-
 \include{src/BPM-1.1.tex}
 \include{src/BPM-1.2.tex}
 \include{src/BPM-1.3.tex}
@@ -90,4 +100,5 @@
 \include{src/BPM-A.1.tex}
 \include{src/BPM-A.2.tex}
 \include{src/glosario.tex}
+\include{src/indice.tex}
 \end{document}
