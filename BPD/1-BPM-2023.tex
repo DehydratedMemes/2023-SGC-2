@@ -5,7 +5,8 @@
 % arara: --> synctex: yes,
 % arara: --> }
 % arara: makeglossaries
-% arara: xindy
+%% arara: xindy: {modules: [texindy, page-ranges], codepage: utf8, language: spanish-modern }
+% arara: makeindex -i 	
 
 \documentclass[letterpaper,10pt,twoside]{article}
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Control de versiónes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -22,7 +23,7 @@
 \usepackage{polyglossia}
 	\setmainlanguage{spanish}
 
-\usepackage[automake,toc=true,postpunc=comma]{glossaries-extra}
+\usepackage[toc=true,postpunc=comma]{glossaries-extra}
 \makeglossaries
 \loadglsentries[main]{glosario-def.tex}
 
