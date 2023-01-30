@@ -1,42 +1,4 @@
-\renewcommand{\MayorVer}{1}
-\renewcommand{\MenorVer}{0}
-\renewcommand{\Codigo}{BPD-11-IT}
-\renewcommand{\FechaPub}{2023--01}
-\renewcommand{\Titulo}{Llenado de formularios de orden de salida}
-\section{\Titulo}
-
-%\section{Llenado de formularios de orden de salida}
-
-\subsection{Objetivo}
-
-\begin{itemize}
-	\item \textbf{Establecer} las definiciones de los campos solicitados en los formularios de orden de salida (PSA-OP-FORM-1);
-	\item \textbf{Estandarizar} el llenado de los formularios de orden de salida.
-\end{itemize}
-
-\subsection{Alcance}
-
-\begin{itemize}
-	\item Éste documento esta dirigido, más no está limitado, al \emph{departamento de operaciones;}
-	\item en este documento no se contempla el llenado de formularios de \emph{orden de entrada (PSA-OP-IT-36).}
-\end{itemize}
-
-\subsection{Terminología y definiciones}
-
-% \begin{itemize}
-% 	\item \textbf{cantidad de tarimas - blancas}
-% 	\begin{itemize}
-% 		\item Número de tarimas convencionales (no CHEP) requeridas para la carga.
-% 	\end{itemize}
-% 	\item \textbf{cantidad de tarimas - CHEP}
-% 	\begin{itemize}
-% 		\item Numero de tarimas CHEP requeridas para la carga.
-% 		\item \textbf{Nota:} las tarimas CHEP son fácilmente identificables, ya que son de color azul y tienen impresa la leyenda "Property of CHEP".
-% 	\end{itemize}
-% 	\item \textbf{cantidad de tarimas - Total}
-% 	\begin{itemize}
-% 		\item La suma de la cantidad de \emph{tarimas blancas} y \emph{tarimas CHEP} empleadas en la carga.
-% 	\end{itemize}
+% ORDEN DE ENTRADA
 % 	\item \textbf{caja de la unidad de transporte (CUT)}
 % 	\begin{itemize}
 % 		\item unidad, generalmente con temperatura controlada, unida a un vehículo de transporte.
@@ -129,97 +91,9 @@
 % 	\end{itemize}
 % \end{itemize}
 
-\subsection{Documentos y/o normas relacionadas}
 
-\begin{itemize}
-	\item PSA-FORM-OP-2 - Orden de salida
-	\item PSA-FORM-OP-1 - Orden de entrada
-\end{itemize}
-
-\subsection{Instrucciones}
-
-\subsubsection{Materiales}
-
-\begin{itemize}
-	\item Formulario \textbf{PSA-FORM-OP-2;}
-	\item pluma;
-	\item termómetro IR;
-	\item termoregistrador (opcional).
-\end{itemize}
-
-\subsubsection{Instrucciones}
-
-\begin{itemize}
-	\item Se debe de llenar de forma clara y con pluma indeleble el formulario;
-	\item en caso de cometer algún error al llenar el formulario, tachar el error con pluma y llenar correctamente el campo
-	\begin{itemize}
-		\item si no es legible el campo después de haber sido corregido y vuelto a llenar, deberá llenarse otro formulario vacío.
-	\end{itemize}
-\end{itemize}
-
-\paragraph{§A - Datos de identificación}
-
-\begin{itemize}
-	\item Llenar campos de acuerdo a los datos proporcionados;
-	\item la hora debe escribirse en formato de \SI{24}{\hour} (HH:MM).
-\end{itemize}
-
-\paragraph{§B - Condiciones del producto}
-
-\begin{itemize}
-	\item Las casillas se deben de marcar claramente o con una palomilla, llenándola por completo o con una cruz;
-	\begin{itemize}
-		\item si se comete un error marcando una casilla, llenar un formulario vacío nuevamente.
-	\end{itemize}
-	\item en el campo de \emph{Temperatura de salida} se debe de escribir la temperatura según la sección de terminología y definiciones adicionando la unidad de medición \emph{i.e.} \SI{-15}{\celsius}
-\end{itemize}
-
-\paragraph{§C - Servicios}
-
-\begin{itemize}
-	\item Se deben de indicar con números legibles los servicios prestados en la carga de la caja.
-\end{itemize}
-
-\paragraph{§D - Observaciones}
-
-\begin{itemize}
-	\item Se deben de indicar en observaciones las desviaciones detectadas en la caja de una manera descriptiva;
-	\item en el caso de rechazar una unidad, se deben de escribir las razones;
-	\item pueden ir observaciones adicionales no consideradas en el formulario.
-\end{itemize}
-
-\subsection{Responsables de la actividad}
-
-\begin{itemize}
-	\item \textbf{Ejecutado} por personal de operaciones;
-	\item \textbf{Monitoreado} por personal de calidad;
-	\item \textbf{Verificado} por personal de calidad.
-\end{itemize}
-
-\subsection{Acciones preventivas}
-
-\begin{itemize}
-	\item Aleatoriamente el \emph{personal de calidad} verificará que se llenen los formularios de manera adecuada;
-	\item se dispondrá de este documento en el área de operaciones para su consulta en caso de ser requerido.
-\end{itemize}
-
-\subsection{Acciones correctivas}
-
-\begin{itemize}
-	\item En caso de que una \emph{orden de salida} presente desviaciones a los requisitos establecidos en este documento, se procederá a capacitar \emph{in situ} al personal;
-	\item en caso de que se repita con más empleados, se capacitarán a los involucrados de forma detallada en el llenado de este formulario y aquellos otros que no se llenen correctamente.
-\end{itemize}
-
-\subsection{Frecuencia}
-
-\begin{itemize}
-	\item \textbf{Verificación y monitoreo:} de forma aleatoria.
-	\item \textbf{Ejecución:} cada que se genere una orden de salida.
-\end{itemize}
-
-\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-1.11]
-	\begin{version}[v=1.0, date=2023--01, author=Pablo E. Alanis]
-		%\fixed
-			\item Primera versión.
-	\end{version}
-\end{changelog}
+% Abreviaciones
+\newabbreviation{CUT}{CUT}{caja de la unidad de transporte}
+\newabbreviation{PPRO}{PPRO}{Programa de Prerequisito(s) Operacional(es)}
+\newabbreviation{PPR}{PPR}{Programa de Prerequisito(s)}
+\newabbreviation{HACCP}{HACCP}{Hazard Analysis and Critical Control Points}

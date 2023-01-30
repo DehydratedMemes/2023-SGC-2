@@ -1,10 +1,12 @@
+\renewcommand{\MayorVer}{2}
+\renewcommand{\MenorVer}{1}
 \fancypagestyle{Fext}{%
     \fancyhead[C]{%
 	    \begin{tblr}{%	
             colspec = {|X[c,m]|X[c,m]|X[c,m]|X[c,m]|X[c,m]|X[c,m]|},
             }
             \hline
-            \SetCell[c=2]{c} \includegraphics[height=1cm]{./RDF_Logo.png} & & \SetCell[c=3]{c} \large{\textsc{Red de fríos S.A. de C.V.}} & & & {\textbf{Código:}\\ \Codigo} \\
+            \SetCell[c=2]{c} \includegraphics[height=1cm]{./RDF_Logo.eps} & & \SetCell[c=3]{c} \large{Red de fríos S.A. de C.V.} & & & {\textbf{Código:}\\ \Codigo} \\
             \hline
             \SetCell[c=4]{c} {{Política de trabajo en caso de personal con heridas expuestas\\ o enfermedades infecciosas}} & & & & {\textbf{Fecha de publicación:}\\ \FechaPub} & {\textbf{Edición:}\\ \Edit} \\
             \hline
@@ -16,9 +18,8 @@
         \fancyfoot[R]{\Codigo~rev.\Edit}
 }%
 
-\renewcommand{\Codigo}{BPD-PROG}
-\renewcommand{\FechaPub}{2023-01}
-\renewcommand{\Edit}{03}
+\renewcommand{\Codigo}{BPD-8-POL/IT}
+\renewcommand{\FechaPub}{2023--01}
 
 
 \pagestyle{Fext}
@@ -66,33 +67,36 @@ A todas las personas que presente algún tipo enfermedad infecta contagiosa, afe
 Cuando se presente alguna persona enferma.
 
 \subsection{Responsables}
-
+\index{Responsables!Personal con heridas expuestas}
 \begin{itemize}
 	\item El personal con heridas que \textbf{tenga} que laborar en el área de almacenamiento, deberá ser supervisado en todo momento por el resto del personal de \textbf{operaciones.}
 \end{itemize}
 
 \subsection{Acciones preventivas}
-
+\index{Acciones preventivas!Personal con heridas expuestas}
 \begin{itemize}
 	\item En caso de que un operador con heridas tenga que laborar, se les informará al área correspondiente para que presten atención de que el operador en cuestión nunca entre en contacto con producto expuesto.
 \end{itemize}
 
 \subsection{Acciones correctivas}
-
+\index{Acciones correctivas!Personal con heridas expuestas}
 \begin{itemize}
 	\item En caso de que el personal con heridas entre en contacto directo con el producto expuesto, este tendrá que segregarse e informarse al cliente sobre este suceso;
 	\item se llenara el formulario de acciones correctivas y se hará un análisis causa raíz para determinar cambios en el procedimiento correspondiente.
 \end{itemize}
 
-\subsection{Historial de modificaciones}
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-1.7]
+	\begin{version}[v=2.1, date=2023--01, author=Pablo E. Alanis]
+		%\fixed
+			\item Cambio de formato;
+			\item se adoptaron versiones mayores y menores para revisiones;
+			\item cambio en el código del documento.
+	\end{version}
 
-\begin{itemize}
-	\item \textbf{Tercera edición:} cambio de fecha de 24 de octubre 2017 a 24 de octubre 2018, se cambió el código de \emph{P-RI-PEL} a \emph{PR-004} y no hubieron cambios de la revisión 2 a la 3.
-	\item \textbf{Cuarta edición:} cambio de fecha de 24 de octubre 2018 a 24 octubre 2019 y no se hicieron cambios de la revisión 3 a la 4.
-	\item \textbf{Quinta edición:} enero 2020: se hicieron cambios al formato y cambios al código, de PR-004 a PRO-OP-002.
-	\item \textbf{Sexta edición:} febrero 2021: \emph{no hubieron cambios.}
-	\item \textbf{Septima edición:} febrero 2022: \emph{no hubieron cambios.}
-	\item \textbf{Octava edición:} 2023-01: cambios en formato y serialización.
-\end{itemize}
+	\begin{version}[v=1.8, date=2022-05, author=Alonso M.]
+		\item \textit{No hubo cambios}
+	\end{version}
+	\shortversion{v=1.7, date=2021-05, changes=No hubo cambios}
+\end{changelog}
 
 \pagestyle{formato}

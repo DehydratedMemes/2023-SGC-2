@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.12) (preloaded format=xelatex 2023.1.24)  26 JAN 2023 12:29
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.12) (preloaded format=xelatex 2023.1.24)  30 JAN 2023 15:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -320,7 +320,9 @@ Package: fp-eval 1995/04/03
 \dtl@codeA=\count300
 \dtl@codeB=\count301
 \@dtl@foreach@level=\count302
-) (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/tracklang\tracklang.sty
+)
+Package glossaries Info: debug mode ON (nowarn option disabled) on input line 1181.
+ (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/tracklang\tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
 
 (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/generic/tracklang\tracklang.tex)) (C:\Program Files\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish.ldf
@@ -398,13 +400,11 @@ File: glossaries-extra-abbrstyles.def 2022/06/16 v1.48b (NLCT)
 )
 \mglselementindex=\count313
 )
-runsystem(makeindex -s 1-BPM-2023.ist -t 1-BPM-2023.glg -o 1-BPM-2023.gls 1-BPM-2023.glo)...executed safely (allowed).
-
 \glswrite=\write3
 \glo@main@file=\write4
 \openout4 = `1-BPM-2023.glo'.
 
-Package glossaries Info: Writing glossary file 1-BPM-2023.glo on input line 28.
+Package glossaries Info: Writing glossary file 1-BPM-2023.glo on input line 27.
  (glosario-def.tex)
 (C:\Program Files\MiKTeX\tex/latex/base\makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
@@ -566,6 +566,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
  (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 )
+Package hyperref Info: Option `final' set `true' on input line 4045.
 Package hyperref Info: Hyper figures OFF on input line 4162.
 Package hyperref Info: Link nesting OFF on input line 4167.
 Package hyperref Info: Hyper index ON on input line 4170.
@@ -761,122 +762,102 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 LaTeX Info: Redefining \rmfamily on input line 25.
 LaTeX Info: Redefining \sffamily on input line 25.
 LaTeX Info: Redefining \ttfamily on input line 25.
- (src/BPM-1.1.aux) (src/BPM-1.2.aux) (src/BPM-1.3.aux
+ (src/G-1.aux) (src/BPM-1.1.aux) (src/BPM-1.2.aux) (src/BPM-1.3.aux) (src/BPM-1.4.aux)
+(src/BPM-1.5.aux) (src/BPM-1.6.aux) (src/BPM-1.7.aux) (src/BPM-1.8.aux
 
-LaTeX Warning: Label `sec:changelog' multiply defined.
-
-
-LaTeX Warning: Label `sec:changelog@cref' multiply defined.
-
-) (src/BPM-1.4.aux
-
-LaTeX Warning: Label `sec:changelog' multiply defined.
+LaTeX Warning: Label `changelog-1.7' multiply defined.
 
 
-LaTeX Warning: Label `sec:changelog@cref' multiply defined.
+LaTeX Warning: Label `changelog-1.7@cref' multiply defined.
 
-) (src/BPM-1.5.aux
-
-LaTeX Warning: Label `sec:changelog' multiply defined.
-
-
-LaTeX Warning: Label `sec:changelog@cref' multiply defined.
-
-) (src/BPM-1.6.aux
-
-LaTeX Warning: Label `sec:changelog' multiply defined.
-
-
-LaTeX Warning: Label `sec:changelog@cref' multiply defined.
-
-) (src/BPM-1.7.aux) (src/BPM-1.8.aux) (src/BPM-1.9.aux) (src/BPM-1.10.aux) (src/BPM-1.11.aux) (src/BPM-A.1.aux) (src/BPM-A.2.aux) (src/glosario.aux) (src/indice.aux))
+) (src/BPM-1.9.aux) (src/BPM-1.10.aux) (src/BPM-1.11.aux) (src/BPM-A.1.aux) (src/BPM-A.2.aux) (src/glosario.aux) (src/indice.aux))
 \openout1 = `1-BPM-2023.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 89.
-
-(C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 94.
+ (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
- (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+
+(C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 89.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 94.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 89.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 89.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 89.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 89.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 89.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 89.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 89.
-LaTeX Font Info:    Redeclaring math accent \check on input line 89.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 89.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 89.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 89.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 89.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 94.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 94.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 94.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 94.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 94.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 94.
+LaTeX Font Info:    Redeclaring math accent \check on input line 94.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 94.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 94.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 94.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 89.
+(Font)              `operators' in the math version `normal' on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Carlito(0)/m/n on input line 89.
+(Font)                  OT1/cmr/m/n --> TU/Carlito(0)/m/n on input line 94.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 89.
+(Font)              `operators' in the math version `bold' on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Carlito(0)/m/n on input line 89.
+(Font)                  OT1/cmr/bx/n --> TU/Carlito(0)/m/n on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Carlito(0)/m/n --> TU/Carlito(0)/m/n on input line 89.
+(Font)                  TU/Carlito(0)/m/n --> TU/Carlito(0)/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Carlito(0)/m/it on input line 89.
+(Font)                  OT1/cmr/m/it --> TU/Carlito(0)/m/it on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Carlito(0)/b/n on input line 89.
+(Font)                  OT1/cmr/bx/n --> TU/Carlito(0)/b/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 89.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 89.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 94.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Carlito(0)/m/n --> TU/Carlito(0)/b/n on input line 89.
+(Font)                  TU/Carlito(0)/m/n --> TU/Carlito(0)/b/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Carlito(0)/b/it on input line 89.
+(Font)                  OT1/cmr/bx/it --> TU/Carlito(0)/b/it on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 89.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 94.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 89.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 94.
 The property list \__xpg_alias contains the pairs (without outer braces):
 >  {latex/target}  =>  {latex}
 >  {spanish/target}  =>  {spanish}
@@ -890,14 +871,14 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {spanishmx/target}  =>  {spanish}
 >  {spanishmx/variant}  =>  {mexican}
 >  {spanishmx/options}  =>  {variant=mexican}.
-Package hyperref Info: Link coloring OFF on input line 89.
+Package hyperref Info: Link coloring OFF on input line 94.
  (1-BPM-2023.out) (1-BPM-2023.out)
 \@outlinefile=\write6
 \openout6 = `1-BPM-2023.out'.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 89.
+(lastpage)             ! on input line 94.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -933,9 +914,9 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \rmfamily on input line 89.
-LaTeX Info: Redefining \sffamily on input line 89.
-LaTeX Info: Redefining \ttfamily on input line 89.
+LaTeX Info: Redefining \rmfamily on input line 94.
+LaTeX Info: Redefining \sffamily on input line 94.
+LaTeX Info: Redefining \ttfamily on input line 94.
 \openout2 = `src/ToC.aux'.
 
 (src/ToC.tex (1-BPM-2023.toc
@@ -949,29 +930,24 @@ LaTeX Info: Redefining \ttfamily on input line 1.
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-
-
-LaTeX Font Warning: Font shape `TU/Carlito(0)/m/sc' undefined
-(Font)              using `TU/Carlito(0)/m/n' instead on input line 49.
-
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-[1
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [1
 
 \openout3 = `1-BPM-2023.ist'.
 
@@ -984,27 +960,52 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
  [2]
-LaTeX Info: Redefining \rmfamily on input line 137.
-LaTeX Info: Redefining \sffamily on input line 137.
-LaTeX Info: Redefining \ttfamily on input line 137.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [3]
+LaTeX Info: Redefining \rmfamily on input line 140.
+LaTeX Info: Redefining \sffamily on input line 140.
+LaTeX Info: Redefining \ttfamily on input line 140.
 )
 \tf@toc=\write7
 \openout7 = `1-BPM-2023.toc'.
@@ -1016,24 +1017,112 @@ LaTeX Info: Redefining \ttfamily on input line 137.
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [3])
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [4])
+\openout2 = `src/G-1.aux'.
+
+ (src/G-1.tex
+File: src/diagramas/G1_AV1.eps Graphic file (type eps)
+<src/diagramas/G1_AV1.eps>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+[5
+
+
+
+]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [6])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [7]
 \openout2 = `src/BPM-1.1.aux'.
 
  (src/BPM-1.1.tex)
@@ -1044,24 +1133,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [4
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [8
 
 
 
@@ -1076,24 +1165,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [5
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [9
 
 
 
@@ -1105,24 +1194,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [6]
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [10]
 \openout2 = `src/BPM-1.3.aux'.
 
  (src/BPM-1.3.tex
@@ -1133,24 +1222,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [7
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [11
 
 
 
@@ -1162,123 +1251,23 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [8]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [9]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [10]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [11]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
  [12]
 > Step: init table outer spec.
 > Step: parse table options.
@@ -1287,31 +1276,23 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
  [13]
 > Step: init table outer spec.
 > Step: parse table options.
@@ -1320,23 +1301,23 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
  [14]
 > Step: init table outer spec.
 > Step: parse table options.
@@ -1345,23 +1326,23 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
  [15]
 > Step: init table outer spec.
 > Step: parse table options.
@@ -1370,23 +1351,23 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
  [16]
 > Step: init table outer spec.
 > Step: parse table options.
@@ -1395,23 +1376,31 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
  [17]
 > Step: init table outer spec.
 > Step: parse table options.
@@ -1420,24 +1409,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [18])
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [18]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1445,24 +1434,124 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
  [19]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [20]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [21]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [22])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [23]
 \openout2 = `src/BPM-1.4.aux'.
 
  (src/BPM-1.4.tex
@@ -1473,24 +1562,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [20
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [24
 
 
 
@@ -1502,24 +1591,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [21])
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [25])
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1527,24 +1616,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [22]
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [26]
 \openout2 = `src/BPM-1.5.aux'.
 
  (src/BPM-1.5.tex)
@@ -1555,25 +1644,25 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 
-[23
+[27
 
 
 
@@ -1588,137 +1677,23 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [24
-
-
-
-])
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [25]
-\openout2 = `src/BPM-1.7.aux'.
-
- (src/BPM-1.7.tex
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [26
-
-
-
-])
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [27]
-\openout2 = `src/BPM-1.8.aux'.
-
- (src/BPM-1.8.tex
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
  [28
 
 
@@ -1731,24 +1706,138 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
  [29]
+\openout2 = `src/BPM-1.7.aux'.
+
+ (src/BPM-1.7.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [30
+
+
+
+])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [31]
+\openout2 = `src/BPM-1.8.aux'.
+
+ (src/BPM-1.8.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [32
+
+
+
+])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+> Step: build the whole table.
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [33]
 \openout2 = `src/BPM-1.9.aux'.
 
  (src/BPM-1.9.tex)
@@ -1759,24 +1848,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [30
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [34
 
 
 
@@ -1791,24 +1880,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [31
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [35
 
 
 
@@ -1820,24 +1909,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [32]
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [36]
 \openout2 = `src/BPM-1.11.aux'.
 
  (src/BPM-1.11.tex
@@ -1848,28 +1937,28 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [33
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [37
 
 
 
-]
+])
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1877,74 +1966,24 @@ File: ./RDF_Logo.png Graphic file (type bmp)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [34]
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [35])
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [36]
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [38]
 \openout2 = `src/BPM-A.1.aux'.
 
  (src/BPM-A.1.tex
@@ -1958,33 +1997,33 @@ File: ref/EXP-Amonestaci.pdf Graphic file (type pdf)
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-
-[37
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [39
 
 
 
 ]
 \openout2 = `src/BPM-A.2.aux'.
 
- (src/BPM-A.2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+(src/BPM-A.2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
@@ -1996,24 +2035,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [38
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+File: ./RDF_Logo.eps Graphic file (type eps)
+<./RDF_Logo.eps>
+ [40
 
 
 
@@ -2028,40 +2067,16 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
-))
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
-File: ./RDF_Logo.png Graphic file (type bmp)
-<./RDF_Logo.png>
- [39
+[41
 
 
 
 ]
+Invalid UTF-8 byte or sequence at line 67 replaced by U+FFFD.
+)) [42]
 \openout2 = `src/indice.aux'.
 
- (src/indice.tex (1-BPM-2023.ind [40
-
+ (src/indice.tex (1-BPM-2023.ind [43
 
 
 
@@ -2123,24 +2138,21 @@ AED: lastpage setting LastPage
 LaTeX Info: Redefining \rmfamily on input line 25.
 LaTeX Info: Redefining \sffamily on input line 25.
 LaTeX Info: Redefining \ttfamily on input line 25.
- (src/BPM-1.1.aux) (src/BPM-1.2.aux) (src/BPM-1.3.aux) (src/BPM-1.4.aux) (src/BPM-1.5.aux) (src/BPM-1.6.aux) (src/BPM-1.7.aux) (src/BPM-1.8.aux) (src/BPM-1.9.aux)
-(src/BPM-1.10.aux) (src/BPM-1.11.aux) (src/BPM-A.1.aux) (src/BPM-A.2.aux) (src/glosario.aux) (src/indice.aux))
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+ (src/G-1.aux) (src/BPM-1.1.aux) (src/BPM-1.2.aux) (src/BPM-1.3.aux) (src/BPM-1.4.aux) (src/BPM-1.5.aux) (src/BPM-1.6.aux) (src/BPM-1.7.aux) (src/BPM-1.8.aux)
+(src/BPM-1.9.aux) (src/BPM-1.10.aux) (src/BPM-1.11.aux) (src/BPM-A.1.aux) (src/BPM-A.2.aux) (src/glosario.aux) (src/indice.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `1-BPM-2023.out' has not changed.
-(rerunfilecheck)             Checksum: 257EB7C38C64E95287044F108E4DA2D0;24384.
+(rerunfilecheck)             Checksum: 81548B1D550F972683B2E70D1CC6F3C1;24957.
  ) 
 Here is how much of TeX's memory you used:
- 30762 strings out of 411566
- 684032 string characters out of 2824447
- 1882973 words of memory out of 3000000
- 50474 multiletter control sequences out of 15000+600000
- 561000 words of font info for 196 fonts, out of 8000000 for 9000
+ 31443 strings out of 411566
+ 700391 string characters out of 2824447
+ 1881973 words of memory out of 3000000
+ 51147 multiletter control sequences out of 15000+600000
+ 562099 words of font info for 198 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,18n,130p,2286b,1309s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on 1-BPM-2023.pdf (40 pages).
+Output written on 1-BPM-2023.pdf (43 pages).
