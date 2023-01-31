@@ -7,7 +7,7 @@
 % arara: makeglossaries
 %% arara: makeindex
 
-\documentclass[letterpaper,10pt,twoside,final]{article}
+\documentclass[letterpaper,10pt,twoside,final,es-MX]{article}
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Control de versiónes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{changelog}
 
@@ -20,16 +20,22 @@
 	\setmainfont{Carlito}
 
 \usepackage{polyglossia}
-	\setmainlanguage{spanish}
+	\setdefaultlanguage[variant=mexican,spanishoperators=all]{spanish}
+	%\AtBeginDocument{\renewcommand\babelname{spanish}}
+\usepackage{tracklang}
+\SetCurrentTrackedDialect{hdialecti}
+\CurrentTrackedDialectVariant{}
 
-\usepackage[toc=true,postpunc=comma,showtargets=annoteleft,style=tree]{glossaries-extra}
+\usepackage[toc=true,postpunc=comma,showtargets=annoteleft,style=tree,xindy]{glossaries-extra}
 \makeglossaries
 \setabbreviationstyle[acronym]{long-short}
 \loadglsentries[main]{glosario-def.tex}
 
-\usepackage{makeidx}
-\makeindex
+\usepackage{imakeidx}
+\makeindex[columns=2]
 
+\usepackage[multiple]{footmisc}
+\usepackage{microtype}
 \usepackage{tabularray}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -109,6 +115,6 @@
 \include{src/BPM-A.1.tex}
 \include{src/BPM-A.2.tex}
 \pagestyle{plain}
-\include{src/glosario.tex}
-\include{src/indice.tex}
+\printglossary
+\printindex
 \end{document}
