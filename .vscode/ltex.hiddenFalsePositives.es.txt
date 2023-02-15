@@ -1,0 +1,2 @@
+{"rule":"MIN_DIAS_SEMANA","sentence":"^\\QDía de solicitud Hora límite para solicitud Día de carga Observación Lunes 15:30 pm martes La cita debe realizarse antes de las 15:30 pm para que se asigne cita el Martes.\\E$"}
+{"rule":"MIN_DIAS_SEMANA","sentence":"^\\QLunes a viernes de 08:00 am a 16:00 pm Sábados de 08:00 am a 11:30 am.\\E$"}

@@ -1,0 +1,136 @@
+15 Feb 2023 10:57:57.734 INFO  - 
+Welcome to arara 7.0.4!
+-----------------------------------------------------------------
+15 Feb 2023 10:57:57.751 DEBUG - 
+::: arara @ C:\Program Files\MiKTeX\scripts\arara
+::: Java 19, Eclipse Adoptium
+::: C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
+::: Windows 10, amd64, 10.0
+::: user.home @ C:\Users\Usuario
+::: CF @ [none]
+-----------------------------------------------------------------
+15 Feb 2023 10:57:57.787 INFO  - Processing "BPD-Validación.tex" (size: 2.6 kB, last modified: 2023-02-14 21:12:52), please wait.
+15 Feb 2023 10:57:57.898 INFO  - I found a potential pattern in line 7: lualatex
+15 Feb 2023 10:57:57.926 INFO  - All directives were validated. We are good to go.
+-------------------------- DIRECTIVES ---------------------------
+Directive(identifier='lualatex', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\Validaciones\BPD-Validación.tex},conditional={ NONE }, lineNumbers=[7])
+-----------------------------------------------------------------
+15 Feb 2023 10:57:57.935 INFO  - I am ready to interpret rule "lualatex".
+15 Feb 2023 10:57:57.943 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+15 Feb 2023 10:57:58.411 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
+15 Feb 2023 10:57:58.413 INFO  - System command: [lualatex, BPD-Validación.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\Validaciones
+15 Feb 2023 10:58:07.142 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12)
+ restricted system commands enabled.
+(./BPD-Validación.tex
+LaTeX2e <2022-11-01> patch level 1
+ L3 programming layer <2022-12-17>
+("C:/Program Files/MiKTeX/tex/latex/base/letter.cls"
+Document Class: letter 2021/12/07 v1.3c Standard LaTeX document class
+("C:/Program Files/MiKTeX/tex/latex/base/size10.clo"))
+("C:/Program Files/MiKTeX/tex/lualatex/luainputenc/luainputenc.sty"
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifluatex.sty"
+("C:/Program Files/MiKTeX/tex/generic/iftex/iftex.sty"))
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifxetex.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/luatex/luatexbase/luatexbase.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/luatex/ctablestack/ctablestack.sty
+)) ("C:/Program Files/MiKTeX/tex/lualatex/luainputenc/lutf8.def"
+("C:/Program Files/MiKTeX/tex/latex/base/omsenc.dfu")
+("C:/Program Files/MiKTeX/tex/latex/base/ot1enc.dfu")
+("C:/Program Files/MiKTeX/tex/latex/base/t1enc.dfu")
+("C:/Program Files/MiKTeX/tex/latex/base/ts1enc.dfu")))
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3packages/xparse/xparse.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3kernel/expl3.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-luatex.def")))
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec-luatex.sty"
+("C:/Program Files/MiKTeX/tex/latex/base/fontenc.sty")
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.cfg")))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty
+("C:/Program Files/MiKTeX/tex/latex/graphics/keyval.sty")
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifvtex.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.cfg))
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/trig.sty")
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics-def/luatex.def")))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/polyglossia.sty
+("C:/Program Files/MiKTeX/tex/latex/etoolbox/etoolbox.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/makecmds/makecmds.sty)
+("C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/xkeyval.tex"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/xkvutils.tex")))
+("C:/Program Files/MiKTeX/tex/latex/l3packages/l3keys2e/l3keys2e.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-latex.lde)
+)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-spanish.ld
+f) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype-luatex.d
+ef) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.cfg)
+) ("C:/Program Files/MiKTeX/tex/latex/xhfill/xhfill.sty"
+("C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
+("C:/Program Files/MiKTeX/tex/latex/tools/calc.sty")
+("C:/Program Files/MiKTeX/tex/latex/tools/xspace.sty"))
+No file BPD-Validación.aux.
+("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd")
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+) ("C:/Program Files/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty"
+("C:/Program Files/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg")) (./src/2.tex
+warning  (file RDF_Logo-eps-converted-to.pdf) (pdf inclusion): PDF inclusion: f
+ound PDF version '1.7', but at most version '1.5' allowed
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-cmr.cfg)
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+) [1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./RDF_L
+ogo-eps-converted-to.pdf>] (./src/3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+) [2] (./src/4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+) [3] (./src/5.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+) [4] (./src/6.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+) [5] (./src/7.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+) [6] (./src/8.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+) [7] (./src/9.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+) [8] (./src/10.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+) [9] (./src/11.tex
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+) [10] (./BPD-Validación.aux (./src/2.aux) (./src/3.aux) (./src/4.aux)
+(./src/5.aux) (./src/6.aux) (./src/7.aux) (./src/8.aux) (./src/9.aux)
+(./src/10.aux) (./src/11.aux)))
+(see the transcript file for additional information)
+ 425 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 49 glue_spec
+, 6 attribute_list, 3 write nodes
+   avail lists: 1:1,2:213,3:46,4:22,5:194,6:16,7:1728,8:1,9:154,10:6,11:182
+<C:/Program Files/MiKTeX/fonts/truetype/public/simple-thesis-dissertation/carli
+to-bolditalic.ttf><C:/Program Files/MiKTeX/fonts/truetype/public/simple-thesis-
+dissertation/carlito-italic.ttf><C:/Program Files/MiKTeX/fonts/truetype/public/
+simple-thesis-dissertation/carlito-regular.ttf>
+Output written on BPD-Validación.pdf (10 pages, 67026 bytes).
+Transcript written on BPD-Validación.log.
+lualatex: major issue: User/administrator updates are out-of-sync.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+15 Feb 2023 10:58:07.147 INFO  - Task result: SUCCESS
+15 Feb 2023 10:58:07.155 INFO  - Total: 10.552 seconds

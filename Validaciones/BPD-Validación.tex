@@ -1,0 +1,91 @@
+%% arara: xelatex: {
+%% arara: --> interaction: nonstopmode,
+%% arara: --> options: ['-file-line-error','-max-print-line=200'],
+%% arara: --> shell: yes,
+%% arara: --> synctex: yes,
+%% arara: --> }
+% arara: lualatex
+%% arara: makeglossaries
+%% arara: makeindex
+
+\documentclass[letterpaper,10pt,final]{letter}
+
+%\special{dvipdfmx:config z 0}	% Desactivar compresión
+%\special{pdf:minorversion 7}
+\usepackage[utf8]{luainputenc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% PREAMBULO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fontspec}
+	\setmainfont{Carlito}
+
+%\usepackage{lua-visual-debug}
+
+\usepackage[margin=2cm,bmargin=2cm,tmargin=5cm,headheight=97pt]{geometry}
+
+\usepackage{graphicx}
+
+\usepackage{polyglossia}
+	\setdefaultlanguage[variant=mexican,spanishoperators=all]{spanish}
+	%\AtBeginDocument{\renewcommand\babelname{spanish}}
+
+\usepackage{microtype}
+\usepackage{xhfill}
+\newcommand{\fechapro}{}
+\newcommand{\fechaact}{}
+\newcommand{\carpeta}{}
+
+
+\begin{document}
+
+
+% \includegraphics[width=0.4\textwidth]{RDF_Logo.eps}
+
+% \rule{\linewidth}{1pt}
+
+% \bigskip\bigskip
+
+% \hfill
+% \begin{tabular}{l @{}}
+%     %\framebox[4cm][c]{\textit{Fecha}}
+%     \today \bigskip         \\ % Date
+%     Red de Fríos S.A. de C.V.                          \\
+%     \\ % Address
+%     Ignacio López Rayón No. 2810 N,                    \\
+%     Col. Bellavista, C.P. 64410, Monterrey, NL, México \\
+%     Teléfono: (+52) 81 8351-0512                       \\
+%     www.reddefrios.com.mx
+% \end{tabular}
+
+% \bigskip % Vertical whitespace
+
+% \noindent \textit{A quien corresponda,} \bigskip
+
+% Con base en los hallazgos obtenidos tras evaluar los requerimientos del sistema de gestión de calidad, el equipo multidisciplinario ha convenido que los contenidos del programa \framebox[0.6\linewidth]{\rule[-1mm]{0cm}{\baselineskip}}\\
+% podrá seguir vigente hasta \framebox[6cm]{\rule[-1mm]{0cm}{\baselineskip}}
+
+% \vspace{1.5\baselineskip} \ \\
+
+% \noindent En caso de hacer \textit{addendums,} estos se harán sobre el programa actual, sin necesidad de modificar la estructura del mismo.
+
+% \vspace{5cm}
+
+% \begin{center}
+%     \noindent\begin{tabular}{ccc}
+%         \makebox[2.5in]{\hrulefill} & \makebox[1cm]{} & \makebox[2.5in]{\hrulefill} \\
+%         Jefe de aseguramiento de calidad & \makebox[1cm]{} & Gerente de almacén\\
+%     \end{tabular}
+% \end{center}
+
+% \vfill
+
+\include{src/2.tex}
+\include{src/3.tex}
+\include{src/4.tex}
+\include{src/5.tex}
+\include{src/6.tex}
+\include{src/7.tex}
+\include{src/8.tex}
+\include{src/9.tex}
+\include{src/10.tex}
+\include{src/11.tex}
+
+\end{document} 

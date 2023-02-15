@@ -1,0 +1,68 @@
+\selectlanguage *[variant=mexican,spanishoperators=all]{spanish}
+\contentsline {section}{\numberline {1}Inspección en la recepción de productos}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivo}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Alcance}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Documentos y/o normas relacionadas}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Procedimiento}{3}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Materiales}{3}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Precauciones de seguridad}{3}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}Instrucciones}{3}{subsubsection.1.4.3}%
+\contentsline {paragraph}{\numberline {1.4.3.1}Inspección física del producto}{3}{paragraph.1.4.3.1}%
+\contentsline {paragraph}{\numberline {1.4.3.2}Identificación del producto}{4}{paragraph.1.4.3.2}%
+\contentsline {paragraph}{\numberline {1.4.3.3}Reglamento de permanencia de producto en andén de carga}{4}{paragraph.1.4.3.3}%
+\contentsline {subsubsection}{\numberline {1.4.4}Responsable de la actividad}{4}{subsubsection.1.4.4}%
+\contentsline {subsubsection}{\numberline {1.4.5}Acciones preventivas}{4}{subsubsection.1.4.5}%
+\contentsline {subsubsection}{\numberline {1.4.6}Acciones correctivas}{4}{subsubsection.1.4.6}%
+\contentsline {subsubsection}{\numberline {1.4.7}Frecuencia}{5}{subsubsection.1.4.7}%
+\contentsline {section}{\numberline {2}Procedimiento de lotificación de productos para su almacenamiento}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Objetivo}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Alcance}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Terminología y definiciones}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Procedimiento}{6}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Fundamento}{6}{subsubsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.5}Materiales}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Instrucciones}{6}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Responsables de la actividad}{6}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Acciones preventivas}{6}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Acciones correctivas}{7}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Frecuencia}{7}{subsection.2.10}%
+\contentsline {section}{\numberline {3}Inspección de producto durante su almacenamiento}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Objetivo}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Alcance}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Terminología y definiciones}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Documentos y/o normas relacionados}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Procedimiento}{8}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Materiales}{8}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Precauciones de Seguridad}{8}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}Instrucciones}{8}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Temperatura de Almacenaje de productos Refrigerados y Congelados.}{8}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Almacenaje y manejo de Productos Secos / Ambiente, Refrigerados y Congelados}{9}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Control y mantenimiento de temperatura}{9}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}Plan alterno en caso de avería de equipos de enfriamiento con productos}{9}{subsubsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.7}Responsables de la actividad}{9}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Acciones preventivas}{9}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Acciones correctivas}{10}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Frecuencia}{10}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Historial de modificaciones}{10}{subsection.3.11}%
+\contentsline {section}{\numberline {4}PEPS o VENCER}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Objetivo}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Alcance}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Terminología y definiciones}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Documentos y/o normas relacionadas}{11}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Procedimiento}{11}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Materiales}{11}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Precauciones de seguridad}{11}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Instrucciones}{11}{subsubsection.4.5.3}%
+\contentsline {paragraph}{\numberline {4.5.3.1}Primeras entradas, primeras salidas (PEPS) o VENCER}{11}{paragraph.4.5.3.1}%
+\contentsline {subparagraph}{En operación}{12}{section*.4}%
+\contentsline {subparagraph}{En sistema}{12}{section*.5}%
+\contentsline {subsection}{\numberline {4.6}Responsables de la actividad}{12}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Acciones preventivas}{12}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Acciones correctivas}{12}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Frecuencia}{12}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Historial de modificaciones}{12}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Listado de distribución}{13}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Anexos}{13}{subsection.4.12}%
+\contentsline {section}{\numberline {5}Procedimiento para solicitud de citas}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Contactos Red de Fríos}{14}{subsection.5.1}%
+\contentsline {section}{\textspanish {Glosario}}{17}{section*.12}%
