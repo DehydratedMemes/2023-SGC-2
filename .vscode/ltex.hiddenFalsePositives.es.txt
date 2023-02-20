@@ -3,3 +3,12 @@
 {"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QCon fin de garantizar que todos los productos refrigerados y congelados se encuentren protegidos contra cualquier peligro microbiológico asociado con el incremento de la temperatura, las cámaras con refrigeración o congelación que presenten una falla y que no puedan ser reparadas en menos en el caso de refrigeración de y en congelación de , el producto se debe trasladar oportunamente a otra cámara previamente acondicionada a las especificaciones del producto.\\E$"}
 {"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\Qv=1.7, date=2021-05, changes=No se realizaron modificaciones de la revisión 05 a la 06.\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qv=1.7, date=2021-05, changes=No se realizaron modificaciones de la revisión 05 a la 06.\\E$"}
+{"rule":"AGREEMENT_SUBJECT_VERB_PL_SG","sentence":"^\\QLos pedidos enviados fuera de estos horarios quedarán a disposición de andén (en espera de que tengamos una ventana disponible).\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qalérgenos presentes en el (ver \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q)\\E$"}
+{"rule":"EL_TILDE","sentence":"^\\Qalérgenos presentes en el (ver \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q)\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QLeche Trigo Frutas Secas Huevos Soya y derivados Cacahuates Pescados Crustáceos sulfitos en concentración .\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QCambio de formato; se agregó recuadro sobre alérgenos; v=1.7, date=2021-05, changes=No se realizaron modificaciones de la revisión 05 a la 06.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Qalérgenos presentes en el (ver )\\E$"}
+{"rule":"EL_TILDE","sentence":"^\\Qalérgenos presentes en el (ver )\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qalérgenos presentes en el (ver )\\E$"}
+{"rule":"AGREEMENT_POSTPONED_ADJ","sentence":"^\\QPara propósitos del control de las temperaturas con un enfoque hacia la inocuidad de los alimentos y las buenas prácticas de distribución, se definen los limites de control acordados de manera interna, con base en la NOM-001-SAGARPA/SCFI-2016 y la NOM-008-ZOO-1994.\\E$"}
