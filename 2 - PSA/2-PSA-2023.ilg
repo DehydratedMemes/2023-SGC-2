@@ -1,27 +1,27 @@
 This is makeindex, version 2.16 [MiKTeX 22.12].
 Scanning input file 2-PSA-2023.idx....
-!! Input index error (file = 2-PSA-2023.idx, line = 20):
-   -- Extra `!' at position 44 of first argument.
 !! Input index error (file = 2-PSA-2023.idx, line = 21):
-   -- Extra `!' at position 36 of first argument.
+   -- Extra `!' at position 44 of first argument.
 !! Input index error (file = 2-PSA-2023.idx, line = 22):
-   -- Extra `!' at position 46 of first argument.
+   -- Extra `!' at position 36 of first argument.
 !! Input index error (file = 2-PSA-2023.idx, line = 23):
    -- Extra `!' at position 46 of first argument.
 !! Input index error (file = 2-PSA-2023.idx, line = 24):
-   -- Extra `!' at position 44 of first argument.
+   -- Extra `!' at position 46 of first argument.
 !! Input index error (file = 2-PSA-2023.idx, line = 25):
    -- Extra `!' at position 44 of first argument.
 !! Input index error (file = 2-PSA-2023.idx, line = 26):
-   -- Extra `!' at position 46 of first argument.
-!! Input index error (file = 2-PSA-2023.idx, line = 27):
    -- Extra `!' at position 44 of first argument.
+!! Input index error (file = 2-PSA-2023.idx, line = 27):
+   -- Extra `!' at position 46 of first argument.
 !! Input index error (file = 2-PSA-2023.idx, line = 28):
    -- Extra `!' at position 44 of first argument.
 !! Input index error (file = 2-PSA-2023.idx, line = 29):
+   -- Extra `!' at position 44 of first argument.
+!! Input index error (file = 2-PSA-2023.idx, line = 30):
    -- Extra `!' at position 40 of first argument.
-done (19 entries accepted, 10 rejected).
-Sorting entries....done (86 comparisons).
-Generating output file 2-PSA-2023.ind....done (52 lines written, 0 warnings).
+done (20 entries accepted, 10 rejected).
+Sorting entries....done (88 comparisons).
+Generating output file 2-PSA-2023.ind....done (54 lines written, 0 warnings).
 Output written in 2-PSA-2023.ind.
 Transcript written in 2-PSA-2023.ilg.

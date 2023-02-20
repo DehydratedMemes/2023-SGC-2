@@ -1,7 +1,7 @@
-20 Feb 2023 16:11:39.552 INFO  - 
+20 Feb 2023 16:37:46.596 INFO  - 
 Welcome to arara 7.0.4!
 -----------------------------------------------------------------
-20 Feb 2023 16:11:39.574 DEBUG - 
+20 Feb 2023 16:37:46.617 DEBUG - 
 ::: arara @ C:\Program Files\MiKTeX\scripts\arara
 ::: Java 19, Eclipse Adoptium
 ::: C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
@@ -9,24 +9,24 @@ Welcome to arara 7.0.4!
 ::: user.home @ C:\Users\Usuario
 ::: CF @ [none]
 -----------------------------------------------------------------
-20 Feb 2023 16:11:39.604 INFO  - Processing "2-PSA-2023.tex" (size: 6.0 kB, last modified: 2023-02-20 21:54:09), please wait.
-20 Feb 2023 16:11:39.675 INFO  - I found a potential pattern in line 7: lualatex: {
-20 Feb 2023 16:11:39.675 INFO  - I found a potential pattern in line 8: --> interaction: nonstopmode,
-20 Feb 2023 16:11:39.676 INFO  - I found a potential pattern in line 9: --> options: ['-file-line-error'],
-20 Feb 2023 16:11:39.676 INFO  - I found a potential pattern in line 10: --> shell: yes,
-20 Feb 2023 16:11:39.677 INFO  - I found a potential pattern in line 11: --> synctex: yes,
-20 Feb 2023 16:11:39.677 INFO  - I found a potential pattern in line 12: --> }
-20 Feb 2023 16:11:39.678 INFO  - I found a potential pattern in line 13: makeglossaries
-20 Feb 2023 16:11:40.721 INFO  -                     All directives were validated. We are good to go.
+20 Feb 2023 16:37:46.649 INFO  - Processing "2-PSA-2023.tex" (size: 6.0 kB, last modified: 2023-02-20 22:32:55), please wait.
+20 Feb 2023 16:37:46.739 INFO  - I found a potential pattern in line 7: lualatex: {
+20 Feb 2023 16:37:46.740 INFO  - I found a potential pattern in line 8: --> interaction: nonstopmode,
+20 Feb 2023 16:37:46.740 INFO  - I found a potential pattern in line 9: --> options: ['-file-line-error'],
+20 Feb 2023 16:37:46.741 INFO  - I found a potential pattern in line 10: --> shell: yes,
+20 Feb 2023 16:37:46.741 INFO  - I found a potential pattern in line 11: --> synctex: yes,
+20 Feb 2023 16:37:46.742 INFO  - I found a potential pattern in line 12: --> }
+20 Feb 2023 16:37:46.742 INFO  - I found a potential pattern in line 13: makeglossaries
+20 Feb 2023 16:37:48.379 INFO  -                     All directives were validated. We are good to go.
                     -------------------------- DIRECTIVES ---------------------------
                     Directive(identifier='lualatex', parameters={interaction=nonstopmode, options=[-file-line-error], shell=yes, synctex=yes, reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[7, 8, 9, 10, 11, 12])
 Directive(identifier='makeglossaries', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[13])
                     -----------------------------------------------------------------
-20 Feb 2023 16:11:40.729 INFO  - I am ready to interpret rule "lualatex".
-20 Feb 2023 16:11:40.740 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-20 Feb 2023 16:11:41.466 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
-20 Feb 2023 16:11:41.475 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 2-PSA-2023.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
-20 Feb 2023 16:12:10.458 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+20 Feb 2023 16:37:48.389 INFO  - I am ready to interpret rule "lualatex".
+20 Feb 2023 16:37:48.397 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+20 Feb 2023 16:37:49.363 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
+20 Feb 2023 16:37:49.370 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 2-PSA-2023.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
+20 Feb 2023 16:41:37.259 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12)
  system commands enabled.
 (./2-PSA-2023.tex
@@ -284,16 +284,39 @@ ons-basic-dictionary-spanish.trsl)
 (./2-PSA-2023.out) (./2-PSA-2023.out)
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
-(./src/PSA-2.10.tex
+(./src/PSA-ToC.tex (./2-PSA-2023.toc
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-LatinModernRoma
 n.cfg) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-cmr.cfg)
-[23{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./RDF_Lo
-go-eps-converted-to.pdf>] [24]) [25]
+[1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./RDF_Log
+o-eps-converted-to.pdf>] [2] [3] [4] [5] [6]) (./2-PSA-2023.lot)) [7]
+(./src/PSA-2.1.tex [8] [9]) [10] (./src/PSA-2.2.tex [11]) [12]
+(./src/PSA-2.3.tex [13] [14]) [15] (./src/PSA-2.4.tex [16] [17]) [18]
+(./src/PSA-2.6.tex
+Underfull \hbox (badness 10000) in paragraph at lines 67--93
 
-Package glossaries Warning: No \printglossary or \printglossaries found. 
-(Remove \makeglossaries if you don't want any glossaries.) 
-This document will not have a glossary.
 
+Underfull \vbox (badness 10000) has occurred while \output is active [19]
+[20]) [21] (./src/PSA-2.7.tex) [22] (./src/PSA-2.8.tex [23] [24]) [25]
+(./src/PSA-2.9.tex [26] [27]) [28] (./src/PSA-2.10.tex [29] [30]) [31]
+(./src/PSA-2.11.tex [32] [33]) [34] (./src/PSA-2.12.tex [35]) [36]
+(./src/PSA-2.13.tex [37] [38]) [39] (./src/PSA-2.14.tex [40]) [41]
+(./src/PSA-2.15.tex [42]) [43] (./src/PSA-2.16.tex [44] [45]) [46]
+(./src/PSA-2.17.tex [47]) [48] (./src/PSA-2.18.tex) [49] (./src/PSA-2.19.tex
+[50]) [51] (./src/PSA-2.20.tex) [52] (./src/PSA-2.21.tex [53]) [54]
+(./src/PSA-2.22.tex [55] [56]) [57] (./src/PSA-2.23.tex) [58]
+(./src/PSA-2.24.tex [59] [60] [61]) [62] (./src/PSA-2.25.tex [63] [64] [65])
+[66] (./src/PSA-2.26.tex [67]) [68] (./src/PSA-Gloss.tex) (./2-PSA-2023.gls
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textspanish' on input line 1.
+
+[69]) [70] (./src/PSA-Ind.tex)This is makeindex, version 2.16 [MiKTeX 22.12].
+Scanning input file 2-PSA-2023.idx....done (20 entries accepted, 10 rejected).
+Sorting entries....done (88 comparisons).
+Generating output file 2-PSA-2023.ind....done (54 lines written, 0 warnings).
+Output written in 2-PSA-2023.ind.
+Transcript written in 2-PSA-2023.ilg.
+ (./2-PSA-2023.ind) [71]
 
 AED: lastpage setting LastPage
 (./2-PSA-2023.aux (./src/PSA-ToC.aux) (./src/PSA-2.1.aux) (./src/PSA-2.2.aux)
@@ -309,50 +332,50 @@ AED: lastpage setting LastPage
 LaTeX Warning: There were multiply-defined labels.
 
 )
- 1034 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 local_par, 10 glue, 4 kern, 1 penalty, 3 glyph, 
-35 attribute, 108 glue_spec, 35 attribute_list, 23 write nodes
-   avail lists: 1:1,2:1564,3:1022,4:152,5:1273,6:134,7:11341,8:82,9:1332,10:7,1
-1:1371
-
-warning  (pdf backend): unreferenced destination with name 'page.64'
+(see the transcript file for additional information)
+ 1577 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 67 glue, 4 kern, 1 penalty, 3 glyph, 
+78 attribute, 109 glue_spec, 78 attribute_list, 5 write, 2 pdf_action nodes
+   avail lists: 1:8,2:2813,3:1162,4:294,5:1456,6:231,7:12345,8:149,9:2178,10:24
+,11:1608
+<//?/c:/program files/miktex/fonts/opentype/public/lm/lmmono10-regular.otf><//?
+/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bolditalic.ttf>
 <//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.ttf>
 <//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.ttf></
 /?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.ttf><
 C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
 iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on 2-PSA-2023.pdf (3 pages, 100438 bytes).
+Output written on 2-PSA-2023.pdf (71 pages, 625442 bytes).
 SyncTeX written on 2-PSA-2023.synctex.gz.
 Transcript written on 2-PSA-2023.log.
 lualatex: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-20 Feb 2023 16:12:10.466 INFO  - Task result: SUCCESS
-20 Feb 2023 16:12:10.469 INFO  - I am ready to interpret rule "makeglossaries".
-20 Feb 2023 16:12:10.479 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-20 Feb 2023 16:12:10.601 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
-20 Feb 2023 16:12:10.605 INFO  - System command: [makeglossaries, 2-PSA-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
-20 Feb 2023 16:12:15.979 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
-                Use of uninitialized value $codepage in string eq at C:/Program Files/MiKTeX/scripts/glossaries/makeglossaries line 1444.
-makeglossaries version 4.51 (2022-11-02)
+20 Feb 2023 16:41:37.301 INFO  - Task result: SUCCESS
+20 Feb 2023 16:41:37.305 INFO  - I am ready to interpret rule "makeglossaries".
+20 Feb 2023 16:41:37.312 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+20 Feb 2023 16:41:37.527 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
+20 Feb 2023 16:41:37.531 INFO  - System command: [makeglossaries, 2-PSA-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
+20 Feb 2023 16:41:48.899 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                makeglossaries version 4.51 (2022-11-02)
 added glossary type 'main' (glg,gls,glo)
-xindy    -I xindy -M "2-PSA-2023" -t "2-PSA-2023.glg" -o "2-PSA-2023.gls" "2-PSA-2023.glo"
+xindy  -L spanish -C modern-utf8 -I xindy -M "2-PSA-2023" -t "2-PSA-2023.glg" -o "2-PSA-2023.gls" "2-PSA-2023.glo"
 Opening logfile "2-PSA-2023.glg" (done)
 Reading indexstyle...
-Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\UMTonnR6Hp"...
-Loading module "lang/general/latin9-lang.xdy"...
-Loading module "lang/general/latin9.xdy"...
-Finished loading module "lang/general/latin9.xdy".
-Finished loading module "lang/general/latin9-lang.xdy".
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\_4yoYthewk"...
+Loading module "lang/spanish/modern-utf8-lang.xdy"...
+Loading module "lang/spanish/modern-utf8.xdy"...
+Finished loading module "lang/spanish/modern-utf8.xdy".
+Finished loading module "lang/spanish/modern-utf8-lang.xdy".
 Loading module "2-PSA-2023.xdy"...
 Loading module "tex.xdy"...
 Finished loading module "tex.xdy".
 Finished loading module "2-PSA-2023.xdy".
-Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\UMTonnR6Hp".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\_4yoYthewk".
 Finished reading indexstyle.
 Finalizing indexstyle... (done)
 
-Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\apmiUbSROm"...
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\dX3VjHz5cz"...
 Finished reading raw-index.
 
 Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
@@ -364,5 +387,5 @@ xindy: major issue: User/administrator updates are out-of-sync.
 makeglossaries: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-20 Feb 2023 16:12:15.981 INFO  - Task result: SUCCESS
-20 Feb 2023 16:12:16.002 INFO  - Total: 37.489 seconds
+20 Feb 2023 16:41:48.901 INFO  - Task result: SUCCESS
+20 Feb 2023 16:41:49.089 INFO  - Total: 243.417 seconds

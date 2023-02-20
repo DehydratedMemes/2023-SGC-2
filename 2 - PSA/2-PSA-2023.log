@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12) (format=lualatex 2023.2.2)  20 FEB 2023 16:11
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12) (format=lualatex 2023.2.2)  20 FEB 2023 16:37
  system commands enabled.
  file:line:error style messages enabled.
 **2-PSA-2023.tex
@@ -467,10 +467,10 @@ braces):
 Module polyglossia Info: Language data for spanish
 (polyglossia)            loader	loadhyph-es.tex
 (polyglossia)            righthyphenmin	2
-(polyglossia)            lefthyphenmin	2
 (polyglossia)            hyphenation	
+(polyglossia)            patterns	hyph-es.pat.txt
 (polyglossia)            synonyms	espanol
-(polyglossia)            patterns	hyph-es.pat.txt on input line 15
+(polyglossia)            lefthyphenmin	2 on input line 15
 Module polyglossia Info: Language spanish was not yet loaded; created with id 2 
 on input line 15
 Package polyglossia Info: Option: spanish, variant=spanish.
@@ -1617,7 +1617,35 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 169.
 
-(./2-PSA-2023.aux (./src/PSA-ToC.aux) (./src/PSA-2.1.aux) (./src/PSA-2.2.aux)
+(./2-PSA-2023.aux (./src/PSA-ToC.aux)
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
+LaTeX Info: Redefining \rmfamily on input line 26.
+LaTeX Info: Redefining \sffamily on input line 26.
+LaTeX Info: Redefining \ttfamily on input line 26.
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
+Package polyglossia Info: totalhyphenmin:'5'.
+LaTeX Info: Redefining \lim on input line 26.
+LaTeX Info: Redefining \limsup on input line 26.
+LaTeX Info: Redefining \liminf on input line 26.
+LaTeX Info: Redefining \max on input line 26.
+LaTeX Info: Redefining \min on input line 26.
+LaTeX Info: Redefining \inf on input line 26.
+LaTeX Info: Redefining \bmod on input line 26.
+LaTeX Info: Redefining \pmod on input line 26.
+LaTeX Info: Redefining \arccos on input line 26.
+LaTeX Info: Redefining \arcsin on input line 26.
+LaTeX Info: Redefining \arctan on input line 26.
+LaTeX Info: Redefining \sin on input line 26.
+LaTeX Info: Redefining \tan on input line 26.
+LaTeX Info: Redefining \sinh on input line 26.
+LaTeX Info: Redefining \tanh on input line 26.
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
+ (./src/PSA-2.1.aux) (./src/PSA-2.2.aux)
 (./src/PSA-2.3.aux) (./src/PSA-2.4.aux) (./src/PSA-2.6.aux) (./src/PSA-2.7.aux
 
 LaTeX Warning: Label `changelog-2.3' multiply defined.
@@ -1626,34 +1654,6 @@ LaTeX Warning: Label `changelog-2.3' multiply defined.
 LaTeX Warning: Label `changelog-2.3@cref' multiply defined.
 
 ) (./src/PSA-2.8.aux) (./src/PSA-2.9.aux) (./src/PSA-2.10.aux)
-Package polyglossia Info: Option: spanish, variant=mexican.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-Package polyglossia Info: Option: spanish, variant=mexican.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-LaTeX Info: Redefining \rmfamily on input line 35.
-LaTeX Info: Redefining \sffamily on input line 35.
-LaTeX Info: Redefining \ttfamily on input line 35.
-Package polyglossia Info: Option: spanish, variant=mexican.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \lim on input line 35.
-LaTeX Info: Redefining \limsup on input line 35.
-LaTeX Info: Redefining \liminf on input line 35.
-LaTeX Info: Redefining \max on input line 35.
-LaTeX Info: Redefining \min on input line 35.
-LaTeX Info: Redefining \inf on input line 35.
-LaTeX Info: Redefining \bmod on input line 35.
-LaTeX Info: Redefining \pmod on input line 35.
-LaTeX Info: Redefining \arccos on input line 35.
-LaTeX Info: Redefining \arcsin on input line 35.
-LaTeX Info: Redefining \arctan on input line 35.
-LaTeX Info: Redefining \sin on input line 35.
-LaTeX Info: Redefining \tan on input line 35.
-LaTeX Info: Redefining \sinh on input line 35.
-LaTeX Info: Redefining \tanh on input line 35.
-Package polyglossia Info: Option: spanish, variant=mexican.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-
 (./src/PSA-2.11.aux) (./src/PSA-2.12.aux) (./src/PSA-2.13.aux)
 (./src/PSA-2.14.aux) (./src/PSA-2.15.aux) (./src/PSA-2.16.aux)
 (./src/PSA-2.17.aux) (./src/PSA-2.18.aux) (./src/PSA-2.19.aux)
@@ -1886,18 +1886,44 @@ LaTeX Info: Redefining \tanh on input line 169.
 Package polyglossia Info: Option: spanish, variant=mexican.
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
 
-\openout2 = src/PSA-2.10.aux
-(./src/PSA-2.10.tex
+\openout2 = src/PSA-ToC.aux
+(./src/PSA-ToC.tex
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 8.
 LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 8.
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 13.
+ (./2-PSA-2023.toc
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+luaotfload | aux : font no 23 (nil) defines no feature for script latn with lang
+uage esp
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
+Package polyglossia Info: totalhyphenmin:'5'.
+LaTeX Info: Redefining \lim on input line 1.
+LaTeX Info: Redefining \limsup on input line 1.
+LaTeX Info: Redefining \liminf on input line 1.
+LaTeX Info: Redefining \max on input line 1.
+LaTeX Info: Redefining \min on input line 1.
+LaTeX Info: Redefining \inf on input line 1.
+LaTeX Info: Redefining \bmod on input line 1.
+LaTeX Info: Redefining \pmod on input line 1.
+LaTeX Info: Redefining \arccos on input line 1.
+LaTeX Info: Redefining \arcsin on input line 1.
+LaTeX Info: Redefining \arctan on input line 1.
+LaTeX Info: Redefining \sin on input line 1.
+LaTeX Info: Redefining \tan on input line 1.
+LaTeX Info: Redefining \sinh on input line 1.
+LaTeX Info: Redefining \tanh on input line 1.
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
 LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 13.
-LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 21.
+(Font)              scaled to size 10.0pt on input line 2.
 
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-LatinModernRoma
 n.cfg
@@ -1907,16 +1933,6 @@ ern Roman (RS)
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 21.
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 21.
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 21.
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 21.
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 47.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1924,61 +1940,54 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-<./RDF_Logo-eps-converted-to.pdf, id=83, 411.5375pt x 107.40125pt>
+<./RDF_Logo-eps-converted-to.pdf, id=1260, 411.5375pt x 107.40125pt>
 File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./RDF_Logo-eps-converted-to.pdf>
-Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 48
 .
 (luatex.def)             Requested size: 109.01924pt x 28.45274pt.
 File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./RDF_Logo-eps-converted-to.pdf>
-Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 48
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 48.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 48
 .
 (luatex.def)             Requested size: 109.01924pt x 28.45274pt.
 File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./RDF_Logo-eps-converted-to.pdf>
-Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 48
 .
 (luatex.def)             Requested size: 109.01924pt x 28.45274pt.
 File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./RDF_Logo-eps-converted-to.pdf>
-Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 48
 .
 (luatex.def)             Requested size: 109.01924pt x 28.45274pt.
 File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./RDF_Logo-eps-converted-to.pdf>
-Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
-.
-(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
-File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
-<use ./RDF_Logo-eps-converted-to.pdf>
-Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 48
 .
 (luatex.def)             Requested size: 109.01924pt x 28.45274pt.
 > Step: build the whole table.
 File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./RDF_Logo-eps-converted-to.pdf>
-Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 48
 .
 (luatex.def)             Requested size: 109.01924pt x 28.45274pt.
 File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./RDF_Logo-eps-converted-to.pdf>
-Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 48
 .
 (luatex.def)             Requested size: 109.01924pt x 28.45274pt.
-[23{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+[1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
 \openout3 = 2-PSA-2023.xdy
-
-
-
-
-
-
-
-
-
 
 <./RDF_Logo-eps-converted-to.pdf>]
 > Step: init table outer spec.
@@ -1990,6 +1999,1528 @@ Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
 > Step: calculate cell and line sizes.
 File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [2]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [3]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [4]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 24
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 24
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 24
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 24
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 24
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 24
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 24
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 24
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [5]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 28
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 28
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 28
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 28
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 28
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 28
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 28
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 28
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [6]
+LaTeX Info: Redefining \rmfamily on input line 314.
+LaTeX Info: Redefining \sffamily on input line 314.
+LaTeX Info: Redefining \ttfamily on input line 314.
+luaotfload | aux : font no 26 (nil) defines no feature for script latn with lang
+uage esp
+Package polyglossia Info: totalhyphenmin:'5'.
+LaTeX Info: Redefining \lim on input line 314.
+LaTeX Info: Redefining \limsup on input line 314.
+LaTeX Info: Redefining \liminf on input line 314.
+LaTeX Info: Redefining \max on input line 314.
+LaTeX Info: Redefining \min on input line 314.
+LaTeX Info: Redefining \inf on input line 314.
+LaTeX Info: Redefining \bmod on input line 314.
+LaTeX Info: Redefining \pmod on input line 314.
+LaTeX Info: Redefining \arccos on input line 314.
+LaTeX Info: Redefining \arcsin on input line 314.
+LaTeX Info: Redefining \arctan on input line 314.
+LaTeX Info: Redefining \sin on input line 314.
+LaTeX Info: Redefining \tan on input line 314.
+LaTeX Info: Redefining \sinh on input line 314.
+LaTeX Info: Redefining \tanh on input line 314.
+)
+\tf@toc=\write8
+
+\openout8 = 2-PSA-2023.toc
+ (./2-PSA-2023.lot)
+\tf@lot=\write9
+
+\openout9 = 2-PSA-2023.lot
+)
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [7]
+\openout2 = src/PSA-2.1.aux
+
+(./src/PSA-2.1.tex
+LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 11.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 26.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 26.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 26.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 49.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [8
+
+
+
+]
+LaTeX Font Info:    Font shape `TU/Carlito(0)/b/it' will be
+(Font)              scaled to size 10.0pt on input line 112.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [9])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [10]
+\openout2 = src/PSA-2.2.aux
+ (./src/PSA-2.2.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 72
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 72
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 72
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 72
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 72
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 72
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 72
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 72
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [11
+
+
+
+])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [12]
+\openout2 = src/PSA-2.3.aux
+
+(./src/PSA-2.3.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 51
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 51
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 51
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 51
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 51
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 51
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 51
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 51
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [13
+
+
+
+]
+Package mdframed Info: mdframed works in twoside mode on input line 72.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 88
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 88
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 88
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 88
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 88
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 88
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 88
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 88
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [14])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [15]
+\openout2 = src/PSA-2.4.aux
+ (./src/PSA-2.4.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 59
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 59
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 59
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 59
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 59
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 59
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 59
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 59
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [16
+
+
+
+]
+Package mdframed Info: mdframed works in twoside mode on input line 61.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
+(Font)              scaled to size 7.0pt on input line 65.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
+(Font)              scaled to size 6.0pt on input line 65.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [17])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [18]
+\openout2 = src/PSA-2.6.aux
+
+(./src/PSA-2.6.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--93
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 93
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 93
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 93
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 93
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 93
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 93
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 93
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 93
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [19
+
+
+
+]
+Package mdframed Info: mdframed works in twoside mode on input line 106.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+
+[20]
+Package mdframed Info: Not enough space on this page on input line 122.
+)
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [21]
+\openout2 = src/PSA-2.7.aux
+ (./src/PSA-2.7.tex)
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [22
+
+
+
+]
+\openout2 = src/PSA-2.8.aux
+ (./src/PSA-2.8.tex
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 23.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
+(Font)              scaled to size 8.0pt on input line 25.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 50
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 50
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 50
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 50
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 50
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 50
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 50
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 50
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [23
+
+
+
+]
+Package mdframed Info: mdframed works in twoside mode on input line 72.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 10
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 10
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 10
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 10
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 10
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 10
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 10
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 10
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [24]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+)
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 17
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [25]
+\openout2 = src/PSA-2.9.aux
+
+(./src/PSA-2.9.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 46
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 46
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 46
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 46
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 46
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 46
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 46
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 46
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [26
+
+
+
+]
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+(Font)              scaled to size 13.00003pt on input line 93.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 98
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 98
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 98
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 98
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 98
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 98
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 98
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 98
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [27])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [28]
+\openout2 = src/PSA-2.10.aux
+ (./src/PSA-2.10.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [29
+
+
+
+]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
 Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 10
 1.
 (luatex.def)             Requested size: 109.01924pt x 28.45274pt.
@@ -2029,7 +3560,7 @@ File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
 Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 10
 1.
 (luatex.def)             Requested size: 109.01924pt x 28.45274pt.
- [24])
+ [30])
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2078,7 +3609,2074 @@ File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
 Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
 1.
 (luatex.def)             Requested size: 109.01924pt x 28.45274pt.
- [25]
+ [31]
+\openout2 = src/PSA-2.11.aux
+
+(./src/PSA-2.11.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 47
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 47
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 47
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 47
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 47
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 47
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 47
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 47
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [32
+
+
+
+]
+Package mdframed Info: mdframed works in twoside mode on input line 50.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 96
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 96
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 96
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 96
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 96
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 96
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 96
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 96
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [33])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [34]
+\openout2 = src/PSA-2.12.aux
+ (./src/PSA-2.12.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 77
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 77
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 77
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 77
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 77
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 77
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 77
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 77
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [35
+
+
+
+])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [36]
+\openout2 = src/PSA-2.13.aux
+
+(./src/PSA-2.13.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 67
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 67
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 67
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 67
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 67
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 67
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 67
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 67
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [37
+
+
+
+]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [38])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [39]
+\openout2 = src/PSA-2.14.aux
+ (./src/PSA-2.14.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 66
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 66
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 66
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 66
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 66
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 66
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 66
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 66
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [40
+
+
+
+])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [41]
+\openout2 = src/PSA-2.15.aux
+
+(./src/PSA-2.15.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [42
+
+
+
+])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [43]
+\openout2 = src/PSA-2.16.aux
+ (./src/PSA-2.16.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 62
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 62
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 62
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 62
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 62
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 62
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 62
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 62
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [44
+
+
+
+]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [45])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [46]
+\openout2 = src/PSA-2.17.aux
+
+(./src/PSA-2.17.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 68
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 68
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 68
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 68
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 68
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 68
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 68
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 68
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [47
+
+
+
+])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [48]
+\openout2 = src/PSA-2.18.aux
+ (./src/PSA-2.18.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+)
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 18
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [49
+
+
+
+]
+\openout2 = src/PSA-2.19.aux
+ (./src/PSA-2.19.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 64
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+
+[50
+
+
+
+])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [51]
+\openout2 = src/PSA-2.20.aux
+ (./src/PSA-2.20.tex)
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+1.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [52
+
+
+
+]
+\openout2 = src/PSA-2.21.aux
+ (./src/PSA-2.21.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 71
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 71
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 71
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 71
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 71
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 71
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 71
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 71
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [53
+
+
+
+])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+2.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [54]
+\openout2 = src/PSA-2.22.aux
+
+(./src/PSA-2.22.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 54
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 54
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 54
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 54
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 54
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 54
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 54
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 54
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [55
+
+
+
+]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 95
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 95
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 95
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 95
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 95
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 95
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 95
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 95
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [56])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+3.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [57]
+\openout2 = src/PSA-2.23.aux
+ (./src/PSA-2.23.tex)
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+4.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [58
+
+
+
+]
+\openout2 = src/PSA-2.24.aux
+
+(./src/PSA-2.24.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 61
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 61
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 61
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 61
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 61
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 61
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 61
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 61
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [59
+
+
+
+]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 97
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [60]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 12
+9.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [61])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+5.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [62]
+\openout2 = src/PSA-2.25.aux
+ (./src/PSA-2.25.tex
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 52
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [63
+
+
+
+]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 11
+0.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [64]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 15
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [65])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+6.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+
+[66]
+\openout2 = src/PSA-2.26.aux
+ (./src/PSA-2.26.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 60
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [67
+
+
+
+])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+7.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [68]
+\openout2 = src/PSA-Gloss.aux
+ (./src/PSA-Gloss.tex) (./2-PSA-2023.gls
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textspanish' on input line 1.
+
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+uage esp
+Package polyglossia Info: totalhyphenmin:'5'.
+LaTeX Info: Redefining \lim on input line 1.
+LaTeX Info: Redefining \limsup on input line 1.
+LaTeX Info: Redefining \liminf on input line 1.
+LaTeX Info: Redefining \max on input line 1.
+LaTeX Info: Redefining \min on input line 1.
+LaTeX Info: Redefining \inf on input line 1.
+LaTeX Info: Redefining \bmod on input line 1.
+LaTeX Info: Redefining \pmod on input line 1.
+LaTeX Info: Redefining \arccos on input line 1.
+LaTeX Info: Redefining \arcsin on input line 1.
+LaTeX Info: Redefining \arctan on input line 1.
+LaTeX Info: Redefining \sin on input line 1.
+LaTeX Info: Redefining \tan on input line 1.
+LaTeX Info: Redefining \sinh on input line 1.
+LaTeX Info: Redefining \tanh on input line 1.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 90
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 90
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 90
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 90
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 90
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 90
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 90
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 90
+.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+[69
+
+
+
+])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+> Step: build the whole table.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+File: ./RDF_Logo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./RDF_Logo-eps-converted-to.pdf>
+Package luatex.def Info: ./RDF_Logo-eps-converted-to.pdf  used on input line 19
+8.
+(luatex.def)             Requested size: 109.01924pt x 28.45274pt.
+ [70]
+\openout2 = src/PSA-Ind.aux
+ (./src/PSA-Ind.tex) (./2-PSA-2023.ind) [71
+
+
+
+
+]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -2131,44 +5729,39 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {spanishmx/options}  =>  {variant=mexican}.
 
 
-Package glossaries Warning: No \printglossary or \printglossaries found. 
-(Remove \makeglossaries if you don't want any glossaries.) 
-This document will not have a glossary.
-
-
 AED: lastpage setting LastPage
-(./2-PSA-2023.aux (./src/PSA-ToC.aux) (./src/PSA-2.1.aux) (./src/PSA-2.2.aux)
-(./src/PSA-2.3.aux) (./src/PSA-2.4.aux) (./src/PSA-2.6.aux) (./src/PSA-2.7.aux) (./src/PSA-2.8.aux) (./src/PSA-2.9.aux) (./src/PSA-2.10.aux)
+(./2-PSA-2023.aux (./src/PSA-ToC.aux)
 Package polyglossia Info: Option: spanish, variant=mexican.
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
 Package polyglossia Info: Option: spanish, variant=mexican.
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
-LaTeX Info: Redefining \rmfamily on input line 35.
-LaTeX Info: Redefining \sffamily on input line 35.
-LaTeX Info: Redefining \ttfamily on input line 35.
+LaTeX Info: Redefining \rmfamily on input line 26.
+LaTeX Info: Redefining \sffamily on input line 26.
+LaTeX Info: Redefining \ttfamily on input line 26.
 luaotfload | aux : font no 23 (nil) defines no feature for script latn with lang
 uage esp
 Package polyglossia Info: Option: spanish, variant=mexican.
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \lim on input line 35.
-LaTeX Info: Redefining \limsup on input line 35.
-LaTeX Info: Redefining \liminf on input line 35.
-LaTeX Info: Redefining \max on input line 35.
-LaTeX Info: Redefining \min on input line 35.
-LaTeX Info: Redefining \inf on input line 35.
-LaTeX Info: Redefining \bmod on input line 35.
-LaTeX Info: Redefining \pmod on input line 35.
-LaTeX Info: Redefining \arccos on input line 35.
-LaTeX Info: Redefining \arcsin on input line 35.
-LaTeX Info: Redefining \arctan on input line 35.
-LaTeX Info: Redefining \sin on input line 35.
-LaTeX Info: Redefining \tan on input line 35.
-LaTeX Info: Redefining \sinh on input line 35.
-LaTeX Info: Redefining \tanh on input line 35.
+LaTeX Info: Redefining \lim on input line 26.
+LaTeX Info: Redefining \limsup on input line 26.
+LaTeX Info: Redefining \liminf on input line 26.
+LaTeX Info: Redefining \max on input line 26.
+LaTeX Info: Redefining \min on input line 26.
+LaTeX Info: Redefining \inf on input line 26.
+LaTeX Info: Redefining \bmod on input line 26.
+LaTeX Info: Redefining \pmod on input line 26.
+LaTeX Info: Redefining \arccos on input line 26.
+LaTeX Info: Redefining \arcsin on input line 26.
+LaTeX Info: Redefining \arctan on input line 26.
+LaTeX Info: Redefining \sin on input line 26.
+LaTeX Info: Redefining \tan on input line 26.
+LaTeX Info: Redefining \sinh on input line 26.
+LaTeX Info: Redefining \tanh on input line 26.
 Package polyglossia Info: Option: spanish, variant=mexican.
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
-
+ (./src/PSA-2.1.aux) (./src/PSA-2.2.aux)
+(./src/PSA-2.3.aux) (./src/PSA-2.4.aux) (./src/PSA-2.6.aux) (./src/PSA-2.7.aux) (./src/PSA-2.8.aux) (./src/PSA-2.9.aux) (./src/PSA-2.10.aux)
 (./src/PSA-2.11.aux) (./src/PSA-2.12.aux) (./src/PSA-2.13.aux)
 (./src/PSA-2.14.aux) (./src/PSA-2.15.aux) (./src/PSA-2.16.aux)
 (./src/PSA-2.17.aux) (./src/PSA-2.18.aux) (./src/PSA-2.19.aux)
@@ -2179,30 +5772,30 @@ Package polyglossia Info: Option: Spanish, spanishoperators=all.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `2-PSA-2023.out' has not changed.
-(rerunfilecheck)             Checksum: B31C27F8D8DEFE36591DFA92606E6CC8;3391.
+(rerunfilecheck)             Checksum: 8B02F6A86CADEC23FA8EA13AEEE5D875;54386.
 )
 
 Here is how much of LuaTeX's memory you used:
- 57016 strings out of 478381
- 125236,2373549 words of node,token memory allocated
- 1034 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 local_par, 10 glue, 4 kern, 1 penalty, 3 glyph, 3
-5 attribute, 108 glue_spec, 35 attribute_list, 23 write nodes
-   avail lists: 1:1,2:1564,3:1022,4:152,5:1273,6:134,7:11341,8:82,9:1332,10:7,11
-:1371
- 74808 multiletter control sequences out of 65536+600000
- 57 fonts using 10214447 bytes
- 125i,20n,135p,2284b,1098s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 62593 strings out of 478381
+ 156547,7087374 words of node,token memory allocated
+ 1577 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 67 glue, 4 kern, 1 penalty, 3 glyph, 7
+8 attribute, 109 glue_spec, 78 attribute_list, 5 write, 2 pdf_action nodes
+   avail lists: 1:8,2:2813,3:1162,4:294,5:1456,6:231,7:12345,8:149,9:2178,10:24,
+11:1608
+ 76165 multiletter control sequences out of 65536+600000
+ 63 fonts using 12567615 bytes
+ 125i,21n,135p,2284b,1571s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<//?/c:/program files/miktex/fonts/opentype/public/lm/lmmono10-regular.otf><//?/
+c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bolditalic.ttf></
+/?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.ttf><//
+?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.ttf><//?/c
+:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.ttf><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on 2-PSA-2023.pdf (71 pages, 625442 bytes).
 
-warning  (pdf backend): unreferenced destination with name 'page.64'
-<//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.ttf><
-//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.ttf><//?
-/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.ttf><C:/
-Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on 2-PSA-2023.pdf (3 pages, 100438 bytes).
-
-PDF statistics: 165 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 131072)
- 160 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 2475 PDF objects out of 2487 (max. 8388607)
+ 688 named destinations out of 1000 (max. 131072)
+ 2432 words of extra memory for PDF output out of 10000 (max. 100000000)
 
