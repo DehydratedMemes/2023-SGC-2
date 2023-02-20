@@ -11,67 +11,74 @@
 % \section{PEPS o VENCER}
 
 \subsection{Objetivo}
-Asegurar que los productos, serán en sus totalidades lotificadas e identificados y verificados sus movimientos por medio de conteos programados de acuerdo a lo establecido en este procedimiento.
+Asegurar que los \glspl{alimento}, serán en sus completamente lotificados, identificados y verificados sus movimientos por medio de conteos programados de acuerdo a lo establecido en este procedimiento.
 
 \subsection{Alcance}
-Todo producto que ingrese a las instalaciones del almacén.
+Este documento será de utilidad para el personal del área de operaciones o el que se designe por la alta dirección como el encargado de identificar las tarimas de \glspl{alimento}
 
-\subsection{Terminología y definiciones}
-Inventario de suministros y materiales. La percepción de inventario asegura que la compañía tiene materiales a la mano para hacer productos y que los fondos no son desperdiciados en materiales innecesarios. Una cuenta precisa de inventario también permite que las compañías controlen y ordenen suficientes, materiales para la demanda de los consumidores.
-
+\subsection{Términos y definiciones}
+\begin{description}
+	\defglo{inventario-de-suministros-y-materiales} 
+\end{description}
+	
 \subsection{Documentos y/o normas relacionadas}
 \begin{itemize}
-	\item Registros de recepción
+	\item Registros de recepción %TODO:Hacer Identificador
 \end{itemize}
 
 \subsection{Procedimiento}
 
-\subsubsection{Materiales}
-
-\begin{itemize}
-	\item N/A
-\end{itemize}
-
-\subsubsection{Precauciones de seguridad}
-
-\begin{itemize}
-	\item Usar el uniforme completo.
-\end{itemize}
-
 \subsubsection{Instrucciones}
-
 \paragraph{Primeras entradas, primeras salidas (PEPS) o VENCER}
 
+\subparagraph{Ingreso de alimentos}
 \begin{enumerate}
-	\item Hacer la revisión correspondiente en cada recepción de producto, la revisión abarca todos los identificadores únicos del envió (número de lote, fechas, cantidades) deben estar documentados.
+	\item Hacer la revisión correspondiente en cada recepción de producto (ver \cref{PRO:InspeccionDeAlimentosAlmacenados});
+	\item revisar que se tengan todos los identificadores únicos del envío (número de lote, fechas, cantidades);
+	\item regístralos en los formularios correspondientes para que se puedan ingresar en el \GLS{SGA}.
 \end{enumerate}
 
-
+\subparagraph{Etiquetado de alimentos}
 \begin{enumerate}
 	\item Se etiqueta por tarima y por lote cada producto;
-	\item La etiqueta de \emph{"Información de material"} contiene los siguientes datos:
+	\item La etiqueta de \emph{Información de material} contiene los siguientes datos:
 	\begin{itemize}
-		\item Nombre de producto
-		\item Nombre del cliente
-		\item Fecha de recepción
-		\item Identificador de entrada
-		\item Lote
-		\item Cantidad
+		\item Nombre de producto;
+		\item Nombre del cliente;
+		\item Fecha de recepción;
+		\item Identificador de entrada;
+		\item Lote;
+		\item Cantidad.
 	\end{itemize}
 \end{enumerate}
 
-\subparagraph{En operación}
-
+\subparagraph{Consideraciones para el almacenaje de alimentos}
 \begin{itemize}
-	\item Cada insumo con fecha de caducidad más larga (Producto nuevo), se acomodara en la parte superior trasera de cada rack y los insumos que ya estaban presentes se recorren a la parte inferior frontal.
-	\item Al surtir los insumos, el personal de almacén deberá entregar los que tengan la fecha de recepción más antigua o el producto que le cliente asigne para su distribución.
+	\item Cada \gls{alimento} con fecha de caducidad más tardía \emph{---Producto nuevo---}, se acomodará en la parte superior trasera de cada \textit{rack} y los \glspl{alimento} que ya estaban presentes se recorren a la parte inferior frontal.
+	\item Al surtir los \glspl{alimento}, el personal de almacén deberá entregar los que tengan la \emph{fecha de recepción más antigua} o el producto que el cliente requiera para su operacion.
 \end{itemize}
 
-\subparagraph{En sistema}
+\begin{nota}{Nota sobre uso de \emph{PEPS}}
+	\label{nota:PEPS}
+\begin{itemize}
+		\item El cliente puede decidir si se le surtirá \gls{alimento} en el esquema \emph{PEPS} o si requiere de un lote en específico;
+		\item En caso de que el cliente prefiera que la salida de su producto sea por lote, y no por fecha de caducidad, \gls{RDF} no se responsabiliza si el cliente solicita lotes más nuevos aún cuando sigan existencias de lotes viejos o a punto de caducar almacenados en las instalaciones.\footnote{\GLS{RDF} puede dar aviso a los clientes sobre mercancía a punto de caducar, sin embargo, \GLS{RDF} no se responsabiliza de la destrucción de productos caducos, el cliente tiene que retirar \glspl{alimento} caducos.}
+\end{itemize}
+\end{nota}
+
+% \begin{lamp}[frametitle={Nota sobre uso de \emph{PEPS}}] \label{nota:PEPS}
+% 	\begin{itemize}
+% 		\item El cliente puede decidir si se le surtirá \gls{alimento} en el esquema \emph{PEPS} o si requiere de un lote en específico;
+% 		\item En caso de que el cliente prefiera que la salida de su producto sea por lote, y no por fecha de caducidad, \gls{RDF} no se responsabiliza si el cliente solicita lotes más nuevos aún cuando sigan existencias de lotes viejos o a punto de caducar almacenados en las instalaciones.\footnote{\GLS{RDF} puede dar aviso a los clientes sobre mercancía a punto de caducar, sin embargo, \GLS{RDF} no se responsabiliza de la destrucción de productos caducos, el cliente tiene que retirar \glspl{alimento} caducos.}
+% 	\end{itemize}
+% \end{lamp}
+
+\subparagraph{En el \glsfirst{SGA}}
 
 \begin{itemize}
-	\item En el sistema de inventarios se cargan las entradas de producto en general al momento de su llegada, en este sistema administra el orden de salida de los mismos y permite dar de baja únicamente en el orden de primeras entradas primeras salidas.
-	\item El cliente también pudiera dar instrucciones de cual producto dar salida de forma primaria por estrategia comercial.
+	\item En el \GLS{SGA} se cargan las entradas de producto en general al momento de su llegada.
+	\item En este sistema administra la orden de salida de los mismos y permite dar de baja únicamente en el esquema de primeras entradas primeras salidas.
+	\item El cliente también pudiera dar instrucciones del cual producto dar salida de forma prioritaria por estrategia comercial.
 	\item En ambos casos el sistema de manera automática da de baja del sistema el producto que físicamente se da salida, actualizando las existencias.
 \end{itemize}
 
@@ -84,9 +91,8 @@ Inventario de suministros y materiales. La percepción de inventario asegura que
 \end{itemize}
 
 \subsection{Acciones preventivas}
-
 \begin{itemize}
-	\item Se llevara a cabo una inspección. Registrando el indicador y medida correspondiente
+	\item Se llevará a cabo una inspección, registrando el indicador y medida correspondiente;
 	\item Si la desviación se repite frecuentemente se dará curso de capacitación al personal de almacén y limpieza para que realicen eficientemente su trabajo.
 	\item Si después de haber capacitado al personal de almacén se siguen presentando desviaciones por causas injustificadas, se tomaran acciones más enérgicas con el personal por incumplimiento con sus deberes.
 \end{itemize}
@@ -95,7 +101,7 @@ Inventario de suministros y materiales. La percepción de inventario asegura que
 
 \begin{itemize}
 	\item En caso contrario la tarea se deberá volver a realizar como se indica en el procedimiento.
-	\item En caso de no conformidad reportar en formato de acciones correctivas F-OP-40.xls
+	\item En caso de no conformidad reportar en formato de acciones correctivas (\IdFormAACC).
 \end{itemize}
 
 \subsection{Frecuencia}
@@ -104,19 +110,16 @@ Inventario de suministros y materiales. La percepción de inventario asegura que
 	\item Diaria.
 \end{itemize}
 
-\subsection{Historial de modificaciones}
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-2.4]
 
-\begin{itemize}
-	\item \textbf{Cuarta edición:} cambio de fecha de 03 de noviembre 2017 a 28 de enero 2019, se realizó cambio en el código de CA-P-PEPV a PR-009. Y no se realizaron modificaciones de la revisión 03 a la 04
-	\item \textbf{Quinta edición:} febrero 2020 se hizo cambio de forma y cambio de código de PR-009 a PRO-OP-006. Y no se realizaron modificaciones de la revisión 04 a la 05.
-	\item \textbf{Sexta edición:} febrero 2021 no se realizaron modificaciones de la revisión 05 a la 06.
-	\item \textbf{Séptima edición:} febrero 2022 no se realizaron cambios de la revisión 06 a la 07.
-\end{itemize}
+	\begin{version}[v=2.1, date=2023--01, author=Pablo E. Alanis]
+		\item Cambio de formato;
+		\item Cambios en la serialización de versiones;
+	\end{version}
 
-\subsection{Listado de distribución}
+	\begin{version}[v=1.8, date=2022-02, author=Alonso M.]
+		\item no se realizaron cambios de la revisión 06 a la 07.
+	\end{version}
 
-N/A
-
-\subsection{Anexos}
-
-N/A
+	\shortversion{v=1.7, date=2021-05, changes=No se realizaron modificaciones de la revisión 05 a la 06.}
+\end{changelog}

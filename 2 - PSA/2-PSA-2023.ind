@@ -1,16 +1,52 @@
 \begin{theindex}
 
-  \item Inspección
-    \subitem de productos durante su almacenamiento, \hyperpage{8}
-    \subitem en la recepción de productos, \hyperpage{3}
-  \item Instrucción
-    \subitem inspección fisica de productos, \hyperpage{3}
+  \item Acciones inmediatas
+    \subitem en caso de corte de energía o desastre, \hyperpage{26}
 
   \indexspace
 
+  \item Especificación de servicios
+    \subitem almacenamiento, \hyperpage{20}
+
+  \indexspace
+
+  \item Información documentada
+    \subitem control
+      \subsubitem aprobación de cambios a procedimientos, 
+		\hyperpage{38}
+      \subsubitem resguardo de registros, \hyperpage{36}
+  \item Inspección
+    \subitem en la recepción de productos, \hyperpage{2}
+    \subitem productos durante su almacenamiento, de, \hyperpage{7}
+    \subitem transporte al embarque de producto, de, \hyperpage{23}
+  \item Instrucción
+    \subitem inspección fisica de productos, \hyperpage{2}
+
+  \indexspace
+
+  \item Lista
+    \subitem contactos de emergencia, de, \hyperpage{29}
+
+  \indexspace
+
+  \item Plan de contingencia
+    \subitem en caso de avería de equipos de refrigeración, 
+		\hyperpage{9}
+  \item Política
+    \subitem aprobación de proveedores, de, \hyperpage{17}
+    \subitem devoluciones, de, \hyperpage{16}
+    \subitem re-empaque, re-etiquetado y uso de aditivos, de, 
+		\hyperpage{34}
   \item Procedimiento
-    \subitem inspección en la recepción de productos, \hyperpage{3}
-    \subitem lotificación de productos, \hyperpage{6}
-    \subitem PEPS o VENCER, \hyperpage{11}, \hyperpage{14}
+    \subitem inspección en la recepción de productos, \hyperpage{2}
+    \subitem lotificación de productos, \hyperpage{5}
+    \subitem PEPS o VENCER, \hyperpage{10}
+    \subitem solicitud de citas, \hyperpage{13}
+  \item Producto retenido
+    \subitem manejo, \hyperpage{31}
+
+  \indexspace
+
+  \item Área de retención, \hyperpage{8}
 
 \end{theindex}

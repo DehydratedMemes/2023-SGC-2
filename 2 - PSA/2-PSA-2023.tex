@@ -4,39 +4,83 @@
 % % arara: --> shell: yes,
 % % arara: --> synctex: yes,
 % % arara: --> }
-% arara: lualatex
+% arara: lualatex: {
+% arara: --> interaction: nonstopmode,
+% arara: --> options: ['-file-line-error'],
+% arara: --> shell: yes,
+% arara: --> synctex: yes,
+% arara: --> }
 % arara: makeglossaries
 %% arara: makeindex
 
-\documentclass[letterpaper,10pt,twoside,final,es-MX]{article}
+\documentclass[letterpaper,10pt,twoside,es-MX]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Definición de variables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{../VariablesEstaticas.tex}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Control de versiónes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{changelog}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%% ESPECIALES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\special{dvipdfmx:config z 0}	% Desactivar compresión
-\special{pdf:minorversion 7}
-
+\RequirePackage{expl3}    % \usepackage cannot be used before \documentclass
+\ExplSyntaxOn             % Switch on expl3 syntax
+\pdf_version_gset:n{1.7}  % Use provided expl3 function
+\ExplSyntaxOff            % Switch off expl3 syntax
 %%%%%%%%%%%%%%%%%%%%%%%%%%% PREAMBULO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{fontspec}
-	\setmainfont{Carlito}
+
+\usepackage[sfdefault,t]{carlito}
+% \usepackage{fontspec}
+% 	\setmainfont{Carlito}
+
+\usepackage{phonenumbers}
 
 \usepackage{polyglossia}
 	\setdefaultlanguage[variant=mexican,spanishoperators=all]{spanish}
 	%\AtBeginDocument{\renewcommand\babelname{spanish}}
-\usepackage{tracklang}
-\SetCurrentTrackedDialect{es-MX}
-\CurrentTrackedDialectVariant{}
+% \usepackage{tracklang}
+% \SetCurrentTrackedDialect{es-MX}
+% \CurrentTrackedDialectVariant{}
 
-\usepackage[toc=true,postpunc=comma,showtargets=annoteleft,style=tree,xindy]{glossaries-extra}
-\makeglossaries
-\setabbreviationstyle[acronym]{long-short}
-\loadglsentries[main]{../glosario-def.tex}
+% \usepackage[record]{glossaries-extra}
+
+% \GlsXtrLoadResources[
+%   src={../glos.bib},% data in entries.bib
+%   sort={en-GB},% sort according to 'en-GB' locale
+% ]
+
+\usepackage[toc=true,postpunc={;},showtargets=annoteleft,style=tree,xindy]{glossaries-extra}
+	\makeglossaries
+	\setabbreviationstyle[acronym]{long-short}
+	\loadglsentries[main]{../glosario-def.tex}
 
 \usepackage{imakeidx}
-\makeindex[columns=2]
+	\makeindex[columns=2]
+
+\usepackage[framemethod=tikz]{mdframed}
+% \usetikzlibrary{calc}
+
+\makeatletter
+	\newenvironment{nota}[1]{
+	\protected@edef\@currentlabelname{#1}
+	\protected@edef\@currentlabel{#1}
+		\begin{mdframed}[
+		innerlinewidth=0.5pt,
+		innerleftmargin=10pt,
+		innerrightmargin=10pt,
+		innertopmargin = 10pt,
+		innerbottommargin=10pt,
+		skipabove=\dimexpr\topsep+\ht\strutbox\relax,
+		roundcorner=5pt,
+		frametitle={#1},
+		frametitlerule=true,
+		frametitlerulewidth=1pt]
+	}{
+	\end{mdframed}
+	}
+\makeatother
 
 \usepackage[multiple]{footmisc}
-\usepackage{microtype}
+
+% \usepackage{microtype}
 \usepackage{tabularray}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -45,9 +89,17 @@
 \usepackage{lastpage}
 \usepackage{siunitx}
 	\sisetup{detect-all}
+
 \usepackage{color}
+
 \usepackage{tabularray}
-\UseTblrLibrary{booktabs,siunitx}
+	\UseTblrLibrary{booktabs,siunitx}
+	\definecolor{Gallery}{rgb}{0.929,0.929,0.929}
+	\DefTblrTemplate{contfoot-text}{normal}{\textit{Continúa en la siguiente página}}
+	\SetTblrTemplate{contfoot-text}{normal}
+	\DefTblrTemplate{conthead-text}{normal}{\textit{(Continuación)}}
+	\SetTblrTemplate{conthead-text}{normal}
+
 \usepackage{xhfill}
 %\usepackage{pdfpages}
 %\usepackage{lipsum}
@@ -77,13 +129,23 @@
 
 	\newcommand{\email}[1]{\href{mailto:#1}{#1}}
 
+	\newcommand{\contacto}[2]{%
+		\fbox{%
+			\parbox[c]{0.5\textwidth}{
+				\subsubsection*{#1}
+				#2
+			}%
+		}
+	}
+
+	\newcommand{\cels}[1]{\qty{#1}{\celsius}}
 \fancypagestyle{formato}{%
     \fancyhead[C]{%
 	    \begin{tblr}{%	
             colspec = {|X[c,m]|X[c,m]|X[c,m]|X[c,m]|X[c,m]|X[c,m]|},
             }
             \hline
-            \SetCell[c=2]{c} \includegraphics[height=1cm]{./RDF_Logo.eps} & & \SetCell[c=3]{c} \large{Red de fríos S.A. de C.V.} & & & {\textbf{Código:}\\ \Codigo} \\
+            \SetCell[c=2]{c} \includegraphics[height=1cm]{./RDF_Logo-eps-converted-to.pdf} & & \SetCell[c=3]{c} \large{Red de fríos S.A. de C.V.} & & & {\textbf{Código:}\\ \Codigo} \\
             \hline
             \SetCell[c=4]{c} {\Titulo} & & & & {\textbf{Fecha de publicación:}\\ \FechaPub} & {\textbf{Edición:}\\ \Edit} \\
             \hline
@@ -100,16 +162,37 @@
 
 \newcommand{\defglo}[1]{\item[\glsname{#1}] \glsdesc{#1}} % Define un comando para dar un item en un entorno de descripción para una palabra definida en el glosario
 
+\includeonly{src/PSA-2.10.tex}
 
 \begin{document}
 \pagestyle{formato}
-\include{src/PSA-ToC.tex} 
-\include{src/PSA-2.1.tex}
-\include{src/PSA-2.2.tex}
-\include{src/PSA-2.3.tex}
-\include{src/PSA-2.4.tex}
-%\include{src/PSA-2.5.tex}
-\include{src/PSA-2.6.tex}
+\include{src/PSA-ToC.tex}	
+\include{src/PSA-2.1.tex}	% REVISADO
+\include{src/PSA-2.2.tex}	% REVISADO
+\include{src/PSA-2.3.tex}	% REVISADO
+\include{src/PSA-2.4.tex}	% REVISADO
+%\include{src/PSA-2.5.tex}	% TODO: VERIFICAR
+\include{src/PSA-2.6.tex}	% REVISADO
+\include{src/PSA-2.7.tex}	% REVISADO
+\include{src/PSA-2.8.tex}	% REVISADO
+\include{src/PSA-2.9.tex}	% REVISADO
+\include{src/PSA-2.10.tex}	%
+\include{src/PSA-2.11.tex}
+\include{src/PSA-2.12.tex}
+\include{src/PSA-2.13.tex}
+\include{src/PSA-2.14.tex}
+\include{src/PSA-2.15.tex}
+\include{src/PSA-2.16.tex}
+\include{src/PSA-2.17.tex}
+\include{src/PSA-2.18.tex}
+\include{src/PSA-2.19.tex}
+\include{src/PSA-2.20.tex}
+\include{src/PSA-2.21.tex}
+\include{src/PSA-2.22.tex}
+\include{src/PSA-2.23.tex}
+\include{src/PSA-2.24.tex}
+\include{src/PSA-2.25.tex}
+\include{src/PSA-2.26.tex}
 \include{src/PSA-Gloss.tex}
 \include{src/PSA-Ind.tex}
 \end{document}

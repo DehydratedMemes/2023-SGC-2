@@ -1,0 +1,39 @@
+\renewcommand{\MayorVer}{2}
+\renewcommand{\MenorVer}{1}
+\renewcommand{\Codigo}{PSA-1-PROG} %TODO
+\renewcommand{\FechaPub}{2023--01}
+%\renewcommand{\Edit}{2.1}
+\renewcommand{\Titulo}{Lista de proveedores autorizados}
+
+\section{\Titulo}
+\label{sec:listaDeProveedores}
+\index{Información documentada!tipo!lista!Proveedores autorizados, de}
+
+% Lista De Proveedores Autorizados
+\definecolor{Gallery}{rgb}{0.929,0.929,0.929}
+\begin{longtblr}[
+  label = {tbl:listaDeProveedores},
+  entry = {Lista de proveedores},
+  caption = {Lista de proveedores aprovados.}
+  ]{%
+  width = \linewidth,
+  colspec = {Q[281]Q[210]Q[137]Q[312]},
+  cells = {c},
+  row{even} = {Gallery},
+  }
+  \toprule
+  \textbf{Proveedor}                          & \textbf{Servicio}                       & \textbf{Representante}    & \textbf{Contacto }          \\
+  \midrule
+  Ecolab                                      & Producto De Limpieza Para Almacen       & Alfredo Montes De Oca     & {Oficina: 4739-5900         \\ \email{Alfredo.montesdeoca@ecolab.com}}\\
+  HT Lavanderia Industriales                  & Lavanderia De Equipo De Proteccion Frio & Karla Tamez               & {Oficina: 8372-3141         \\ \email{Lavanely@prodigy.net.mx}}\\
+  ARCE Control De Plagas                      & Control De Plagas                       & Mayra Rivera              & {Oficina: 8044-0548         \\ \email{Programacion@plagasarce.com.mx}}\\
+  Centro De Capacitación En Calidad Sanitaria & Laboratorio De Agua                     & Lorena Trejo              & {Oficina: 8397-3577         \\ \email{Cotizaciones@calidadsanitaria.com}}\\
+  Laboratorio Clínico Integral                & Laboratorio Clinico De Personal         & Salvador Garcia           & {Oficina: 8374-0509         \\ \email{Labintegral@yahoo.com.mx}}\\
+  Tyvavy                                      & Emplaye Para Tarima                     & Carlos Martinez           & {Celular: 8115891706        \\ \email{contadormtz@hotmail.com}}\\
+  MYM                                         & Equipo De Protección Personal           & ---                       & {Oficina: 8121390634}       \\
+  Faxy Copy                                   & Impresora Y Copiadora                   & Rosa Isela Tello Alvarado & {Oficina: 83476274          \\ \email{Isela Tello Iselatello@faxycopy.com}}\\
+  Ferreteria GM                               & Materiales De Ferreteria                & ---                       & {Oficina: 8122611964        \\ \email{ventas@ferreteriagm.com}}\\
+  GEN                                         & Recoleccion De Basura                   & ---                       & {Call Center: 8001800436}   \\
+  Alarmas Y Proyectos De Seguridad Del Norte  & Alarmas                                 & Humberto Castro           & {Oficina: 86472460 Ext.1009 \\ \email{Hcastro@alarmasyproyectos.com}}\\
+  \bottomrule
+\end{longtblr}

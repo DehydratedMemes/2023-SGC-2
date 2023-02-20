@@ -1,0 +1,126 @@
+\renewcommand{\MayorVer}{2}
+\renewcommand{\MenorVer}{1}
+\renewcommand{\Codigo}{PSA-9-ESP} %TODO
+\renewcommand{\FechaPub}{2023--01}
+%\renewcommand{\Edit}{2.1}
+\renewcommand{\Titulo}{Especificación genérica de servicios de almacenamiento}
+
+\section{\Titulo}
+\index{Especificación de servicios!almacenamiento}
+\label{esp:generica}
+% \section{Especificación genérica de servicios de almacenamiento}
+
+\subsection{Objetivos}
+
+\begin{itemize}
+	\item \textbf{Especificar} las condiciones de almacenamiento proporcionadas por \GLS{RDF};
+	\item \textbf{Definir} los rangos de temperatura aplicable para cada tipo de especificación genérica de almacenamiento con la que opera \GLS{RDF};
+\end{itemize}
+
+\subsection{Alcance}
+
+\begin{itemize}
+	\item Las condiciones de almacenamiento genéricas establecidas en este documento son aplicables para acuerdos con clientes en el esquema de \emph{cámara compartida;}
+	\item las especificaciones definidas en este documento aplican según el intervalo de temperatura definido por el fabricante del producto alimenticio que será almacenado;
+	\item este documento no contempla las condiciones de almacenamiento \emph{especificas} en el esquema de \emph{cámara exclusiva;}
+	\item las especificaciones de temperatura definidas en este documento no son aplicables a las de la ráfaga de congelación ya que ahí se logran temperaturas ambientales inferiores a las del límite de especificación.
+\end{itemize}
+
+\subsection{Términos y definiciones}
+
+\begin{description}
+	\defglo{refrigeracion}
+	\defglo{congelacion}
+	\defglo{especificacion}
+	\defglo{requisito}
+\end{description}
+
+\subsection{Disposiciones generales}
+
+\begin{itemize}
+	\item Con base en las necesidades de almacenamiento especificas de los productos alimenticios del \emph{cliente,} \GLS{RDF} acordará en que especificación de almacenamiento éstos deberán ser almacenados;
+	\item si los productos alimenticios del \emph{cliente} no se adecúan a las especificaciones genéricas manejadas por \GLS{RDF}, al cliente se le dará la opción, según la disponibilidad de las cámaras, de almacenar su(s) producto(s) en cámaras de almacenamiento exclusivas, donde el cliente podrá establecer las necesidades de temperatura especificas de almacenamiento para su producto;
+	\item en caso de que \emph{el cliente} no acepte la renta de una cámara de almacenamiento exclusiva, o por disponibilidad de espacio, no se cuente con ella, el cliente podrá decidir con base en las condiciones de almacenamiento genéricas, establecidas en éste documento, en qué tipo de cámara será almacenado su producto.
+	\begin{itemize}
+		\item Este acuerdo debe de documentarse, ya sea en una comunicación externa \emph{i.e.} un e-mail, cliente de mensajería instantánea, etc. o bien en un documento en el que se establezca que el cliente está de acuerdo con que su producto se almacene en alguna de las condiciones genéricas de almacenamiento de \GLS{RDF}.
+	\end{itemize}
+	\item Para propósitos del control de las temperaturas con un enfoque hacia la inocuidad de los alimentos y las buenas prácticas de distribución, se definen los limites de control acordados de manera interna, con base en la NOM-001-SAGARPA/SCFI-2016 y la NOM-008-ZOO-1994. Cabe mencionar que las temperaturas aquí detalladas son las \emph{"óptimas",} por lo que se debe de establecer un rango de control adecuado en base a las especificaciones de temperatura aquí definidos.
+\end{itemize}
+
+\subsubsection{Almacenamiento en cámaras de refrigeración}
+
+Con base en la circular № 20/2018 expedida por \Gls{SENASICA}, el intervalo definido para \emph{refrigeración} es el siguiente:
+
+\begin{itemize}
+	\item \textbf{Limite de especificación superior:} \cels{4}
+	\item \textbf{Limite de control superior:} \cels{3.5}
+	\item \textbf{Objetivo:} \cels{3}
+	\item \textbf{Limite de control inferior:} \cels{1}
+	\item \textbf{Limite de especificación inferior:} \cels{0}
+\end{itemize}
+
+\subsubsection{Almacenamiento en cámaras de congelación}
+
+Para definir el intervalo de control, se tomó como base la circular № 20/2018 \GLS{SENASICA} en donde se menciona que la temperatura puede oscilar entre \qtyrange{-18}{-12}{\celsius} y según la NOM-001-SAGARPA/SCFI-2016, se define el límite inferior de control:
+
+\begin{itemize}
+	\item \textbf{Limite de especificación superior:} \cels{-12}
+	\item \textbf{Limite de control superior:} \cels{-15}
+	\item \textbf{Objetivo:} \cels{-18}
+	\item \textbf{Limite de control inferior:} \cels{-25}
+	\item \textbf{Limite de especificación inferior:} \cels{-30}
+\end{itemize}
+
+\subsection{Documentos relacionados}
+
+\begin{itemize}
+	\item \textbf{NOM-001-SAGARPA/SCFI-2016:} Prácticas comerciales—Especificaciones sobre el almacenamiento, guarda, conservación, manejo y control de bienes o mercancías bajo custodia de los almacenesgenerales de depósito. Incluyendo productos agropecuarios y pesqueros.
+	\item \textbf{Circular № 20/2018 \GLS{SENASICA}}
+	\item \textbf{NOM-008-ZOO-1994:} Especificaciones zoo-sanitarias para la construcción y equipamiento de establecimientos para el sacrificio de animales y los dedicados a la industrialización de productos cárnicos.
+\end{itemize}
+
+\subsection{Responsables}
+
+\begin{itemize}
+	\item \textbf{Ejecución:}
+	\begin{itemize}
+		\item El personal de mantenimiento es el que se encarga de procurar que las cámaras permanezcan dentro de los límites establecidos.
+	\end{itemize}
+	\item \textbf{Monitoreo:}
+	\begin{itemize}
+		\item Personal de \emph{aseguramiento de calidad:}
+		\begin{itemize}
+			\item realiza una inspección diaria de las temperaturas de las cámaras por medio de un termómetro IR;
+			\item hace un informe semanal de las temperaturas registradas por el termómetro IR.
+		\end{itemize}
+		\item Personal de \emph{mantenimiento:}
+		\begin{itemize}
+			\item diariamente realiza inspección mediante termómetro IR de la temperatura superficial de las cámaras;
+			\item semanalmente generan un histórico de temperaturas registradas por los equipos de enfriamiento;
+			\item semanalmente generan un histórico de temperaturas registradas por un termoregistrador.
+		\end{itemize}
+		\item Personal de la \GLS{SADER}:
+		\begin{itemize}
+			\item aleatoriamente verifica las temperaturas de las cámaras en conjunto con \emph{aseguramiento de calidad}, aunque de esta actividad no deriva ningún registro para \GLS{RDF}.
+		\end{itemize}
+	\end{itemize}
+	\item \textbf{Verificación:}
+	\begin{itemize}
+		\item Personal de \emph{aseguramiento de calidad:}
+		\begin{itemize}
+			\item recibe el histórico de temperaturas semanales registradas por los equipos y por los termoregistradores y los analiza;
+		\end{itemize}
+		\item \emph{Gerencia:}
+		\begin{itemize}
+			\item recibe la información de las temperaturas por parte de \emph{aseguramiento de calidad} y las verifica.
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-2.9]
+
+	\begin{version}[v=1.0, date=2023--01, author=Pablo E. Alanis]
+		\item Primera edición.
+	\end{version}
+
+\end{changelog}

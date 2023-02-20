@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12) (format=lualatex 2023.2.2)  15 FEB 2023 10:57
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12) (format=lualatex 2023.2.2)  15 FEB 2023 14:20
  restricted system commands enabled.
 **BPD-Validación.tex
 (./BPD-Validación.tex
@@ -317,12 +317,12 @@ braces):
 >  {spanish/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
 >  {spanish/totalhyphenmin}  =>  {5}.
 Module polyglossia Info: Language data for spanish
-(polyglossia)            patterns	hyph-es.pat.txt
-(polyglossia)            loader	loadhyph-es.tex
-(polyglossia)            hyphenation	
-(polyglossia)            synonyms	espanol
 (polyglossia)            righthyphenmin	2
-(polyglossia)            lefthyphenmin	2 on input line 15
+(polyglossia)            synonyms	espanol
+(polyglossia)            loader	loadhyph-es.tex
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            hyphenation	
+(polyglossia)            patterns	hyph-es.pat.txt on input line 15
 Module polyglossia Info: Language spanish was not yet loaded; created with id 2 
 on input line 15
 Package polyglossia Info: Option: spanish, variant=spanish.
@@ -398,10 +398,41 @@ LaTeX Info: Redefining \addtolength on input line 81.
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 Package: xhfill 2011/05/14\ v 1.01\ modify width and color of hrulefill
-)
-No file BPD-Validación.aux.
-
+) (./BPD-Validación.aux
+(./src/2.aux)
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
+LaTeX Info: Redefining \rmfamily on input line 4.
+LaTeX Info: Redefining \sffamily on input line 4.
+LaTeX Info: Redefining \ttfamily on input line 4.
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
+Package polyglossia Info: totalhyphenmin:'5'.
+LaTeX Info: Redefining \lim on input line 4.
+LaTeX Info: Redefining \limsup on input line 4.
+LaTeX Info: Redefining \liminf on input line 4.
+LaTeX Info: Redefining \max on input line 4.
+LaTeX Info: Redefining \min on input line 4.
+LaTeX Info: Redefining \inf on input line 4.
+LaTeX Info: Redefining \bmod on input line 4.
+LaTeX Info: Redefining \pmod on input line 4.
+LaTeX Info: Redefining \arccos on input line 4.
+LaTeX Info: Redefining \arcsin on input line 4.
+LaTeX Info: Redefining \arctan on input line 4.
+LaTeX Info: Redefining \sin on input line 4.
+LaTeX Info: Redefining \tan on input line 4.
+LaTeX Info: Redefining \sinh on input line 4.
+LaTeX Info: Redefining \tanh on input line 4.
+Package polyglossia Info: Option: spanish, variant=mexican.
+Package polyglossia Info: Option: Spanish, spanishoperators=all.
+ (./src/3.aux) (./src/4.aux) (./src/5.aux) (./src/6.aux)
+(./src/7.aux) (./src/8.aux) (./src/9.aux) (./src/10.aux) (./src/11.aux))
 \openout1 = BPD-Validación.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
@@ -413,6 +444,7 @@ LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 7.
+
 ("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd"
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -603,7 +635,7 @@ Package polyglossia Info: Option: Spanish, spanishoperators=all.
 \openout2 = src/2.aux
  (./src/2.tex
 Package epstopdf Info: Source file: <RDF_Logo.eps>
-(epstopdf)                    date: 2023-01-30 14:53:15
+(epstopdf)                    date: 2023-02-15 12:51:44
 (epstopdf)                    size: 480190 bytes
 (epstopdf)             Output file: <RDF_Logo-eps-converted-to.pdf>
 (epstopdf)                    date: 2023-02-02 09:34:41
@@ -611,7 +643,11 @@ Package epstopdf Info: Source file: <RDF_Logo.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=RDF_Logo-eps-convert
 ed-to.pdf RDF_Logo.eps>
 (epstopdf)             \includegraphics on input line 5.
-Package epstopdf Info: Output file is already uptodate.
+system(miktex-epstopdf --outfile=RDF_Logo-eps-converted-to.pdf RDF_Logo.eps) exe
+cuted.
+Package epstopdf Info: Result file: <RDF_Logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-15 14:21:17
+(epstopdf)                    size: 9473 bytes.
 
 warning  (file RDF_Logo-eps-converted-to.pdf) (pdf inclusion): PDF inclusion: fo
 und PDF version '1.7', but at most version '1.5' allowed
@@ -640,10 +676,10 @@ ps-converted-to.pdf>]
 \openout2 = src/3.aux
  (./src/3.tex
 Package epstopdf Info: Source file: <RDF_Logo.eps>
-(epstopdf)                    date: 2023-01-30 14:53:15
+(epstopdf)                    date: 2023-02-15 12:51:44
 (epstopdf)                    size: 480190 bytes
 (epstopdf)             Output file: <RDF_Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-02 09:34:41
+(epstopdf)                    date: 2023-02-15 14:21:17
 (epstopdf)                    size: 9473 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=RDF_Logo-eps-convert
 ed-to.pdf RDF_Logo.eps>
@@ -666,10 +702,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 \openout2 = src/4.aux
  (./src/4.tex
 Package epstopdf Info: Source file: <RDF_Logo.eps>
-(epstopdf)                    date: 2023-01-30 14:53:15
+(epstopdf)                    date: 2023-02-15 12:51:44
 (epstopdf)                    size: 480190 bytes
 (epstopdf)             Output file: <RDF_Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-02 09:34:41
+(epstopdf)                    date: 2023-02-15 14:21:17
 (epstopdf)                    size: 9473 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=RDF_Logo-eps-convert
 ed-to.pdf RDF_Logo.eps>
@@ -692,10 +728,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 \openout2 = src/5.aux
  (./src/5.tex
 Package epstopdf Info: Source file: <RDF_Logo.eps>
-(epstopdf)                    date: 2023-01-30 14:53:15
+(epstopdf)                    date: 2023-02-15 12:51:44
 (epstopdf)                    size: 480190 bytes
 (epstopdf)             Output file: <RDF_Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-02 09:34:41
+(epstopdf)                    date: 2023-02-15 14:21:17
 (epstopdf)                    size: 9473 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=RDF_Logo-eps-convert
 ed-to.pdf RDF_Logo.eps>
@@ -718,10 +754,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 \openout2 = src/6.aux
  (./src/6.tex
 Package epstopdf Info: Source file: <RDF_Logo.eps>
-(epstopdf)                    date: 2023-01-30 14:53:15
+(epstopdf)                    date: 2023-02-15 12:51:44
 (epstopdf)                    size: 480190 bytes
 (epstopdf)             Output file: <RDF_Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-02 09:34:41
+(epstopdf)                    date: 2023-02-15 14:21:17
 (epstopdf)                    size: 9473 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=RDF_Logo-eps-convert
 ed-to.pdf RDF_Logo.eps>
@@ -744,10 +780,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 \openout2 = src/7.aux
  (./src/7.tex
 Package epstopdf Info: Source file: <RDF_Logo.eps>
-(epstopdf)                    date: 2023-01-30 14:53:15
+(epstopdf)                    date: 2023-02-15 12:51:44
 (epstopdf)                    size: 480190 bytes
 (epstopdf)             Output file: <RDF_Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-02 09:34:41
+(epstopdf)                    date: 2023-02-15 14:21:17
 (epstopdf)                    size: 9473 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=RDF_Logo-eps-convert
 ed-to.pdf RDF_Logo.eps>
@@ -770,10 +806,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 \openout2 = src/8.aux
  (./src/8.tex
 Package epstopdf Info: Source file: <RDF_Logo.eps>
-(epstopdf)                    date: 2023-01-30 14:53:15
+(epstopdf)                    date: 2023-02-15 12:51:44
 (epstopdf)                    size: 480190 bytes
 (epstopdf)             Output file: <RDF_Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-02 09:34:41
+(epstopdf)                    date: 2023-02-15 14:21:17
 (epstopdf)                    size: 9473 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=RDF_Logo-eps-convert
 ed-to.pdf RDF_Logo.eps>
@@ -796,10 +832,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 \openout2 = src/9.aux
  (./src/9.tex
 Package epstopdf Info: Source file: <RDF_Logo.eps>
-(epstopdf)                    date: 2023-01-30 14:53:15
+(epstopdf)                    date: 2023-02-15 12:51:44
 (epstopdf)                    size: 480190 bytes
 (epstopdf)             Output file: <RDF_Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-02 09:34:41
+(epstopdf)                    date: 2023-02-15 14:21:17
 (epstopdf)                    size: 9473 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=RDF_Logo-eps-convert
 ed-to.pdf RDF_Logo.eps>
@@ -822,10 +858,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 \openout2 = src/10.aux
  (./src/10.tex
 Package epstopdf Info: Source file: <RDF_Logo.eps>
-(epstopdf)                    date: 2023-01-30 14:53:15
+(epstopdf)                    date: 2023-02-15 12:51:44
 (epstopdf)                    size: 480190 bytes
 (epstopdf)             Output file: <RDF_Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-02 09:34:41
+(epstopdf)                    date: 2023-02-15 14:21:17
 (epstopdf)                    size: 9473 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=RDF_Logo-eps-convert
 ed-to.pdf RDF_Logo.eps>
@@ -848,10 +884,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 \openout2 = src/11.aux
  (./src/11.tex
 Package epstopdf Info: Source file: <RDF_Logo.eps>
-(epstopdf)                    date: 2023-01-30 14:53:15
+(epstopdf)                    date: 2023-02-15 12:51:44
 (epstopdf)                    size: 480190 bytes
 (epstopdf)             Output file: <RDF_Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-02 09:34:41
+(epstopdf)                    date: 2023-02-15 14:21:17
 (epstopdf)                    size: 9473 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=RDF_Logo-eps-convert
 ed-to.pdf RDF_Logo.eps>
@@ -956,15 +992,15 @@ Package polyglossia Info: Option: Spanish, spanishoperators=all.
 (./src/10.aux) (./src/11.aux)))
 
 Here is how much of LuaTeX's memory you used:
- 9309 strings out of 478381
+ 9414 strings out of 478381
  125038,1977958 words of node,token memory allocated
  425 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 49 glue_spec,
  6 attribute_list, 3 write nodes
    avail lists: 1:1,2:213,3:46,4:22,5:194,6:16,7:1728,8:1,9:154,10:6,11:182
- 28829 multiletter control sequences out of 65536+600000
+ 28839 multiletter control sequences out of 65536+600000
  41 fonts using 8160031 bytes
- 72i,7n,79p,1011b,323s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,7n,79p,1011b,324s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Program Files/MiKTeX/fonts/truetype/public/simple-thesis-dissertation/carlit
 o-bolditalic.ttf><C:/Program Files/MiKTeX/fonts/truetype/public/simple-thesis-di
 ssertation/carlito-italic.ttf><C:/Program Files/MiKTeX/fonts/truetype/public/sim

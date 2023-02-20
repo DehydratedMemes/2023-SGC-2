@@ -1,2 +1,5 @@
 {"rule":"MIN_DIAS_SEMANA","sentence":"^\\QDía de solicitud Hora límite para solicitud Día de carga Observación Lunes 15:30 pm martes La cita debe realizarse antes de las 15:30 pm para que se asigne cita el Martes.\\E$"}
 {"rule":"MIN_DIAS_SEMANA","sentence":"^\\QLunes a viernes de 08:00 am a 16:00 pm Sábados de 08:00 am a 11:30 am.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QCon fin de garantizar que todos los productos refrigerados y congelados se encuentren protegidos contra cualquier peligro microbiológico asociado con el incremento de la temperatura, las cámaras con refrigeración o congelación que presenten una falla y que no puedan ser reparadas en menos en el caso de refrigeración de y en congelación de , el producto se debe trasladar oportunamente a otra cámara previamente acondicionada a las especificaciones del producto.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\Qv=1.7, date=2021-05, changes=No se realizaron modificaciones de la revisión 05 a la 06.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qv=1.7, date=2021-05, changes=No se realizaron modificaciones de la revisión 05 a la 06.\\E$"}

@@ -1,7 +1,7 @@
-15 Feb 2023 11:42:50.384 INFO  - 
+20 Feb 2023 14:52:03.382 INFO  - 
 Welcome to arara 7.0.4!
 -----------------------------------------------------------------
-15 Feb 2023 11:42:50.412 DEBUG - 
+20 Feb 2023 14:52:03.449 DEBUG - 
 ::: arara @ C:\Program Files\MiKTeX\scripts\arara
 ::: Java 19, Eclipse Adoptium
 ::: C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
@@ -9,27 +9,33 @@ Welcome to arara 7.0.4!
 ::: user.home @ C:\Users\Usuario
 ::: CF @ [none]
 -----------------------------------------------------------------
-15 Feb 2023 11:42:50.598 INFO  - Processing "2-PSA-2023.tex" (size: 3.6 kB, last modified: 2023-02-15 17:35:24), please wait.
-15 Feb 2023 11:42:51.005 INFO  - I found a potential pattern in line 7: lualatex
-15 Feb 2023 11:42:51.005 INFO  - I found a potential pattern in line 8: makeglossaries
-15 Feb 2023 11:42:51.023 INFO  -                     All directives were validated. We are good to go.
+20 Feb 2023 14:52:03.520 INFO  - Processing "2-PSA-2023.tex" (size: 6.0 kB, last modified: 2023-02-20 20:51:49), please wait.
+20 Feb 2023 14:52:03.664 INFO  - I found a potential pattern in line 7: lualatex: {
+20 Feb 2023 14:52:03.664 INFO  - I found a potential pattern in line 8: --> interaction: nonstopmode,
+20 Feb 2023 14:52:03.665 INFO  - I found a potential pattern in line 9: --> options: ['-file-line-error'],
+20 Feb 2023 14:52:03.666 INFO  - I found a potential pattern in line 10: --> shell: yes,
+20 Feb 2023 14:52:03.666 INFO  - I found a potential pattern in line 11: --> synctex: yes,
+20 Feb 2023 14:52:03.667 INFO  - I found a potential pattern in line 12: --> }
+20 Feb 2023 14:52:03.667 INFO  - I found a potential pattern in line 13: makeglossaries
+20 Feb 2023 14:52:06.905 INFO  -                     All directives were validated. We are good to go.
                     -------------------------- DIRECTIVES ---------------------------
-                    Directive(identifier='lualatex', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[7])
-Directive(identifier='makeglossaries', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[8])
+                    Directive(identifier='lualatex', parameters={interaction=nonstopmode, options=[-file-line-error], shell=yes, synctex=yes, reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[7, 8, 9, 10, 11, 12])
+Directive(identifier='makeglossaries', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[13])
                     -----------------------------------------------------------------
-15 Feb 2023 11:42:51.032 INFO  - I am ready to interpret rule "lualatex".
-15 Feb 2023 11:42:51.118 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-15 Feb 2023 11:42:53.293 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
-15 Feb 2023 11:42:53.299 INFO  - System command: [lualatex, 2-PSA-2023.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
-15 Feb 2023 11:44:12.243 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+20 Feb 2023 14:52:06.917 INFO  - I am ready to interpret rule "lualatex".
+20 Feb 2023 14:52:06.928 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+20 Feb 2023 14:52:08.745 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
+20 Feb 2023 14:52:08.776 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 2-PSA-2023.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
+20 Feb 2023 14:53:15.312 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12)
- restricted system commands enabled.
+ system commands enabled.
 (./2-PSA-2023.tex
 LaTeX2e <2022-11-01> patch level 1
  L3 programming layer <2022-12-17>
 ("C:/Program Files/MiKTeX/tex/latex/base/article.cls"
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 ("C:/Program Files/MiKTeX/tex/latex/base/size10.clo"))
+(../VariablesEstaticas.tex)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/changelog/changelog.sty
 ("C:/Program Files/MiKTeX/tex/latex/l3packages/xparse/xparse.sty"
 ("C:/Program Files/MiKTeX/tex/latex/l3kernel/expl3.sty"
@@ -44,26 +50,30 @@ y ("C:/Program Files/MiKTeX/tex/latex/etoolbox/etoolbox.sty")
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/infwarerr/infwarerr.sty)
 ("C:/Program Files/MiKTeX/tex/generic/iftex/iftex.sty")
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty))))
+("C:/Program Files/MiKTeX/tex/latex/carlito/carlito.sty"
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifxetex.sty")
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifluatex.sty")
+("C:/Program Files/MiKTeX/tex/latex/base/textcomp.sty")
 ("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.sty"
 ("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec-luatex.sty"
 ("C:/Program Files/MiKTeX/tex/latex/base/fontenc.sty")
-("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.cfg")))
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.cfg"))))
+("C:/Program Files/MiKTeX/tex/latex/phonenumbers/phonenumbers.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3packages/l3keys2e/l3keys2e.sty")
+("C:/Program Files/MiKTeX/tex/latex/phonenumbers/phonenumbers-AT.def")
+("C:/Program Files/MiKTeX/tex/latex/phonenumbers/phonenumbers-DE.def")
+("C:/Program Files/MiKTeX/tex/latex/phonenumbers/phonenumbers-FR.def")
+("C:/Program Files/MiKTeX/tex/latex/phonenumbers/phonenumbers-UK.def")
+("C:/Program Files/MiKTeX/tex/latex/phonenumbers/phonenumbers-US.def"))
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/polyglossia.sty
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/makecmds/makecmds.sty)
-("C:/Program Files/MiKTeX/tex/latex/l3packages/l3keys2e/l3keys2e.sty")
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/luatex/luatexbase/luatexbase.sty
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/luatex/ctablestack/ctablestack.sty
 ))
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-latex.lde)
 )
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-spanish.ld
-f) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tracklang/tracklang.sty
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/tracklang/tracklang.tex))
-
-Package tracklang Warning: Unknown dialect label `es-MX' passed to \SetCurrentT
-rackedDialect on input line 27.
-
-("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra.sty"
+f) ("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra.sty"
 ("C:/Program Files/MiKTeX/tex/latex/glossaries/base/glossaries.sty"
 ("C:/Program Files/MiKTeX/tex/latex/base/ifthen.sty")
 ("C:/Program Files/MiKTeX/tex/latex/mfirstuc/mfirstuc.sty")
@@ -90,6 +100,8 @@ For additional information on amsmath, use the `?' option.
 ("C:/Program Files/MiKTeX/tex/latex/fp/fp-eqn.sty")
 ("C:/Program Files/MiKTeX/tex/latex/fp/fp-upn.sty")
 ("C:/Program Files/MiKTeX/tex/latex/fp/fp-eval.sty"))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tracklang/tracklang.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/tracklang/tracklang.tex))
 ("C:/Program Files/MiKTeX/tex/latex/glossaries-spanish/glossaries-spanish.ldf"
 ("C:/Program Files/MiKTeX/tex/latex/glossaries-spanish/glossaries-spanish-noenc
 .ldf"))
@@ -103,42 +115,127 @@ For additional information on amsmath, use the `?' option.
 ("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra-abbrstyle
 s.def")) (../glosario-def.tex)
 ("C:/Program Files/MiKTeX/tex/latex/imakeidx/imakeidx.sty"
-("C:/Program Files/MiKTeX/tex/generic/iftex/ifxetex.sty")
-("C:/Program Files/MiKTeX/tex/generic/iftex/ifluatex.sty")
 ("C:/Program Files/MiKTeX/tex/latex/tools/multicol.sty"))
 Writing index file 2-PSA-2023.idx
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/footmisc/footmisc.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.sty
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype-luatex.d
-ef) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.cfg)
-) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tabularray/tabularray.sty)
- ("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/mdframed/mdframed.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/zref/zref-abspage.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/zref/zref-base.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/kvdefinekeys/kvdefinekeys.
+sty) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/etexcmds/etexcmds.sty
+) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/auxhook/auxhook.sty))
+("C:/Program Files/MiKTeX/tex/latex/base/atbegshi-ltx.sty"))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/needspace/needspace.sty)
+("C:/Program Files/MiKTeX/tex/latex/graphics/color.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics-def/luatex.def")
+("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
+("C:/Program Files/MiKTeX/tex/latex/pgf/frontendlayer/tikz.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common-lists.tex"))
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-latex.def")
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfrcs.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/pgf.revision.tex")))
+("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty"
 ("C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty"
 ("C:/Program Files/MiKTeX/tex/latex/graphics/trig.sty")
-("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg")
-("C:/Program Files/MiKTeX/tex/latex/graphics-def/luatex.def")))
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg")))
+("C:/Program Files/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgf.cfg")
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-luatex.def"
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def")))
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex"
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+")) ("C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcore.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathcalc.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathutil.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathparser.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex"
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.trigonometric.c
+ode.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
+")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.comparison.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.base.code.tex")
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
+") ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.misc.code.te
+x")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.integerarithmet
+ics.code.tex")))
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfloat.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfint.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.
+tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex"
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex")
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.t
+ex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoretransformations.cod
+e.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorequick.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex")
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex")
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoretransparency.code.t
+ex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex")
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex")))
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmoduleshapes.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmoduleplot.code.tex")
+("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty"
+) ("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y")) ("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgffor.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"))
+("C:/Program Files/MiKTeX/tex/latex/pgf/math/pgfmath.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgffor.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex")))
+("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/libraries/pgflibraryplothandlers.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmodulematrix.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibr
+arytopaths.code.tex")))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/mdframed/md-frame-1.mdf))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/footmisc/footmisc.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tabularray/tabularray.sty)
 ("C:/Program Files/MiKTeX/tex/latex/hyperref/hyperref.sty"
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/kvdefinekeys/kvdefinekeys.
-sty)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/pdfescape/pdfescape.sty)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/hycolor/hycolor.sty)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/letltxmacro/letltxmacro.sty)
- (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/auxhook/auxhook.sty)
-("C:/Program Files/MiKTeX/tex/latex/hyperref/nameref.sty"
+ ("C:/Program Files/MiKTeX/tex/latex/hyperref/nameref.sty"
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/gettitlestring/gettitlestr
-ing.sty
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvoptions/kvoptions.sty)))
-("C:/Program Files/MiKTeX/tex/latex/hyperref/pd1enc.def")
+ing.sty)) ("C:/Program Files/MiKTeX/tex/latex/hyperref/pd1enc.def")
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/intcalc/intcalc.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/etexcmds/etexcmds.sty)
 ("C:/Program Files/MiKTeX/tex/latex/hyperref/puenc.def")
 ("C:/Program Files/MiKTeX/tex/latex/url/url.sty")
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bitset/bitset.sty
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty)
-) ("C:/Program Files/MiKTeX/tex/latex/base/atbegshi-ltx.sty"))
-("C:/Program Files/MiKTeX/tex/latex/hyperref/hluatex.def"
+)) ("C:/Program Files/MiKTeX/tex/latex/hyperref/hluatex.def"
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/stringenc/stringenc.sty)
 ("C:/Program Files/MiKTeX/tex/latex/base/atveryend-ltx.sty")
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilechec
@@ -149,14 +246,8 @@ r.sty)))
 ("C:/Program Files/MiKTeX/tex/latex/tools/array.sty")
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/lastpage/lastpage.sty)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/siunitx/siunitx.sty)
-("C:/Program Files/MiKTeX/tex/latex/graphics/color.sty"
-("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
-("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/booktabs/booktabs.sty)
 ("C:/Program Files/MiKTeX/tex/latex/xhfill/xhfill.sty"
-("C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty"
-("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
-("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
 ("C:/Program Files/MiKTeX/tex/latex/tools/calc.sty")
 ("C:/Program Files/MiKTeX/tex/latex/tools/xspace.sty"))
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty
@@ -165,91 +256,773 @@ r.sty)))
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/enumitem/enumitem.sty)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty)
 (./2-PSA-2023.aux (./src/PSA-ToC.aux) (./src/PSA-2.1.aux) (./src/PSA-2.2.aux)
-(./src/PSA-2.3.aux) (./src/PSA-2.4.aux) (./src/PSA-2.6.aux)
-(./src/PSA-Gloss.aux) (./src/PSA-Ind.aux))
+(./src/PSA-2.3.aux) (./src/PSA-2.4.aux) (./src/PSA-2.6.aux) (./src/PSA-2.7.aux
+
+LaTeX Warning: Label `changelog-2.3' multiply defined.
+
+
+LaTeX Warning: Label `changelog-2.3@cref' multiply defined.
+
+) (./src/PSA-2.8.aux) (./src/PSA-2.9.aux) (./src/PSA-2.10.aux)
+(./src/PSA-2.11.aux) (./src/PSA-2.12.aux) (./src/PSA-2.13.aux)
+(./src/PSA-2.14.aux) (./src/PSA-2.15.aux) (./src/PSA-2.16.aux)
+(./src/PSA-2.17.aux) (./src/PSA-2.18.aux) (./src/PSA-2.19.aux)
+(./src/PSA-2.20.aux) (./src/PSA-2.21.aux) (./src/PSA-2.22.aux)
+(./src/PSA-2.23.aux) (./src/PSA-2.24.aux) (./src/PSA-2.25.aux)
+(./src/PSA-2.26.aux) (./src/PSA-Gloss.aux) (./src/PSA-Ind.aux))
 ("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd")
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/translations/dicts/translati
 ons-basic-dictionary-spanish.trsl)
-("C:/Program Files/MiKTeX/tex/latex/ninecolors/ninecolors.sty")
 ("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) ("C:/Program Files/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty"
 ("C:/Program Files/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg"))
+("C:/Program Files/MiKTeX/tex/latex/ninecolors/ninecolors.sty")
 (./2-PSA-2023.out) (./2-PSA-2023.out)
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
-(./src/PSA-ToC.tex (./2-PSA-2023.toc
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-cmr.cfg)
-warning  (file ./RDF_Logo-eps-converted-to.pdf) (pdf inclusion): PDF inclusion:
- found PDF version '1.7', but at most version '1.5' allowed
-[1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
-Non-PDF special ignored!<./RDF_Logo-eps-converted-to.pdf>])) [2]
-(./src/PSA-2.1.tex [3] [4]) [5] (./src/PSA-2.2.tex [6]) [7] (./src/PSA-2.3.tex
-[8] [9]) [10] (./src/PSA-2.4.tex [11]) [12] [13] (./src/PSA-2.6.tex
-Underfull \vbox (badness 1558) has occurred while \output is active [14])
-[15] [16] (./src/PSA-Gloss.tex) (./2-PSA-2023.gls
+(./src/PSA-2.9.tex [20{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/p
+dftex.map}<./RDF_Logo-eps-converted-to.pdf>] [21]) [22]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textspanish' on input line 1.
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
 
-) [17] (./src/PSA-Ind.tex)This is makeindex, version 2.16 [MiKTeX 22.12].
-Scanning input file 2-PSA-2023.idx....done (7 entries accepted, 0 rejected).
-Sorting entries....done (20 comparisons).
-Generating output file 2-PSA-2023.ind....done (16 lines written, 0 warnings).
-Output written in 2-PSA-2023.ind.
-Transcript written in 2-PSA-2023.ilg.
- (./2-PSA-2023.ind) [18]
 
 AED: lastpage setting LastPage
 (./2-PSA-2023.aux (./src/PSA-ToC.aux) (./src/PSA-2.1.aux) (./src/PSA-2.2.aux)
-(./src/PSA-2.3.aux) (./src/PSA-2.4.aux) (./src/PSA-2.6.aux)
-(./src/PSA-Gloss.aux) (./src/PSA-Ind.aux))
+(./src/PSA-2.3.aux) (./src/PSA-2.4.aux) (./src/PSA-2.6.aux) (./src/PSA-2.7.aux)
+ (./src/PSA-2.8.aux) (./src/PSA-2.9.aux) (./src/PSA-2.10.aux)
+(./src/PSA-2.11.aux) (./src/PSA-2.12.aux) (./src/PSA-2.13.aux)
+(./src/PSA-2.14.aux) (./src/PSA-2.15.aux) (./src/PSA-2.16.aux)
+(./src/PSA-2.17.aux) (./src/PSA-2.18.aux) (./src/PSA-2.19.aux)
+(./src/PSA-2.20.aux) (./src/PSA-2.21.aux) (./src/PSA-2.22.aux)
+(./src/PSA-2.23.aux) (./src/PSA-2.24.aux) (./src/PSA-2.25.aux)
+(./src/PSA-2.26.aux) (./src/PSA-Gloss.aux) (./src/PSA-Ind.aux))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `2-PSA-2023.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
 )
-(see the transcript file for additional information)
- 669 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 5 glue, 4 kern, 1 penalty, 3 glyph, 1
-2 attribute, 70 glue_spec, 12 attribute_list, 4 write nodes
-   avail lists: 1:2,2:2079,3:1169,4:290,5:1247,6:232,7:9941,8:149,9:1856,10:16,
-11:1261
-<C:/Program Files/MiKTeX/fonts/truetype/public/simple-thesis-dissertation/carli
-to-bolditalic.ttf><C:/Program Files/MiKTeX/fonts/truetype/public/simple-thesis-
-dissertation/carlito-italic.ttf><C:/Program Files/MiKTeX/fonts/truetype/public/
-simple-thesis-dissertation/carlito-bold.ttf><C:/Program Files/MiKTeX/fonts/true
-type/public/simple-thesis-dissertation/carlito-regular.ttf><C:/Program Files/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on 2-PSA-2023.pdf (18 pages, 186249 bytes).
+ 995 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 8 glue, 4 kern, 1 glyph, 36 attribute, 108 glue_sp
+ec, 36 attribute_list, 24 write nodes
+   avail lists: 1:1,2:1639,3:1026,4:104,5:1653,6:125,7:15586,8:63,9:1422,10:10,
+11:2127
+
+warning  (pdf backend): unreferenced destination with name 'page.64'
+
+warning  (pdf backend): unreferenced destination with name 'section*.26'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.26.10'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.26.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.26.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.26.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.26.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.26.5.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.26.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.26.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.26.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.26.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.26.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.26.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.26'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.25.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.25.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.25.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.25.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.25.5.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.25.5.1.10
+'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.25.5.1.9'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.25.5.1.8'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.25.5.1.7'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.25.5.1.6'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.25.5.1.5'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.25.5.1.4'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.25.5.1.3'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.25.5.1.2'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.25.5.1.1'
+
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.25.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.25.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.25.4.
+3'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.25.4.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.25.4.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.25.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.25.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.25.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.25.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.25'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.24.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.24.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.24.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.24.5.
+5'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.24.5.
+4'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.24.5.
+3'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.24.5.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.24.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.24.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.24.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.24.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.24.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.24.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.24'
+
+warning  (pdf backend): unreferenced destination with name 'section.23'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.22.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.22.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.22.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.22'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.21.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.21.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.21.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.21.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.21.5.
+3'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.21.5.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.21.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.21.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.21.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.21.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.21.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.21.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.21'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.20.11'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.20.10'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.20.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.20.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.20.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.20.6'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.20.5.3.2'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.20.5.3.1'
+
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.20.5.
+3'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.20.5.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.20.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.20.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.20.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.20.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.20.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.20.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.20'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.19.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.19.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.19.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.19.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.19.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.19.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.19.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.19'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.18.11'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.18.10'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.18.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.18.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.18.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.18.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.18.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.18.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.18.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.18.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.18.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.18'
+
+warning  (pdf backend): unreferenced destination with name 'section.17'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.16.11'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.16.10'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.16.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.16.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.16.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.16.6'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.16.5.2.3'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.16.5.2.2'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.16.5.2.1'
+
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.16.5.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.16.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.16.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.16.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.16.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.16.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.16.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.16'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.15.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.15.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.15.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.15.6'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.15.5.1.4'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.15.5.1.3'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.15.5.1.2'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.15.5.1.1'
+
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.15.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.15.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.15.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.15.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.15.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.15.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.15'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.14.10'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.14.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.14.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.14.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.14.6'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.14.5.1.1'
+
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.14.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.14.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.14.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.14.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.14.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.14.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.14'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.13.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.13.6'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.13.5.3.1'
+
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.13.5.
+3'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.13.5.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.13.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.13.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.13.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.13.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.13.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.13.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.13'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.12.10'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.12.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.12.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.12.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.12.6'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.12.5.3.3'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.12.5.3.2'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.12.5.3.1'
+
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.12.5.
+3'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.12.5.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.12.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.12.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.12.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.12.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.12.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.12.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.12'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.11.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.11.5.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.11.5.1.1'
+
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.11.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.11.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.11.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.11.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.11.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.11.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.11'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.10.5.3.4'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.10.5.3.3'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.10.5.3.2'
+
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.10.5.3.1'
+
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.10.5.
+3'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.10.5.
+2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.10.5.
+1'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.10.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.10.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.10.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.10.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.10.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.10'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.9.10'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.9.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.9.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.9.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.9.6'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.9.5.3.3'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.9.5.3.2'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.9.5.3.1'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.9.5.3
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.9.5.2
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.9.5.1
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.9.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.9.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.9.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.9.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.9.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.8.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.7.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.7.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.7.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.7.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.7.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.6.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.6.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.6.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.6.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.6.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.6.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.5.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.6'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.4.5.1.1'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.4.5.1
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.4.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.10'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.3.6.4
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.3.6.3
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.3.6.2
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.3.6.1
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.3.5.2
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.3.5.1
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.3.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.10'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.9'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.8'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.7'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.6'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.2.4.1
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.2.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.1.5.7
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.1.5.6
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.1.5.5
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.1.5.4
+'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.1.5.3.3'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.1.5.3.2'
+
+warning  (pdf backend): unreferenced destination with name 'paragraph.1.5.3.1'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.1.5.3
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.1.5.2
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsubsection.1.5.1
+'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.5'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.4'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.3'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.2'
+
+warning  (pdf backend): unreferenced destination with name 'subsection.1.1'
+
+warning  (pdf backend): unreferenced destination with name 'section.1'
+<//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.ttf>
+<//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.ttf></
+/?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.ttf>
+Output written on 2-PSA-2023.pdf (3 pages, 209291 bytes).
+SyncTeX written on 2-PSA-2023.synctex.gz.
 Transcript written on 2-PSA-2023.log.
 lualatex: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-15 Feb 2023 11:44:12.252 INFO  - Task result: SUCCESS
-15 Feb 2023 11:44:12.254 INFO  - I am ready to interpret rule "makeglossaries".
-15 Feb 2023 11:44:12.260 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-15 Feb 2023 11:44:12.426 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
-15 Feb 2023 11:44:12.427 INFO  - System command: [makeglossaries, 2-PSA-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
-15 Feb 2023 11:44:16.942 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
-                makeglossaries version 4.51 (2022-11-02)
+20 Feb 2023 14:53:15.321 INFO  - Task result: SUCCESS
+20 Feb 2023 14:53:15.323 INFO  - I am ready to interpret rule "makeglossaries".
+20 Feb 2023 14:53:15.329 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+20 Feb 2023 14:53:15.424 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
+20 Feb 2023 14:53:15.446 INFO  - System command: [makeglossaries, 2-PSA-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
+20 Feb 2023 14:53:21.861 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                Use of uninitialized value $codepage in string eq at C:/Program Files/MiKTeX/scripts/glossaries/makeglossaries line 1444.
+makeglossaries version 4.51 (2022-11-02)
 added glossary type 'main' (glg,gls,glo)
-xindy  -L spanish -C modern-utf8 -I xindy -M "2-PSA-2023" -t "2-PSA-2023.glg" -o "2-PSA-2023.gls" "2-PSA-2023.glo"
+xindy    -I xindy -M "2-PSA-2023" -t "2-PSA-2023.glg" -o "2-PSA-2023.gls" "2-PSA-2023.glo"
 Opening logfile "2-PSA-2023.glg" (done)
 Reading indexstyle...
-Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\l1HfiNqs03"...
-Loading module "lang/spanish/modern-utf8-lang.xdy"...
-Loading module "lang/spanish/modern-utf8.xdy"...
-Finished loading module "lang/spanish/modern-utf8.xdy".
-Finished loading module "lang/spanish/modern-utf8-lang.xdy".
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\xaUTFwbPWg"...
+Loading module "lang/general/latin9-lang.xdy"...
+Loading module "lang/general/latin9.xdy"...
+Finished loading module "lang/general/latin9.xdy".
+Finished loading module "lang/general/latin9-lang.xdy".
 Loading module "2-PSA-2023.xdy"...
 Loading module "tex.xdy"...
 Finished loading module "tex.xdy".
 Finished loading module "2-PSA-2023.xdy".
-Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\l1HfiNqs03".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\xaUTFwbPWg".
 Finished reading indexstyle.
 Finalizing indexstyle... (done)
 
-Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\e6QGnXMIWg"...
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\FjkOF_4NDI"...
 Finished reading raw-index.
 
 Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
@@ -261,5 +1034,5 @@ xindy: major issue: User/administrator updates are out-of-sync.
 makeglossaries: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-15 Feb 2023 11:44:16.944 INFO  - Task result: SUCCESS
-15 Feb 2023 11:44:16.957 INFO  - Total: 89.664 seconds
+20 Feb 2023 14:53:21.864 INFO  - Task result: SUCCESS
+20 Feb 2023 14:53:21.877 INFO  - Total: 80.880 seconds

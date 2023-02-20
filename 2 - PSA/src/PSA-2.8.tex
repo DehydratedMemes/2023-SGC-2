@@ -1,0 +1,144 @@
+\renewcommand{\MayorVer}{2}
+\renewcommand{\MenorVer}{1}
+\renewcommand{\Codigo}{PSA-1-PROG} %TODO
+\renewcommand{\FechaPub}{2023--01}
+%\renewcommand{\Edit}{2.1}
+\renewcommand{\Titulo}{Política de aprobación de proveedores}
+
+\section{\Titulo}
+\index{Política!aprobación de proveedores, de}
+
+% \section{Política de aprobación de proveedores}
+
+\subsection{Objetivo}
+
+Establecer el procedimiento para \emph{evaluar, seleccionar y monitorear} a los proveedores de insumos, para garantizar la capacidad de cada proveedor en lo referente la calidad del servicio proporcionado y de sus recursos brindados.
+
+\subsection{Alcance}
+
+Este procedimiento aplica para todos los empleados de \GLS{RDF} involucrados en la evaluación, selección y monitoreo de proveedores de insumos.
+
+\subsection{Términos y definiciones}
+\begin{description}
+    \defglo{requisito}
+    \defglo{proveedor}
+    \defglo{proveedor-externo}
+    \glspl{especificacion}
+\end{description}
+\subsection{Documentos y/o normas relacionadas}
+
+\begin{itemize}
+    \item Lista de proveedores autorizados
+    \item Formato Evaluación de Proveedores
+\end{itemize}
+
+\subsection{Procedimiento}
+\begin{enumerate}
+    \item La selección de un nuevo proveedor se ejecuta bajo una evaluación en equipo; este Equipo está formado por miembros de Gerencia de Operaciones, Calidad, Almacenes, Embarques, Mantenimiento y Compras. Todos los miembros del equipo \textit{(vide infra)} son responsables de proveer retroalimentación para evaluar y determinar las capacidades del proveedor.
+    \item La \Gls{LPA} es creada en conjunto por los miembros del equipo de Evaluación de Proveedores (ver \cref{sec:listaDeProveedores}).
+    \item El comité de evaluación de proveedores es el encargado de programar las auditorías de evaluación anual a proveedores. Durante estas auditorías se verificará que el proveedor de insumos tiene la capacidad de proveer el insumo requerido y que éste es fabricado bajo condiciones tales que no representa un riesgo para la sanidad de los alimentos.
+    \item Se debe enviar una notificación de la auditoría al proveedor al menos con \NotifAuditoriaAProveedor~de anticipación.
+    \item Los resultados de las auditorías se envían al proveedor en un plazo no mayor a \PlazoResultadoAProveedor~posteriores a la auditoría.
+    \item En caso de tener desviaciones, el proveedor debe enviar un Plan de Acción en un plazo máximo de \PlazoPlanDeAccionAuditProveedor posteriores a la recepción de los resultados de la auditoría.
+    \item Los proveedores deberán cumplir con los siguientes puntos de acuerdo con el estatus en el que se encuentren:
+          \begin{enumerate}
+              \item \textbf{Proveedor Aprobado}
+                    \begin{itemize}
+                        \item Entrega de producto de acuerdo a las \glspl{especificacion} de \Gls{RDF}
+                        \item En el caso de tener desviaciones presenta acciones correctivas en al menos un \qty{80}{\percent} de los hallazgos encontrados durante la auditoría.
+                        \item Cumple con los tamaños de lote especificados y plazos de entrega.
+                        \item Se mantiene calidad en el insumo entregado.
+                    \end{itemize}
+              \item \textbf{Proveedor Aprobado Condicionado}
+                    \begin{itemize}
+                        \item Entrega de producto de acuerdo a las \glspl{especificacion} de \Gls{RDF}
+                        \item En el caso de tener desviaciones presenta acciones correctivas en al menos un \qty{60}{\percent} de los hallazgos encontrados durante la auditoría.
+                        \item Cumple con los tamaños de lote especificados y plazos de entrega.
+                        \item Se mantiene calidad en lo entregado.
+                    \end{itemize}
+              \item \textbf{Proveedor Oportunidad}
+                    \begin{itemize}
+                        \item El proveedor no ha sido evaluado, pero no existe otro material alterno u otro proveedor aprobado para cubrir con oportunidad la compra de un insumo determinado.
+                    \end{itemize}
+              \item \textbf{Proveedor Rechazado}
+                    \begin{itemize}
+                        \item No cumple con las especificaciones/orden de compra entregadas.
+                        \item El proveedor no cumple con los estándares de calidad, precio, oportunidad de entrega, reacción a emergencias, etc.\ que la empresa requiere y el Equipo de Evaluación de Proveedores decide buscar otra alternativa.
+                    \end{itemize}
+          \end{enumerate}
+    \item Auditoría a Proveedores: La auditoría se aplicará a todos los proveedores de insumos de Red de Fríos bajo los criterios que a continuación se enumeran, esto es con la finalidad de conocer el status de cada uno de ellos y trabajar en forma conjunta para obtener a corto plazo los beneficios de contar con proveedores aprobados.
+\end{enumerate}
+
+\begin{nota}{Miembros del equipo de evaluación de proveedores} \label{miembrosEqProveedores}
+Para la evaluación de proveedores, debe de contemplarse la presencia de:
+    \begin{itemize}
+        \item Jefe de Aseguramiento de Calidad
+        \item Gerente de Operaciones
+        \item Jefe de Almacén
+        \item Gerente de Mantenimiento
+        \item Encargado de Compras
+    \end{itemize}
+\end{nota}
+
+\begin{longtblr}[
+    label = {tbl:criterios-proveedores},
+    caption = {Criterios de evaluación hacia los proveedores.},
+    entry = {Criterios de evaluación hacia los proveedores.},
+    ]{%
+    width = \linewidth,
+    colspec = {Q[617]Q[163]Q[158]},
+    cells = {c},
+    row{even} = {Gallery},
+    %hline{1,10} = {-}{0.08em},
+    %        hline{2,9} = {-}{0.05em},
+    }
+    \toprule
+    \textbf{Criterio}                                                                                                & \textbf{Calificación} & \textbf{Ponderación} \\
+    \midrule
+    Precio competitivo y cumplimiento de especificaciones                                                            & \num{30}              & \qty{15}{\percent}   \\
+    Cumplimiento de fechas y cantidades comprometidas                                                                & \num{40}              & \qty{20}{\percent}   \\
+    Capacidad para surtir los requerimientos                                                                         & \num{30}              & \qty{15}{\percent}   \\
+    Capacidad para reaccionar a picos de demanda                                                                     & \num{30}              & \qty{15}{\percent}   \\
+    El insumo se produce y/o almacena en condiciones que no representan un riesgo para la inocuidad de los alimentos & \num{40}              & \qty{20}{\percent}   \\
+    No se observa presencia de plagas y preferentemente se cuenta con un programa de manejo de plagas.               & \num{20}              & \qty{10}{\percent}   \\
+    Las condiciones generales de los edificios e instalaciones no ponen en riesgo el abasto del insumo               & \num{10}              & \qty{5}{\percent}    \\
+    \textbf{PUNTUACIÓN TOTAL}                                                                                        & \num{200}             & \qty{100}{\percent}  \\
+    \bottomrule
+\end{longtblr}
+
+De acuerdo a la siguiente tabulación, el proveedor recibe un dictamen de Aprobado, Aprobado Condicionado o Rechazo:
+
+\begin{longtblr}[
+    label = {tbl:Calificaciones-Proveedores},
+    caption = {Posibles calificaciones obtenibles en la evaluación de proveedores.},
+    entry = {Posibles calificaciones obtenibles en la evaluación de proveedores.},
+    ]{%
+    width = \linewidth,
+    colspec = {Q[185]Q[181]Q[575]},
+    cells = {c},
+    row{even} = {Gallery},
+    }
+    \toprule
+    \textbf{Estado}                                  & \textbf{Grado de cumplimiento}                & \textbf{Dictamen}                                                                                                                                                       \\
+    \midrule
+    \textbf{Aprobado}                                & \qtyrange{75}{100}{\percent}                  & Se mantendrá en la Lista de Proveedores Aprobados aquellos que logren un grado de cumplimiento mayor a \qty{75}{\percent}                                               \\
+    \SetCell[r=2]{c}{\textbf{Aprobado condicionado}} & \SetCell[r=2]{c}{\qtyrange{60}{74}{\percent}} & Su ingreso en la Lista de Proveedores Aprobados queda condicionada a un incremento en su grado de cumplimiento de mínimo \qty{75}{\percent} para la siguiente auditoría \\
+                                                     &                                               & Su permanencia en la Lista de Proveedores Aprobados se dará sólo si su grado de cumplimiento es de al menos \qty{60}{\percent}                                          \\
+    \textbf{Rechazado}                               & \qty{59}{\percent}                            & Fuera de Lista de Proveedores                                                                                                                                           \\
+    \bottomrule
+\end{longtblr}
+
+Cuando un proveedor obtenga una calificación que lo acredite como proveedor condicionado y/o cuando se señalen áreas de oportunidad durante la auditoría de evaluación, deberá presentar un plan de acciones de mejora a los puntos señalados y regresarlos a \GLS{RDF}. Este plan deberá contemplar el responsable de la actividad así como la fecha de cumplimiento y deberá dirigirse al Jefe de Control de Calidad de \GLS{RDF}.
+
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-2.8]
+
+    \begin{version}[v=2.1, date=2023--01, author=Pablo E. Alanis]
+        \item Cambio de formato;
+        \item adición de términos;
+        \item creacción de apartado que establece los miembros del equipo de evaluación de proveedores
+    \end{version}
+
+    \begin{version}[v=1.4, date=2022-02, author=Alonso M.]
+        \item no se realizaron cambios de la revisión 05 a la 06.
+    \end{version}
+\end{changelog}

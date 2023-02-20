@@ -130,7 +130,7 @@
 /xv 0 def  /yv 0 def  /width 0 def  /height 0 def
 
 % Initialize to portrait INTERNATIONAL (Letter-height, A4-width) page.
-/pw 595 def  /ph 791  def  /po true def /ftp false def
+/pw 595 def  /ph 791 def  /po true def /ftp false def
 
 % Initialize margins to 20 points.
 /ml 20 def  /mr 20 def  /mt 20 def  /mb 20 def
@@ -302,41 +302,41 @@ vg&fname exch definefont pop
 % Unicode Greek encoding (unicode codes \u0370-\u03ff)
 /UCGreekEncoding
   NullEncoding dup length array copy
-  << 16#91 /Alpha    16#92 /Beta      16#93 /Gamma    16#94 /Delta
-     16#95 /Epsilon  16#96 /Zeta      16#97 /Eta      16#98 /Theta
-     16#99 /Iota     16#9a /Kappa     16#9b /Lambda   16#9c /Mu
-     16#9d /Nu       16#9e /Xi        16#9f /Omicron  16#a0 /Pi
-     16#a1 /Rho      16#a3 /Sigma     16#a4 /Tau      16#a5 /Upsilon
-     16#a6 /Phi      16#a7 /Chi       16#a8 /Psi      16#a9 /Omega
-     16#b1 /alpha    16#b2 /beta      16#b3 /gamma    16#b4 /delta
-     16#b5 /epsilon  16#b6 /zeta      16#b7 /eta      16#b8 /theta
-     16#b9 /iota     16#ba /kappa     16#bb /lambda   16#bc /mu
-     16#bd /nu       16#be /xi        16#bf /omicron  16#c0 /pi
-     16#c1 /rho      16#c2 /sigma1    16#c3 /sigma    16#c4 /tau
-     16#c5 /upsilon  16#c6 /phi1      16#c7 /chi      16#c8 /psi
-     16#c9 /omega    16#7e /semicolon 16#87 /dotmath  16#d1 /theta1
-     16#d2 /Upsilon1 16#d5 /phi       16#d6 /omega1
+  << 16#91 /Alpha 16#92 /Beta 16#93 /Gamma 16#94 /Delta
+     16#95 /Epsilon 16#96 /Zeta 16#97 /Eta 16#98 /Theta
+     16#99 /Iota 16#9a /Kappa 16#9b /Lambda 16#9c /Mu
+     16#9d /Nu 16#9e /Xi 16#9f /Omicron 16#a0 /Pi
+     16#a1 /Rho 16#a3 /Sigma 16#a4 /Tau 16#a5 /Upsilon
+     16#a6 /Phi 16#a7 /Chi 16#a8 /Psi 16#a9 /Omega
+     16#b1 /alpha 16#b2 /beta 16#b3 /gamma 16#b4 /delta
+     16#b5 /epsilon 16#b6 /zeta 16#b7 /eta 16#b8 /theta
+     16#b9 /iota 16#ba /kappa 16#bb /lambda 16#bc /mu
+     16#bd /nu 16#be /xi 16#bf /omicron 16#c0 /pi
+     16#c1 /rho 16#c2 /sigma1 16#c3 /sigma 16#c4 /tau
+     16#c5 /upsilon 16#c6 /phi1 16#c7 /chi 16#c8 /psi
+     16#c9 /omega 16#7e /semicolon 16#87 /dotmath 16#d1 /theta1
+     16#d2 /Upsilon1 16#d5 /phi 16#d6 /omega1
   >> vg&redef
   def
 
 % Unicode punctuation encoding (unicode codes \u2000-\u206f)
 /UCPunctuationEncoding
   NullEncoding dup length array copy
-  << 16#10 /hyphen          16#11 /hyphen              16#12 /endash
-     16#13 /emdash          16#18 /quoteleft           16#19 /quoteright
-     16#1a /quotesinglbase  16#1b /quotesingle         16#1c /quotedblleft
-     16#1d /quotedblright   16#1e /quotedblbase        16#1f /quotedbl
-     16#20 /dagger          16#21 /daggerdbl           16#22 /bullet
-     16#24 /period          16#26 /ellipsis            16#27 /periodcentered
-     16#30 /perthousand     16#44 /fraction
-     16#70 /zerosuperior    16#74 /foursuperior        16#75 /fivesuperior
-     16#76 /sixsuperior     16#77 /sevensuperior       16#78 /eightsuperior
-     16#79 /ninesuperior    16#7b /hyphensuperior      16#7d /parenleftsuperior
+  << 16#10 /hyphen 16#11 /hyphen 16#12 /endash
+     16#13 /emdash 16#18 /quoteleft 16#19 /quoteright
+     16#1a /quotesinglbase 16#1b /quotesingle 16#1c /quotedblleft
+     16#1d /quotedblright 16#1e /quotedblbase 16#1f /quotedbl
+     16#20 /dagger 16#21 /daggerdbl 16#22 /bullet
+     16#24 /period 16#26 /ellipsis 16#27 /periodcentered
+     16#30 /perthousand 16#44 /fraction
+     16#70 /zerosuperior 16#74 /foursuperior 16#75 /fivesuperior
+     16#76 /sixsuperior 16#77 /sevensuperior 16#78 /eightsuperior
+     16#79 /ninesuperior 16#7b /hyphensuperior 16#7d /parenleftsuperior
      16#7e /parenrightsuperior
-     16#80 /zeroinferior    16#84 /fourinferior        16#85 /fiveinferior
-     16#81 /oneinferior     16#82 /twoinferior         16#83 /threeinferior
-     16#86 /sixinferior     16#87 /seveninferior       16#88 /eightinferior
-     16#89 /nineinferior    16#8b /hypheninferior      16#8d /parenleftinferior
+     16#80 /zeroinferior 16#84 /fourinferior 16#85 /fiveinferior
+     16#81 /oneinferior 16#82 /twoinferior 16#83 /threeinferior
+     16#86 /sixinferior 16#87 /seveninferior 16#88 /eightinferior
+     16#89 /nineinferior 16#8b /hypheninferior 16#8d /parenleftinferior
      16#8e /parenrightinferior
   >> vg&redef
   def
@@ -344,22 +344,22 @@ vg&fname exch definefont pop
 % Unicode mathematical operators encoding (unicode codes \u2200-\u22ff)
 /UCMathOpsEncoding
   NullEncoding dup length array copy
-  << 16#00 /universal       16#02 /partialdiff         16#03 /existential
-     16#05 /emptyset        16#06 /Delta               16#07 /gradient
-     16#08 /element         16#09 /notelement          16#0b /suchthat
-     16#0f /product         16#11 /summation           16#12 /minus
-     16#15 /fraction        16#17 /asteriskmath        16#19 /bullet
-     16#1a /radical         16#1d /proportional        16#1e /infinity
-     16#20 /angle           16#23 /bar                 16#27 /logicaland
-     16#28 /logicalor       16#29 /intersection        16#2a /union
-     16#2b /integral        16#34 /therefore           16#36 /colon
-     16#3c /similar         16#45 /congruent           16#48 /approxequal
-     16#60 /notequal        16#61 /equivalence         16#64 /lessequal
-     16#65 /greaterequal    16#82 /propersubset        16#83 /propersuperset
-     16#86 /reflexsubset    16#87 /reflexsuperset      16#95 /circleplus
-     16#97 /circlemultiply  16#a5 /perpendicular       16#03 /existential
-     16#c0 /logicaland      16#c1 /logicalor           16#c2 /intersection
-     16#c3 /union           16#c4 /diamond             16#c5 /dotmath
+  << 16#00 /universal 16#02 /partialdiff 16#03 /existential
+     16#05 /emptyset 16#06 /Delta 16#07 /gradient
+     16#08 /element 16#09 /notelement 16#0b /suchthat
+     16#0f /product 16#11 /summation 16#12 /minus
+     16#15 /fraction 16#17 /asteriskmath 16#19 /bullet
+     16#1a /radical 16#1d /proportional 16#1e /infinity
+     16#20 /angle 16#23 /bar 16#27 /logicaland
+     16#28 /logicalor 16#29 /intersection 16#2a /union
+     16#2b /integral 16#34 /therefore 16#36 /colon
+     16#3c /similar 16#45 /congruent 16#48 /approxequal
+     16#60 /notequal 16#61 /equivalence 16#64 /lessequal
+     16#65 /greaterequal 16#82 /propersubset 16#83 /propersuperset
+     16#86 /reflexsubset 16#87 /reflexsuperset 16#95 /circleplus
+     16#97 /circlemultiply 16#a5 /perpendicular 16#03 /existential
+     16#c0 /logicaland 16#c1 /logicalor 16#c2 /intersection
+     16#c3 /union 16#c4 /diamond 16#c5 /dotmath
   >> vg&redef
   def
 
@@ -368,11 +368,11 @@ vg&fname exch definefont pop
 % which are available in the symbol font. (unicode codes \u2100-\u214f)
 /UCArrowsEncoding
   NullEncoding dup length array copy
-  << 16#11 /Ifraktur        16#1c /Rfraktur            16#22 /trademarkserif
+  << 16#11 /Ifraktur 16#1c /Rfraktur 16#22 /trademarkserif
      16#35 /aleph
-     16#90 /arrowleft       16#91 /arrowup             16#92 /arrowright
-     16#93 /arrowdown       16#94 /arrowboth           16#d0 /arrowdblleft
-     16#d1 /arrowdblup      16#d2 /arrowdblright       16#d3 /arrowdbldown
+     16#90 /arrowleft 16#91 /arrowup 16#92 /arrowright
+     16#93 /arrowdown 16#94 /arrowboth 16#d0 /arrowdblleft
+     16#d1 /arrowdblup 16#d2 /arrowdblright 16#d3 /arrowdbldown
      16#d4 /arrowdblboth
   >> vg&redef
   def
@@ -390,16 +390,16 @@ dup length array copy /UCDingbatsEncoding exch def
   UCDingbatsEncoding 3 1 roll put
 } for
 UCDingbatsEncoding [ 16#c0 1 16#ff {} for ] vg&undef
-[ 16#00  16#05 16#0a 16#0b  16#28 16#4c 16#4e  16#53 16#54 16#55  16#57 16#5f
-  16#60  16#68 16#69 16#6a  16#6b 16#6c 16#6d  16#6e 16#6f 16#70  16#71 16#72
-  16#73  16#74 16#75 16#95  16#96 16#97 16#b0  16#bf
+[ 16#00 16#05 16#0a 16#0b 16#28 16#4c 16#4e 16#53 16#54 16#55 16#57 16#5f
+  16#60 16#68 16#69 16#6a 16#6b 16#6c 16#6d 16#6e 16#6f 16#70 16#71 16#72
+  16#73 16#74 16#75 16#95 16#96 16#97 16#b0 16#bf
 ] vg&undef pop
 
 % Define the base fonts which don't change.
-/Undefined-UC NullEncoding       /Helvetica    vg&newbasefont pop
-/MathOps-UC   UCMathOpsEncoding  /Symbol       vg&newbasefont pop
-/Arrows-UC    UCArrowsEncoding   /Symbol       vg&newbasefont pop
-/Dingbats-UC  UCDingbatsEncoding /ZapfDingbats vg&newbasefont pop
+/Undefined-UC NullEncoding       /Helvetica vg&newbasefont pop
+/MathOps-UC UCMathOpsEncoding  /Symbol vg&newbasefont pop
+/Arrows-UC UCArrowsEncoding   /Symbol vg&newbasefont pop
+/Dingbats-UC UCDingbatsEncoding /ZapfDingbats vg&newbasefont pop
 
 % Make the SansSerif composite fonts.
 /SansSerif /Helvetica 16#00 vg&newcompositefont
@@ -1015,13 +1015,13 @@ Q
 newpath
 17.0284 20.0000 m
 17.0284 20.0000 l
-17.0284 31.0457 25.9827 40.0000 37.0284 40.0000  c
+17.0284 31.0457 25.9827 40.0000 37.0284 40.0000 c
 229.132 40.0000 l
-240.178 40.0000 249.132 31.0457 249.132 20.0000  c
+240.178 40.0000 249.132 31.0457 249.132 20.0000 c
 249.132 20.0000 l
-249.132 8.95431 240.178 0.00000 229.132 0.00000  c
+249.132 8.95431 240.178 0.00000 229.132 0.00000 c
 37.0284 0.00000 l
-25.9827 0.00000 17.0284 8.95431 17.0284 20.0000  c
+25.9827 0.00000 17.0284 8.95431 17.0284 20.0000 c
 h
 f
 0 J
@@ -1030,13 +1030,13 @@ f
 newpath
 17.0284 20.0000 m
 17.0284 20.0000 l
-17.0284 31.0457 25.9827 40.0000 37.0284 40.0000  c
+17.0284 31.0457 25.9827 40.0000 37.0284 40.0000 c
 229.132 40.0000 l
-240.178 40.0000 249.132 31.0457 249.132 20.0000  c
+240.178 40.0000 249.132 31.0457 249.132 20.0000 c
 249.132 20.0000 l
-249.132 8.95431 240.178 0.00000 229.132 0.00000  c
+249.132 8.95431 240.178 0.00000 229.132 0.00000 c
 37.0284 0.00000 l
-25.9827 0.00000 17.0284 8.95431 17.0284 20.0000  c
+25.9827 0.00000 17.0284 8.95431 17.0284 20.0000 c
 h
 S
 2 J
@@ -1682,10 +1682,10 @@ Q
 1.00000 1.00000 1.00000 RG
 newpath
 396.906 567.435 m
-396.906 576.639 389.445 584.100 380.241 584.100  c
-371.037 584.100 363.576 576.639 363.576 567.435  c
-363.576 558.232 371.037 550.770 380.241 550.770  c
-389.445 550.770 396.906 558.232 396.906 567.435  c
+396.906 576.639 389.445 584.100 380.241 584.100 c
+371.037 584.100 363.576 576.639 363.576 567.435 c
+363.576 558.232 371.037 550.770 380.241 550.770 c
+389.445 550.770 396.906 558.232 396.906 567.435 c
 h
 f
 0 J
@@ -1693,10 +1693,10 @@ f
 0.00000 0.00000 0.00000 RG
 newpath
 396.906 567.435 m
-396.906 576.639 389.445 584.100 380.241 584.100  c
-371.037 584.100 363.576 576.639 363.576 567.435  c
-363.576 558.232 371.037 550.770 380.241 550.770  c
-389.445 550.770 396.906 558.232 396.906 567.435  c
+396.906 576.639 389.445 584.100 380.241 584.100 c
+371.037 584.100 363.576 576.639 363.576 567.435 c
+363.576 558.232 371.037 550.770 380.241 550.770 c
+389.445 550.770 396.906 558.232 396.906 567.435 c
 h
 S
 2 J
@@ -1748,10 +1748,10 @@ Q
 1.00000 1.00000 1.00000 RG
 newpath
 149.745 637.435 m
-149.745 646.639 142.284 654.100 133.080 654.100  c
-123.876 654.100 116.415 646.639 116.415 637.435  c
-116.415 628.232 123.876 620.770 133.080 620.770  c
-142.284 620.770 149.745 628.232 149.745 637.435  c
+149.745 646.639 142.284 654.100 133.080 654.100 c
+123.876 654.100 116.415 646.639 116.415 637.435 c
+116.415 628.232 123.876 620.770 133.080 620.770 c
+142.284 620.770 149.745 628.232 149.745 637.435 c
 h
 f
 0 J
@@ -1759,10 +1759,10 @@ f
 0.00000 0.00000 0.00000 RG
 newpath
 149.745 637.435 m
-149.745 646.639 142.284 654.100 133.080 654.100  c
-123.876 654.100 116.415 646.639 116.415 637.435  c
-116.415 628.232 123.876 620.770 133.080 620.770  c
-142.284 620.770 149.745 628.232 149.745 637.435  c
+149.745 646.639 142.284 654.100 133.080 654.100 c
+123.876 654.100 116.415 646.639 116.415 637.435 c
+116.415 628.232 123.876 620.770 133.080 620.770 c
+142.284 620.770 149.745 628.232 149.745 637.435 c
 h
 S
 2 J
@@ -1814,10 +1814,10 @@ Q
 1.00000 1.00000 1.00000 RG
 newpath
 518.950 381.318 m
-518.950 390.522 511.489 397.983 502.285 397.983  c
-493.081 397.983 485.620 390.522 485.620 381.318  c
-485.620 372.114 493.081 364.653 502.285 364.653  c
-511.489 364.653 518.950 372.114 518.950 381.318  c
+518.950 390.522 511.489 397.983 502.285 397.983 c
+493.081 397.983 485.620 390.522 485.620 381.318 c
+485.620 372.114 493.081 364.653 502.285 364.653 c
+511.489 364.653 518.950 372.114 518.950 381.318 c
 h
 f
 0 J
@@ -1825,10 +1825,10 @@ f
 0.00000 0.00000 0.00000 RG
 newpath
 518.950 381.318 m
-518.950 390.522 511.489 397.983 502.285 397.983  c
-493.081 397.983 485.620 390.522 485.620 381.318  c
-485.620 372.114 493.081 364.653 502.285 364.653  c
-511.489 364.653 518.950 372.114 518.950 381.318  c
+518.950 390.522 511.489 397.983 502.285 397.983 c
+493.081 397.983 485.620 390.522 485.620 381.318 c
+485.620 372.114 493.081 364.653 502.285 364.653 c
+511.489 364.653 518.950 372.114 518.950 381.318 c
 h
 S
 2 J

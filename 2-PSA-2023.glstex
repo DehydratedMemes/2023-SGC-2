@@ -1,0 +1,147 @@
+\glsnoexpandfields
+\providecommand{\bibglshashchar}{\expandafter\@gobble\string\#}
+\providecommand{\bibglscircumchar}{\expandafter\@gobble\string\^}
+\providecommand{\bibglsdollarchar}{\expandafter\@gobble\string\$}
+\providecommand{\bibglsampersandchar}{\expandafter\@gobble\string\&}
+\providecommand{\bibglsunderscorechar}{\expandafter\@gobble\string\_}
+\providecommand{\bibglshrefchar}[2]{\glspercentchar #1}
+\providecommand{\bibglshrefunicode}[2]{#2}
+\providecommand{\bibglshexunicodechar}[1]{\csname ifHy@unicode\endcsname\texorpdfstring{\symbol{\string"#1}}{\unichar{\string"#1}}\else\symbol{\string"#1}\fi}
+\providecommand{\bibglsusesee}[1]{\glsxtrusesee{#1}}
+\providecommand{\bibglsusealias}[1]{%
+ \glsxtrifhasfield{alias}{#1}%
+ {\expandafter\glsseeformat\expandafter{\glscurrentfieldvalue}{}}%
+ {}%
+}
+\providecommand{\bibglsuseseealso}[1]{\glsxtruseseealso{#1}}
+\providecommand{\bibglsdelimN}{\delimN}
+\providecommand{\bibglslastDelimN}{,~}
+\providecommand{\bibglsrange}[1]{#1}
+\providecommand{\bibglsinterloper}[1]{#1\bibglsdelimN }
+\providecommand{\bibglspassimname}{passim}
+\providecommand{\bibglspassim}{ \bibglspassimname}
+\providecommand*{\bibglshyperlink}[2]{\glshyperlink[#1]{#2}}
+
+\providecommand{\bibglsuppercase}{\glsuppercase}
+\providecommand{\bibglslowercase}{\glslowercase}
+\providecommand{\bibglsfirstuc}{\makefirstuc}
+\providecommand{\bibglstitlecase}{\capitalisewords}
+
+\providecommand{\bibglsprimaryprefixlabel}[1]{}
+\providecommand{\bibglsdualprefixlabel}[1]{}
+\providecommand{\bibglstertiaryprefixlabel}[1]{}
+\providecommand{\bibglsexternalprefixlabel}[2]{}
+
+\bibglstertiaryprefixlabel{tertiary.}
+\bibglsdualprefixlabel{dual.}
+\bibglsprimaryprefixlabel{}
+\providecommand{\bibglsseesep}{, }
+
+\providecommand{\bibglsseealsosep}{, }
+
+\providecommand{\bibglsaliassep}{, }
+
+\providecommand*{\bibglsflattenedhomograph}[2]{#1}
+\providecommand{\bibglsnewentry}[4]{%
+ \longnewglossaryentry*{#1}{name={#3},#2}{#4}%
+}
+
+\bibglsnewentry{alimento}%
+{plural={alimentos},
+location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{9}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{11}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{14}},
+sort={alimento|}}%
+{alimento}%
+{sustancia (ingrediente), ya sea procesada, semi-procesada o cruda, que se destina para consumo, e incluye bebidas, goma de mascar y cualquier sustancia que se haya utilizado en la fabricación, preparación o tratamiento de “alimentos”, pero no incluye cosméticos ni tabaco o sustancias (ingredientes) usados solamente como fármacos}
+\glsxtrfieldlistadd{alimento}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{9}}
+\glsxtrfieldlistadd{alimento}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{10}}
+\glsxtrfieldlistadd{alimento}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{11}}
+\glsxtrfieldlistadd{alimento}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{14}}
+
+
+\bibglsnewentry{BPD}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{9}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{51}},
+sort={BPD|},
+first={Buenas Prácticas de Distribución (BPD)}}%
+{BPD}%
+{}
+\glsxtrfieldlistadd{BPD}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{9}}
+\glsxtrfieldlistadd{BPD}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{51}}
+
+
+\bibglsnewentry{cadena-alimentaria}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{68}},
+sort={cadena|alimentaria|}}%
+{cadena alimentaria}%
+{secuencia de etapas en la producción, procesamiento, distribución, almacenamiento, y manipulación de un \glsname{alimento} y sus ingredientes, desde la producción primaria hasta el consumo.\footnote{La cadena alimentaria incluye la producción de materiales destinados a entrar en contacto con alimentos o materias primas.}\footnote{La cadena alimentaria también incluye proveedores de servicio.}}
+\glsxtrfieldlistadd{cadena-alimentaria}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{68}}
+
+
+\bibglsnewentry{cantidades-pequeñas}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{68}},
+sort={cantidades|pequeñas|}}%
+{cantidades pequeñas}%
+{en el proceso de entrega, se refiere a una cantidad de \glsname{producto} total que no alcance a llenarse una tarima completa de \glsname{producto} pre-empacado.}
+\glsxtrfieldlistadd{cantidades-pequeñas}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{68}}
+
+
+\bibglsnewentry{documento}%
+{sort={documento|}}%
+{documento}%
+{\glsname{informacion} y el medio en el que está contenida\footnote{El medio de soporte puede ser papel, disco magnético, electrónico u óptico, fotografía o muestra patrón o una combinación de éstos.}\footnote{Con frecuencia, un conjunto de documentos, por ejemplo especificaciones y registros , se denominan “documentación”.}\footnote{Algunos requisitos (por ejemplo, el requisito de ser legible) se refieren a todo tipo de documento. Sin embargo puede requisitos diferentes para las especificaciones (por ejemplo, el requisito de estar controlado por revisiones) y los registros (por ejemplo, el requisito de ser recuperable).}}
+
+
+\bibglsnewentry{informacion}%
+{sort={información|}}%
+{información}%
+{datos que poseen significado}
+
+
+\bibglsnewentry{peligro-relacionado-con-la-inocuidad-de-los-alimentos}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{9}},
+sort={peligro|relacionado|con|la|inocuidad|de|los|alimentos|}}%
+{peligro relacionado con la inocuidad de los alimentos}%
+{agente biológico, químico o físico en el \glsname{alimento} con potencial de causar un efecto adverso en la salud\footnote{El término “peligro” no se debe confundir con el término “riesgo” el cual, en el contexto de la inocuidad de los alimentos, significa una función de la probabilidad de un efecto adverso en la salud (por ejemplo, enfermar) y la gravedad de ese efecto (por ejemplo, muerte, hospitalización) cuando se expone a un peligro especificado.}\footnote{Peligros para la inocuidad de los alimentos incluye alérgenos y sustancias radiológicas.}}
+\glsxtrfieldlistadd{peligro-relacionado-con-la-inocuidad-de-los-alimentos}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{9}}
+
+
+\bibglsnewentry{proceso}%
+{sort={proceso|}}%
+{proceso}%
+{conjunto de actividades interrelacionadas o que interactúan que transforman las entradas en salidas}
+
+
+\bibglsnewentry{producto}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{9}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{14}},
+sort={producto|}}%
+{producto}%
+{salida que es el resultado de un \glsname{proceso}\footnote{Un producto puede ser un servicio.}}
+\glsxtrfieldlistadd{producto}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{9}}
+\glsxtrfieldlistadd{producto}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{14}}
+
+
+\bibglsnewentry{producto-terminado}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{9}},
+sort={producto|terminado|}}%
+{producto terminado}%
+{\glsname{producto} que no se someterá a procesamiento o transformación posterior por parte de la organización\footnote{Un producto que es sometido a un procesamiento o transformación posterior por otra organización, es un producto terminado, en el contexto de la primera organización, y una materia prima o un ingrediente, en el contexto de la segunda organización}}
+\glsxtrfieldlistadd{producto-terminado}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{9}}
+
+
+\bibglsnewentry{RDF}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{10}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{26}},
+sort={RDF|},
+first={Red de Fríos S.A. de C.V. (RDF)}}%
+{RDF}%
+{}
+\glsxtrfieldlistadd{RDF}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{10}}
+\glsxtrfieldlistadd{RDF}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{26}}
+
+
+\bibglsnewentry{registro}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{10}},
+sort={registro|}}%
+{registro}%
+{\glsname{documento} que presenta resultados obtenidos o proporciona evidencia de actividades realizadas\footnote{Los registros pueden utilizarse, por ejemplo, para formalizar la trazabilidad y para proporcionar evidencia de verificaciones, acciones preventivas y acciones correctivas.}\footnote{En general los registros no necesitan estar sujetos al control del estado de revisión.}}
+\glsxtrfieldlistadd{registro}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{10}}
+
+

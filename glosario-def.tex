@@ -1,8 +1,19 @@
 % DEFINICIONES
-\newglossaryentry{validacion-documental}
-{
+\newglossaryentry{validacion-documental}{
     name=validación documental,
     description={proceso en el que se verifica que la información documentada contemple los requerimientos actuales del SGC. De ser así, no se requerirá de una revisión}
+}
+
+
+\newglossaryentry{cantidades-pequeñas}{
+    name=cantidades pequeñas,
+    description={en el proceso de entrega, se refiere a una cantidad de \glsname{producto} total que no alcance a llenarse una tarima completa de \glsname{producto} pre-empacado.}
+}
+
+\newglossaryentry{cadena-alimentaria}
+{
+    name=cadena alimentaria,
+    description={secuencia de etapas en la producción, procesamiento, distribución, almacenamiento, y manipulación de un \glsname{alimento} y sus ingredientes, desde la producción primaria hasta el consumo.\footnote{La cadena alimentaria incluye la producción de materiales destinados a entrar en contacto con alimentos o materias primas.}\footnote{La cadena alimentaria también incluye proveedores de servicio.}}
 }
 
 
@@ -44,6 +55,12 @@
     description={zona destinada a que las personas que entrarán a áreas operativas puedan lavarse y desinfectarse las manos, así como ponerse cubrebocas y cofia con el proposito de evitar riesgos de inocuidad al entrar a dicha área.}
 }
 
+\newglossaryentry{inventario-de-suministros-y-materiales}
+{
+    name=inventario de suministros y materiales,
+    description=la contemplación de las cantidades de inventario asegura que la compañía tiene materiales a la mano para hacer productos o brindar un servicio adecuado y que los fondos no son desperdiciados en materiales innecesarios. Una cuenta precisa de inventario también permite que las compañías controlen y ordenen suficientes materiales para la demanda que amerita la operación.
+}
+
 \newglossaryentry{cliente}
 {
     name=cliente,
@@ -51,49 +68,58 @@
     description={persona ajena a la operación cotidiana en RDF, que tiene un acuerdo con RDF para almacenar productos en sus instalaciones.}
 }
 
-\newglossaryentry{alimento}{
-    name=alimento,
-    plural=alimentos,
+\newglossaryentry{alimento}
+{
+    name={alimento},
+    plural={alimentos},
     description={sustancia (ingrediente), ya sea procesada, semi-procesada o cruda, que se destina para consumo, e incluye bebidas, goma de mascar y cualquier sustancia que se haya utilizado en la fabricación, preparación o tratamiento de “alimentos”, pero no incluye cosméticos ni tabaco o sustancias (ingredientes) usados solamente como fármacos}
 }
 
-\newglossaryentry{organizacion}{
+\newglossaryentry{organizacion}
+{
     name=organización,
     description={persona o grupo de personas que tienen sus propias funciones con responsabilidades, autoridades y relaciones para lograr sus objetivos.\footnote{El concepto de organización incluye, pero no se limita a, un operador individual, compañía, corporación, firma, empresa, autoridad, sociedad, institución benéfica o con otros fines, o parte o combinación de los mismos, ya sea incorporada o no, pública o privada.}}
 }
 
-\newglossaryentry{producto}{
+\newglossaryentry{producto}
+{
     name=producto,
     description={salida que es el resultado de un \glsname{proceso}\footnote{Un producto puede ser un servicio.}}
 }
 
-\newglossaryentry{proceso}{
+\newglossaryentry{proceso}
+{
     name=proceso,
     description={conjunto de actividades interrelacionadas o que interactúan que transforman las entradas en salidas}
 }
 
-\newglossaryentry{producto-terminado}{
+\newglossaryentry{producto-terminado}
+{
     name=producto terminado,
-    description={\glsname{producto} que no se someterá a procesamiento o transformación posterior por parte de la \glsname{organizacion}\footnote{Un producto que es sometido a un procesamiento o transformación posterior por otra organización, es un producto terminado, en el contexto de la primera organización, y una materia prima o un ingrediente, en el contexto de la segunda organización}}
+    description={\glsname{producto} que no se someterá a procesamiento o transformación posterior por parte de la organización\footnote{Un producto que es sometido a un procesamiento o transformación posterior por otra organización, es un producto terminado, en el contexto de la primera organización, y una materia prima o un ingrediente, en el contexto de la segunda organización}}
 }
 
-\newglossaryentry{inocuidad-de-los-alimentos}{
-    name=peligro relacionado con la inocuidad de los alimentos,
+\newglossaryentry{peligro-relacionado-con-la-inocuidad-de-los-alimentos}
+{
+    name={peligro relacionado con la inocuidad de los alimentos},
     description={agente biológico, químico o físico en el \glsname{alimento} con potencial de causar un efecto adverso en la salud\footnote{El término “peligro” no se debe confundir con el término “riesgo” el cual, en el contexto de la inocuidad de los alimentos, significa una función de la probabilidad de un efecto adverso en la salud (por ejemplo, enfermar) y la gravedad de ese efecto (por ejemplo, muerte, hospitalización) cuando se expone a un peligro especificado.}\footnote{Peligros para la inocuidad de los alimentos incluye alérgenos y sustancias radiológicas.}}
 }
 
-\newglossaryentry{nivel-aceptable}{
-    name=nivel aceptable,
+\newglossaryentry{nivel-aceptable}
+{
+    name={nivel aceptable},
     description={nivel de un peligro relacionado con la \glsname{inocuidad-de-los-alimentos} que no se debe exceder en el \glsname{producto-terminado} proporcionado por la \glsname{organizacion}}
 }
 
-\newglossaryentry{medida-de-control}{
-    name=medida de control,
+\newglossaryentry{medida-de-control}
+{
+    name={medida de control},
     description={acción o actividad que es esencial para prevenir un peligro relacionado con la inocuidad de los \glsname{alimento}  significativo o reducirlo a un \glsname{nivel-aceptable}}
 }
 
-\newglossaryentry{seguimiento}{
-    name=seguimiento,
+\newglossaryentry{seguimiento}
+{
+    name={seguimiento},
     description={determinación del estado de un sistema, un \glsname{proceso} o una actividad\footnote{Para determinar el estado, puede ser necesario verificar, supervisar u observar críticamente.}\footnote{En el contexto de la inocuidad de los alimentos, el seguimiento se lleva a cabo con una secuencia planificada de observaciones o mediciones para evaluar si un proceso está funcionando según lo previsto.}}
 }
 
@@ -103,25 +129,120 @@
     description={especificación medible u observable para el seguimiento de un \glsname{PPRO}\footnote{Un criterio de acción se establece para determinar si un PPRO permanece bajo control, y distingue entre lo que es aceptable (que el criterio cumpla o logre significa que el PPRO está operando como está previsto) e inaceptable (que el criterio no se cumple ni se logre significa que el PPRO no está operando como está previsto).}}
 }
 
-% ACRÓNIMOS
+% \newglossaryentry{nivel-aceptable}{
+%     name={nivel aceptable},
+%     plural={niveles aceptables},
+%     description={nivel de un peligro relacionado con la inocuidad de los alimentos que no se debe exceder en el producto terminado proporcionado por la organización}
+% }
 
-\newacronym{RDF}{RDF}{Red de Fríos S.A. de C.V.}
+\newglossaryentry{SGA}{
+    name={SGA},
+    first={Sistema de Gestión del Almacén (SGA)},
+    description={parte de un sistema de gestión relacionada con la calidad} %TODO CALIDAD %SISTEMA DE GESTION
+}
+
+\newglossaryentry{sistema-de-gestion}{
+    name={sistema de gestión},
+    description={conjunto de elementos de una \glsname{organizacion} interrelacionados o que interactúan para establecer políticas, objetivos y procesos para lograr estos objetivos.}
+}
+
+\newglossaryentry{SGC}{
+    name={SGC},
+    first={Sistema de Gestión de Calidad (SGC)},
+    description={}
+}
+
+\newglossaryentry{SENASICA}{
+    name={SENASICA},
+    first={Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria (SENASICA)},
+    description={}
+}
+
+\newglossaryentry{alta-direccion}{
+    name={alta dirección},
+    description={persona o grupo de personas que dirige y controla una organización al más alto nivel\footnote{La alta dirección tiene el poder para delegar autoridad y proporcionar recursos dentro de la organización.}\footnote{Si el alcance del sistema de gestión (3.5.3) comprende sólo una parte de una organización entonces la alta dirección se refiere a quienes dirigen y controlan esa parte de la organización.}}
+}
+
+\newglossaryentry{politica}{
+    name={politica},
+    description={(organización) intenciones y dirección de una organización, como las expresa formalmente su alta dirección.}
+}
+
+\newglossaryentry{politica-de-calidad}{
+    name={política de calidad},
+    description={política relativa a la calidad\footnote{Generalmente la política de la calidad es coherente con la política global de la organización, puede alinearse con la visión y la misión de la organización y proporciona un marco de referencia para el establecimiento de los objetivos de la calidad.}}    
+}
+
+\newglossaryentry{congelacion}{
+    name={congelación},
+    description={método físico que se efectúa por medio de equipo especial para lograr una reducción de la temperatura de los productos que garantice la solidificación del agua contenida en estos. La congelación debe de ser por debajo de \cels{-15}, hasta \cels{-30}, según el tipo de producto}
+}
+
+\newglossaryentry{refrigeracion}{
+    name={refrigeración},
+    description={método físico de conservación con el cual se mantiene una temperatura interna de un producto a máximo \cels{4}}
+}
+
+
+\newglossaryentry{proveedor-externo}{
+    name={proveedor externo},
+    plural={proveedores externos},
+    description={proveedor que no es parte de la organización.\footnote{Productor, distribuidor, minorista o vendedor de un producto, o un servicio}\footnote{\textbf{EJEMPLO:} Productor, distribuidor, minorista o vendedor de un producto, o un servicio}}
+}
+
+\newglossaryentry{proveedor}{
+    name={proveedor},
+    plural={proveedores},
+    description={organización que proporciona un producto o un servicio\footnote{Un proveedor puede ser interno o externo a la organización.}\footnote{En una situación contractual, un proveedor puede denominarse a veces "contratista".}}
+}
+
+\newglossaryentry{LPA}{
+    name={LPA},
+    first={Lista de Proveedores Autorizados (LPA)},
+    description={}
+}
+
+\newglossaryentry{SADER}{
+    name={SADER},
+    first={Secretaría de Agricultura y Desarrollo Rural (SADER)},
+    description={}
+}
+
+
+\newglossaryentry{BPH}{
+    name={BPH},
+    first={Buenas Prácticas de Higiene (BPH)},
+    description={}
+}
+
+\newglossaryentry{RDF}{
+    name={RDF},
+    first={Red de Fríos S.A. de C.V. (RDF)},
+    description={}
+}
+
+\newglossaryentry{BPD}{
+    name={BPD},
+    first={Buenas Prácticas de Distribución (BPD)},
+    description={}
+}
+
 \newglossaryentry{PPRO}{
     name=PPRO,
     first=programa de prerrequisito operativo (PPRO),
-    description={\glsname{medida-de-control} o combinación de medidas de control aplicadas para prevenir o reducir un peligro significativo relacionado con la inocuidad de los \glsname{alimento} a un \glsname{nivel-aceptable}, y donde el \glsname{criterio-de-acción} y medición u observación permite el control efectivo del \glsname{proceso} y/o \glsname{producto}.}
+    description={\glsname{medida-de-control} o combinación de medidas de control aplicadas para prevenir o reducir un peligro significativo relacionado con la inocuidad de los \glsname{alimento} a un nivel-aceptable, y donde el \glsname{criterio-de-acción} y medición u observación permite el control efectivo del \glsname{proceso} y/o \glsname{producto}.}
 }
 
 \newglossaryentry{PPR}{
     name={programa de prerrequisito},
     first=programa de prerrequisito (PPR),
     description={condiciones y actividades básicas que son necesarias dentro de la \glsname{organizacion} y a lo largo de la cadena alimentaria para mantener la inocuidad de los alimentos\footnote{Los PPR necesarios dependen del segmento de la cadena alimentaria en el que opera la organización y del tipo de organización . Son ejemplos de términos equivalentes: Buenas Prácticas Agrícolas (BPA), Buenas Prácticas Veterinarias (BPV), Buenas Prácticas de Fabricación/Manufactura (BPF, BPM), Buenas Prácticas de Higiene (BPH), Buenas Prácticas de Producción (BPP), Buenas Prácticas de Distribución (BPD), y Buenas Prácticas de Comercialización (BPC).}}
-    }
+}
 
 \newglossaryentry{HACCP}{
     name={HACCP},
     first={Analisis de Peligros y Puntos Criticos de Control (APPC), del inglés \textit{Hazard Analysis and Critical Control Points (HACCP).}},
-    description={},
+    description={}
 }
 
 \newglossaryentry{informacion-documentada}{
@@ -142,6 +263,22 @@
 \newglossaryentry{requisito}{
     name={requisito},
     description={necesidad o expectativa establecida, generalmente implícita u obligatoria\footnote{“Generalmente implícita” significa que es habitual o práctica común para la \glsname{organizacion} y las partes interesadas el que la necesidad o expectativa bajo consideración está implícita.}\footnote{Un requisito especificado es aquel que está establecido, por ejemplo, en \glsname{informacion-documentada}}\footnote{Pueden utilizarse calificativos para identificar un tipo específico de requisito, (por ejemplo, \textit{requisito}) de un \glsname{producto}, requisito de la gestión de la calidad, requisito del cliente, requisito de la calidad.}}
+}
+
+\newglossaryentry{plan-de-la-calidad}{
+    name={plan de la calidad},
+    description={especificación de los procedimientos y recursos asociados a aplicar, cuándo deben aplicarse y quién debe aplicarlos a un objeto específico}
+}
+
+\newglossaryentry{especificacion}{
+    name={especificación},
+    plural={especificaciones},
+    description={\glsname{documento} que establece requisitos\footnote{Manual de la calidad, plan de la calidad, plano técnico, documento de procedimiento, instrucción de trabajo.}\footnote{Una especificación puede estar relacionada con actividades (por ejemplo, un documento de procedimiento una especificación de proceso y una especificación de ensayo, o con productos (por ejemplo, una especificación de producto, una especificación de desempeño y un plano)).}\footnote{Puede que, al establecer requisitos una especificación esté estableciendo adicionalmente resultados logrados por el diseño y desarrollo y de este modo en algunos casos puede utilizarse como un registro (3.8.10).}}
+}
+
+\newglossaryentry{manual-de-calidad}{
+    name={manual de calidad},
+    description={\glsname{especificacion} para el sistema de gestión de la calidad de una organización (3.2.1)\footnote{Los manuales de la calidad pueden variar en cuanto a detalle y formato para adecuarse al tamaño y complejidad de cada \glsname{organizacion} en particular.}}
 }
 
 

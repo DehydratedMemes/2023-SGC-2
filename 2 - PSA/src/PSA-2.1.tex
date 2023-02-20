@@ -19,16 +19,24 @@
 	\item se extiende este documento al área de embarques, pero no se limita a otras áreas operativas.
 \end{itemize}
 
-%\subsection{Terminología y definiciones}
-%TODO poner terminos adecuados
+\subsection{Términos y definiciones}
+
+
+\begin{description}
+	\defglo{producto}
+	\defglo{producto-terminado}
+	\defglo{alimento}
+	\defglo{peligro-relacionado-con-la-inocuidad-de-los-alimentos}
+\end{description}
 
 \subsection{Documentos y/o normas relacionadas}
 \begin{itemize}
-	\item Programa de \textit{Buenas Prácticas de distribución.}
+	\item Programa de \glsfirst{BPD}.
 \end{itemize}
 
 \subsection{Procedimiento}
 \index{Procedimiento!inspección en la recepción de productos}
+
 \subsubsection{Materiales}
 \begin{itemize}
 	\item Termómetro IR.
@@ -47,42 +55,52 @@
 \index{Instrucción!inspección fisica de productos}
 \begin{enumerate}
 	\item A la llegada del producto, se verifica la documentación del mismo. Si se descubre que el documento no cumple con los requisitos a la llegada, no se puede descargar el producto y el Supervisor de Almacén debe ser contactado inmediatamente para obtener instrucciones adicionales:
-	\begin{enumerate}
-		\item Documentos TIF \emph{(En caso de ser productos cárnicos);}
-		\item Listado de productos con cantidades;
-		\item Condiciones de almacenamiento.
-	\end{enumerate}
+	      \begin{enumerate}
+		      \item Documentos TIF \emph{(En caso de ser productos cárnicos);}
+		      \item Listado de productos con cantidades;
+		      \item Condiciones de almacenamiento.
+	      \end{enumerate}
 	\item Verificar la temperatura programada de la unidad con el producto entrante;
 	\item Se revisa el número de sello que deberá coincidir contra la guía para asegurarse que cuadran. Si se descubre que el sello está roto a la llegada, no se puede descargar el producto y el Supervisor de Almacén debe ser contactado inmediatamente para obtener instrucciones adicionales;
 	\item Se enrama la unidad para descargar el producto;
 	\item La condición física del producto (caja, cubetas, etc.) debe ser revisado, cualquier daño debe ser documentado en el registro de entrada;
-	\item Se verifica unidad interna. Cualquier evidencia de daño. Suciedad, o plagas deben ser inmediatamente documento e informado al Supervisor de Almacén para obtener instrucciones adicionales antes de la descarga:
-	\begin{itemize}
-		\item Limpieza (suciedad, escombros, basura, etc\dots);
-		\item Evidencia de cualquier actividad de insectos (los excrementos, gomas de mascar, etc\dots);
-		\item Daños físicos (bolsas rotas, cajas dañadas, fugas, etc\dots);
-		\item Daño físico de la unidad (transporte);
-		\item Evidencia de violación de los materiales de empaque (caja o producto abierto);
-		\item Químicos.
-	\end{itemize}
+	\item Se verifica unidad interna. Cualquier evidencia de daño, suciedad, o plagas deben ser inmediatamente documento e informado al Supervisor de Almacén para obtener instrucciones adicionales antes de la descarga:
+	      \begin{itemize}
+		      \item Limpieza (suciedad, escombros, basura, etc.);
+		      \item Evidencia de cualquier actividad de insectos (los excrementos, gomas de mascar, etc.);
+		      \item Daños físicos (bolsas rotas, cajas dañadas, fugas, etc.);
+		      \item Daño físico de la unidad (transporte);
+		      \item Evidencia de violación de los materiales de empaque (caja o producto abierto);
+		      \item presencia visible de agentes químicos.
+	      \end{itemize}
 	\item Verificar la temperatura del producto.\footnote{Todo producto refrigerado o congelado recibido en la instalación debe ser revisado para asegurar que fue enviado de origen a la temperatura adecuada, verificando la documentación correspondiente.}
-	\begin{itemize}
-		\item \textbf{Rangos de temperatura:}
-		\begin{itemize}
-			\item Los productos refrigerados DEBEN recibirse en un rango de temperatura de \qtyrange{2.7}{4.4}{\degreeCelsius}
-			\item Los productos congelados DEBEN recibirse a una temperatura \qty{<=-18}{\degreeCelsius}
-		\end{itemize}
-		\item De \textbf{no cumplirse} lo anterior se suspende el recibo por parte de personal de embarques y deberá notificarse inmediatamente al Supervisor del Almacén quien reportara al Gerente de Operaciones, quien a su vez informara de la situación al cliente y solicitara la ruta de acción.
-	\end{itemize}
-	\item Todos los documentos de envío \emph{(números de lote, fechas, número de orden, etc.)} deberán ser registrados en el formato de verificación de registro y en la orden de entrada;
-	\item Se almacena el producto.
+	      \begin{itemize}
+		      \item \textbf{Rangos de temperatura:}
+		            \begin{itemize}
+			            \item Los productos refrigerados DEBEN recibirse en un rango de temperatura de \qtyrange{2.7}{4.4}{\degreeCelsius}
+			            \item Los productos congelados DEBEN recibirse a una temperatura \qty{<=-18}{\degreeCelsius}
+		            \end{itemize}
+		      \item De \textbf{no cumplirse} lo anterior se suspende el recibo por parte de personal de embarques y deberá notificarse inmediatamente al Supervisor del Almacén quien reportara al Gerente de Operaciones, quien a su vez informara de la situación al cliente y solicitara la ruta de acción.
+	      \end{itemize}
+	      % \begin{itemize}
+	      % 	\item Se considerarán las especificaciones del producto para determinar si se aceptan o se rechazan los cargamentos.
+	      % 	\item se comprobará que se cumple con la \gls{conformidad} de la temperatura 
+	      % 	\item si es conforme la temperatura, se procederá a almacenar el producto en la camara designada según sus especificaciones.
+	      % 	\begin{itemize}
+	      % 	\item si el \gls{alimento} no requiere de condiciones de almacenamiento especiales\footnote{diferentes a las especificaciones genéricas de almacenamiento (ver \cref{esp:generica}).} se almacenará en la cámara adecuada. 
+	      % 	\item si el \gls{alimento} requiere de condiciones de almacenamiento especiales y el cliente alquiló una camara exclusiva para su producto, entonces se almacenará ahí;
+	      % 	\item de no ser así, se almacenará el \gls{alimento} en aquella camara compartida que coincida con el rango de las especificaciones del producto.
+	      % 	\end{itemize}
+	    %   \end{itemize}
+	\item Todos los documentos de envío \emph{(números de lote, fechas, número de orden, etc.)} deberán ser registrados en el formulario de verificación de \gls{registro} y en la orden de entrada;
+	\item Se almacena el \gls{alimento}.
 \end{enumerate}
 
 \paragraph{Identificación del producto}
 
 \begin{enumerate}
 	\item Al momento del envío de productos por parte de los proveedores se genera el documento de STOCK TRANFER el cual de manera inmediata es enviado a \GLS{RDF} (control de Inventarios).
-	\item Mesa de control recibe el documento STOCK TRANSFER y genera el “identificador de control de interno” antes de la llegada del producto (Etiqueta de identificación).
+	\item Mesa de control recibe el documento \textit{STOCK TRANSFER} y genera el \emph{identificador de control de interno\footnote{Este es nombre que recibe el identificador de tarima.}} antes de la llegada del producto.
 	\item La llegada del embarque a \GLS{RDF} se tiene programada en fecha.
 	\item Al momento de la llegada del embarque a \GLS{RDF}, mesa de control coloca de manera inmediata a la descarga del producto la etiqueta identificador de control interno, al mismo tiempo que se realizará la verificación de cantidades de producto recibida
 	\item El montacarguista debe trasladar el producto directamente del transporte a la cámara
@@ -96,11 +114,11 @@
 \end{itemize}
 
 
-\subsubsection{Responsable de la actividad}
+\subsubsection{Responsables de la actividad}
 
 \begin{itemize}
 	\item \textbf{Ejecutado} por el personal de operaciones;
-	\item \textbf{Monitoreado} por personal de calidad;
+	\item \textbf{Monitoreado} por personal de aseguramiento de calidad;
 	\item \textbf{Verificado} por personal de gerencia.
 \end{itemize}
 
@@ -109,29 +127,27 @@
 \begin{itemize}
 	\item Se llevará a cabo una inspección, registrando el indicador y medida correspondiente;
 	\item si la desviación se repite, se capacitará al personal involucrado;
-	\item Si después de la capacitación se repite una desviación, se tomarán acciones correctivas.
+	\item Si después de la capacitación se repite una desviación, se tomarán acciones correctivas (\cref{sec:2.1:acc}).
 \end{itemize}
 
 \subsubsection{Acciones correctivas}
-
+\label{sec:2.1:acc}
 \begin{itemize}
-	\item En caso contrario, la tarea se deberá volver a realizar como indica el procedimiento;%TODO \%\%Cual procedimeitnto??\%\%
-	\item En caso de no-conformidad, %TODO reportar en el formato F-OP-40.xls|F-OP-40.
+	\item En caso contrario, la tarea se deberá volver a realizar como indica el procedimiento;
+	\item En caso de no-conformidad, reportar en el formato de acciones correctivas.
 \end{itemize}
 
 \subsubsection{Frecuencia}
 
-Cada recepción de producto
-
-
+Cada recepción de \gls{alimento}
 
 \begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-1.2]
 	\begin{version}[v=2.1, date=2023--01, author=Pablo E. Alanis]
 		%\fixed
-			\item Cambio de formato;
-			\item Cambios en la serialización de versiones;
-			\item Cambio de identificado, de PRO-OP-001 a OP-BPD-ESP-1.
+		\item Cambio de formato;
+		\item Cambios en la serialización de versiones;
+		\item Cambio de identificado, de PRO-OP-001 a OP-BPD-ESP-1.
 		%\added
-			\item Separación entre PPR y PPRO.
+		\item Separación entre PPR y PPRO.
 	\end{version}
 \end{changelog}
