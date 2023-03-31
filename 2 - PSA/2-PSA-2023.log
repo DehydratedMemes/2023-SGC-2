@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12) (format=lualatex 2023.2.2)  31 MAR 2023 16:17
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12) (format=lualatex 2023.2.2)  31 MAR 2023 16:42
  system commands enabled.
  file:line:error style messages enabled.
 **2-PSA-2023.tex
@@ -428,12 +428,12 @@ braces):
 >  {spanish/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
 >  {spanish/totalhyphenmin}  =>  {5}.
 Module polyglossia Info: Language data for spanish
-(polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            loader	loadhyph-es.tex
+(polyglossia)            hyphenation	
 (polyglossia)            patterns	hyph-es.pat.txt
-(polyglossia)            synonyms	espanol
-(polyglossia)            righthyphenmin	2 on input line 15
+(polyglossia)            loader	loadhyph-es.tex
+(polyglossia)            righthyphenmin	2
+(polyglossia)            synonyms	espanol on input line 15
 Module polyglossia Info: Language spanish was not yet loaded; created with id 2 
 on input line 15
 Package polyglossia Info: Option: spanish, variant=spanish.

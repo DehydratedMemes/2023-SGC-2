@@ -1,7 +1,7 @@
-31 Mar 2023 16:17:03.125 INFO  - 
+31 Mar 2023 16:42:40.971 INFO  - 
 Welcome to arara 7.0.4!
 -----------------------------------------------------------------
-31 Mar 2023 16:17:03.149 DEBUG - 
+31 Mar 2023 16:42:41.055 DEBUG - 
 ::: arara @ C:\Program Files\MiKTeX\scripts\arara
 ::: Java 19, Eclipse Adoptium
 ::: C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
@@ -9,24 +9,24 @@ Welcome to arara 7.0.4!
 ::: user.home @ C:\Users\Usuario
 ::: CF @ [none]
 -----------------------------------------------------------------
-31 Mar 2023 16:17:03.208 INFO  - Processing "2-PSA-2023.tex" (size: 11.5 kB, last modified: 2023-03-31 22:01:58), please wait.
-31 Mar 2023 16:17:03.371 INFO  - I found a potential pattern in line 3: lualatex: {
-31 Mar 2023 16:17:03.371 INFO  - I found a potential pattern in line 4: --> interaction: nonstopmode,
-31 Mar 2023 16:17:03.373 INFO  - I found a potential pattern in line 5: --> options: ['-file-line-error'],
-31 Mar 2023 16:17:03.373 INFO  - I found a potential pattern in line 6: --> shell: yes,
-31 Mar 2023 16:17:03.374 INFO  - I found a potential pattern in line 7: --> synctex: yes,
-31 Mar 2023 16:17:03.374 INFO  - I found a potential pattern in line 8: --> }
-31 Mar 2023 16:17:03.375 INFO  - I found a potential pattern in line 9: makeglossaries
-31 Mar 2023 16:17:04.767 INFO  -                     All directives were validated. We are good to go.
+31 Mar 2023 16:42:41.133 INFO  - Processing "2-PSA-2023.tex" (size: 11.5 kB, last modified: 2023-03-31 22:01:58), please wait.
+31 Mar 2023 16:42:41.415 INFO  - I found a potential pattern in line 3: lualatex: {
+31 Mar 2023 16:42:41.417 INFO  - I found a potential pattern in line 4: --> interaction: nonstopmode,
+31 Mar 2023 16:42:41.418 INFO  - I found a potential pattern in line 5: --> options: ['-file-line-error'],
+31 Mar 2023 16:42:41.420 INFO  - I found a potential pattern in line 6: --> shell: yes,
+31 Mar 2023 16:42:41.420 INFO  - I found a potential pattern in line 7: --> synctex: yes,
+31 Mar 2023 16:42:41.421 INFO  - I found a potential pattern in line 8: --> }
+31 Mar 2023 16:42:41.422 INFO  - I found a potential pattern in line 9: makeglossaries
+31 Mar 2023 16:42:44.726 INFO  -                     All directives were validated. We are good to go.
                     -------------------------- DIRECTIVES ---------------------------
                     Directive(identifier='lualatex', parameters={interaction=nonstopmode, options=[-file-line-error], shell=yes, synctex=yes, reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[3, 4, 5, 6, 7, 8])
 Directive(identifier='makeglossaries', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[9])
                     -----------------------------------------------------------------
-31 Mar 2023 16:17:04.775 INFO  - I am ready to interpret rule "lualatex".
-31 Mar 2023 16:17:04.789 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-31 Mar 2023 16:17:05.658 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
-31 Mar 2023 16:17:05.671 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 2-PSA-2023.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
-31 Mar 2023 16:17:50.606 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+31 Mar 2023 16:42:44.742 INFO  - I am ready to interpret rule "lualatex".
+31 Mar 2023 16:42:44.759 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+31 Mar 2023 16:42:47.424 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
+31 Mar 2023 16:42:47.474 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 2-PSA-2023.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
+31 Mar 2023 16:43:57.035 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12)
  system commands enabled.
 (./2-PSA-2023.tex
@@ -314,19 +314,19 @@ Transcript written on 2-PSA-2023.log.
 lualatex: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-31 Mar 2023 16:17:50.616 INFO  - Task result: SUCCESS
-31 Mar 2023 16:17:50.618 INFO  - I am ready to interpret rule "makeglossaries".
-31 Mar 2023 16:17:50.628 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-31 Mar 2023 16:17:50.763 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
-31 Mar 2023 16:17:50.769 INFO  - System command: [makeglossaries, 2-PSA-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
-31 Mar 2023 16:17:54.951 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+31 Mar 2023 16:43:57.044 INFO  - Task result: SUCCESS
+31 Mar 2023 16:43:57.045 INFO  - I am ready to interpret rule "makeglossaries".
+31 Mar 2023 16:43:57.055 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+31 Mar 2023 16:43:57.253 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
+31 Mar 2023 16:43:57.292 INFO  - System command: [makeglossaries, 2-PSA-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
+31 Mar 2023 16:44:03.255 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 Use of uninitialized value $codepage in string eq at C:/Program Files/MiKTeX/scripts/glossaries/makeglossaries line 1444.
 makeglossaries version 4.51 (2022-11-02)
 added glossary type 'main' (glg,gls,glo)
 xindy    -I xindy -M "2-PSA-2023" -t "2-PSA-2023.glg" -o "2-PSA-2023.gls" "2-PSA-2023.glo"
 Opening logfile "2-PSA-2023.glg" (done)
 Reading indexstyle...
-Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\J27SMnh9Ha"...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\iebTR18IZG"...
 Loading module "lang/general/latin9-lang.xdy"...
 Loading module "lang/general/latin9.xdy"...
 Finished loading module "lang/general/latin9.xdy".
@@ -335,11 +335,11 @@ Loading module "2-PSA-2023.xdy"...
 Loading module "tex.xdy"...
 Finished loading module "tex.xdy".
 Finished loading module "2-PSA-2023.xdy".
-Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\J27SMnh9Ha".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\iebTR18IZG".
 Finished reading indexstyle.
 Finalizing indexstyle... (done)
 
-Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\fsULPii5xw"...
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\3FSldvller"...
 Finished reading raw-index.
 
 Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
@@ -351,5 +351,5 @@ xindy: major issue: User/administrator updates are out-of-sync.
 makeglossaries: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-31 Mar 2023 16:17:54.954 INFO  - Task result: SUCCESS
-31 Mar 2023 16:17:54.967 INFO  - Total: 53.206 seconds
+31 Mar 2023 16:44:03.258 INFO  - Task result: SUCCESS
+31 Mar 2023 16:44:03.336 INFO  - Total: 85.116 seconds
