@@ -1,5 +1,6 @@
+\thispagestyle{formato-PI}
 \renewcommand{\MayorVer}{2}
-\renewcommand{\MenorVer}{1}
+\renewcommand{\MenorVer}{0}
 \renewcommand{\Codigo}{PSA-6-CE}
 \renewcommand{\FechaPub}{2023--01}
 
@@ -12,8 +13,10 @@ Estimado cliente, a continuación le presentamos el proceso y lineamientos para 
 
 Le solicitamos que las citas sean solicitadas mínimo con 24 horas de anticipación mediante correo electrónico al equipo de mesa de control en los siguientes horarios:
 
-\textbf{Lunes a viernes de 08:00 am a 16:00 pm}
-\textbf{Sábados de 08:00 am a 11:30 am.}
+\begin{itemize}
+	\item \textbf{Lunes a viernes de 08:00 am a 16:00 pm}
+	\item \textbf{Sábados de 08:00 am a 11:30 am.}
+\end{itemize}
 
 Quedando las solicitudes de la siguiente forma:
 
@@ -40,56 +43,48 @@ Quedando las solicitudes de la siguiente forma:
 	\bottomrule
 \end{longtblr}
 
-\textbf{Los pedidos enviados fuera de estos horarios quedarán a disposición de andén (en espera de que tengamos una ventana disponible).}
-
-Es \emph{requisito indispensable} presentar el correo de confirmación impreso, que especifica el número de pedido a surtir y la hora asignada a su cita.
-
-Es importante que en la solicitud de la cita nos indiquen el \emph{nombre completo de la persona que realizará la recolección o entrega,} así como los datos de la unidad:
 \begin{itemize}
-	\item Línea de transporte;
-	\item placas;
-	\item número de tractor y placas;
-	\item número de contenedor.
+	\item \textbf{Los pedidos enviados fuera de estos horarios quedarán a disposición de andén;\footnote{En espera de que tengamos una ventana disponible.}}
+	\item Es \emph{requisito indispensable} presentar el correo de confirmación impreso, que especifica el número de pedido a surtir y la hora asignada a su cita;
+	\item Es importante que en la solicitud de la cita nos indiquen el \emph{nombre completo de la persona que realizará la recolección o entrega,} así como los datos de la unidad:
+	      \begin{itemize}
+		      \item Línea de transporte;
+		      \item placas;
+		      \item número de tractor y placas;
+		      \item número de contenedor.
+	      \end{itemize}
+	\item Nuestro horario de atención sin cargo de tiempo extra es de 8:00 a 17:00 de lunes a viernes. El camión a carga o descarga debe presentarse una hora antes de las 17:00 para que no se extienda su servicio; lo mismo aplica para los sábados de 8:00 a 13:00; la última cita se otorga a las 16:00 de lunes a viernes y los sábados a las 12:00.
 \end{itemize}
 
-Nuestro horario de atención sin cargo de tiempo extra es de 8:00 a 17:00 de lunes a viernes. El camión a carga o descarga debe presentarse una hora antes de las 17:00 para que no se extienda su servicio; lo mismo aplica para los sábados de 8:00 a 13:00; la última cita se otorga a las 16:00 de lunes a viernes y los sábados a las 12:00.
+\newpage
 
 \subsection{Contactos Red de Fríos}
-% \fbox{%
-% 	\parbox[c]{0.5\textwidth}{
-% 		\subsubsection*{Mesa de Control} %TODO actualizar datos
-% 		ILSE BERENICE BECERRA VELEZ\\
-% 		Teléfono: \textbf{(81) 8351-6685 ext. 105}\\
-% 		\email{mesacontrolrayon@reddefrios.com}
-% 	}%
-% }
 
-\noindent
-\contacto{Mesa de control}{%
+\begin{contact}[Mesa de control] \label{contact:MesaDeControl}
 	Magdalena Aguilar Robledo\\
 	Teléfono: \textbf{(81) 8351-6685 ext. 105}\\
 	\email{mesacontrolrayon@reddefrios.com}
-}
-\\[1cm]
-\contacto{Jefe de Almacén}{%
+\end{contact}
+
+\begin{contact}[Jefe de almacén] \label{contact:JefeDeAlmacen}
 	Luis Ángel Escareño Aguirre\\
 	Teléfono: \textbf{(81) 8351-6685 ext. 105}\\
 	Celular: \textbf{811-390-7099}\\
 	\email{lescareno@reddefrios.com}
-}
-\\[1cm]
-\contacto{Gerente de Operaciones}{%
-	QFB Gerardo Ruiz Torres\\
+\end{contact}
+
+\begin{contact}[Gerente de operaciones] \label{contact:Gerente}
+	Gerardo Ruiz Torres, QFB\\
 	Teléfono: \textbf{(81) 8351-6685 ext. 102}\\
 	Celular: \textbf{818-029-5609}\\
 	\email{gruiz@reddefrios.com}
-}
-\\[1cm]
-\contacto{Médico TIF}{%
+\end{contact}
+
+\begin{contact}[Médico TIF] \label{contact:MedicoTIF}
 	M.V.Z. Rocío Luna\\
 	Teléfono: \textbf{(81) 8351-6685 ext. 103}\\
-	\email{luna\_mvz\_ceu@live.com.mx}}
-\\[1cm]
+	\email{luna\_mvz\_ceu@live.com.mx}
+\end{contact}
 
 Es necesario indicar:
 \begin{enumerate}
@@ -103,23 +98,20 @@ Es necesario indicar:
 	\item alérgenos presentes en el \gls{alimento} (ver \cref{nota:Alergenos})
 \end{enumerate}
 
-\begin{nota}{Nota sobre presencia de alérgenos en los \glspl{alimento}}
-\label{nota:Alergenos}
-Es de suma importancia que nos indique si el producto a resguardar es un Alérgeno o contiene algún ingrediente Alérgeno en su composición.
-
-\begin{itemize}
-	\item Leche
-	\item Trigo
-	\item Frutas Secas
-	\item Huevos
-	\item Soya y derivados
-	\item Cacahuates
-	\item Pescados
-	\item Crustáceos
-	\item sulfitos en concentración \qty{>=10}{\milli\gram\per\kilo\gram}.
-\end{itemize}
-
-\end{nota}
+\begin{note}[Listado de alérgenos según la NOM-051-SCFI/SSA1-2010] \label{nota:Alergenos}
+	Es de suma importancia que nos indique si el producto a resguardar es un Alérgeno o contiene algún ingrediente Alérgeno en su composición.
+	\begin{itemize}
+		\item Leche
+		\item Trigo
+		\item Frutas Secas
+		\item Huevos
+		\item Soya y derivados
+		\item Cacahuates
+		\item Pescados
+		\item Crustáceos
+		\item sulfitos en concentración \qty{>=10}{\milli\gram\per\kilo\gram}.
+	\end{itemize}
+\end{note}
 
 Para carga o descarga requerimos contar con los datos de la unidad, placas, nombre del chofer y línea de transporte.
 
@@ -131,11 +123,11 @@ Para ingresos de mercancía es necesario presentar la siguiente documentación:
 	\item Certificado de fumigación de la unidad de transporte.
 \end{itemize}
 
-En caso de ser producto Cárnico es necesario presentar \emph{Aviso de Movilización TIF} con destino a nuestro almacén \emph{TIF 278.}
+En caso de ser \emph{producto cárnico} es necesario presentar \emph{Aviso de Movilización TIF} con destino a nuestro almacén \emph{TIF 278.}
 
 Para cuestión de \emph{Pescados y Mariscos} es necesario presentar la \emph{Guía de Pesca} del producto con destino a nuestro almacén TIF 278.
 
-Para la \emph{salida de producto TIF} se requiere se nos informen los datos de la unidad que lo cargará: 
+Para la \emph{salida de producto TIF} se requiere se nos informen los datos de la unidad que lo cargará:
 \begin{itemize}
 	\item Línea de Transporte;
 	\item chofer;
@@ -144,17 +136,23 @@ Para la \emph{salida de producto TIF} se requiere se nos informen los datos de l
 	\item número de destino TIF.
 \end{itemize}
 
-\contacto{DATOS PARA AVISO TIF:}{%
+\begin{note}[Datos de aviso TIF]\label{note:DatosAvisoTIF}
 	TIF 278\\
 	Red de Fríos S.A. de C.V.\\
 	Av. I. López Rayón \# 2810.\\
 	Col. Bella Vista.\\
-	C.P. 64410, Monterrey N.L., México}
+	C.P. 64410, Monterrey N.L., México
+\end{note}
 
 \begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-2.6]
-	\begin{version}[v=2.1, date=2023--01, author=Pablo E. Alanis]
+	\begin{version}[v=2.0, date=2023--01, author=Pablo E. Alanis]
 		\item Cambio de formato;
-		\item se agregó recuadro sobre alérgenos;
+		\item los contactos se agregaron a recuadros;
+		\item cambio de código;
+		\item se agregó recuadro sobre alérgenos.
 	\end{version}
-	\shortversion{v=1.7, date=2021-05, changes=No se realizaron modificaciones de la revisión 05 a la 06.}
+
+	\begin{version}[v=1.7, date=2022--05, author=Alonso M.]
+		\item No se realizaron modificaciones de la revisión 05 a la 06.
+	\end{version}
 \end{changelog}

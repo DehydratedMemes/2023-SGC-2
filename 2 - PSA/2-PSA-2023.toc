@@ -1,314 +1,305 @@
 \selectlanguage *[variant=mexican,spanishoperators=all]{spanish}
-\contentsline {section}{\numberline {1}Inspección en la recepción de productos}{8}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Objetivo}{8}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Alcance}{8}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Términos y definiciones}{8}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Documentos y/o normas relacionadas}{8}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Procedimiento}{8}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Materiales}{8}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}Precauciones de seguridad}{8}{subsubsection.1.5.2}%
-\contentsline {subsubsection}{\numberline {1.5.3}Instrucciones}{8}{subsubsection.1.5.3}%
-\contentsline {paragraph}{\numberline {1.5.3.1}Inspección física del producto}{8}{paragraph.1.5.3.1}%
-\contentsline {paragraph}{\numberline {1.5.3.2}Identificación del producto}{9}{paragraph.1.5.3.2}%
-\contentsline {paragraph}{\numberline {1.5.3.3}Reglamento de permanencia de producto en andén de carga}{9}{paragraph.1.5.3.3}%
-\contentsline {subsubsection}{\numberline {1.5.4}Responsables de la actividad}{10}{subsubsection.1.5.4}%
-\contentsline {subsubsection}{\numberline {1.5.5}Acciones preventivas}{10}{subsubsection.1.5.5}%
-\contentsline {subsubsection}{\numberline {1.5.6}Acciones correctivas}{10}{subsubsection.1.5.6}%
-\contentsline {subsubsection}{\numberline {1.5.7}Frecuencia}{10}{subsubsection.1.5.7}%
-\contentsline {section}{\numberline {2}Procedimiento de lotificación de productos para su almacenamiento}{11}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Objetivo}{11}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Alcance}{11}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Términos y definiciones}{11}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Procedimiento}{11}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Fundamento}{11}{subsubsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.5}Materiales}{11}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Instrucciones}{11}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Responsables de la actividad}{11}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Acciones preventivas}{11}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Acciones correctivas}{12}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Frecuencia}{12}{subsection.2.10}%
-\contentsline {section}{\numberline {3}Inspección de producto durante su almacenamiento}{13}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Objetivo}{13}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Alcance}{13}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Términos y definiciones}{13}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Documentos y/o normas relacionados}{13}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Procedimiento}{13}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Materiales}{13}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Precauciones de Seguridad}{13}{subsubsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.6}Instrucciones}{13}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Temperatura de almacenamiento de alimentos refrigerados y congelados}{13}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Almacenaje y manejo de Productos Secos / Ambiente, Refrigerados y Congelados}{14}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Control y mantenimiento de temperatura}{14}{subsubsection.3.6.3}%
-\contentsline {subsubsection}{\numberline {3.6.4}Plan de contingencia en caso de avería de equipos de refrigeración}{15}{subsubsection.3.6.4}%
-\contentsline {subsection}{\numberline {3.7}Responsables de la actividad}{15}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Acciones preventivas}{15}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}Acciones correctivas}{15}{subsection.3.9}%
-\contentsline {subsection}{\numberline {3.10}Frecuencia}{15}{subsection.3.10}%
-\contentsline {section}{\numberline {4}PEPS o VENCER}{16}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Objetivo}{16}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Alcance}{16}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Términos y definiciones}{16}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Documentos y/o normas relacionadas}{16}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Procedimiento}{16}{subsection.4.5}%
-\contentsline {subsubsection}{\numberline {4.5.1}Instrucciones}{16}{subsubsection.4.5.1}%
-\contentsline {paragraph}{\numberline {4.5.1.1}Primeras entradas, primeras salidas (PEPS) o VENCER}{16}{paragraph.4.5.1.1}%
-\contentsline {subparagraph}{Ingreso de alimentos}{16}{section*.6}%
-\contentsline {subparagraph}{Etiquetado de alimentos}{16}{section*.7}%
-\contentsline {subparagraph}{Consideraciones para el almacenaje de alimentos}{17}{section*.8}%
-\contentsline {subparagraph}{En el \glsfirst {SGA}}{17}{section*.9}%
-\contentsline {subsection}{\numberline {4.6}Responsables de la actividad}{17}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Acciones preventivas}{17}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Acciones correctivas}{17}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Frecuencia}{17}{subsection.4.9}%
-\contentsline {section}{\numberline {5}Procedimiento para solicitud de citas}{19}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Contactos Red de Fríos}{20}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Política de devoluciones}{22}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Objetivo}{22}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Alcance}{22}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Términos y definiciones}{22}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Documentos y/o normas relacionadas}{22}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Política de devoluciones}{22}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Historial de modificaciones}{22}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Política de aprobación de proveedores}{23}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Objetivo}{23}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Alcance}{23}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Términos y definiciones}{23}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Documentos y/o normas relacionadas}{23}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Procedimiento}{23}{subsection.7.5}%
-\contentsline {section}{\numberline {8}Especificación genérica de servicios de almacenamiento}{26}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Objetivos}{26}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Alcance}{26}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Términos y definiciones}{26}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Disposiciones generales}{26}{subsection.8.4}%
-\contentsline {subsubsection}{\numberline {8.4.1}Almacenamiento en cámaras de refrigeración}{27}{subsubsection.8.4.1}%
-\contentsline {subsubsection}{\numberline {8.4.2}Almacenamiento en cámaras de congelación}{27}{subsubsection.8.4.2}%
-\contentsline {subsection}{\numberline {8.5}Documentos relacionados}{27}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Responsables}{27}{subsection.8.6}%
-\contentsline {section}{\numberline {9}Inspección de transporte al embarque de producto}{29}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Objetivo}{29}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Alcance}{29}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Términos y definiciones}{29}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Documentos y/o normas relacionadas}{29}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}Procedimiento}{29}{subsection.9.5}%
-\contentsline {subsubsection}{\numberline {9.5.1}Materiales}{29}{subsubsection.9.5.1}%
-\contentsline {subsubsection}{\numberline {9.5.2}Precauciones de seguridad}{29}{subsubsection.9.5.2}%
-\contentsline {subsubsection}{\numberline {9.5.3}Instrucciones}{29}{subsubsection.9.5.3}%
-\contentsline {paragraph}{\numberline {9.5.3.1}Envío de productos}{29}{paragraph.9.5.3.1}%
-\contentsline {paragraph}{\numberline {9.5.3.2}Políticas de embarque}{30}{paragraph.9.5.3.2}%
-\contentsline {paragraph}{\numberline {9.5.3.3}Rango de temperaturas de cuarto donde se almacena el producto}{30}{paragraph.9.5.3.3}%
-\contentsline {paragraph}{\numberline {9.5.3.4}Procedimiento de pre-enfriamiento de unidades}{30}{paragraph.9.5.3.4}%
-\contentsline {subsection}{\numberline {9.6}Responsables de la actividad}{30}{subsection.9.6}%
-\contentsline {subsection}{\numberline {9.7}Acciones preventivas}{31}{subsection.9.7}%
-\contentsline {subsection}{\numberline {9.8}Acciones correctivas}{31}{subsection.9.8}%
-\contentsline {subsection}{\numberline {9.9}Frecuencia}{31}{subsection.9.9}%
-\contentsline {section}{\numberline {10}Acciones en caso de corte de energía o desastre}{32}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Objetivo}{32}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Alcance}{32}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Términos y definiciones}{32}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Documentos y/o normas relacionadas}{32}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}Procedimiento}{32}{subsection.10.5}%
-\contentsline {subsubsection}{\numberline {10.5.1}Instrucciones}{32}{subsubsection.10.5.1}%
-\contentsline {paragraph}{\numberline {10.5.1.1}Procedimiento de Emergencia y Crisis ante Desastres Naturales}{32}{paragraph.10.5.1.1}%
-\contentsline {paragraph}{\numberline {10.5.1.2}Corte de energía eléctrica}{32}{paragraph.10.5.1.2}%
-\contentsline {paragraph}{\numberline {10.5.1.3}Falla en los equipos de enfriamiento}{33}{paragraph.10.5.1.3}%
-\contentsline {paragraph}{\numberline {10.5.1.4}Seguridad y acceso a la instalación}{33}{paragraph.10.5.1.4}%
-\contentsline {subparagraph}{Números de transportes en caso de siniestros:}{34}{section*.21}%
-\contentsline {section}{\numberline {11}Lista de contactos de emergencia}{35}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Objetivo}{35}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Alcance}{35}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Términos y definiciones}{35}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}Documentos y/o normas relacionadas}{35}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}Procedimiento}{35}{subsection.11.5}%
-\contentsline {subsubsection}{\numberline {11.5.1}Instrucciones}{35}{subsubsection.11.5.1}%
-\contentsline {paragraph}{\numberline {11.5.1.1}Equipo de Emergencias:}{35}{paragraph.11.5.1.1}%
-\contentsline {subparagraph}{Coordinador 1}{35}{section*.22}%
-\contentsline {subparagraph}{Coordinador 2}{35}{section*.23}%
-\contentsline {subparagraph}{Coordinador 3}{35}{section*.24}%
-\contentsline {subparagraph}{Coordinador 4}{35}{section*.25}%
-\contentsline {subparagraph}{Vigilancia}{35}{section*.26}%
-\contentsline {subparagraph}{Números de Contacto de Emergencia}{36}{section*.27}%
-\contentsline {subsubsection}{\numberline {11.5.2}Historial de modificaciones}{36}{subsubsection.11.5.2}%
-\contentsline {subsection}{\numberline {11.6}Anexos}{36}{subsection.11.6}%
-\contentsline {section}{\numberline {12}Manejo de producto retenido}{37}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Objetivo}{37}{subsection.12.1}%
-\contentsline {subsection}{\numberline {12.2}Alcance}{37}{subsection.12.2}%
-\contentsline {subsection}{\numberline {12.3}Términos y definiciones}{37}{subsection.12.3}%
-\contentsline {subsection}{\numberline {12.4}Documentos y/o normas relacionadas}{37}{subsection.12.4}%
-\contentsline {subsection}{\numberline {12.5}Procedimiento}{37}{subsection.12.5}%
-\contentsline {subsubsection}{\numberline {12.5.1}Materiales}{37}{subsubsection.12.5.1}%
-\contentsline {subsubsection}{\numberline {12.5.2}Precauciones de seguridad}{37}{subsubsection.12.5.2}%
-\contentsline {subsubsection}{\numberline {12.5.3}Instrucciones}{37}{subsubsection.12.5.3}%
-\contentsline {paragraph}{\numberline {12.5.3.1}Procedimientos de Producto Detenido por parte de }{37}{paragraph.12.5.3.1}%
-\contentsline {paragraph}{\numberline {12.5.3.2}Procedimientos de Producto Detenido por calidad del cliente}{38}{paragraph.12.5.3.2}%
-\contentsline {paragraph}{\numberline {12.5.3.3}Procedimiento para destrucción de productos}{38}{paragraph.12.5.3.3}%
-\contentsline {subsection}{\numberline {12.6}Responsables de la actividad}{39}{subsection.12.6}%
-\contentsline {subsection}{\numberline {12.7}Acciones preventivas}{39}{subsection.12.7}%
-\contentsline {subsection}{\numberline {12.8}Acciones correctivas}{39}{subsection.12.8}%
-\contentsline {subsection}{\numberline {12.9}Frecuencia}{39}{subsection.12.9}%
-\contentsline {subsection}{\numberline {12.10}Historial de modificaciones}{39}{subsection.12.10}%
-\contentsline {section}{\numberline {13}Política de re-empaque, re-etiquetado, y uso de aditivos}{40}{section.13}%
-\contentsline {subsection}{\numberline {13.1}Objetivo}{40}{subsection.13.1}%
-\contentsline {subsection}{\numberline {13.2}Alcance}{40}{subsection.13.2}%
-\contentsline {subsection}{\numberline {13.3}Términos y definiciones}{40}{subsection.13.3}%
-\contentsline {subsection}{\numberline {13.4}Documentos y/o normas relacionadas}{40}{subsection.13.4}%
-\contentsline {subsection}{\numberline {13.5}Procedimiento}{40}{subsection.13.5}%
-\contentsline {subsubsection}{\numberline {13.5.1}Materiales}{40}{subsubsection.13.5.1}%
-\contentsline {subsubsection}{\numberline {13.5.2}Precauciones de seguridad}{40}{subsubsection.13.5.2}%
-\contentsline {subsubsection}{\numberline {13.5.3}Instrucciones}{40}{subsubsection.13.5.3}%
-\contentsline {paragraph}{\numberline {13.5.3.1}Política de re-empacado.}{40}{paragraph.13.5.3.1}%
-\contentsline {subsection}{\numberline {13.6}Frecuencia}{40}{subsection.13.6}%
-\contentsline {subsection}{\numberline {13.7}Historial de modificaciones}{40}{subsection.13.7}%
-\contentsline {section}{\numberline {14}Resguardo de registros}{42}{section.14}%
-\contentsline {subsection}{\numberline {14.1}Objetivo}{42}{subsection.14.1}%
-\contentsline {subsection}{\numberline {14.2}Alcance}{42}{subsection.14.2}%
-\contentsline {subsection}{\numberline {14.3}Términos y definiciones}{42}{subsection.14.3}%
-\contentsline {subsection}{\numberline {14.4}Documentos y/o normas relacionadas}{42}{subsection.14.4}%
-\contentsline {subsection}{\numberline {14.5}Procedimiento}{42}{subsection.14.5}%
-\contentsline {subsubsection}{\numberline {14.5.1}Instrucciones}{42}{subsubsection.14.5.1}%
-\contentsline {paragraph}{\numberline {14.5.1.1}Registros y manejo de Documentos}{42}{paragraph.14.5.1.1}%
-\contentsline {subsection}{\numberline {14.6}Responsables de la actividad}{43}{subsection.14.6}%
-\contentsline {subsection}{\numberline {14.7}Acciones preventivas}{43}{subsection.14.7}%
-\contentsline {subsection}{\numberline {14.8}Acciones correctivas}{43}{subsection.14.8}%
-\contentsline {subsection}{\numberline {14.9}Frecuencia}{43}{subsection.14.9}%
-\contentsline {subsection}{\numberline {14.10}Historial de modificaciones}{43}{subsection.14.10}%
-\contentsline {section}{\numberline {15}Aprobación de cambios a procedimientos}{44}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Objetivo}{44}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}Alcance}{44}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Términos y definiciones}{44}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}Documentos y/o normas relacionadas}{44}{subsection.15.4}%
-\contentsline {subsection}{\numberline {15.5}Procedimiento}{44}{subsection.15.5}%
-\contentsline {subsubsection}{\numberline {15.5.1}Instrucciones}{44}{subsubsection.15.5.1}%
-\contentsline {paragraph}{\numberline {15.5.1.1}Cambios en los procesos de Recepción, Almacenamiento y Embarque}{44}{paragraph.15.5.1.1}%
-\contentsline {paragraph}{\numberline {15.5.1.2}Cambios de procedimientos y políticas}{44}{paragraph.15.5.1.2}%
-\contentsline {paragraph}{\numberline {15.5.1.3}Administración de Cambios - General}{45}{paragraph.15.5.1.3}%
-\contentsline {paragraph}{\numberline {15.5.1.4}Revisiones}{45}{paragraph.15.5.1.4}%
-\contentsline {subsection}{\numberline {15.6}Acciones correctivas}{45}{subsection.15.6}%
-\contentsline {subsection}{\numberline {15.7}Frecuencia}{45}{subsection.15.7}%
-\contentsline {subsection}{\numberline {15.8}Historial de modificaciones}{46}{subsection.15.8}%
-\contentsline {subsection}{\numberline {15.9}Listado de distribución}{46}{subsection.15.9}%
-\contentsline {section}{\numberline {16}Manejo de proteína cruda fresca}{47}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Objetivo}{47}{subsection.16.1}%
-\contentsline {subsection}{\numberline {16.2}Alcance}{47}{subsection.16.2}%
-\contentsline {subsection}{\numberline {16.3}Términos y definiciones}{47}{subsection.16.3}%
-\contentsline {subsection}{\numberline {16.4}Documentos y/o normas relacionadas}{47}{subsection.16.4}%
-\contentsline {subsection}{\numberline {16.5}Procedimiento}{47}{subsection.16.5}%
-\contentsline {subsubsection}{\numberline {16.5.1}Precauciones de seguridad}{47}{subsubsection.16.5.1}%
-\contentsline {subsubsection}{\numberline {16.5.2}Instrucciones}{47}{subsubsection.16.5.2}%
-\contentsline {paragraph}{\numberline {16.5.2.1}Almacenaje de proteína cruda}{47}{paragraph.16.5.2.1}%
-\contentsline {paragraph}{\numberline {16.5.2.2}Embarque de proteína cruda}{47}{paragraph.16.5.2.2}%
-\contentsline {paragraph}{\numberline {16.5.2.3}Alérgenos}{48}{paragraph.16.5.2.3}%
-\contentsline {subsection}{\numberline {16.6}Responsables de la actividad}{48}{subsection.16.6}%
-\contentsline {subsection}{\numberline {16.7}Acciones preventivas}{48}{subsection.16.7}%
-\contentsline {subsection}{\numberline {16.8}Acciones correctivas}{48}{subsection.16.8}%
-\contentsline {subsection}{\numberline {16.9}Frecuencia}{48}{subsection.16.9}%
-\contentsline {subsection}{\numberline {16.10}Historial de modificaciones}{48}{subsection.16.10}%
-\contentsline {subsection}{\numberline {16.11}Listado de distribución}{48}{subsection.16.11}%
-\contentsline {section}{\numberline {17}Lista de proveedores autorizados}{49}{section.17}%
-\contentsline {section}{\numberline {18}Control de estibas y cuidado de producto}{50}{section.18}%
-\contentsline {subsection}{\numberline {18.1}Objetivo}{50}{subsection.18.1}%
-\contentsline {subsection}{\numberline {18.2}Alcance}{50}{subsection.18.2}%
-\contentsline {subsection}{\numberline {18.3}Términos y definiciones}{50}{subsection.18.3}%
-\contentsline {subsection}{\numberline {18.4}Documentos y/o normas relacionadas}{50}{subsection.18.4}%
-\contentsline {subsection}{\numberline {18.5}Procedimiento}{50}{subsection.18.5}%
-\contentsline {subsection}{\numberline {18.6}Responsables de la actividad}{50}{subsection.18.6}%
-\contentsline {subsection}{\numberline {18.7}Acciones preventivas}{51}{subsection.18.7}%
-\contentsline {subsection}{\numberline {18.8}Acciones correctivas}{51}{subsection.18.8}%
-\contentsline {subsection}{\numberline {18.9}Frecuencia}{51}{subsection.18.9}%
-\contentsline {subsection}{\numberline {18.10}Historial de modificaciones}{51}{subsection.18.10}%
-\contentsline {subsection}{\numberline {18.11}Listado de distribución}{51}{subsection.18.11}%
-\contentsline {section}{\numberline {19}Instructivo para selección de tarimas de madera}{52}{section.19}%
-\contentsline {subsection}{\numberline {19.1}Objetivo}{52}{subsection.19.1}%
-\contentsline {subsection}{\numberline {19.2}Alcance}{52}{subsection.19.2}%
-\contentsline {subsection}{\numberline {19.3}Términos y definiciones}{52}{subsection.19.3}%
-\contentsline {subsection}{\numberline {19.4}Documentos y/o normas relacionadas}{52}{subsection.19.4}%
-\contentsline {subsection}{\numberline {19.5}Actividades}{52}{subsection.19.5}%
-\contentsline {subsubsection}{\numberline {19.5.1}Descartar tarimas que presenten:}{52}{subsubsection.19.5.1}%
-\contentsline {subsection}{\numberline {19.6}Listado de distribución}{52}{subsection.19.6}%
-\contentsline {section}{\numberline {20}Eliminación de humedad y escarcha}{53}{section.20}%
-\contentsline {subsection}{\numberline {20.1}Objetivo}{53}{subsection.20.1}%
-\contentsline {subsection}{\numberline {20.2}Alcance}{53}{subsection.20.2}%
-\contentsline {subsection}{\numberline {20.3}Términos y definiciones}{53}{subsection.20.3}%
-\contentsline {subsection}{\numberline {20.4}Documentos y/o normas relacionadas}{53}{subsection.20.4}%
-\contentsline {subsection}{\numberline {20.5}Procedimiento}{53}{subsection.20.5}%
-\contentsline {subsubsection}{\numberline {20.5.1}Materiales}{53}{subsubsection.20.5.1}%
-\contentsline {subsubsection}{\numberline {20.5.2}Precauciones de seguridad}{53}{subsubsection.20.5.2}%
-\contentsline {subsubsection}{\numberline {20.5.3}Instrucciones}{53}{subsubsection.20.5.3}%
-\contentsline {paragraph}{\numberline {20.5.3.1}Humedad}{53}{paragraph.20.5.3.1}%
-\contentsline {paragraph}{\numberline {20.5.3.2}Escarcha}{54}{paragraph.20.5.3.2}%
-\contentsline {subsection}{\numberline {20.6}Responsables de la actividad}{54}{subsection.20.6}%
-\contentsline {subsection}{\numberline {20.7}Acciones preventivas}{54}{subsection.20.7}%
-\contentsline {subsection}{\numberline {20.8}Acciones correctivas}{54}{subsection.20.8}%
-\contentsline {subsection}{\numberline {20.9}Frecuencia}{54}{subsection.20.9}%
-\contentsline {subsection}{\numberline {20.10}Historial de modificaciones}{54}{subsection.20.10}%
-\contentsline {subsection}{\numberline {20.11}Listado de distribución}{54}{subsection.20.11}%
-\contentsline {section}{\numberline {21}Atención de quejas}{55}{section.21}%
-\contentsline {subsection}{\numberline {21.1}Objetivos}{55}{subsection.21.1}%
-\contentsline {subsection}{\numberline {21.2}Alcance}{55}{subsection.21.2}%
-\contentsline {subsection}{\numberline {21.3}Términos y definiciones}{55}{subsection.21.3}%
-\contentsline {subsection}{\numberline {21.4}Documentos y/o normas relacionadas}{55}{subsection.21.4}%
-\contentsline {subsection}{\numberline {21.5}Procedimiento}{55}{subsection.21.5}%
-\contentsline {subsubsection}{\numberline {21.5.1}Recepción de Quejas de Calidad y/o Inocuidad o Servicio}{55}{subsubsection.21.5.1}%
-\contentsline {subsubsection}{\numberline {21.5.2}Reportes de Casos con Riesgo de Crisis}{56}{subsubsection.21.5.2}%
-\contentsline {subsubsection}{\numberline {21.5.3}Daños, faltantes o sobrantes en los productos embarcados}{56}{subsubsection.21.5.3}%
-\contentsline {subsection}{\numberline {21.6}Frecuencia}{56}{subsection.21.6}%
-\contentsline {subsection}{\numberline {21.7}Historial de modificaciones}{57}{subsection.21.7}%
-\contentsline {subsection}{\numberline {21.8}Listado de distribución}{57}{subsection.21.8}%
-\contentsline {subsection}{\numberline {21.9}Anexos}{57}{subsection.21.9}%
-\contentsline {section}{\numberline {22}Básculas en el almacén}{58}{section.22}%
-\contentsline {subsection}{\numberline {22.1}Objetivo}{58}{subsection.22.1}%
-\contentsline {subsection}{\numberline {22.2}Alcance}{58}{subsection.22.2}%
-\contentsline {subsection}{\numberline {22.3}Procedimiento}{58}{subsection.22.3}%
-\contentsline {section}{\numberline {23}Acciones correctivas y preventivas}{59}{section.23}%
-\contentsline {section}{\numberline {24}Acciones correctivas y preventivas}{59}{section.24}%
-\contentsline {subsection}{\numberline {24.1}Objetivo}{59}{subsection.24.1}%
-\contentsline {subsection}{\numberline {24.2}Alcance}{59}{subsection.24.2}%
-\contentsline {subsection}{\numberline {24.3}Términos y definiciones}{59}{subsection.24.3}%
-\contentsline {subsection}{\numberline {24.4}Documentos y/o normas relacionadas}{59}{subsection.24.4}%
-\contentsline {subsection}{\numberline {24.5}Procedimiento}{59}{subsection.24.5}%
-\contentsline {subsubsection}{\numberline {24.5.1}Acción Preventiva}{59}{subsubsection.24.5.1}%
-\contentsline {subsubsection}{\numberline {24.5.2}Acción Correctiva}{60}{subsubsection.24.5.2}%
-\contentsline {subsubsection}{\numberline {24.5.3}Acciones correctivas generadas de Auditorias Interna o Externas}{61}{subsubsection.24.5.3}%
-\contentsline {subsubsection}{\numberline {24.5.4}Seguimiento y Validación de la Acción Correctiva de Auditoría Interna}{61}{subsubsection.24.5.4}%
-\contentsline {subsubsection}{\numberline {24.5.5}Registros}{61}{subsubsection.24.5.5}%
-\contentsline {subsection}{\numberline {24.6}Frecuencia}{61}{subsection.24.6}%
-\contentsline {subsection}{\numberline {24.7}Historial de modificaciones}{61}{subsection.24.7}%
-\contentsline {subsection}{\numberline {24.8}Listado de distribución}{62}{subsection.24.8}%
-\contentsline {section}{\numberline {25}Elaboración y control de documentos}{63}{section.25}%
-\contentsline {subsection}{\numberline {25.1}Objetivo}{63}{subsection.25.1}%
-\contentsline {subsection}{\numberline {25.2}Alcance}{63}{subsection.25.2}%
-\contentsline {subsection}{\numberline {25.3}Términos y definiciones}{63}{subsection.25.3}%
-\contentsline {subsection}{\numberline {25.4}Responsables de la actividad}{64}{subsection.25.4}%
-\contentsline {subsubsection}{\numberline {25.4.1}Aseguramiento de Calidad}{64}{subsubsection.25.4.1}%
-\contentsline {subsubsection}{\numberline {25.4.2}Gerente de Mantenimiento}{64}{subsubsection.25.4.2}%
-\contentsline {subsubsection}{\numberline {25.4.3}Gerente de Operaciones}{64}{subsubsection.25.4.3}%
-\contentsline {subsection}{\numberline {25.5}Procedimiento}{64}{subsection.25.5}%
-\contentsline {subsubsection}{\numberline {25.5.1}Generación de Documentos}{64}{subsubsection.25.5.1}%
-\contentsline {paragraph}{\numberline {25.5.1.1}Estructura}{64}{paragraph.25.5.1.1}%
-\contentsline {paragraph}{\numberline {25.5.1.2}Edición}{64}{paragraph.25.5.1.2}%
-\contentsline {paragraph}{\numberline {25.5.1.3}Fecha de Publicación}{64}{paragraph.25.5.1.3}%
-\contentsline {paragraph}{\numberline {25.5.1.4}Contenido}{64}{paragraph.25.5.1.4}%
-\contentsline {paragraph}{\numberline {25.5.1.5}Tipo de letra}{65}{paragraph.25.5.1.5}%
-\contentsline {paragraph}{\numberline {25.5.1.6}Numeración}{65}{paragraph.25.5.1.6}%
-\contentsline {paragraph}{\numberline {25.5.1.7}Revisión y aprobación de Documentos}{65}{paragraph.25.5.1.7}%
-\contentsline {paragraph}{\numberline {25.5.1.8}Distribución, implementación y control de Documentos}{65}{paragraph.25.5.1.8}%
-\contentsline {paragraph}{\numberline {25.5.1.9}Cambios, alta o baja de documentos}{66}{paragraph.25.5.1.9}%
-\contentsline {paragraph}{\numberline {25.5.1.10}Control de documentos obsoletos:}{66}{paragraph.25.5.1.10}%
-\contentsline {subsubsection}{\numberline {25.5.2}Respaldo de la información}{66}{subsubsection.25.5.2}%
-\contentsline {subsection}{\numberline {25.6}Frecuencia}{66}{subsection.25.6}%
-\contentsline {subsection}{\numberline {25.7}Historial de modificaciones}{66}{subsection.25.7}%
-\contentsline {subsection}{\numberline {25.8}Listado de distribución}{66}{subsection.25.8}%
-\contentsline {subsection}{\numberline {25.9}Anexos}{66}{subsection.25.9}%
-\contentsline {section}{\numberline {26}Entrega de pequeñas cantidades}{67}{section.26}%
-\contentsline {subsection}{\numberline {26.1}Objetivos}{67}{subsection.26.1}%
-\contentsline {subsection}{\numberline {26.2}Alcance}{67}{subsection.26.2}%
-\contentsline {subsection}{\numberline {26.3}Términos y definiciones}{67}{subsection.26.3}%
-\contentsline {subsection}{\numberline {26.4}Documentos y/o normas relacionadas}{67}{subsection.26.4}%
-\contentsline {subsection}{\numberline {26.5}Procedimiento}{67}{subsection.26.5}%
-\contentsline {subsubsection}{\numberline {26.5.1}Precauciones de seguridad}{67}{subsubsection.26.5.1}%
-\contentsline {subsubsection}{\numberline {26.5.2}Instrucciones}{67}{subsubsection.26.5.2}%
-\contentsline {subsection}{\numberline {26.6}Responsables de la actividad}{68}{subsection.26.6}%
-\contentsline {subsection}{\numberline {26.7}Acciones preventivas}{68}{subsection.26.7}%
-\contentsline {subsection}{\numberline {26.8}Acciones correctivas}{68}{subsection.26.8}%
-\contentsline {subsection}{\numberline {26.9}Frecuencia}{68}{subsection.26.9}%
-\contentsline {subsection}{\numberline {26.10}Historial de modificaciones}{68}{subsection.26.10}%
-\contentsline {section}{\textspanish {Glosario}}{69}{section*.28}%
+\contentsline {section}{\numberline {1}Inspección en la recepción de productos}{10}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivo}{10}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Alcance}{10}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Términos y definiciones}{10}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Documentos y/o normas relacionadas}{10}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Procedimiento}{10}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Materiales}{10}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Precauciones de seguridad}{11}{subsubsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.5.3}Instrucciones}{11}{subsubsection.1.5.3}%
+\contentsline {paragraph}{\numberline {1.5.3.1}Inspección física del producto}{11}{paragraph.1.5.3.1}%
+\contentsline {paragraph}{\numberline {1.5.3.2}Identificación del producto}{12}{paragraph.1.5.3.2}%
+\contentsline {paragraph}{\numberline {1.5.3.3}Reglamento de permanencia de producto en andén de carga}{12}{paragraph.1.5.3.3}%
+\contentsline {subsubsection}{\numberline {1.5.4}Responsables de la actividad}{12}{subsubsection.1.5.4}%
+\contentsline {subsubsection}{\numberline {1.5.5}Acciones preventivas}{12}{subsubsection.1.5.5}%
+\contentsline {subsubsection}{\numberline {1.5.6}Acciones correctivas}{12}{subsubsection.1.5.6}%
+\contentsline {subsubsection}{\numberline {1.5.7}Frecuencia}{12}{subsubsection.1.5.7}%
+\contentsline {section}{\numberline {2}Procedimiento de lotificación de productos para su almacenamiento}{14}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Objetivo}{14}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Alcance}{14}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Términos y definiciones}{14}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Procedimiento}{14}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Fundamento}{14}{subsubsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.5}Materiales}{14}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Instrucciones}{14}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Responsables de la actividad}{15}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Acciones preventivas}{15}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Acciones correctivas}{15}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Frecuencia}{15}{subsection.2.10}%
+\contentsline {section}{\numberline {3}Inspección de producto durante su almacenamiento}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Objetivo}{16}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Alcance}{16}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Términos y definiciones}{16}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Documentos y/o normas relacionados}{16}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Procedimiento}{16}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Materiales}{16}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Precauciones de Seguridad}{16}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}Instrucciones}{17}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Temperatura de almacenamiento de alimentos refrigerados y congelados}{17}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Almacenaje y manejo de Productos Secos / Ambiente, Refrigerados y Congelados}{17}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Control y mantenimiento de temperatura}{18}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}Plan de contingencia en caso de avería de equipos de refrigeración}{18}{subsubsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.7}Responsables de la actividad}{18}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Acciones preventivas}{19}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Acciones correctivas}{19}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Frecuencia}{19}{subsection.3.10}%
+\contentsline {section}{\numberline {4}PEPS o VENCER}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Objetivo}{20}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Alcance}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Términos y definiciones}{20}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Documentos y/o normas relacionadas}{20}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Procedimiento}{20}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Instrucciones}{20}{subsubsection.4.5.1}%
+\contentsline {paragraph}{\numberline {4.5.1.1}Primeras entradas, primeras salidas (PEPS) o VENCER}{20}{paragraph.4.5.1.1}%
+\contentsline {subparagraph}{\numberline {4.5.1.1.1}Ingreso de alimentos}{20}{subparagraph.4.5.1.1.1}%
+\contentsline {subparagraph}{\numberline {4.5.1.1.2}Etiquetado de alimentos}{20}{subparagraph.4.5.1.1.2}%
+\contentsline {subparagraph}{\numberline {4.5.1.1.3}Consideraciones para el almacenaje de alimentos}{21}{subparagraph.4.5.1.1.3}%
+\contentsline {subparagraph}{\numberline {4.5.1.1.4}En el \glsfirst {SGA}}{21}{subparagraph.4.5.1.1.4}%
+\contentsline {subsection}{\numberline {4.6}Responsables de la actividad}{21}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Acciones preventivas}{22}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Acciones correctivas}{22}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Frecuencia}{22}{subsection.4.9}%
+\contentsline {section}{\numberline {5}Evaluación de proveedores}{23}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Datos generales del proveedor}{23}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Cumplimiento de especificaciones}{23}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Cumplimiento de fechas y cantidades comprometidas}{23}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Capacidad para surtir cantidades requeridas}{23}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Capacidad para surtir cantidades extraordinarias}{23}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Condiciones de producción y almacenamiento}{23}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Presencia de plagas}{23}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Mantenimiento de equipos e instalaciones}{24}{subsection.5.8}%
+\contentsline {section}{\numberline {6}Procedimiento para solicitud de citas}{25}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Contactos Red de Fríos}{27}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Política de devoluciones}{30}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Objetivo}{30}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Alcance}{30}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Términos y definiciones}{30}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Documentos y/o normas relacionadas}{30}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Política de devoluciones}{30}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Historial de modificaciones}{31}{subsection.7.6}%
+\contentsline {section}{\numberline {8}Política de aprobación de proveedores}{32}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Objetivo}{32}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Alcance}{32}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Términos y definiciones}{32}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Documentos y/o normas relacionadas}{32}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Procedimiento}{32}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Especificación genérica de servicios de almacenamiento}{36}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Objetivos}{36}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Alcance}{36}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Términos y definiciones}{36}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Disposiciones generales}{37}{subsection.9.4}%
+\contentsline {subsubsection}{\numberline {9.4.1}Almacenamiento en cámaras de refrigeración}{37}{subsubsection.9.4.1}%
+\contentsline {subsubsection}{\numberline {9.4.2}Almacenamiento en cámaras de congelación}{37}{subsubsection.9.4.2}%
+\contentsline {subsection}{\numberline {9.5}Documentos relacionados}{38}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Responsables}{38}{subsection.9.6}%
+\contentsline {section}{\numberline {10}Inspección de transporte al embarque de producto}{39}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Objetivo}{39}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Alcance}{39}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Términos y definiciones}{39}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Documentos y/o normas relacionadas}{39}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}Procedimiento}{39}{subsection.10.5}%
+\contentsline {subsubsection}{\numberline {10.5.1}Materiales}{39}{subsubsection.10.5.1}%
+\contentsline {subsubsection}{\numberline {10.5.2}Precauciones de seguridad}{39}{subsubsection.10.5.2}%
+\contentsline {subsubsection}{\numberline {10.5.3}Instrucciones}{40}{subsubsection.10.5.3}%
+\contentsline {paragraph}{\numberline {10.5.3.1}Envío de productos}{40}{paragraph.10.5.3.1}%
+\contentsline {paragraph}{\numberline {10.5.3.2}Políticas de embarque}{40}{paragraph.10.5.3.2}%
+\contentsline {paragraph}{\numberline {10.5.3.3}Rango de temperaturas de cuarto donde se almacena el producto}{40}{paragraph.10.5.3.3}%
+\contentsline {paragraph}{\numberline {10.5.3.4}Procedimiento de pre-enfriamiento de unidades}{41}{paragraph.10.5.3.4}%
+\contentsline {subsection}{\numberline {10.6}Responsables de la actividad}{41}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}Acciones preventivas}{41}{subsection.10.7}%
+\contentsline {subsection}{\numberline {10.8}Acciones correctivas}{41}{subsection.10.8}%
+\contentsline {subsection}{\numberline {10.9}Frecuencia}{41}{subsection.10.9}%
+\contentsline {section}{\numberline {11}Acciones en caso de corte de energía o desastre}{43}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Objetivo}{43}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Alcance}{43}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Términos y definiciones}{43}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Documentos y/o normas relacionadas}{43}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Procedimiento}{43}{subsection.11.5}%
+\contentsline {subsubsection}{\numberline {11.5.1}Instrucciones}{43}{subsubsection.11.5.1}%
+\contentsline {paragraph}{\numberline {11.5.1.1}Procedimiento de emergencia ante crisis y desastres naturales}{43}{paragraph.11.5.1.1}%
+\contentsline {paragraph}{\numberline {11.5.1.2}Corte de energía eléctrica}{44}{paragraph.11.5.1.2}%
+\contentsline {paragraph}{\numberline {11.5.1.3}Falla en los equipos de enfriamiento}{45}{paragraph.11.5.1.3}%
+\contentsline {paragraph}{\numberline {11.5.1.4}Seguridad y acceso a la instalación}{45}{paragraph.11.5.1.4}%
+\contentsline {section}{\numberline {12}Lista de contactos de emergencia}{47}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Objetivo}{47}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Alcance}{47}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Términos y definiciones}{47}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Documentos y/o normas relacionadas}{47}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}Procedimiento}{47}{subsection.12.5}%
+\contentsline {subsubsection}{\numberline {12.5.1}Equipo de Emergencias:}{47}{subsubsection.12.5.1}%
+\contentsline {paragraph}{\numberline {12.5.1.1}Coordinador 1}{47}{paragraph.12.5.1.1}%
+\contentsline {paragraph}{\numberline {12.5.1.2}Coordinador 2}{47}{paragraph.12.5.1.2}%
+\contentsline {paragraph}{\numberline {12.5.1.3}Coordinador 3}{47}{paragraph.12.5.1.3}%
+\contentsline {paragraph}{\numberline {12.5.1.4}Coordinador 4}{48}{paragraph.12.5.1.4}%
+\contentsline {paragraph}{\numberline {12.5.1.5}Vigilancia}{48}{paragraph.12.5.1.5}%
+\contentsline {paragraph}{\numberline {12.5.1.6}Números de Contacto de Emergencia}{48}{paragraph.12.5.1.6}%
+\contentsline {section}{\numberline {13}Manejo de producto retenido}{49}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Objetivo}{49}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Alcance}{49}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Términos y definiciones}{49}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Documentos y/o normas relacionadas}{49}{subsection.13.4}%
+\contentsline {subsection}{\numberline {13.5}Procedimiento}{49}{subsection.13.5}%
+\contentsline {subsubsection}{\numberline {13.5.1}Manejo de producto retenido por cuestiones de idoneaidad (por parte de RDF)}{49}{subsubsection.13.5.1}%
+\contentsline {subsubsection}{\numberline {13.5.2}Manejo de producto retenido por cuestiones de idoneaidad (por parte del cliente)}{50}{subsubsection.13.5.2}%
+\contentsline {subsubsection}{\numberline {13.5.3}Procedimiento para retiro de producto}{51}{subsubsection.13.5.3}%
+\contentsline {subsubsection}{\numberline {13.5.4}Destrucción de producto}{51}{subsubsection.13.5.4}%
+\contentsline {subsection}{\numberline {13.6}Responsables de la actividad}{51}{subsection.13.6}%
+\contentsline {subsection}{\numberline {13.7}Acciones preventivas}{51}{subsection.13.7}%
+\contentsline {subsection}{\numberline {13.8}Acciones correctivas}{51}{subsection.13.8}%
+\contentsline {subsection}{\numberline {13.9}Frecuencia}{52}{subsection.13.9}%
+\contentsline {section}{\numberline {14}Política de re-empaque, re-etiquetado, y uso de aditivos}{54}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Objetivo}{54}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Alcance}{54}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Términos y definiciones}{54}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}Documentos y/o normas relacionadas}{54}{subsection.14.4}%
+\contentsline {subsection}{\numberline {14.5}Política de re-empacado}{54}{subsection.14.5}%
+\contentsline {section}{\numberline {15}Control documental}{55}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Objetivo}{55}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Alcance}{55}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Términos y definiciones}{55}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}Documentos y/o normas relacionadas}{56}{subsection.15.4}%
+\contentsline {subsection}{\numberline {15.5}Procedimiento}{56}{subsection.15.5}%
+\contentsline {subsubsection}{\numberline {15.5.1}Control documental}{56}{subsubsection.15.5.1}%
+\contentsline {subsection}{\numberline {15.6}Responsables de la actividad}{57}{subsection.15.6}%
+\contentsline {subsection}{\numberline {15.7}Acciones preventivas}{57}{subsection.15.7}%
+\contentsline {subsection}{\numberline {15.8}Acciones correctivas}{57}{subsection.15.8}%
+\contentsline {section}{\numberline {16}Aprobación de cambios a procedimientos}{58}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Objetivo}{58}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Alcance}{58}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Términos y definiciones}{58}{subsection.16.3}%
+\contentsline {subsection}{\numberline {16.4}Procedimiento}{59}{subsection.16.4}%
+\contentsline {subsubsection}{\numberline {16.4.1}Cambios en los procesos de Recepción, Almacenamiento y Embarque}{59}{subsubsection.16.4.1}%
+\contentsline {subsubsection}{\numberline {16.4.2}Cambios de procedimientos y políticas}{59}{subsubsection.16.4.2}%
+\contentsline {subsubsection}{\numberline {16.4.3}Revisiones}{59}{subsubsection.16.4.3}%
+\contentsline {subsubsection}{\numberline {16.4.4}Administración de Cambios}{60}{subsubsection.16.4.4}%
+\contentsline {subsection}{\numberline {16.5}Acciones correctivas}{60}{subsection.16.5}%
+\contentsline {subsection}{\numberline {16.6}Frecuencia}{60}{subsection.16.6}%
+\contentsline {subsubsection}{\numberline {16.6.1}Revisión}{60}{subsubsection.16.6.1}%
+\contentsline {subsubsection}{\numberline {16.6.2}Actualización}{61}{subsubsection.16.6.2}%
+\contentsline {section}{\numberline {17}Manejo de proteína cruda fresca}{62}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Objetivo}{62}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Alcance}{62}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Términos y definiciones}{62}{subsection.17.3}%
+\contentsline {subsection}{\numberline {17.4}Documentos y/o normas relacionadas}{62}{subsection.17.4}%
+\contentsline {subsection}{\numberline {17.5}Procedimiento}{62}{subsection.17.5}%
+\contentsline {subsubsection}{\numberline {17.5.1}Precauciones de seguridad}{62}{subsubsection.17.5.1}%
+\contentsline {subsubsection}{\numberline {17.5.2}Instrucciones}{62}{subsubsection.17.5.2}%
+\contentsline {paragraph}{\numberline {17.5.2.1}Almacenaje de proteína cruda}{62}{paragraph.17.5.2.1}%
+\contentsline {paragraph}{\numberline {17.5.2.2}Embarque de proteína cruda}{63}{paragraph.17.5.2.2}%
+\contentsline {paragraph}{\numberline {17.5.2.3}Alérgenos}{63}{paragraph.17.5.2.3}%
+\contentsline {subsection}{\numberline {17.6}Responsables de la actividad}{63}{subsection.17.6}%
+\contentsline {subsection}{\numberline {17.7}Acciones preventivas}{63}{subsection.17.7}%
+\contentsline {subsection}{\numberline {17.8}Acciones correctivas}{64}{subsection.17.8}%
+\contentsline {subsection}{\numberline {17.9}Frecuencia}{64}{subsection.17.9}%
+\contentsline {subsection}{\numberline {17.10}Historial de modificaciones}{64}{subsection.17.10}%
+\contentsline {subsection}{\numberline {17.11}Listado de distribución}{64}{subsection.17.11}%
+\contentsline {section}{\numberline {18}Lista de proveedores autorizados}{65}{section.18}%
+\contentsline {section}{\numberline {19}Control de estibas y cuidado de producto}{66}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Objetivo}{66}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Alcance}{66}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}Términos y definiciones}{66}{subsection.19.3}%
+\contentsline {subsection}{\numberline {19.4}Documentos y/o normas relacionadas}{66}{subsection.19.4}%
+\contentsline {subsection}{\numberline {19.5}Procedimiento}{66}{subsection.19.5}%
+\contentsline {subsection}{\numberline {19.6}Responsables de la actividad}{67}{subsection.19.6}%
+\contentsline {subsection}{\numberline {19.7}Acciones preventivas}{67}{subsection.19.7}%
+\contentsline {subsection}{\numberline {19.8}Acciones correctivas}{67}{subsection.19.8}%
+\contentsline {subsection}{\numberline {19.9}Frecuencia}{67}{subsection.19.9}%
+\contentsline {subsection}{\numberline {19.10}Historial de modificaciones}{67}{subsection.19.10}%
+\contentsline {subsection}{\numberline {19.11}Listado de distribución}{67}{subsection.19.11}%
+\contentsline {section}{\numberline {20}Instructivo para selección de tarimas de madera}{68}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Objetivo}{68}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}Alcance}{68}{subsection.20.2}%
+\contentsline {subsection}{\numberline {20.3}Términos y definiciones}{68}{subsection.20.3}%
+\contentsline {subsection}{\numberline {20.4}Documentos y/o normas relacionadas}{68}{subsection.20.4}%
+\contentsline {subsection}{\numberline {20.5}Actividades}{68}{subsection.20.5}%
+\contentsline {subsubsection}{\numberline {20.5.1}Descartar tarimas que presenten:}{68}{subsubsection.20.5.1}%
+\contentsline {subsection}{\numberline {20.6}Listado de distribución}{68}{subsection.20.6}%
+\contentsline {section}{\numberline {21}Eliminación de humedad y escarcha}{69}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Objetivo}{69}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Alcance}{69}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Términos y definiciones}{69}{subsection.21.3}%
+\contentsline {subsection}{\numberline {21.4}Documentos y/o normas relacionadas}{69}{subsection.21.4}%
+\contentsline {subsection}{\numberline {21.5}Procedimiento}{69}{subsection.21.5}%
+\contentsline {subsubsection}{\numberline {21.5.1}Materiales}{69}{subsubsection.21.5.1}%
+\contentsline {subsubsection}{\numberline {21.5.2}Precauciones de seguridad}{69}{subsubsection.21.5.2}%
+\contentsline {subsubsection}{\numberline {21.5.3}Instrucciones}{69}{subsubsection.21.5.3}%
+\contentsline {paragraph}{\numberline {21.5.3.1}Humedad}{70}{paragraph.21.5.3.1}%
+\contentsline {paragraph}{\numberline {21.5.3.2}Escarcha}{70}{paragraph.21.5.3.2}%
+\contentsline {subsection}{\numberline {21.6}Responsables de la actividad}{70}{subsection.21.6}%
+\contentsline {subsection}{\numberline {21.7}Acciones preventivas}{70}{subsection.21.7}%
+\contentsline {subsection}{\numberline {21.8}Acciones correctivas}{70}{subsection.21.8}%
+\contentsline {subsection}{\numberline {21.9}Frecuencia}{71}{subsection.21.9}%
+\contentsline {subsection}{\numberline {21.10}Historial de modificaciones}{71}{subsection.21.10}%
+\contentsline {subsection}{\numberline {21.11}Listado de distribución}{71}{subsection.21.11}%
+\contentsline {section}{\numberline {22}Atención de quejas}{72}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Objetivos}{72}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Alcance}{72}{subsection.22.2}%
+\contentsline {subsection}{\numberline {22.3}Términos y definiciones}{72}{subsection.22.3}%
+\contentsline {subsection}{\numberline {22.4}Documentos y/o normas relacionadas}{72}{subsection.22.4}%
+\contentsline {subsection}{\numberline {22.5}Procedimiento}{73}{subsection.22.5}%
+\contentsline {subsubsection}{\numberline {22.5.1}Recepción de Quejas de Calidad y/o Inocuidad o Servicio}{73}{subsubsection.22.5.1}%
+\contentsline {subsubsection}{\numberline {22.5.2}Reportes de Casos con Riesgo de Crisis}{73}{subsubsection.22.5.2}%
+\contentsline {subsubsection}{\numberline {22.5.3}Daños, faltantes o sobrantes en los productos embarcados}{73}{subsubsection.22.5.3}%
+\contentsline {subsection}{\numberline {22.6}Frecuencia}{74}{subsection.22.6}%
+\contentsline {subsection}{\numberline {22.7}Historial de modificaciones}{74}{subsection.22.7}%
+\contentsline {subsection}{\numberline {22.8}Listado de distribución}{74}{subsection.22.8}%
+\contentsline {subsection}{\numberline {22.9}Anexos}{74}{subsection.22.9}%
+\contentsline {section}{\numberline {23}Básculas en el almacén}{75}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Objetivo}{75}{subsection.23.1}%
+\contentsline {subsection}{\numberline {23.2}Alcance}{75}{subsection.23.2}%
+\contentsline {subsection}{\numberline {23.3}Procedimiento}{75}{subsection.23.3}%
+\contentsline {section}{\numberline {24}Acciones correctivas y preventivas}{76}{section.24}%
+\contentsline {section}{\numberline {25}Acciones correctivas y preventivas}{76}{section.25}%
+\contentsline {subsection}{\numberline {25.1}Objetivo}{76}{subsection.25.1}%
+\contentsline {subsection}{\numberline {25.2}Alcance}{76}{subsection.25.2}%
+\contentsline {subsection}{\numberline {25.3}Términos y definiciones}{76}{subsection.25.3}%
+\contentsline {subsection}{\numberline {25.4}Documentos y/o normas relacionadas}{76}{subsection.25.4}%
+\contentsline {subsection}{\numberline {25.5}Procedimiento}{77}{subsection.25.5}%
+\contentsline {subsubsection}{\numberline {25.5.1}Acción Preventiva}{77}{subsubsection.25.5.1}%
+\contentsline {subsubsection}{\numberline {25.5.2}Acción Correctiva}{77}{subsubsection.25.5.2}%
+\contentsline {subsubsection}{\numberline {25.5.3}Acciones correctivas generadas de Auditorias Interna o Externas}{78}{subsubsection.25.5.3}%
+\contentsline {subsubsection}{\numberline {25.5.4}Seguimiento y Validación de la Acción Correctiva de Auditoría Interna}{79}{subsubsection.25.5.4}%
+\contentsline {subsubsection}{\numberline {25.5.5}Registros}{79}{subsubsection.25.5.5}%
+\contentsline {subsection}{\numberline {25.6}Frecuencia}{79}{subsection.25.6}%
+\contentsline {subsection}{\numberline {25.7}Historial de modificaciones}{79}{subsection.25.7}%
+\contentsline {subsection}{\numberline {25.8}Listado de distribución}{79}{subsection.25.8}%
+\contentsline {section}{\numberline {26}Elaboración y control de documentos}{80}{section.26}%
+\contentsline {subsection}{\numberline {26.1}Objetivo}{80}{subsection.26.1}%
+\contentsline {subsection}{\numberline {26.2}Alcance}{80}{subsection.26.2}%
+\contentsline {subsection}{\numberline {26.3}Términos y definiciones}{80}{subsection.26.3}%
+\contentsline {subsection}{\numberline {26.4}Responsables de la actividad}{81}{subsection.26.4}%
+\contentsline {subsubsection}{\numberline {26.4.1}Aseguramiento de Calidad}{81}{subsubsection.26.4.1}%
+\contentsline {subsubsection}{\numberline {26.4.2}Gerente de Mantenimiento}{81}{subsubsection.26.4.2}%
+\contentsline {subsubsection}{\numberline {26.4.3}Gerente de Operaciones}{81}{subsubsection.26.4.3}%
+\contentsline {subsection}{\numberline {26.5}Procedimiento}{81}{subsection.26.5}%
+\contentsline {subsubsection}{\numberline {26.5.1}Generación de Documentos}{81}{subsubsection.26.5.1}%
+\contentsline {paragraph}{\numberline {26.5.1.1}Estructura}{81}{paragraph.26.5.1.1}%
+\contentsline {paragraph}{\numberline {26.5.1.2}Edición}{82}{paragraph.26.5.1.2}%
+\contentsline {paragraph}{\numberline {26.5.1.3}Fecha de Publicación}{82}{paragraph.26.5.1.3}%
+\contentsline {paragraph}{\numberline {26.5.1.4}Contenido}{82}{paragraph.26.5.1.4}%
+\contentsline {paragraph}{\numberline {26.5.1.5}Tipo de letra}{82}{paragraph.26.5.1.5}%
+\contentsline {paragraph}{\numberline {26.5.1.6}Numeración}{82}{paragraph.26.5.1.6}%
+\contentsline {paragraph}{\numberline {26.5.1.7}Revisión y aprobación de Documentos}{83}{paragraph.26.5.1.7}%
+\contentsline {paragraph}{\numberline {26.5.1.8}Distribución, implementación y control de Documentos}{83}{paragraph.26.5.1.8}%
+\contentsline {paragraph}{\numberline {26.5.1.9}Cambios, alta o baja de documentos}{83}{paragraph.26.5.1.9}%
+\contentsline {paragraph}{\numberline {26.5.1.10}Control de documentos obsoletos:}{84}{paragraph.26.5.1.10}%
+\contentsline {subsubsection}{\numberline {26.5.2}Respaldo de la información}{84}{subsubsection.26.5.2}%
+\contentsline {subsection}{\numberline {26.6}Frecuencia}{84}{subsection.26.6}%
+\contentsline {subsection}{\numberline {26.7}Historial de modificaciones}{84}{subsection.26.7}%
+\contentsline {subsection}{\numberline {26.8}Listado de distribución}{84}{subsection.26.8}%
+\contentsline {subsection}{\numberline {26.9}Anexos}{84}{subsection.26.9}%
+\contentsline {section}{\numberline {27}Entrega de pequeñas cantidades}{85}{section.27}%
+\contentsline {subsection}{\numberline {27.1}Objetivos}{85}{subsection.27.1}%
+\contentsline {subsection}{\numberline {27.2}Alcance}{85}{subsection.27.2}%
+\contentsline {subsection}{\numberline {27.3}Términos y definiciones}{85}{subsection.27.3}%
+\contentsline {subsection}{\numberline {27.4}Documentos y/o normas relacionadas}{85}{subsection.27.4}%
+\contentsline {subsection}{\numberline {27.5}Procedimiento}{85}{subsection.27.5}%
+\contentsline {subsubsection}{\numberline {27.5.1}Precauciones de seguridad}{85}{subsubsection.27.5.1}%
+\contentsline {subsubsection}{\numberline {27.5.2}Instrucciones}{86}{subsubsection.27.5.2}%
+\contentsline {subsection}{\numberline {27.6}Responsables de la actividad}{86}{subsection.27.6}%
+\contentsline {subsection}{\numberline {27.7}Acciones preventivas}{86}{subsection.27.7}%
+\contentsline {subsection}{\numberline {27.8}Acciones correctivas}{86}{subsection.27.8}%
+\contentsline {subsection}{\numberline {27.9}Frecuencia}{86}{subsection.27.9}%
+\contentsline {subsection}{\numberline {27.10}Historial de modificaciones}{86}{subsection.27.10}%
+\contentsline {section}{\textspanish {Glosario}}{87}{section*.19}%

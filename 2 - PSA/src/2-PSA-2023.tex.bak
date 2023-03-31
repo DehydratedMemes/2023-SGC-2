@@ -1,0 +1,223 @@
+% % arara: xelatex: {
+% % arara: --> interaction: nonstopmode,
+% % arara: --> options: ['-file-line-error','-max-print-line=200'],
+% % arara: --> shell: yes,
+% % arara: --> synctex: yes,
+% % arara: --> }
+% arara: lualatex: {
+% arara: --> interaction: nonstopmode,
+% arara: --> options: ['-file-line-error'],
+% arara: --> shell: yes,
+% arara: --> synctex: yes,
+% arara: --> }
+% arara: makeglossaries
+%% arara: makeindex
+
+\documentclass[letterpaper,10pt,twoside,es-MX]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Definición de variables %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{../VariablesEstaticas.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Control de versiónes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{changelog}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% ESPECIALES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{expl3}    % \usepackage cannot be used before \documentclass
+\ExplSyntaxOn             % Switch on expl3 syntax
+\pdf_version_gset:n{1.7}  % Use provided expl3 function
+\ExplSyntaxOff            % Switch off expl3 syntax
+%%%%%%%%%%%%%%%%%%%%%%%%%%% PREAMBULO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[sfdefault,t,lf]{carlito}
+% \usepackage[default,lnum]{opensans}
+% \usepackage{CormorantGaramond}
+% \usepackage{fontspec}
+% 	\setmainfont{Carlito}
+
+\usepackage{polyglossia}
+	\setdefaultlanguage[variant=mexican,spanishoperators=all]{spanish}
+	%\AtBeginDocument{\renewcommand\babelname{spanish}}
+% \usepackage{tracklang}
+% \SetCurrentTrackedDialect{es-MX}
+% \CurrentTrackedDialectVariant{}
+
+% \usepackage[record]{glossaries-extra}
+
+% \GlsXtrLoadResources[
+%   src={../glos.bib},% data in entries.bib
+%   sort={en-GB},% sort according to 'en-GB' locale
+% ]
+
+\usepackage[toc=true,postpunc={;},showtargets=annoteleft,style=tree,xindy]{glossaries-extra}
+	\makeglossaries
+	\setabbreviationstyle[acronym]{long-short}
+	\loadglsentries[main]{../glosario-def.tex}
+
+\usepackage{imakeidx}
+	\makeindex[columns=2]
+% framemethod=tikz
+% \usepackage{mdframed}
+% \usetikzlibrary{calc}
+
+
+\newcounter{note}[section]
+\renewcommand{\thenote}{\thesection.\Alph{note}}
+
+\usepackage[framemethod=TikZ]{mdframed}
+
+\newenvironment{note}[1][]{%
+    \refstepcounter{note}
+    \begin{mdframed}[%
+        frametitle={Nota \thenote\ #1},
+        skipabove=\baselineskip plus 2pt minus 1pt,
+        skipbelow=\baselineskip plus 2pt minus 1pt,
+        linewidth=0.5pt,
+        frametitlerule=true,
+        frametitlebackgroundcolor=gray!30
+    ]%
+}{%
+    \end{mdframed}
+}
+
+
+
+\newcounter{contact}[section]
+\renewcommand{\thecontact}{\thesection.\Alph{contact}}
+
+\newenvironment{contact}[1][]{%
+    \refstepcounter{contact}
+    \begin{mdframed}[%
+        frametitle={Contacto \thecontact\ #1},
+        skipabove=\baselineskip plus 2pt minus 1pt,
+        skipbelow=\baselineskip plus 2pt minus 1pt,
+        linewidth=0.5pt,
+        frametitlerule=true,
+        frametitlebackgroundcolor=yellow!30
+    ]%
+}{%
+    \end{mdframed}
+}
+
+\usepackage[multiple]{footmisc}
+
+\usepackage{microtype}
+\usepackage{tabularray}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{cleveref}
+	\crefname{note}{nota}{notas}
+	\Crefname{note}{Nota}{Notas}
+	\crefname{contact}{contacto}{contactos}
+	\Crefname{contact}{Contacto}{Contactos}
+	\crefname{paragraph}{parrafo}{parrafos}
+	\Crefname{paragraph}{Parrafo}{Parrafos}
+% \usepackage{array}
+\usepackage{lastpage}
+\usepackage{siunitx}
+	\sisetup{detect-all}
+
+\usepackage{color}
+
+\usepackage{tabularray}
+	\UseTblrLibrary{booktabs,siunitx}
+	\definecolor{Gallery}{rgb}{0.929,0.929,0.929}
+	\DefTblrTemplate{contfoot-text}{normal}{\textit{Continúa en la siguiente página}}
+	\SetTblrTemplate{contfoot-text}{normal}
+	\DefTblrTemplate{conthead-text}{normal}{\textit{(Continuación)}}
+	\SetTblrTemplate{conthead-text}{normal}
+
+% \usepackage{xhfill}
+%\usepackage{pdfpages}
+%\usepackage{lipsum}
+
+\usepackage[margin=2cm,bmargin=2cm,tmargin=5cm,headheight=97pt]{geometry}
+%\addtolength{\topmargin}{-12pt}
+	%\usepackage{geometry}
+	%\setlength{\parindent}{0.95cm}
+	%\renewcommand{\labelitemi}{\textemdash}
+
+\usepackage{enumitem}
+	\setlist[1]{labelindent=\parindent} % < Usually a good idea
+	\setlist[itemize]{leftmargin=*}
+	\setlist[itemize,1]{label=---}
+	\setlist{noitemsep}
+
+\usepackage{fancyhdr}
+	\renewcommand{\headrulewidth}{0pt}
+	\fancyhead[CE,CO,LE,LO,RE,RO]{}
+
+	\newcommand{\Codigo}{}
+	\newcommand{\FechaPub}{}
+	\newcommand{\Titulo}{}
+	\newcommand{\MayorVer}{}
+	\newcommand{\MenorVer}{}
+	\newcommand{\Edit}{\MayorVer.\MenorVer}
+
+	\newcommand{\email}[1]{\href{mailto:#1}{#1}}
+
+	\newcommand{\contacto}[2]{%
+		\fbox{%
+			\parbox[c]{0.5\textwidth}{
+				\subsubsection*{#1}
+				#2
+			}%
+		}%
+	}%
+
+	\newcommand{\cels}[1]{\qty{#1}{\celsius}}
+\fancypagestyle{formato}{%
+    \fancyhead[C]{%
+	    \begin{tblr}{%	
+            colspec = {|X[c,m]|X[c,m]|X[c,m]|X[c,m]|X[c,m]|X[c,m]|},
+            }
+            \hline
+            \SetCell[c=2]{c} \includegraphics[height=1cm]{./RDF_Logo-eps-converted-to.pdf} & & \SetCell[c=3]{c} \large{Red de fríos S.A. de C.V.} & & & {\textbf{Código:}\\ \Codigo} \\
+            \hline
+            \SetCell[c=4]{c} {\Titulo} & & & & {\textbf{Fecha de publicación:}\\ \FechaPub} & {\textbf{Edición:}\\ \Edit} \\
+            \hline
+            \end{tblr}
+	    }%
+    \fancyfoot[CE,CO,LE,LO,RE,RO]{} %% clear out all footers
+    \fancyfoot[C]{Página \thepage\ de \pageref{LastPage}}
+    \fancyfoot[L]{\textbf{CONFIDENCIAL}}
+    \fancyfoot[R]{\Codigo~v.\Edit}
+}%
+
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+\newcommand{\defglo}[1]{\item[\glsname{#1}] \glsdesc{#1}} % Define un comando para dar un item en un entorno de descripción para una palabra definida en el glosario
+
+ \includeonly{src/PSA-2.16.tex}
+
+\begin{document}
+\pagestyle{formato}
+\include{src/PSA-ToC.tex}	
+\include{src/PSA-2.1.tex}	% REVISADO
+\include{src/PSA-2.2.tex}	% REVISADO
+\include{src/PSA-2.3.tex}	% REVISADO
+\include{src/PSA-2.4.tex}	% REVISADO
+\include{src/PSA-2.5.tex}	% TODO: VERIFICAR
+\include{src/PSA-2.6.tex}	% REVISADO
+\include{src/PSA-2.7.tex}	% REVISADO
+\include{src/PSA-2.8.tex}	% REVISADO
+\include{src/PSA-2.9.tex}	% REVISADO
+\include{src/PSA-2.10.tex}	% REVISADO
+\include{src/PSA-2.11.tex}	% REVISADO
+\include{src/PSA-2.12.tex}	% REVISADO
+\include{src/PSA-2.13.tex}	% REVISADO
+\include{src/PSA-2.14.tex}	% REVISADO
+\include{src/PSA-2.15.tex}	% REVISADO
+\include{src/PSA-2.16.tex}	% 
+\include{src/PSA-2.17.tex}
+\include{src/PSA-2.18.tex}
+\include{src/PSA-2.19.tex}
+\include{src/PSA-2.20.tex}
+\include{src/PSA-2.21.tex}
+\include{src/PSA-2.22.tex}
+\include{src/PSA-2.23.tex}
+\include{src/PSA-2.24.tex}
+\include{src/PSA-2.25.tex}
+\include{src/PSA-2.26.tex}
+\include{src/PSA-Gloss.tex}
+\include{src/PSA-Ind.tex}
+\end{document}
