@@ -133,6 +133,11 @@ footskip=1.5em]{geometry}
 	\setlist[itemize,1]{label=---}  	% Viñeta como em-dash
 	\setlist[itemize,2]{label=--}
 	\setlist{noitemsep} 				% Que no se separen los item
+	% [label={\theparagraph--\arabic*}] % Numerarar parrafo-numero
+
+	\newlist{ListaSec}{enumerate}{3}
+	\setlist[ListaSec]{ label* = \arabic*., name* = \arabic{section}.\arabic{subsection}}
+
 
 %%%%%%%%%%%%%%%% DEFINICIÓN DE CABECERA %%%%%%%%%%%%%%%%
 \usepackage{fancyhdr}   % Usar fancy headers y footers
@@ -208,7 +213,7 @@ footskip=1.5em]{geometry}
 
 \newcommand{\defglo}[1]{\item[\glsname{#1}] \glsdesc{#1}} % Define un comando para dar un item en un entorno de descripción para una palabra definida en el glosario
 
-% \includeonly{src/PSA-2.16.tex}
+\includeonly{src/PSA-2.17.tex}
 
 \begin{document}
 \pagestyle{formato-PS}
@@ -228,8 +233,8 @@ footskip=1.5em]{geometry}
 \include{src/PSA-2.13.tex}	% REVISADO
 \include{src/PSA-2.14.tex}	% REVISADO
 \include{src/PSA-2.15.tex}	% REVISADO
-\include{src/PSA-2.16.tex}	% 
-\include{src/PSA-2.17.tex}
+\include{src/PSA-2.16.tex}	% REVISADO
+\include{src/PSA-2.17.tex}	%
 \include{src/PSA-2.18.tex}
 \include{src/PSA-2.19.tex}
 \include{src/PSA-2.20.tex}
