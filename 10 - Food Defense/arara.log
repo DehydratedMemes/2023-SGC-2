@@ -1,0 +1,423 @@
+13 Apr 2023 11:41:37.011 INFO  - 
+Welcome to arara 7.0.4!
+-----------------------------------------------------------------
+13 Apr 2023 11:41:37.028 DEBUG - 
+::: arara @ C:\Program Files\MiKTeX\scripts\arara
+::: Java 19, Eclipse Adoptium
+::: C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
+::: Windows 10, amd64, 10.0
+::: user.home @ C:\Users\Usuario
+::: CF @ [none]
+-----------------------------------------------------------------
+13 Apr 2023 11:41:37.058 INFO  - Processing "10-FoodDefense-2023.tex" (size: 11.2 kB, last modified: 2023-04-13 16:24:21), please wait.
+13 Apr 2023 11:41:37.184 INFO  - I found a potential pattern in line 3: lualatex: {
+13 Apr 2023 11:41:37.185 INFO  - I found a potential pattern in line 4: --> interaction: nonstopmode,
+13 Apr 2023 11:41:37.185 INFO  - I found a potential pattern in line 5: --> options: ['-file-line-error'],
+13 Apr 2023 11:41:37.186 INFO  - I found a potential pattern in line 6: --> shell: yes,
+13 Apr 2023 11:41:37.186 INFO  - I found a potential pattern in line 7: --> synctex: yes,
+13 Apr 2023 11:41:37.186 INFO  - I found a potential pattern in line 8: --> }
+13 Apr 2023 11:41:37.187 INFO  - I found a potential pattern in line 9: makeglossaries
+13 Apr 2023 11:41:38.373 INFO  -                     All directives were validated. We are good to go.
+                    -------------------------- DIRECTIVES ---------------------------
+                    Directive(identifier='lualatex', parameters={interaction=nonstopmode, options=[-file-line-error], shell=yes, synctex=yes, reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\10 - Food Defense\10-FoodDefense-2023.tex},conditional={ NONE }, lineNumbers=[3, 4, 5, 6, 7, 8])
+Directive(identifier='makeglossaries', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\10 - Food Defense\10-FoodDefense-2023.tex},conditional={ NONE }, lineNumbers=[9])
+                    -----------------------------------------------------------------
+13 Apr 2023 11:41:38.382 INFO  - I am ready to interpret rule "lualatex".
+13 Apr 2023 11:41:38.394 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+13 Apr 2023 11:41:39.605 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
+13 Apr 2023 11:41:39.613 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 10-FoodDefense-2023.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\10 - Food Defense
+13 Apr 2023 11:43:51.813 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12)
+ system commands enabled.
+(./10-FoodDefense-2023.tex
+LaTeX2e <2022-11-01> patch level 1
+ L3 programming layer <2022-12-17>
+("C:/Program Files/MiKTeX/tex/latex/base/article.cls"
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+("C:/Program Files/MiKTeX/tex/latex/base/size12.clo"))
+(../VariablesEstaticas.tex)
+("C:/Program Files/MiKTeX/tex/latex/carlito/carlito.sty"
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifxetex.sty"
+("C:/Program Files/MiKTeX/tex/generic/iftex/iftex.sty"))
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifluatex.sty")
+("C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/xkeyval.tex"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/xkvutils.tex"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/keyval.tex"))))
+("C:/Program Files/MiKTeX/tex/latex/base/textcomp.sty")
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3packages/xparse/xparse.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3kernel/expl3.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-luatex.def")))
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec-luatex.sty"
+("C:/Program Files/MiKTeX/tex/latex/base/fontenc.sty")
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.cfg"))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/polyglossia.sty
+("C:/Program Files/MiKTeX/tex/latex/etoolbox/etoolbox.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/makecmds/makecmds.sty)
+("C:/Program Files/MiKTeX/tex/latex/l3packages/l3keys2e/l3keys2e.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/luatex/luatexbase/luatexbase.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/luatex/ctablestack/ctablestack.sty
+))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-latex.lde)
+)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-spanish.ld
+f) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/changelog/changelog.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/translations/translations.st
+y ("C:/Program Files/MiKTeX/tex/generic/pdftexcmds/pdftexcmds.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/infwarerr/infwarerr.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/pdflscape/pdflscape.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/pdflscape/pdflscape-nometada
+ta.sty ("C:/Program Files/MiKTeX/tex/latex/graphics/lscape.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/trig.sty")
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics-def/luatex.def")))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/pifont.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/upzd.fd)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/upsy.fd))
+("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra.sty"
+("C:/Program Files/MiKTeX/tex/latex/glossaries/base/glossaries.sty"
+("C:/Program Files/MiKTeX/tex/latex/base/ifthen.sty")
+("C:/Program Files/MiKTeX/tex/latex/mfirstuc/mfirstuc.sty")
+("C:/Program Files/MiKTeX/tex/latex/xfor/xfor.sty")
+("C:/Program Files/MiKTeX/tex/latex/datatool/datatool-base.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsmath.sty"
+For additional information on amsmath, use the `?' option.
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amstext.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsgen.sty"))
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsbsy.sty")
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsopn.sty"))
+("C:/Program Files/MiKTeX/tex/latex/substr/substr.sty")
+("C:/Program Files/MiKTeX/tex/latex/datatool/datatool-fp.sty"
+("C:/Program Files/MiKTeX/tex/latex/fp/fp.sty"
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+("C:/Program Files/MiKTeX/tex/latex/fp/defpattern.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-basic.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-addons.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-snap.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-exp.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-trigo.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-pas.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-random.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-eqn.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-upn.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-eval.sty"))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tracklang/tracklang.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/tracklang/tracklang.tex))
+("C:/Program Files/MiKTeX/tex/latex/glossaries-spanish/glossaries-spanish.ldf"
+("C:/Program Files/MiKTeX/tex/latex/glossaries-spanish/glossaries-spanish-noenc
+.ldf"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-hypernav.sty")
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-list.sty")
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-long.sty"
+("C:/Program Files/MiKTeX/tex/latex/tools/longtable.sty"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-super.sty"
+("C:/Program Files/MiKTeX/tex/latex/supertabular/supertabular.sty"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-tree.sty"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra-abbrstyle
+s.def")) (../glosario-def.tex)
+("C:/Program Files/MiKTeX/tex/latex/imakeidx/imakeidx.sty"
+("C:/Program Files/MiKTeX/tex/latex/tools/multicol.sty"))
+Writing index file 10-FoodDefense-2023.idx
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/mdframed/mdframed.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/zref/zref-abspage.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/zref/zref-base.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/kvdefinekeys/kvdefinekeys.
+sty) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/etexcmds/etexcmds.sty
+) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/auxhook/auxhook.sty))
+("C:/Program Files/MiKTeX/tex/latex/base/atbegshi-ltx.sty"))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/needspace/needspace.sty)
+("C:/Program Files/MiKTeX/tex/latex/graphics/color.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
+("C:/Program Files/MiKTeX/tex/latex/pgf/frontendlayer/tikz.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common-lists.tex"))
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-latex.def")
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfrcs.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/pgf.revision.tex")))
+("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty")
+("C:/Program Files/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgf.cfg")
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-luatex.def"
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def")))
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex"
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+")) ("C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcore.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathcalc.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathutil.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathparser.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex"
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.trigonometric.c
+ode.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
+")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.comparison.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.base.code.tex")
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
+") ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.misc.code.te
+x")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.integerarithmet
+ics.code.tex")))
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfloat.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfint.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.
+tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex"
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex")
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.t
+ex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoretransformations.cod
+e.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorequick.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex")
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex")
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoretransparency.code.t
+ex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex")
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex")))
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmoduleshapes.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmoduleplot.code.tex")
+("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty"
+) ("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y")) ("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgffor.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"))
+("C:/Program Files/MiKTeX/tex/latex/pgf/math/pgfmath.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgffor.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex")))
+("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/libraries/pgflibraryplothandlers.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmodulematrix.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibr
+arytopaths.code.tex")))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/mdframed/md-frame-1.mdf))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/footmisc/footmisc.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype-luatex.d
+ef) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.cfg)
+) ("C:/Program Files/MiKTeX/tex/latex/hyperref/hyperref.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/pdfescape/pdfescape.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/hycolor/hycolor.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/letltxmacro/letltxmacro.sty)
+ ("C:/Program Files/MiKTeX/tex/latex/hyperref/nameref.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/gettitlestring/gettitlestr
+ing.sty)) ("C:/Program Files/MiKTeX/tex/latex/hyperref/pd1enc.def")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/intcalc/intcalc.sty)
+("C:/Program Files/MiKTeX/tex/latex/hyperref/puenc.def")
+("C:/Program Files/MiKTeX/tex/latex/url/url.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bitset/bitset.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty)
+)) ("C:/Program Files/MiKTeX/tex/latex/hyperref/hluatex.def"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/stringenc/stringenc.sty)
+("C:/Program Files/MiKTeX/tex/latex/base/atveryend-ltx.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/cleveref/cleveref.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/lastpage/lastpage.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/siunitx/siunitx.sty
+("C:/Program Files/MiKTeX/tex/latex/tools/array.sty"))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tabularray/tabularray.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/booktabs/booktabs.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifvtex.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.cfg))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/adjustbox.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/adjcalc.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/trimclip.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/collectbox/collectbox.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/tc-pgf.def))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/ifoddpage/ifoddpage.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/varwidth/varwidth.sty))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/enumitem/enumitem.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty)
+(./10-FoodDefense-2023.aux (./src/FD-ToC.aux) (./src/FD-10.P.aux)
+(./src/FD-10.1.aux) (./src/FD-10.2.aux) (./src/FD-10.3.aux) (./src/FD-Gloss.aux
+) (./src/FD-Ind.aux)) ("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/translations/dicts/translati
+ons-basic-dictionary-spanish.trsl)
+("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+) ("C:/Program Files/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty"
+("C:/Program Files/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg"))
+(./10-FoodDefense-2023.out) (./10-FoodDefense-2023.out)
+("C:/Program Files/MiKTeX/tex/latex/ninecolors/ninecolors.sty")
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+(./src/FD-ToC.tex (./10-FoodDefense-2023.toc
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-LatinModernRoma
+n.cfg) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-cmr.cfg)
+[1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./RDF_Log
+o.png>] [2] [3]) (./10-FoodDefense-2023.lot)) [4] (./src/FD-10.P.tex
+Overfull \hbox (1.4224pt too wide) in paragraph at lines 30--30
+ []\TU/Carlito(0)/m/n/12 Enero 
+
+Overfull \hbox (1.4224pt too wide) in paragraph at lines 30--30
+ []\TU/Carlito(0)/m/n/12 Enero 
+[5]) (./src/FD-10.1.tex [6] [7] [8] [9] [10] [11] [12]) [13] (./src/FD-10.2.tex
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\glsname' on input line 9.
+
+[14] [15]) [16] (./src/FD-10.3.tex ("../1 - BPD/src/BPM-1.4.tex" [17]
+Underfull \vbox (badness 4242) has occurred while \output is active [18]
+Underfull \vbox (badness 1264) has occurred while \output is active [19]
+
+LaTeX Warning: Reference `carta.compromiso' on page 1 undefined on input line 1
+39.
+
+) [20] ("../1 - BPD/src/BPM-1.5.tex") [21] ("../1 - BPD/src/BPM-1.6.tex"
+[22]
+
+LaTeX Warning: Reference `F-amonest' on page 1 undefined on input line 86.
+
+) [23] ("../2 - PSA/src/PSA-2.4.tex" [24] [25]) [26]
+("../2 - PSA/src/PSA-2.2.tex" [27]) [28] ("../2 - PSA/src/PSA-2.3.tex" [29]
+Underfull \vbox (badness 2671) has occurred while \output is active [30]
+[31]) [32] ("../2 - PSA/src/PSA-2.12.tex"
+
+LaTeX Warning: Reference `sec:AccEnCasoDeEmergencia' on page 1 undefined on inp
+ut line 32.
+
+[33]) [34]) (./src/FD-Gloss.tex (./10-FoodDefense-2023.acr
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textspanish' on input line 1.
+
+)) (./10-FoodDefense-2023.gls
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textspanish' on input line 1.
+
+
+Overfull \hbox (53.73526pt too wide) in alignment at lines 25--88
+ [][][] 
+[35] [36]) [37] (./src/FD-Ind.tex)This is makeindex, version 2.16 [MiKTeX 22.12].
+Scanning input file 10-FoodDefense-2023.idx....done (33 entries accepted, 6 rejected).
+Sorting entries....done (180 comparisons).
+Generating output file 10-FoodDefense-2023.ind....done (71 lines written, 0 warnings).
+Output written in 10-FoodDefense-2023.ind.
+Transcript written in 10-FoodDefense-2023.ilg.
+ (./10-FoodDefense-2023.ind) [38]
+
+AED: lastpage setting LastPage
+(./10-FoodDefense-2023.aux (./src/FD-ToC.aux) (./src/FD-10.P.aux)
+(./src/FD-10.1.aux) (./src/FD-10.2.aux) (./src/FD-10.3.aux) (./src/FD-Gloss.aux
+) (./src/FD-Ind.aux))
+
+LaTeX Warning: There were undefined references.
+
+)
+(see the transcript file for additional information)
+ 964 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 14 glue, 4 kern, 1 penalty, 3 glyph, 
+23 attribute, 107 glue_spec, 23 attribute_list, 5 write nodes
+   avail lists: 1:4,2:2385,3:1035,4:252,5:1191,6:200,7:11116,8:121,9:2062,10:23
+,11:1365
+<//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bolditalic.
+ttf><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.
+ttf><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.tt
+f><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.t
+tf><C:/Program Files/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on 10-FoodDefense-2023.pdf (38 pages, 296303 bytes).
+SyncTeX written on 10-FoodDefense-2023.synctex.gz.
+Transcript written on 10-FoodDefense-2023.log.
+lualatex: major issue: User/administrator updates are out-of-sync.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+13 Apr 2023 11:43:51.820 INFO  - Task result: SUCCESS
+13 Apr 2023 11:43:51.821 INFO  - I am ready to interpret rule "makeglossaries".
+13 Apr 2023 11:43:51.825 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+13 Apr 2023 11:43:51.925 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
+13 Apr 2023 11:43:51.928 INFO  - System command: [makeglossaries, 10-FoodDefense-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\10 - Food Defense
+13 Apr 2023 11:43:57.612 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                makeglossaries version 4.51 (2022-11-02)
+added glossary type 'main' (glg,gls,glo)
+added glossary type 'acronym' (alg,acr,acn)
+xindy  -L spanish -C modern-utf8 -I xindy -M "10-FoodDefense-2023" -t "10-FoodDefense-2023.glg" -o "10-FoodDefense-2023.gls" "10-FoodDefense-2023.glo"
+Opening logfile "10-FoodDefense-2023.glg" (done)
+Reading indexstyle...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\5E0cBMRAY6"...
+Loading module "lang/spanish/modern-utf8-lang.xdy"...
+Loading module "lang/spanish/modern-utf8.xdy"...
+Finished loading module "lang/spanish/modern-utf8.xdy".
+Finished loading module "lang/spanish/modern-utf8-lang.xdy".
+Loading module "10-FoodDefense-2023.xdy"...
+Loading module "tex.xdy"...
+Finished loading module "tex.xdy".
+Finished loading module "10-FoodDefense-2023.xdy".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\5E0cBMRAY6".
+Finished reading indexstyle.
+Finalizing indexstyle... (done)
+
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\8qAp6AqE0Q"...
+Finished reading raw-index.
+
+Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Finished processing index.
+
+Writing markup... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Markup written into file "10-FoodDefense-2023.gls".
+xindy: major issue: User/administrator updates are out-of-sync.
+xindy  -L spanish -C modern-utf8 -I xindy -M "10-FoodDefense-2023" -t "10-FoodDefense-2023.alg" -o "10-FoodDefense-2023.acr" "10-FoodDefense-2023.acn"
+Opening logfile "10-FoodDefense-2023.alg" (done)
+Reading indexstyle...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\b_vUjns5NX"...
+Loading module "lang/spanish/modern-utf8-lang.xdy"...
+Loading module "lang/spanish/modern-utf8.xdy"...
+Finished loading module "lang/spanish/modern-utf8.xdy".
+Finished loading module "lang/spanish/modern-utf8-lang.xdy".
+Loading module "10-FoodDefense-2023.xdy"...
+Loading module "tex.xdy"...
+Finished loading module "tex.xdy".
+Finished loading module "10-FoodDefense-2023.xdy".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\b_vUjns5NX".
+Finished reading indexstyle.
+Finalizing indexstyle... (done)
+
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\yjKzeUfRLo"...
+Finished reading raw-index.
+
+Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Finished processing index.
+
+Writing markup... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Markup written into file "10-FoodDefense-2023.acr".
+xindy: major issue: User/administrator updates are out-of-sync.
+makeglossaries: major issue: User/administrator updates are out-of-sync.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+13 Apr 2023 11:43:57.614 INFO  - Task result: SUCCESS
+13 Apr 2023 11:43:57.624 INFO  - Total: 142.282 seconds

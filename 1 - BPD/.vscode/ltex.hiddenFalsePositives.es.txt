@@ -1,5 +1,0 @@
-{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\Q[variant=mexican]spanish\\E$"}
-{"rule":"PREP_VERB","sentence":"^\\QSe debe asegurar que los equipos que tienen partes lubricadas no contaminen al producto al momento de manióbralos para su acomodo.\\E$"}
-{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q.\\E$"}
-{"rule":"SPANISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QNo desconectar o bloquear las trampas de la luz para insectos voladores que se encuentren en el interior de la planta.\\E$"}
-{"rule":"SPANISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QNo tirarla basura en el piso ni en las coladeras o registros de aguas pluviales o residuales.\\E$"}

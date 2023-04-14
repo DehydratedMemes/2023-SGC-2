@@ -1,0 +1,21 @@
+This is makeindex, version 2.16 [MiKTeX 22.12].
+Scanning input file 10-FoodDefense-2023.idx....
+!! Input index error (file = 10-FoodDefense-2023.idx, line = 6):
+   -- Extra `!' at position 62 of first argument.
+!! Input index error (file = 10-FoodDefense-2023.idx, line = 7):
+   -- Extra `!' at position 62 of first argument.
+!! Input index error (file = 10-FoodDefense-2023.idx, line = 8):
+   -- Extra `!' at position 62 of first argument.
+
+!! Input index error (file = 10-FoodDefense-2023.idx, line = 14):
+   -- Extra `!' at position 53 of first argument.
+!! Input index error (file = 10-FoodDefense-2023.idx, line = 15):
+   -- Extra `!' at position 53 of first argument.
+
+!! Input index error (file = 10-FoodDefense-2023.idx, line = 18):
+   -- Extra `!' at position 53 of first argument.
+done (33 entries accepted, 6 rejected).
+Sorting entries....done (180 comparisons).
+Generating output file 10-FoodDefense-2023.ind....done (71 lines written, 0 warnings).
+Output written in 10-FoodDefense-2023.ind.
+Transcript written in 10-FoodDefense-2023.ilg.

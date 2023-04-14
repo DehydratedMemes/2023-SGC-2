@@ -200,20 +200,20 @@ footskip=1.5em]{geometry}
 			\SetCell[c=2]{} \includegraphics[height=3em, valign=c]{./RDF_Logo.png}	&	& \SetCell[c=3]{} \large{Red de fríos S.A. de C.V.}	&	&												& {\textbf{Código:}\\ \Codigo}	\\ % Logotipo (2 columnas), red de frios (3 columnas), código del documento
 			\SetCell[c=4]{} {\textbf{Titulo:}\\ \Titulo} 							&	&													&	& {\textbf{Fecha de publicación:}\\ \FechaPub}	& {\textbf{Edición:}\\ \Edit}	\\ % Titulo (4 columnas), Fecha, edición
             \end{tblr}
-	}%
+	}
     \fancyfoot[C]{Página \thepage\ de \pageref{LastPage}}   % Para que muestre Página # de #
     \fancyfoot[L]{\textbf{CONFIDENCIAL}}                    % CONFIDENCIAL
     \fancyfoot[R]{\Codigo~v.\Edit}                          % Estructura del código CODIGO v.EDICION
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+			
 \setcounter{tocdepth}{4}            % Qué tanto mostrará la tabla de contenidos
 \setcounter{secnumdepth}{6}         % Que tantas secciones numerará LaTeX (Se ajustó hasta subparrafo)
 
 \newcommand{\defglo}[1]{\item[\glsname{#1}] \glsdesc{#1}} % Define un comando para dar un item en un entorno de descripción para una palabra definida en el glosario
 
-\includeonly{src/PSA-2.17.tex}
+% \includeonly{src/PSA-2.19.tex}
 
 \begin{document}
 \pagestyle{formato-PS}
@@ -234,7 +234,7 @@ footskip=1.5em]{geometry}
 \include{src/PSA-2.14.tex}	% REVISADO
 \include{src/PSA-2.15.tex}	% REVISADO
 \include{src/PSA-2.16.tex}	% REVISADO
-\include{src/PSA-2.17.tex}	%
+\include{src/PSA-2.17.tex}	% REVISADO
 \include{src/PSA-2.18.tex}
 \include{src/PSA-2.19.tex}
 \include{src/PSA-2.20.tex}

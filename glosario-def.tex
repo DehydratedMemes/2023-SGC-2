@@ -104,16 +104,22 @@
     description={sustancia (ingrediente), ya sea procesada, semi-procesada o cruda, que se destina para consumo, e incluye bebidas, goma de mascar y cualquier sustancia que se haya utilizado en la fabricación, preparación o tratamiento de “alimentos”, pero no incluye cosméticos ni tabaco o sustancias (ingredientes) usados solamente como fármacos}
 }
 
-\newglossaryentry{organizacion}
-{
+\newglossaryentry{organizacion}{%
     name=organización,
-    description={persona o grupo de personas que tienen sus propias funciones con responsabilidades, autoridades y relaciones para lograr sus objetivos.\footnote{El concepto de organización incluye, pero no se limita a, un operador individual, compañía, corporación, firma, empresa, autoridad, sociedad, institución benéfica o con otros fines, o parte o combinación de los mismos, ya sea incorporada o no, pública o privada.}}
+    description={persona o grupo de personas que tienen sus propias funciones con responsabilidades, autoridades y relaciones para lograr sus objetivos.
+    \begin{itemize}
+        \item[Nota] El concepto de organización incluye, pero no se limita a, un operador individual, compañía, corporación, firma, empresa, autoridad, sociedad, institución benéfica o con otros fines, o parte o combinación de los mismos, ya sea incorporada o no, pública o privada.
+    \end{itemize}
+    }%
 }
 
 \newglossaryentry{producto}
 {
     name=producto,
-    description={salida que es el resultado de un \glsname{proceso}\footnote{Un producto puede ser un servicio.}}
+    description={salida que es el resultado de un \glsname{proceso}
+    \begin{itemize}
+        \item[Nota 1:]{Un producto puede ser un servicio.}
+    \end{itemize}}
 }
 
 \newglossaryentry{proceso}
@@ -122,10 +128,13 @@
     description={conjunto de actividades interrelacionadas o que interactúan que transforman las entradas en salidas}
 }
 
-\newglossaryentry{producto-terminado}
-{
+\newglossaryentry{producto-terminado}{%
     name=producto terminado,
-    description={\glsname{producto} que no se someterá a procesamiento o transformación posterior por parte de la organización\footnote{Un producto que es sometido a un procesamiento o transformación posterior por otra organización, es un producto terminado, en el contexto de la primera organización, y una materia prima o un ingrediente, en el contexto de la segunda organización}}
+    description={\glsname{producto} que no se someterá a procesamiento o transformación posterior por parte de la organización
+    \begin{itemize}
+        \item[Nota] Un producto que es sometido a un procesamiento o transformación posterior por otra organización, es un producto terminado, en el contexto de la primera organización, y una materia prima o un ingrediente, en el contexto de la segunda organización
+    \end{itemize}
+    }%
 }
 
 \newglossaryentry{peligro-relacionado-con-la-inocuidad-de-los-alimentos}
@@ -164,6 +173,13 @@
     description={nivel de un peligro relacionado con la \glsname{inocuidad-de-los-alimentos} que no se debe exceder en el \glsname{producto-terminado} proporcionado por la \glsname{organizacion}}
 }
 
+\newglossaryentry{FD}
+{
+    first={defensa alimentaria, también conocido por su nombre en inglés \textit{"Food Defense"}},
+    name={defensa alimentaria},
+    description={Según la definición de la Administración de Alimentos y Fármacos de los Estados Unidos, son los esfuerzos para evitar la contaminación intencional de los alimentos por peligros biológicos, físicos, químicos o radiológicos que no pueden ocurrir, de forma razonable, en el suministro de alimentos}
+}
+
 \newglossaryentry{medida-de-control}
 {
     name={medida de control},
@@ -179,19 +195,20 @@
 \newglossaryentry{criterio-de-acción}{
     name={criterio de acción},
     plural={criterios de acción},
-    description={especificación medible u observable para el seguimiento de un \glsname{PPRO}\footnote{Un criterio de acción se establece para determinar si un PPRO permanece bajo control, y distingue entre lo que es aceptable (que el criterio cumpla o logre significa que el PPRO está operando como está previsto) e inaceptable (que el criterio no se cumple ni se logre significa que el PPRO no está operando como está previsto).}}
-}
+    description={especificación medible u observable para el seguimiento de un \glsname{PPRO}
+    \begin{itemize} 
+        \item[Nota:] Un criterio de acción se establece para determinar si un PPRO permanece bajo control, y distingue entre lo que es aceptable (que el criterio cumpla o logre significa que el PPRO está operando como está previsto) e inaceptable (que el criterio no se cumple ni se logre significa que el PPRO no está operando como está previsto)
+    \end{itemize}}}
 
 \newglossaryentry{proteina-cruda}{
     name={proteína cruda},
     description={resultado de un análisis químico que se realiza en los alimentos, basados en el nitrógeno, para obtener la cantidad de proteínas que este contiene.}
 }
 
-\newglossaryentry{alimento-RTE}{
-    name={RTE},
+\newabbreviation[%
     first={alimento listo para el consumo, del inglés \textit{ready-to-eat} (RTE)},
-    description={alimentos preparados por el productor para su consumo directo sin necesidad de cocinarlos ni someterlos a ningún tratamiento.}
-}
+    description={alimentos preparados por el productor para su consumo directo sin necesidad de cocinarlos ni someterlos a ningún tratamiento.}]
+{alimento-RTE}{RTE}{\textit{ready-to-eat}}
 
 % \newglossaryentry{nivel-aceptable}{
 %     name={nivel aceptable},
@@ -199,34 +216,24 @@
 %     description={nivel de un peligro relacionado con la inocuidad de los alimentos que no se debe exceder en el producto terminado proporcionado por la organización}
 % }
 
-\newglossaryentry{CFE}{
-    name={CFE},
-    first={Comisión Federal de Electricidad (CFE)},
-    description={} %TODO CALIDAD %SISTEMA DE GESTION
-}
+\newabbreviation{CFE}{CFE}{Comisión Federal de Electricidad}
 
-\newglossaryentry{SGA}{
-    name={SGA},
-    first={Sistema de Gestión del Almacén (SGA)},
+\newabbreviation[%
     description={parte de un sistema de gestión relacionada con los inventarios del almacén}
-}
+]{SGA}{SGA}{Sistema de Gestión del Almacén}
 
 \newglossaryentry{sistema-de-gestion}{
     name={sistema de gestión},
     description={conjunto de elementos de una \glsname{organizacion} interrelacionados o que interactúan para establecer políticas, objetivos y procesos para lograr estos objetivos.}
 }
 
-\newglossaryentry{SGC}{
-    name={SGC},
-    first={Sistema de Gestión de Calidad (SGC)},
-    description={parte de un sistema de gestión relacionada con la calidad}
-}
+\newabbreviation{PEPS}{PEPS}{Primeras Entradas, Primeras Salidas}
 
-\newglossaryentry{SENASICA}{
-    name={SENASICA},
-    first={Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria (SENASICA)},
-    description={}
-}
+\newabbreviation[%
+    description = {parte de un sistema de gestión relacionada con la calidad},
+]{SGC}{SGC}{Sistema de Gestión de Calidad}
+
+\newabbreviation{SENASICA}{SENASICA}{Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria}
 
 \newglossaryentry{recuperación-de-producto}{
     name={recuperación de producto},
@@ -244,11 +251,10 @@
     plural={monitoreos}
 }
 
-\newglossaryentry{MSDS}{
+\newabbreviation[
     first={Hoja de Seguridad de Material, del inglés Material Safety Data Sheet (MSDS)},
-    name={MSDS},
-    description={Se trata de un documento que imprime información sobre los compuestos químicos que contiene un determinado, así como también instrucciones de uso, información sobre los peligros y riesgos asociados, condiciones de almacenaje, indicaciones y medidas a tomar para casos de emergencia, etc.}
-}
+    description={Documento que imprime información sobre los compuestos químicos que contiene un determinado, así como también instrucciones de uso, información sobre los peligros y riesgos asociados, condiciones de almacenaje, indicaciones y medidas a tomar para casos de emergencia, etc.}
+]{MSDS}{MSDS}{Hoja de Seguridad de Material}
 
 \newglossaryentry{alta-direccion}{
     name={alta dirección},
@@ -261,11 +267,7 @@
     }
 }
 
-\newglossaryentry{PSA}{
-    first={Programa de Seguridad Alimentaria (PSA)},
-    name={PSA},
-    description={}
-}
+\newabbreviation{PSA}{PSA}{Programa de Seguridad Alimentaria}
 
 \newglossaryentry{politica}{
     name={politica},
@@ -305,60 +307,26 @@
     description={organización que proporciona un producto o un servicio\footnote{Un proveedor puede ser interno o externo a la organización.}\footnote{En una situación contractual, un proveedor puede denominarse a veces "contratista".}}
 }
 
-\newglossaryentry{LPA}{
-    name={LPA},
-    first={Lista de Proveedores Autorizados (LPA)},
-    description={}
-}
+\newacronym{LPA}{LPA}{Lista de Proveedores Autorizados}
+\newacronym{SADER}{SADER}{Secretaría de Agricultura y Desarrollo Rural}
+\newacronym{BPH}{BPH}{Buenas Prácticas de Higiene}
+\newacronym{RDF}{RDF}{Red de Fríos S.A. de C.V.}
+\newacronym{BPD}{BPD}{Buenas Prácticas de Distribución}
 
-\newglossaryentry{SADER}{
-    name={SADER},
-    first={Secretaría de Agricultura y Desarrollo Rural (SADER)},
-    description={}
-}
+\newacronym[%
+    description={\glsname{medida-de-control} o combinación de medidas de control aplicadas para prevenir o reducir un peligro significativo relacionado con la inocuidad de los \glsname{alimento} a un nivel-aceptable, y donde el \glsname{criterio-de-acción} y medición u observación permite el control efectivo del \glsname{proceso} y/o \glsname{producto}}]{PPRO}{PPRO}{Programa de Prerrequisitos Operativos}
 
-\newglossaryentry{BPH}{
-    name={BPH},
-    first={Buenas Prácticas de Higiene (BPH)},
-    description={}
-}
-
-\newglossaryentry{RDF}{
-    name={RDF},
-    first={Red de Fríos S.A. de C.V. (RDF)},
-    description={}
-}
-
-\newglossaryentry{BPD}{
-    name={BPD},
-    first={Buenas Prácticas de Distribución (BPD)},
-    description={}
-}
-
-\newglossaryentry{PPRO}{
-    name=PPRO,
-    first=programa de prerrequisito operativo (PPRO),
-    description={\glsname{medida-de-control} o combinación de medidas de control aplicadas para prevenir o reducir un peligro significativo relacionado con la inocuidad de los \glsname{alimento} a un nivel-aceptable, y donde el \glsname{criterio-de-acción} y medición u observación permite el control efectivo del \glsname{proceso} y/o \glsname{producto}.}
-}
-
-\newglossaryentry{PPR}{
-    name={programa de prerrequisito},
-    plural={programas de prerrequisitos},
-    first=programa de prerrequisito (PPR),
-    description={%
-    condiciones y actividades básicas que son necesarias dentro de la \glsname{organizacion} y a lo largo de la cadena alimentaria para mantener la inocuidad de los alimentos
+\newacronym[
+    longplural={programas de prerrequisitos},
+    description={condiciones y actividades básicas que son necesarias dentro de la \glsname{organizacion} y a lo largo de la cadena alimentaria para mantener la inocuidad de los alimentos
     \begin{itemize}
         \item[Nota 1] Los PPR necesarios dependen del segmento de la cadena alimentaria en el que opera la organización y del tipo de organización;
         \item[Nota 2] Son ejemplos de términos equivalentes: Buenas Prácticas Agrícolas (BPA), Buenas Prácticas Veterinarias (BPV), Buenas Prácticas de Fabricación/Manufactura (BPF, BPM), Buenas Prácticas de Higiene (BPH), Buenas Prácticas de Producción (BPP), Buenas Prácticas de Distribución (BPD), y Buenas Prácticas de Comercialización (BPC).
     \end{itemize}
     }%
-}
+]{PPR}{PPR}{programa de prerrequisito}
 
-\newglossaryentry{HACCP}{
-    name={HACCP},
-    first={Analisis de Peligros y Puntos Criticos de Control (APPC), del inglés \textit{Hazard Analysis and Critical Control Points (HACCP).}},
-    description={}
-}
+\newacronym{HACCP}{HACCP}{Analisis de Peligros y Puntos Criticos de Control (APPC), del inglés \textit{Hazard Analysis and Critical Control Points (HACCP)}}
 
 \newglossaryentry{informacion-documentada}{
     name={información documentada},

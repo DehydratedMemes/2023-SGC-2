@@ -1,0 +1,55 @@
+﻿ID,Titulo,Ver. Mayor,Ver. Menor,Código,Ulitma revisión,Programa
+1.1,Política de calidad,2,0,BPD-1-POL,ene-23,Programa de buenas prácticas de distribución
+1.2,Programa de calidad y buenas prácticas de distribución,2,0,BPD-2-PROG,ene-23,Programa de buenas prácticas de distribución
+1.3,Manual de calidad y Buenas Prácticas de Distribución,2,0,BPD-3-MAN,ene-23,Programa de buenas prácticas de distribución
+1.4,Reglamento de ingreso a las instalaciones,2,0,BPD-4-CI/CE,ene-23,Programa de buenas prácticas de distribución
+1.5,Reglamento de almacén,2,0,BPD-5-CI/CE,ene-23,Programa de buenas prácticas de distribución
+1.6,Sanción por no cumplir el reglamento de BPM,2,0,BPD-6-CI,ene-23,Programa de buenas prácticas de distribución
+1.7,Análisis clínicos del personal,2,0,BPD-7-PROG,ene-23,Programa de buenas prácticas de distribución
+1.8,Personal enfermo y/o con lesiones,2,0,BPD-8-POL,ene-23,Programa de buenas prácticas de distribución
+1.9,Política de igualdad laboral,2,0,BPD-9-POL,ene-23,Programa de buenas prácticas de distribución
+1,Indice,2,0,BPD-ToC,feb-23,Programa de buenas prácticas de distribución
+1.1,Adquisición de recursos,2,0,BPD-9-PRO,ene-23,Programa de buenas prácticas de distribución
+1.11,Programa de verificación y actualización de información documentada,1,0,BPD-11-PRO,ene-23,Programa de buenas prácticas de distribución
+1.12,Llenado de formularios de orden de salida,1,0,BPD-10-IT,ene-23,Programa de buenas prácticas de distribución
+1.A,Carta de amonestaciones,1,0,BPD-AP-A,ene-23,Programa de buenas prácticas de distribución
+1.B,Carta compromiso de cumplimiento del reglamento interno,1,0,BPD-AP-B,ene-23,Programa de buenas prácticas de distribución
+1.C,Carta de validación de información documentada,1,0,BPD-AP-C,ene-23,Programa de buenas prácticas de distribución
+1.G,Glosario,1,0,BPD-G,,Programa de buenas prácticas de distribución
+1.I,Indice alfabético,1,0,BPD-I,,Programa de buenas prácticas de distribución
+F1,Bitácora de entradas y salidas (Clientes),,,,,Formularios
+F2,Bitácora de uso de llaves,,,,,
+F3,Bitácora de vigilancia,,,,,
+F4,Papeleta,,,,,
+F5,Orden de entrada,,,,,
+F6,Orden de salida,,,,,
+F7,Layout de carga o descarga,,,,,
+F8,Bitácora de cloración de agua,,,,,
+F9,Bitácora de concentración de tapete sanitario,,,,,
+F10,Bitácora de uso de productos químicos,,,,,
+F11,Bitácora de limpieza de aduana sanitaria,,,,,
+F12,Bitácora de limpieza de oficinas,,,,,
+F13,Bitácora de limpieza de exteriores,,,,,
+F14,Bitácora de cumplimiento de BPH,,,,,
+F15,Bitácora de consumo de agua potable,,,,,
+F16,Bitácora de consumo de energía eléctrica,,,,,
+F17,Bitácora de inspección de extintores,,,,,
+F18,Bitácora de verificación de termómetros infrarrojos,,,,,
+F19,Lista de verificación de condición de montacargas,,,,,
+F20,Registro de temperaturas con termómetro IR (Aseguramiento de calidad),,,,,
+F21,Registro de temperaturas con termómetro IR (Mantenimiento),,,,,
+F22,Registro de actividad de limpieza,,,,,
+F23,Registro de actividad de mantenimiento,,,,,
+F24,Registro de revisión de equipos de enfriamiento,,,,,
+F25,Registro de inspección de infraestructura en prevención,,,,,
+F26,Registro de asistencia a capacitación,,,,,
+F27,,,,,,
+F28,,,,,,
+F29,,,,,,
+F30,,,,,,
+F31,,,,,,
+F32,,,,,,
+F33,,,,,,
+F34,,,,,,
+F35,,,,,,
+F36,,,,,,
