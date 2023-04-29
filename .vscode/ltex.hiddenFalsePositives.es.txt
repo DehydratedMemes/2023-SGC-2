@@ -12,3 +12,4 @@
 {"rule":"EL_TILDE","sentence":"^\\Qalérgenos presentes en el (ver )\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qalérgenos presentes en el (ver )\\E$"}
 {"rule":"AGREEMENT_POSTPONED_ADJ","sentence":"^\\QPara propósitos del control de las temperaturas con un enfoque hacia la inocuidad de los alimentos y las buenas prácticas de distribución, se definen los limites de control acordados de manera interna, con base en la NOM-001-SAGARPA/SCFI-2016 y la NOM-008-ZOO-1994.\\E$"}
+{"rule":"SPANISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QSe llevará a cabo una inspección diaria.\\E$"}

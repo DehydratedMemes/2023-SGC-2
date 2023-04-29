@@ -1,0 +1,116 @@
+bib2gls 3.3 (2023-04-24)
+Detected package glossaries-extra 2023/04/24
+Detected package glossaries 2022/11/03
+Detected package mfirstuc 2022/10/14
+No sentence case protection required now
+Default setting --no-mfirstuc-protection now applied, use --mfirstuc-protection to revert
+Default setting --no-mfirstuc-math-protection now applied, use --mfirstuc-math-protection to revert
+Reading 3 - HyS.aux
+Reading src\HyS-ToC.aux
+Reading src\HyS-3.1.aux
+Reading src\HyS-3.2.aux
+Reading src\HyS-3.3.aux
+Reading src\HyS-3.4.aux
+Reading src\HyS-3.5.aux
+Reading src\HyS-3.6.aux
+Reading src\HyS-3.7.aux
+Reading src\HyS-3.8.aux
+Reading src\HyS-3.9.aux
+Reading src\HyS-3.10.aux
+Reading src\HyS-3.11.aux
+Reading src\HyS-3.12.aux
+Reading src\HyS-3.13.aux
+Reading src\HyS-3.14.aux
+Reading src\HyS-3.15.aux
+Reading src\HyS-3.16.aux
+Reading src\HyS-3.17.aux
+Reading src\HyS-3.18.aux
+Reading src\HyS-3.19.aux
+Reading src\HyS-3.20.aux
+Reading src\HyS-3.21.aux
+Reading src\HyS-3.22.aux
+Reading src\HyS-3.23.aux
+Reading src\HyS-3.24.aux
+Reading src\HyS-3.25.aux
+Reading src\HyS-G.aux
+Reading src\HyS-I.aux
+TeX character encoding: UTF-8
+Initialising resource 3 - HyS.glstex.
+Parsing bib files for resource 3 - HyS.glstex.
+Default encoding: not set
+Detected encoding: UTF-8
+Reading ..\glosario.bib
+Encoding: UTF-8
+Cross-resource references allowed.
+Processing resource 3 - HyS.glstex.
+Selecting entries for resource 3 - HyS.glstex.
+Writing c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\3 - HyS\3 - HyS.glstex
+Encoding: UTF-8
+aduana
+alergeno
+alimento
+alta-direccion
+area-operativa
+BPD
+BPH
+cadena-alimentaria
+cantidades-pequeñas
+CFE
+cliente
+congelacion
+contaminacion-cruzada
+criterio-de-acción
+FD
+desastre-natural
+documento
+emergencia
+especificacion
+HACCP
+idoneidad-de-los-alimentos
+informacion
+informacion-documentada
+inocuidad-de-los-alimentos
+inventario-de-suministros-y-materiales
+limpieza
+LPA
+manual-de-calidad
+medida-de-control
+monitoreo
+MSDS
+nivel-aceptable
+organizacion
+peligro-relacionado-con-la-inocuidad-de-los-alimentos
+PEPS
+personal-interno
+plan-de-la-calidad
+politica
+politica-de-calidad
+PPR
+PPRO
+proceso
+producto
+producto-terminado
+proteina-cruda
+proveedor
+proveedor-externo
+PSA
+RDF
+recuperación-de-producto
+refrigeracion
+registro
+requisito
+retiro-de-producto
+revision-documental
+alimento-RTE
+SADER
+sanitizacion
+seguimiento
+SENASICA
+SGA
+SGC
+sistema-de-gestion
+tarima-compuesta
+uniforme-completo
+validacion-documental
+visitante
+67 entries written to c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\3 - HyS\3 - HyS.glstex.

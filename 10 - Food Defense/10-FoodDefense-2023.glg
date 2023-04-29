@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 13.04.2023  10:43:54
-;; Indexstyle: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\5E0cBMRAY6", Rawindex: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\8qAp6AqE0Q", Output: "10-FoodDefense-2023.gls"
+;; at 15.04.2023  10:15:57
+;; Indexstyle: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\GkQaa1fNz3", Rawindex: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\OmvQCBe71J", Output: "10-FoodDefense-2023.gls"
 
 
 Building indexentry-tree:
@@ -27,6 +27,7 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 
 Forming letter-groups:
 Letter-group: "—œ—¼Ð€ €´¨»—¼Ú€Ë¨€" -> "D"
+Letter-group: "¨¼Ã†à¨€ — ´ÃÐ €´¨»—¼ÚÃÐ" -> "I"
 Letter-group: "È—ËÐÃ¼€´ ¨¼Ú—Ë¼Ã" -> "P"
 Letter-group: "†´¨—¼Ú—" -> "C"
 Letter-group: "à¼¨œÃË»— †Ã»È´—ÚÃ" -> "U"
@@ -41,7 +42,6 @@ Letter-group: "†œ—" -> "C"
 Letter-group: "»—¨€ — †Ã¼ÚËÃ´" -> "M"
 Letter-group: "†Ë¨Ú—Ë¨Ã — €††¨Ã¼" -> "C"
 Letter-group: "¼¨å—´ €†—ÈÚ€„´—" -> "N"
-Letter-group: "¨¼Ã†à¨€ — ´ÃÐ €´¨»—¼ÚÃÐ" -> "I"
 Letter-group: "ÈËÃà†ÚÃ Ú—Ë»¨¼€Ã" -> "P"
 Letter-group: "ÃË€¼¨ð€†¨Ã¼" -> "O"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)

@@ -1,0 +1,16 @@
+\begin{theindex}
+  \providecommand*\lettergroupDefault[1]{}
+  \providecommand*\lettergroup[1]{%
+      \par\textbf{#1}\par
+      \nopagebreak
+  }
+
+  \lettergroup{L}
+  \item Limpieza de
+    \subitem andén, \hyperpage{16}
+    \subitem cámara
+      \subsubitem refrigeración, de, \hyperpage{10}
+      \subsubitem secos, de, \hyperpage{13}
+    \subitem cámaras desocupadas, \hyperpage{16}
+
+\end{theindex}

@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 13.04.2023  12:31:51
-;; Indexstyle: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\1 - BPD\\4WeR7Q8SxK", Rawindex: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\1 - BPD\\OQYGPh4aPl", Output: "1-BPM-2023.gls"
+;; at 17.04.2023  14:08:29
+;; Indexstyle: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\1 - BPD\\lNprcQenZz", Rawindex: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\1 - BPD\\jd1Us8nEAc", Output: "1-BPM-2023.gls"
 
 
 Building indexentry-tree:
@@ -27,8 +27,10 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 
 Forming letter-groups:
+Letter-group: "—œ—¼Ð€ €´¨»—¼Ú€Ë¨€" -> "D"
 Letter-group: "€Ë—€ ÃÈ—Ë€Ú¨å€" -> "A"
 Letter-group: "€à€¼€ Ð€¼¨Ú€Ë¨€" -> "A"
 Letter-group: "È—ËÐÃ¼€´ ¨¼Ú—Ë¼Ã" -> "P"
@@ -43,11 +45,11 @@ Letter-group: "€´¨»—¼ÚÃ" -> "A"
 Letter-group: "†Ë¨Ú—Ë¨Ã — €††¨Ã¼" -> "C"
 Letter-group: "ÈËÃ†—ÐÃ" -> "P"
 Letter-group: "ÈËÃà†ÚÃ" -> "P"
+Letter-group: "¼¨å—´ €†—ÈÚ€„´—" -> "N"
 Letter-group: "å€´¨€†¨Ã¼ Ã†à»—¼Ú€´" -> "V"
 Letter-group: "Ë—å¨Ð¨Ã¼ Ã†à»—¼Ú€´" -> "R"
 Letter-group: "¨¼œÃË»€†¨Ã¼" -> "I"
 Letter-group: "Ë—¨ÐÚËÃ" -> "R"
-Letter-group: "¼¨å—´ €†—ÈÚ€„´—" -> "N"
 Letter-group: "ÈËÃà†ÚÃ Ú—Ë»¨¼€Ã" -> "P"
 Letter-group: "Ã†à»—¼ÚÃ" -> "D"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -55,7 +57,7 @@ Letter-group: "€à€¼€ Ð€¼¨Ú€Ë¨€" -> "A"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "†´¨—¼Ú—" -> "C"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "Ã†à»—¼ÚÃ" -> "D"
+Letter-group: "—œ—¼Ð€ €´¨»—¼Ú€Ë¨€" -> "D"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "¨¼œÃË»€†¨Ã¼" -> "I"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)

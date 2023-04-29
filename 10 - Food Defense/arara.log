@@ -1,7 +1,7 @@
-13 Apr 2023 11:41:37.011 INFO  - 
+15 Apr 2023 11:14:57.314 INFO  - 
 Welcome to arara 7.0.4!
 -----------------------------------------------------------------
-13 Apr 2023 11:41:37.028 DEBUG - 
+15 Apr 2023 11:14:57.335 DEBUG - 
 ::: arara @ C:\Program Files\MiKTeX\scripts\arara
 ::: Java 19, Eclipse Adoptium
 ::: C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
@@ -9,24 +9,24 @@ Welcome to arara 7.0.4!
 ::: user.home @ C:\Users\Usuario
 ::: CF @ [none]
 -----------------------------------------------------------------
-13 Apr 2023 11:41:37.058 INFO  - Processing "10-FoodDefense-2023.tex" (size: 11.2 kB, last modified: 2023-04-13 16:24:21), please wait.
-13 Apr 2023 11:41:37.184 INFO  - I found a potential pattern in line 3: lualatex: {
-13 Apr 2023 11:41:37.185 INFO  - I found a potential pattern in line 4: --> interaction: nonstopmode,
-13 Apr 2023 11:41:37.185 INFO  - I found a potential pattern in line 5: --> options: ['-file-line-error'],
-13 Apr 2023 11:41:37.186 INFO  - I found a potential pattern in line 6: --> shell: yes,
-13 Apr 2023 11:41:37.186 INFO  - I found a potential pattern in line 7: --> synctex: yes,
-13 Apr 2023 11:41:37.186 INFO  - I found a potential pattern in line 8: --> }
-13 Apr 2023 11:41:37.187 INFO  - I found a potential pattern in line 9: makeglossaries
-13 Apr 2023 11:41:38.373 INFO  -                     All directives were validated. We are good to go.
+15 Apr 2023 11:14:57.372 INFO  - Processing "10-FoodDefense-2023.tex" (size: 11.3 kB, last modified: 2023-04-15 14:20:57), please wait.
+15 Apr 2023 11:14:57.443 INFO  - I found a potential pattern in line 3: lualatex: {
+15 Apr 2023 11:14:57.444 INFO  - I found a potential pattern in line 4: --> interaction: nonstopmode,
+15 Apr 2023 11:14:57.444 INFO  - I found a potential pattern in line 5: --> options: ['-file-line-error'],
+15 Apr 2023 11:14:57.444 INFO  - I found a potential pattern in line 6: --> shell: yes,
+15 Apr 2023 11:14:57.445 INFO  - I found a potential pattern in line 7: --> synctex: yes,
+15 Apr 2023 11:14:57.446 INFO  - I found a potential pattern in line 8: --> }
+15 Apr 2023 11:14:57.446 INFO  - I found a potential pattern in line 9: makeglossaries
+15 Apr 2023 11:14:58.610 INFO  -                     All directives were validated. We are good to go.
                     -------------------------- DIRECTIVES ---------------------------
                     Directive(identifier='lualatex', parameters={interaction=nonstopmode, options=[-file-line-error], shell=yes, synctex=yes, reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\10 - Food Defense\10-FoodDefense-2023.tex},conditional={ NONE }, lineNumbers=[3, 4, 5, 6, 7, 8])
 Directive(identifier='makeglossaries', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\10 - Food Defense\10-FoodDefense-2023.tex},conditional={ NONE }, lineNumbers=[9])
                     -----------------------------------------------------------------
-13 Apr 2023 11:41:38.382 INFO  - I am ready to interpret rule "lualatex".
-13 Apr 2023 11:41:38.394 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-13 Apr 2023 11:41:39.605 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
-13 Apr 2023 11:41:39.613 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 10-FoodDefense-2023.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\10 - Food Defense
-13 Apr 2023 11:43:51.813 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+15 Apr 2023 11:14:58.621 INFO  - I am ready to interpret rule "lualatex".
+15 Apr 2023 11:14:58.635 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+15 Apr 2023 11:14:59.545 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
+15 Apr 2023 11:14:59.549 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 10-FoodDefense-2023.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\10 - Food Defense
+15 Apr 2023 11:15:54.032 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12)
  system commands enabled.
 (./10-FoodDefense-2023.tex
@@ -34,7 +34,7 @@ LaTeX2e <2022-11-01> patch level 1
  L3 programming layer <2022-12-17>
 ("C:/Program Files/MiKTeX/tex/latex/base/article.cls"
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-("C:/Program Files/MiKTeX/tex/latex/base/size12.clo"))
+("C:/Program Files/MiKTeX/tex/latex/base/size10.clo"))
 (../VariablesEstaticas.tex)
 ("C:/Program Files/MiKTeX/tex/latex/carlito/carlito.sty"
 ("C:/Program Files/MiKTeX/tex/generic/iftex/ifxetex.sty"
@@ -279,58 +279,52 @@ ons-basic-dictionary-spanish.trsl)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-LatinModernRoma
 n.cfg) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-cmr.cfg)
 [1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./RDF_Log
-o.png>] [2] [3]) (./10-FoodDefense-2023.lot)) [4] (./src/FD-10.P.tex
-Overfull \hbox (1.4224pt too wide) in paragraph at lines 30--30
- []\TU/Carlito(0)/m/n/12 Enero 
-
-Overfull \hbox (1.4224pt too wide) in paragraph at lines 30--30
- []\TU/Carlito(0)/m/n/12 Enero 
-[5]) (./src/FD-10.1.tex [6] [7] [8] [9] [10] [11] [12]) [13] (./src/FD-10.2.tex
-
+o.png>] [2] [3]) (./10-FoodDefense-2023.lot)) [4] (./src/FD-10.P.tex [5])
+(./src/FD-10.1.tex [6] [7] [8] [9] [10] [11]) [12] (./src/FD-10.2.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\glsname' on input line 9.
 
-[14] [15]) [16] (./src/FD-10.3.tex ("../1 - BPD/src/BPM-1.4.tex" [17]
-Underfull \vbox (badness 4242) has occurred while \output is active [18]
-Underfull \vbox (badness 1264) has occurred while \output is active [19]
+[13] [14]) [15] (./src/FD-10.3.tex ("../1 - BPD/src/BPM-1.4.tex" [16] [17]
 
 LaTeX Warning: Reference `carta.compromiso' on page 1 undefined on input line 1
-39.
+33.
 
-) [20] ("../1 - BPD/src/BPM-1.5.tex") [21] ("../1 - BPD/src/BPM-1.6.tex"
-[22]
+) [18] ("../1 - BPD/src/BPM-1.5.tex") [19] ("../1 - BPD/src/BPM-1.6.tex"
+[20]
 
-LaTeX Warning: Reference `F-amonest' on page 1 undefined on input line 86.
+LaTeX Warning: Reference `F-amonest' on page 1 undefined on input line 84.
 
-) [23] ("../2 - PSA/src/PSA-2.4.tex" [24] [25]) [26]
-("../2 - PSA/src/PSA-2.2.tex" [27]) [28] ("../2 - PSA/src/PSA-2.3.tex" [29]
-Underfull \vbox (badness 2671) has occurred while \output is active [30]
-[31]) [32] ("../2 - PSA/src/PSA-2.12.tex"
+) [21] ("../2 - PSA/src/PSA-2.4.tex" [22] [23]) [24]
+("../2 - PSA/src/PSA-2.2.tex" [25]) [26] ("../2 - PSA/src/PSA-2.3.tex" [27]
+[28] [29]) [30] ("../2 - PSA/src/PSA-2.12.tex"
 
 LaTeX Warning: Reference `sec:AccEnCasoDeEmergencia' on page 1 undefined on inp
-ut line 32.
+ut line 31.
 
-[33]) [34]) (./src/FD-Gloss.tex (./10-FoodDefense-2023.acr
+[31]) [32]) (./src/FD-Gloss.tex (./10-FoodDefense-2023.acr
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\textspanish' on input line 1.
 
+
+Underfull \hbox (badness 1867) in paragraph at lines 44--45
+[]|\TU/Carlito(0)/m/n/10 6, 7, 16, 20,
 )) (./10-FoodDefense-2023.gls
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\textspanish' on input line 1.
 
 
-Overfull \hbox (53.73526pt too wide) in alignment at lines 25--88
+Overfull \hbox (22.91104pt too wide) in alignment at lines 25--89
  [][][] 
-[35] [36]) [37] (./src/FD-Ind.tex)This is makeindex, version 2.16 [MiKTeX 22.12].
+[33] [34]) [35] (./src/FD-Ind.tex)This is makeindex, version 2.16 [MiKTeX 22.12].
 Scanning input file 10-FoodDefense-2023.idx....done (33 entries accepted, 6 rejected).
 Sorting entries....done (180 comparisons).
 Generating output file 10-FoodDefense-2023.ind....done (71 lines written, 0 warnings).
 Output written in 10-FoodDefense-2023.ind.
 Transcript written in 10-FoodDefense-2023.ilg.
- (./10-FoodDefense-2023.ind) [38]
+ (./10-FoodDefense-2023.ind) [36]
 
 AED: lastpage setting LastPage
 (./10-FoodDefense-2023.aux (./src/FD-ToC.aux) (./src/FD-10.P.aux)
@@ -344,32 +338,32 @@ LaTeX Warning: There were undefined references.
  964 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 14 glue, 4 kern, 1 penalty, 3 glyph, 
 23 attribute, 107 glue_spec, 23 attribute_list, 5 write nodes
-   avail lists: 1:4,2:2385,3:1035,4:252,5:1191,6:200,7:11116,8:121,9:2062,10:23
+   avail lists: 1:2,2:2391,3:1047,4:250,5:1197,6:200,7:11080,8:121,9:2056,10:14
 ,11:1365
 <//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bolditalic.
 ttf><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.
 ttf><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.tt
 f><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.t
 tf><C:/Program Files/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on 10-FoodDefense-2023.pdf (38 pages, 296303 bytes).
+Output written on 10-FoodDefense-2023.pdf (36 pages, 291281 bytes).
 SyncTeX written on 10-FoodDefense-2023.synctex.gz.
 Transcript written on 10-FoodDefense-2023.log.
 lualatex: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-13 Apr 2023 11:43:51.820 INFO  - Task result: SUCCESS
-13 Apr 2023 11:43:51.821 INFO  - I am ready to interpret rule "makeglossaries".
-13 Apr 2023 11:43:51.825 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-13 Apr 2023 11:43:51.925 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
-13 Apr 2023 11:43:51.928 INFO  - System command: [makeglossaries, 10-FoodDefense-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\10 - Food Defense
-13 Apr 2023 11:43:57.612 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+15 Apr 2023 11:15:54.040 INFO  - Task result: SUCCESS
+15 Apr 2023 11:15:54.041 INFO  - I am ready to interpret rule "makeglossaries".
+15 Apr 2023 11:15:54.048 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+15 Apr 2023 11:15:54.136 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
+15 Apr 2023 11:15:54.139 INFO  - System command: [makeglossaries, 10-FoodDefense-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\10 - Food Defense
+15 Apr 2023 11:15:59.667 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 makeglossaries version 4.51 (2022-11-02)
 added glossary type 'main' (glg,gls,glo)
 added glossary type 'acronym' (alg,acr,acn)
 xindy  -L spanish -C modern-utf8 -I xindy -M "10-FoodDefense-2023" -t "10-FoodDefense-2023.glg" -o "10-FoodDefense-2023.gls" "10-FoodDefense-2023.glo"
 Opening logfile "10-FoodDefense-2023.glg" (done)
 Reading indexstyle...
-Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\5E0cBMRAY6"...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\GkQaa1fNz3"...
 Loading module "lang/spanish/modern-utf8-lang.xdy"...
 Loading module "lang/spanish/modern-utf8.xdy"...
 Finished loading module "lang/spanish/modern-utf8.xdy".
@@ -378,11 +372,11 @@ Loading module "10-FoodDefense-2023.xdy"...
 Loading module "tex.xdy"...
 Finished loading module "tex.xdy".
 Finished loading module "10-FoodDefense-2023.xdy".
-Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\5E0cBMRAY6".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\GkQaa1fNz3".
 Finished reading indexstyle.
 Finalizing indexstyle... (done)
 
-Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\8qAp6AqE0Q"...
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\OmvQCBe71J"...
 Finished reading raw-index.
 
 Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
@@ -394,7 +388,7 @@ xindy: major issue: User/administrator updates are out-of-sync.
 xindy  -L spanish -C modern-utf8 -I xindy -M "10-FoodDefense-2023" -t "10-FoodDefense-2023.alg" -o "10-FoodDefense-2023.acr" "10-FoodDefense-2023.acn"
 Opening logfile "10-FoodDefense-2023.alg" (done)
 Reading indexstyle...
-Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\b_vUjns5NX"...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\HBJlAa27wL"...
 Loading module "lang/spanish/modern-utf8-lang.xdy"...
 Loading module "lang/spanish/modern-utf8.xdy"...
 Finished loading module "lang/spanish/modern-utf8.xdy".
@@ -403,11 +397,11 @@ Loading module "10-FoodDefense-2023.xdy"...
 Loading module "tex.xdy"...
 Finished loading module "tex.xdy".
 Finished loading module "10-FoodDefense-2023.xdy".
-Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\b_vUjns5NX".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\HBJlAa27wL".
 Finished reading indexstyle.
 Finalizing indexstyle... (done)
 
-Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\yjKzeUfRLo"...
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\NzivKEHwOE"...
 Finished reading raw-index.
 
 Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
@@ -419,5 +413,5 @@ xindy: major issue: User/administrator updates are out-of-sync.
 makeglossaries: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-13 Apr 2023 11:43:57.614 INFO  - Task result: SUCCESS
-13 Apr 2023 11:43:57.624 INFO  - Total: 142.282 seconds
+15 Apr 2023 11:15:59.670 INFO  - Task result: SUCCESS
+15 Apr 2023 11:15:59.678 INFO  - Total: 63.355 seconds

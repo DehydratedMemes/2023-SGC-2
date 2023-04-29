@@ -9,7 +9,7 @@
 %arara: makeglossaries
 %% arara: makeindex
 
-\documentclass[letterpaper,12pt,twoside,es-MX]{article}
+\documentclass[letterpaper,twoside]{article}
 
  \input{../VariablesEstaticas.tex}     % Definición de variables estáticas
                                         % i.e. Tiempo máximo de cámras de refrigeración sin energía
@@ -27,19 +27,47 @@
 \usepackage[sfdefault,t,lf]{carlito}    % Alternativa OpenSource a Calibri, definir sans serif como predeterminado, numerales tabulares
 % \usepackage[default,lnum]{opensans}
 % \usepackage{CormorantGaramond}
+
+% \usepackage{lucidabr}
+
 % \usepackage{fontspec}
-% \setmainfont{Carlito}
+
+\fontsize{8.8pt}{12pt}\selectfont
+\renewcommand{\baselinestretch}{1.2}
+
+% \linespread{1.3}
+% \DeclareUnicodeCharacter{2212}{-}
 
 \usepackage{polyglossia}
-	\setdefaultlanguage[variant=mexican,spanishoperators=all]{spanish}  % Definir la localización del documento como es-MX (para que cuadro sea tabla, etc.)
+	\setdefaultlanguage[spanishoperators=all]{spanish}  % Definir la localización del documento como es-MX (para que cuadro sea tabla, etc.)
+	% \setdefaultlanguage{mexican}
+	\renewcommand{\listtablename}{Índice de tablas}
 
 \usepackage{changelog}  % Control de versiones
 
-\usepackage[toc=true,postpunc={;},showtargets=annoteleft,style=tree,xindy]{glossaries-extra}    % Manager de glosarios, usar xindy para el indice alfabético
-	\makeglossaries                             % Hacer que arara haga glosarios
-	\setabbreviationstyle[acronym]{long-short}  % Estilo de acrónimos
+\usepackage{pdflscape}
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+\usepackage[%
+toc=true,
+postpunc={;},
+acronyms,
+xindy]{glossaries-extra}    % Manager de glosarios, usar xindy para el indice alfabético
+% \usepackage{glossary-mcols}
+% \renewcommand{\glsmcols}{2}
+\setglossarystyle{long3col}
+
+	\makeglossaries{}
+	% \setabbreviationstyle[acronym]{short-long}  % Estilo de acrónimos
+	\setabbreviationstyle[acronym]{long-short}
+	% \setglossarystyle{mcolindex}
 	\loadglsentries[main]{../glosario-def.tex}  % Archvio que LuaLaTeX toma para las definiciones
 
+	\renewcommand{\glossarypreamble}{\fontsize{10pt}{12pt}\selectfont}
+
+	
 \usepackage{imakeidx}       % Para hacer indices
 	\makeindex[columns=2]   % Estilo del indice alfabético
 
@@ -50,8 +78,8 @@
     \refstepcounter{note}
     \begin{mdframed}[%                                  
         frametitle={Nota \thenote\ #1},                 % Titulo de las notas
-        skipabove=\baselineskip plus 2pt minus 1pt,     % Espaciado superior
-        skipbelow=\baselineskip plus 2pt minus 1pt,     % Espaciado inferior
+        skipabove=\baselineskip{} plus 2pt minus 1pt,     % Espaciado superior
+        skipbelow=\baselineskip{} plus 2pt minus 1pt,     % Espaciado inferior
         linewidth=0.5pt,                                % Tamaño de linea del recuadro
         frametitlerule=true,                            % incluir titulo
         frametitlebackgroundcolor=gray!30               % Color del recuadro
@@ -67,8 +95,8 @@
     \refstepcounter{contact}
     \begin{mdframed}[%
         frametitle={Contacto \thecontact\ #1},          % Titulo del contacto
-        skipabove=\baselineskip plus 2pt minus 1pt,     % Espaciado superior
-        skipbelow=\baselineskip plus 2pt minus 1pt,     % Espaciado inferior
+        skipabove=\baselineskip{}plus 2pt minus 1pt,     % Espaciado superior
+        skipbelow=\baselineskip{}plus 2pt minus 1pt,     % Espaciado inferior
         linewidth=0.5pt,                                % Tamaño de linea del recuadro
         frametitlerule=true,                            % poner titulo
         frametitlebackgroundcolor=yellow!30             % Color del recuadro
@@ -136,7 +164,7 @@ footskip=1.5em]{geometry}
 	% [label={\theparagraph--\arabic*}] % Numerarar parrafo-numero
 
 	\newlist{ListaSec}{enumerate}{3}
-	\setlist[ListaSec]{ label* = \arabic*., name* = \arabic{section}.\arabic{subsection}}
+	\setlist[ListaSec]{label* = \arabic*., name* = \arabic{section}.\arabic{subsection}}
 
 
 %%%%%%%%%%%%%%%% DEFINICIÓN DE CABECERA %%%%%%%%%%%%%%%%
@@ -179,11 +207,11 @@ footskip=1.5em]{geometry}
 			vlines,
 			width = 0.35\linewidth,}%
 			{\textbf{Código:}\\ \Codigo} 					& {\textbf{Edición:}\\ \MayorVer} 			\\	% Logotipo (2 columnas), red de frios (3 columnas), código del documento
-			{\textbf{Fecha de publicación:}\\ \FechaPub}	& {Página \thepage\ de \pageref{LastPage}} 		% Titulo (4 columnas), Fecha, edición
+			{\textbf{Fecha de publicación:}\\\FechaPub}	& {Página~\thepage~de~\pageref{LastPage}} 		% Titulo (4 columnas), Fecha, edición
 		\end{tblr}
 	}%
 
-	\fancyfoot[C]{Página \thepage\ de \pageref{LastPage}}   % Para que muestre Página # de #
+	\fancyfoot[C]{Página~\thepage~de~\pageref{LastPage}}   % Para que muestre Página # de #
 	\fancyfoot[L]{\textbf{CONFIDENCIAL}}                    % CONFIDENCIAL
 	\fancyfoot[R]{\Codigo~v.\Edit}                          % Estructura del código CODIGO v.EDICION
 }%
@@ -201,7 +229,7 @@ footskip=1.5em]{geometry}
 			\SetCell[c=4]{} {\textbf{Titulo:}\\ \Titulo} 							&	&													&	& {\textbf{Fecha de publicación:}\\ \FechaPub}	& {\textbf{Edición:}\\ \Edit}	\\ % Titulo (4 columnas), Fecha, edición
             \end{tblr}
 	}
-    \fancyfoot[C]{Página \thepage\ de \pageref{LastPage}}   % Para que muestre Página # de #
+    \fancyfoot[C]{Página~\thepage~de~\pageref{LastPage}}   % Para que muestre Página # de #
     \fancyfoot[L]{\textbf{CONFIDENCIAL}}                    % CONFIDENCIAL
     \fancyfoot[R]{\Codigo~v.\Edit}                          % Estructura del código CODIGO v.EDICION
 }%
@@ -213,7 +241,7 @@ footskip=1.5em]{geometry}
 
 \newcommand{\defglo}[1]{\item[\glsname{#1}] \glsdesc{#1}} % Define un comando para dar un item en un entorno de descripción para una palabra definida en el glosario
 
-% \includeonly{src/PSA-2.19.tex}
+\includeonly{src/BPM-1.1.tex}
 
 \begin{document}
 \pagestyle{formato-PS}

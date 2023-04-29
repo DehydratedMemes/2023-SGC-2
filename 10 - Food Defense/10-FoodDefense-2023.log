@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12) (format=lualatex 2023.2.2)  13 APR 2023 10:41
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12) (format=lualatex 2023.2.2)  15 APR 2023 10:15
  system commands enabled.
  file:line:error style messages enabled.
 **10-FoodDefense-2023.tex
@@ -43,8 +43,8 @@ ing layer <2022-12-17>
 Inserting `tracingstacklevels' in `input_level_string'.
 ("C:/Program Files/MiKTeX/tex/latex/base/article.cls"
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-("C:/Program Files/MiKTeX/tex/latex/base/size12.clo"
-File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+("C:/Program Files/MiKTeX/tex/latex/base/size10.clo"
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from C:/Users/Usuario/AppData/Local
 /MiKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count183
@@ -428,12 +428,12 @@ braces):
 >  {spanish/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
 >  {spanish/totalhyphenmin}  =>  {5}.
 Module polyglossia Info: Language data for spanish
-(polyglossia)            loader	loadhyph-es.tex
-(polyglossia)            hyphenation	
 (polyglossia)            synonyms	espanol
-(polyglossia)            lefthyphenmin	2
 (polyglossia)            patterns	hyph-es.pat.txt
-(polyglossia)            righthyphenmin	2 on input line 15
+(polyglossia)            hyphenation	
+(polyglossia)            righthyphenmin	2
+(polyglossia)            loader	loadhyph-es.tex
+(polyglossia)            lefthyphenmin	2 on input line 15
 Module polyglossia Info: Language spanish was not yet loaded; created with id 2 
 on input line 15
 Package polyglossia Info: Option: spanish, variant=spanish.
@@ -749,12 +749,12 @@ File: glossaries-extra-abbrstyles.def 2022/06/16 v1.48b (NLCT)
 
 \openout4 = 10-FoodDefense-2023.glo
 Package glossaries Info: Writing glossary file 10-FoodDefense-2023.glo on input
- line 56.
+ line 62.
 \glo@acronym@file=\write5
 
 \openout5 = 10-FoodDefense-2023.acn
 Package glossaries Info: Writing glossary file 10-FoodDefense-2023.acn on input
- line 56.
+ line 62.
  (../glosario-def.tex)
 ("C:/Program Files/MiKTeX/tex/latex/imakeidx/imakeidx.sty"
 Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
@@ -1296,7 +1296,7 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) ("C:/Program Files/MiKTeX/tex/latex/hyperref/nameref.sty"
-Package: nameref 2022--05-17 v2.50 Cross-referencing by name of section
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
 
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -1659,7 +1659,7 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@orf=\skip148
 )
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 237.
+(Font)              scaled to size 8.8pt on input line 246.
 
 (./10-FoodDefense-2023.aux (./src/FD-ToC.aux)
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
@@ -1690,88 +1690,90 @@ Package polyglossia Info: Option: Spanish, spanishoperators=all.
 ) (./src/FD-Ind.aux))
 \openout1 = 10-FoodDefense-2023.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 237.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 246.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-37.
+46.
  ("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd"
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 237.
-LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 246.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 237.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 237.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 237.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 237.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 237.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 237.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 237.
-LaTeX Font Info:    Redeclaring math accent \check on input line 237.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 237.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 237.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 237.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 237.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 246.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 246.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 246.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 246.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 246.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 246.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 246.
+LaTeX Font Info:    Redeclaring math accent \check on input line 246.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 246.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 246.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 246.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 246.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 237.
+(Font)              `operators' in the math version `normal' on input line 246.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 237.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 246.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 237.
+(Font)              `operators' in the math version `bold' on input line 246.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 237.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 246.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 237.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 246.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 237.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 246.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 237.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 246.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Carlito(0)/m/n on input line 237.
+(Font)                  OT1/cmss/m/n --> TU/Carlito(0)/m/n on input line 246.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 237.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 246.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 237.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 246.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 237.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 246.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Carlito(0)/b/n on input line 237.
+(Font)                  OT1/cmss/bx/n --> TU/Carlito(0)/b/n on input line 246.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 237.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 246.
 The property list \__xpg_alias contains the pairs (without outer braces):
 >  {latex/target}  =>  {latex}
 >  {spanish/target}  =>  {spanish}
@@ -1792,7 +1794,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 237.
+or `spanish'. on input line 246.
 
 ("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1815,18 +1817,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 ("C:/Program Files/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg"
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 237.
-Package microtype Info: Applying patch `item' on input line 237.
-Package microtype Info: Applying patch `toc' on input line 237.
-Package microtype Info: Applying patch `eqnum' on input line 237.
-Package microtype Info: Applying patch `footnote' on input line 237.
+LaTeX Info: Redefining \microtypecontext on input line 246.
+Package microtype Info: Applying patch `item' on input line 246.
+Package microtype Info: Applying patch `toc' on input line 246.
+Package microtype Info: Applying patch `eqnum' on input line 246.
+Package microtype Info: Applying patch `footnote' on input line 246.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 237.
+LaTeX Info: Redefining \showhyphens on input line 246.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -1834,7 +1836,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Carlito' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring OFF on input line 237.
+Package hyperref Info: Link coloring OFF on input line 246.
 
 (./10-FoodDefense-2023.out) (./10-FoodDefense-2023.out)
 \@outlinefile=\write8
@@ -1842,7 +1844,7 @@ Package hyperref Info: Link coloring OFF on input line 237.
 \openout8 = 10-FoodDefense-2023.out
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 237.
+(lastpage)             ! on input line 246.
 
 ("C:/Program Files/MiKTeX/tex/latex/ninecolors/ninecolors.sty"
 Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
@@ -1861,18 +1863,18 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=557.38951pt
-* \textheight=592.0pt
+* \textheight=586.0pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-43.81725pt
 * \headheight=110.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=18.0pt
-* \marginparwidth=95.0pt
-* \marginparsep=10.0pt
+* \topskip=10.0pt
+* \footskip=13.2pt
+* \marginparwidth=121.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1884,43 +1886,43 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
-LaTeX Info: Redefining \rmfamily on input line 237.
-LaTeX Info: Redefining \sffamily on input line 237.
-LaTeX Info: Redefining \ttfamily on input line 237.
-luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+LaTeX Info: Redefining \rmfamily on input line 246.
+LaTeX Info: Redefining \sffamily on input line 246.
+LaTeX Info: Redefining \ttfamily on input line 246.
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage esp
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \lim on input line 237.
-LaTeX Info: Redefining \limsup on input line 237.
-LaTeX Info: Redefining \liminf on input line 237.
-LaTeX Info: Redefining \max on input line 237.
-LaTeX Info: Redefining \min on input line 237.
-LaTeX Info: Redefining \inf on input line 237.
-LaTeX Info: Redefining \bmod on input line 237.
-LaTeX Info: Redefining \pmod on input line 237.
-LaTeX Info: Redefining \arccos on input line 237.
-LaTeX Info: Redefining \arcsin on input line 237.
-LaTeX Info: Redefining \arctan on input line 237.
-LaTeX Info: Redefining \sin on input line 237.
-LaTeX Info: Redefining \tan on input line 237.
-LaTeX Info: Redefining \sinh on input line 237.
-LaTeX Info: Redefining \tanh on input line 237.
+LaTeX Info: Redefining \lim on input line 246.
+LaTeX Info: Redefining \limsup on input line 246.
+LaTeX Info: Redefining \liminf on input line 246.
+LaTeX Info: Redefining \max on input line 246.
+LaTeX Info: Redefining \min on input line 246.
+LaTeX Info: Redefining \inf on input line 246.
+LaTeX Info: Redefining \bmod on input line 246.
+LaTeX Info: Redefining \pmod on input line 246.
+LaTeX Info: Redefining \arccos on input line 246.
+LaTeX Info: Redefining \arcsin on input line 246.
+LaTeX Info: Redefining \arctan on input line 246.
+LaTeX Info: Redefining \sin on input line 246.
+LaTeX Info: Redefining \tan on input line 246.
+LaTeX Info: Redefining \sinh on input line 246.
+LaTeX Info: Redefining \tanh on input line 246.
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
 
 \openout2 = src/FD-ToC.aux
 (./src/FD-ToC.tex
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 9.
+(Font)              scaled to size 14.4pt on input line 9.
 LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 9.
+(Font)              scaled to size 14.4pt on input line 9.
  (./10-FoodDefense-2023.toc
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
-luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage esp
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
 Package polyglossia Info: totalhyphenmin:'5'.
@@ -1941,7 +1943,7 @@ LaTeX Info: Redefining \sinh on input line 1.
 LaTeX Info: Redefining \tanh on input line 1.
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
 LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 2.
+(Font)              scaled to size 10.0pt on input line 2.
 
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-LatinModernRoma
 n.cfg
@@ -1952,7 +1954,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Font shape `TU/Carlito(0)/b/it' will be
-(Font)              scaled to size 12.0pt on input line 28.
+(Font)              scaled to size 10.0pt on input line 28.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1964,40 +1966,40 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/b/it' will be
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 40.
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 40.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 40.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 [1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
@@ -2025,7 +2027,7 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
 LaTeX Info: Redefining \rmfamily on input line 118.
 LaTeX Info: Redefining \sffamily on input line 118.
 LaTeX Info: Redefining \ttfamily on input line 118.
-luaotfload | aux : font no 28 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 30 (nil) defines no feature for script latn with lang
 uage esp
 Package polyglossia Info: totalhyphenmin:'5'.
 LaTeX Info: Redefining \lim on input line 118.
@@ -2046,7 +2048,7 @@ LaTeX Info: Redefining \tanh on input line 118.
 LaTeX Info: Redefining \rmfamily on input line 119.
 LaTeX Info: Redefining \sffamily on input line 119.
 LaTeX Info: Redefining \ttfamily on input line 119.
-luaotfload | aux : font no 28 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 30 (nil) defines no feature for script latn with lang
 uage esp
 Package polyglossia Info: totalhyphenmin:'5'.
 LaTeX Info: Redefining \lim on input line 119.
@@ -2085,7 +2087,7 @@ LaTeX Info: Redefining \tanh on input line 119.
 \openout2 = src/FD-10.P.aux
  (./src/FD-10.P.tex
 LaTeX Font Info:    Font shape `TU/Carlito(0)/b/it' will be
-(Font)              scaled to size 17.28pt on input line 12.
+(Font)              scaled to size 14.4pt on input line 12.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2093,17 +2095,7 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/b/it' will be
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-
-Overfull \hbox (1.4224pt too wide) in paragraph at lines 30--30
- []\TU/Carlito(0)/m/n/12 Enero 
- []
-
 > Step: build the whole table.
-
-Overfull \hbox (1.4224pt too wide) in paragraph at lines 30--30
- []\TU/Carlito(0)/m/n/12 Enero 
- []
-
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2114,46 +2106,47 @@ Overfull \hbox (1.4224pt too wide) in paragraph at lines 30--30
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
-[5
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+ [5
 
 
 
 
 ])
 \openout2 = src/FD-10.1.aux
- (./src/FD-10.1.tex
+
+(./src/FD-10.1.tex
 LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 11.
+(Font)              scaled to size 12.0pt on input line 10.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2163,37 +2156,37 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
 > Step: calculate cell and line sizes.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
  [6
 
 
@@ -2244,7 +2237,7 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [11]
+ [11])
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2253,16 +2246,7 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [12])
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
- [13]
+ [12]
 \openout2 = src/FD-10.2.aux
  (./src/FD-10.2.tex
 
@@ -2278,38 +2262,38 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 > Step: calculate cell and line sizes.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
-[14
+Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+[13
 
 
 
@@ -2322,7 +2306,7 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [15])
+ [14])
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2331,15 +2315,15 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [16]
+ [15]
 \openout2 = src/FD-10.3.aux
  (./src/FD-10.3.tex ("../1 - BPD/src/BPM-1.4.tex"
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 50.
+(Font)              scaled to size 7.0pt on input line 47.
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 50.
+(Font)              scaled to size 8.0pt on input line 47.
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 50.
+(Font)              scaled to size 6.0pt on input line 47.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2349,44 +2333,42 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
 > Step: calculate cell and line sizes.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
- [17
+Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+ [16
 
 
 
 ]
-Underfull \vbox (badness 4242) has occurred while \output is active []
-
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2395,21 +2377,10 @@ Underfull \vbox (badness 4242) has occurred while \output is active []
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [18]
-Underfull \vbox (badness 1264) has occurred while \output is active []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
- [19]
+ [17]
 
 LaTeX Warning: Reference `carta.compromiso' on page 1 undefined on input line 1
-39.
+33.
 
 )
 > Step: init table outer spec.
@@ -2420,7 +2391,7 @@ LaTeX Warning: Reference `carta.compromiso' on page 1 undefined on input line 1
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [20] ("../1 - BPD/src/BPM-1.5.tex")
+ [18] ("../1 - BPD/src/BPM-1.5.tex")
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2431,37 +2402,37 @@ LaTeX Warning: Reference `carta.compromiso' on page 1 undefined on input line 1
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
- [21] ("../1 - BPD/src/BPM-1.6.tex"
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+ [19] ("../1 - BPD/src/BPM-1.6.tex"
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2471,41 +2442,41 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
 > Step: calculate cell and line sizes.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 59.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 59.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 59.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 59.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 59.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 59.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 59.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 59.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 
-[22]
+[20]
 
-LaTeX Warning: Reference `F-amonest' on page 1 undefined on input line 86.
+LaTeX Warning: Reference `F-amonest' on page 1 undefined on input line 84.
 
 )
 > Step: init table outer spec.
@@ -2516,7 +2487,7 @@ LaTeX Warning: Reference `F-amonest' on page 1 undefined on input line 86.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [23] ("../2 - PSA/src/PSA-2.4.tex"
+ [21] ("../2 - PSA/src/PSA-2.4.tex"
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2526,61 +2497,61 @@ LaTeX Warning: Reference `F-amonest' on page 1 undefined on input line 86.
 > Step: calculate cell and line sizes.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+ [22]
+Package mdframed Info: mdframed works in twoside mode on input line 61.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
+(Font)              scaled to size 7.0pt on input line 64.
+LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
+(Font)              scaled to size 6.0pt on input line 64.
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [23])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
  [24]
-Package mdframed Info: mdframed works in twoside mode on input line 62.
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 65.
-LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
-(Font)              scaled to size 7.0pt on input line 65.
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
- [25])
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
- [26]
 ("../2 - PSA/src/PSA-2.2.tex"
 > Step: init table outer spec.
 > Step: parse table options.
@@ -2591,38 +2562,38 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
 > Step: calculate cell and line sizes.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 64.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 64.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 64.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 64.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 64.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 64.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 64.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
- [27])
+Package luatex.def Info: ./RDF_Logo.png  used on input line 64.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+ [25])
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2631,7 +2602,7 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [28] ("../2 - PSA/src/PSA-2.3.tex"
+ [26] ("../2 - PSA/src/PSA-2.3.tex"
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2641,50 +2612,39 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
 > Step: calculate cell and line sizes.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
- [29]
-Underfull \vbox (badness 2671) has occurred while \output is active []
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
- [30]
-Package mdframed Info: mdframed works in twoside mode on input line 73.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 47.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+ [27]
+Package mdframed Info: mdframed works in twoside mode on input line 72.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2694,6 +2654,69 @@ Package mdframed Info: mdframed works in twoside mode on input line 73.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 
+[28]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [29])
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [30] ("../2 - PSA/src/PSA-2.12.tex"
+
+LaTeX Warning: Reference `sec:AccEnCasoDeEmergencia' on page 1 undefined on inp
+ut line 31.
+
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+File: ./RDF_Logo.png Graphic file (type png)
+<use ./RDF_Logo.png>
+Package luatex.def Info: ./RDF_Logo.png  used on input line 63.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+File: ./RDF_Logo.png Graphic file (type png)
+<use ./RDF_Logo.png>
+Package luatex.def Info: ./RDF_Logo.png  used on input line 63.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+File: ./RDF_Logo.png Graphic file (type png)
+<use ./RDF_Logo.png>
+Package luatex.def Info: ./RDF_Logo.png  used on input line 63.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+File: ./RDF_Logo.png Graphic file (type png)
+<use ./RDF_Logo.png>
+Package luatex.def Info: ./RDF_Logo.png  used on input line 63.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+File: ./RDF_Logo.png Graphic file (type png)
+<use ./RDF_Logo.png>
+Package luatex.def Info: ./RDF_Logo.png  used on input line 63.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+File: ./RDF_Logo.png Graphic file (type png)
+<use ./RDF_Logo.png>
+Package luatex.def Info: ./RDF_Logo.png  used on input line 63.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+> Step: build the whole table.
+File: ./RDF_Logo.png Graphic file (type png)
+<use ./RDF_Logo.png>
+Package luatex.def Info: ./RDF_Logo.png  used on input line 63.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+File: ./RDF_Logo.png Graphic file (type png)
+<use ./RDF_Logo.png>
+Package luatex.def Info: ./RDF_Logo.png  used on input line 63.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 [31])
 > Step: init table outer spec.
 > Step: parse table options.
@@ -2703,61 +2726,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 73.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [32] ("../2 - PSA/src/PSA-2.12.tex"
-
-LaTeX Warning: Reference `sec:AccEnCasoDeEmergencia' on page 1 undefined on inp
-ut line 32.
-
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 56.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 56.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 56.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 56.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 56.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 56.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
-> Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 56.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 56.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
-[33])
-> Step: init table outer spec.
-> Step: parse table options.
-> Step: split table.
-> Step: init table inner spec.
-> Step: parse table inner spec.
-> Step: execute table commands.
-> Step: calculate cell and line sizes.
-> Step: build the whole table.
- [34])
+ [32])
 \openout2 = src/FD-Gloss.aux
  (./src/FD-Gloss.tex (./10-FoodDefense-2023.acr
 
@@ -2767,7 +2736,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
-luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 29 (nil) defines no feature for script latn with lang
 uage esp
 Package polyglossia Info: totalhyphenmin:'5'.
 LaTeX Info: Redefining \lim on input line 1.
@@ -2785,6 +2754,11 @@ LaTeX Info: Redefining \sin on input line 1.
 LaTeX Info: Redefining \tan on input line 1.
 LaTeX Info: Redefining \sinh on input line 1.
 LaTeX Info: Redefining \tanh on input line 1.
+
+Underfull \hbox (badness 1867) in paragraph at lines 44--45
+[]|\TU/Carlito(0)/m/n/10 6, 7, 16, 20,
+ []
+
 )) (./10-FoodDefense-2023.gls
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2793,7 +2767,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
-luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 29 (nil) defines no feature for script latn with lang
 uage esp
 Package polyglossia Info: totalhyphenmin:'5'.
 LaTeX Info: Redefining \lim on input line 1.
@@ -2812,7 +2786,7 @@ LaTeX Info: Redefining \tan on input line 1.
 LaTeX Info: Redefining \sinh on input line 1.
 LaTeX Info: Redefining \tanh on input line 1.
 
-Overfull \hbox (53.73526pt too wide) in alignment at lines 25--88
+Overfull \hbox (22.91104pt too wide) in alignment at lines 25--89
  [][][] 
  []
 
@@ -2825,38 +2799,38 @@ Overfull \hbox (53.73526pt too wide) in alignment at lines 25--88
 > Step: calculate cell and line sizes.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 88.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 88.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 88.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 88.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 88.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 88.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 88.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 88.
-(luatex.def)             Requested size: 137.45474pt x 36.0pt.
-[35
+Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+(luatex.def)             Requested size: 114.54353pt x 30.0pt.
+[33
 
 
 
@@ -2869,7 +2843,7 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 88.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [36])
+ [34])
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2878,9 +2852,9 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 88.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [37]
+ [35]
 \openout2 = src/FD-Ind.aux
- (./src/FD-Ind.tex) (./10-FoodDefense-2023.ind) [38
+ (./src/FD-Ind.tex) (./10-FoodDefense-2023.ind) [36
 
 
 
@@ -2945,7 +2919,7 @@ Package polyglossia Info: Option: Spanish, spanishoperators=all.
 LaTeX Info: Redefining \rmfamily on input line 28.
 LaTeX Info: Redefining \sffamily on input line 28.
 LaTeX Info: Redefining \ttfamily on input line 28.
-luaotfload | aux : font no 25 (nil) defines no feature for script latn with lang
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage esp
 Package polyglossia Info: Option: Spanish, spanishoperators=all.
 Package polyglossia Info: totalhyphenmin:'5'.
@@ -2976,24 +2950,24 @@ Package rerunfilecheck Info: File `10-FoodDefense-2023.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 51037 strings out of 478381
+ 51057 strings out of 478381
  156552,3417909 words of node,token memory allocated
  964 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 14 glue, 4 kern, 1 penalty, 3 glyph, 2
 3 attribute, 107 glue_spec, 23 attribute_list, 5 write nodes
-   avail lists: 1:4,2:2385,3:1035,4:252,5:1191,6:200,7:11116,8:121,9:2062,10:23,
+   avail lists: 1:2,2:2391,3:1047,4:250,5:1197,6:200,7:11080,8:121,9:2056,10:14,
 11:1365
- 68369 multiletter control sequences out of 65536+600000
- 67 fonts using 12074087 bytes
- 109i,26n,131p,2304b,1369s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 68391 multiletter control sequences out of 65536+600000
+ 65 fonts using 12342711 bytes
+ 109i,26n,131p,2304b,1396s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bolditalic.t
 tf><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.tt
 f><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.ttf><
 //?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.ttf><
 C:/Program Files/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on 10-FoodDefense-2023.pdf (38 pages, 296303 bytes).
+Output written on 10-FoodDefense-2023.pdf (36 pages, 291281 bytes).
 
-PDF statistics: 1093 PDF objects out of 1200 (max. 8388607)
- 242 named destinations out of 1000 (max. 131072)
+PDF statistics: 1073 PDF objects out of 1200 (max. 8388607)
+ 240 named destinations out of 1000 (max. 131072)
  928 words of extra memory for PDF output out of 10000 (max. 100000000)
 

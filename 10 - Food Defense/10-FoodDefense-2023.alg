@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 13.04.2023  10:43:56
-;; Indexstyle: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\b_vUjns5NX", Rawindex: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\yjKzeUfRLo", Output: "10-FoodDefense-2023.acr"
+;; at 15.04.2023  10:15:59
+;; Indexstyle: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\HBJlAa27wL", Rawindex: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\NzivKEHwOE", Output: "10-FoodDefense-2023.acr"
 
 
 Building indexentry-tree:
