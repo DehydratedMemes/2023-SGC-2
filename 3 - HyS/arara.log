@@ -1,7 +1,7 @@
-29 Apr 2023 10:30:26.365 INFO  - 
+08 May 2023 11:28:26.655 INFO  - 
 Welcome to arara 7.0.5!
 -----------------------------------------------------------------
-29 Apr 2023 10:30:26.385 DEBUG - 
+08 May 2023 11:28:26.693 DEBUG - 
 ::: arara @ C:\Program Files\MiKTeX\scripts\arara
 ::: Java 19, Eclipse Adoptium
 ::: C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
@@ -9,24 +9,24 @@ Welcome to arara 7.0.5!
 ::: user.home @ C:\Users\Usuario
 ::: CF @ [none]
 -----------------------------------------------------------------
-29 Apr 2023 10:30:26.418 INFO  - Processing "3 - HyS.tex" (size: 12.7 kB, last modified: 2023-04-29 15:30:17), please wait.
-29 Apr 2023 10:30:26.532 INFO  - I found a potential pattern in line 10: lualatex: {
-29 Apr 2023 10:30:26.532 INFO  - I found a potential pattern in line 11: --> interaction: nonstopmode,
-29 Apr 2023 10:30:26.536 INFO  - I found a potential pattern in line 12: --> options: ['-file-line-error'],
-29 Apr 2023 10:30:26.537 INFO  - I found a potential pattern in line 13: --> shell: yes,
-29 Apr 2023 10:30:26.538 INFO  - I found a potential pattern in line 14: --> synctex: yes,
-29 Apr 2023 10:30:26.542 INFO  - I found a potential pattern in line 15: --> }
-29 Apr 2023 10:30:26.568 INFO  - I found a potential pattern in line 16: bib2gls
-29 Apr 2023 10:30:28.338 INFO  -                     All directives were validated. We are good to go.
+08 May 2023 11:28:26.805 INFO  - Processing "3 - HyS.tex" (size: 12.8 kB, last modified: 2023-05-04 19:19:05), please wait.
+08 May 2023 11:28:27.006 INFO  - I found a potential pattern in line 10: lualatex: {
+08 May 2023 11:28:27.006 INFO  - I found a potential pattern in line 11: --> interaction: nonstopmode,
+08 May 2023 11:28:27.007 INFO  - I found a potential pattern in line 12: --> options: ['-file-line-error'],
+08 May 2023 11:28:27.007 INFO  - I found a potential pattern in line 13: --> shell: yes,
+08 May 2023 11:28:27.008 INFO  - I found a potential pattern in line 14: --> synctex: yes,
+08 May 2023 11:28:27.008 INFO  - I found a potential pattern in line 15: --> }
+08 May 2023 11:28:27.009 INFO  - I found a potential pattern in line 16: bib2gls
+08 May 2023 11:28:28.916 INFO  -                     All directives were validated. We are good to go.
                     -------------------------- DIRECTIVES ---------------------------
                     Directive(identifier='lualatex', parameters={interaction=nonstopmode, options=[-file-line-error], shell=yes, synctex=yes, reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\3 - HyS\3 - HyS.tex},conditional={ NONE }, lineNumbers=[10, 11, 12, 13, 14, 15])
 Directive(identifier='bib2gls', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\3 - HyS\3 - HyS.tex},conditional={ NONE }, lineNumbers=[16])
                     -----------------------------------------------------------------
-29 Apr 2023 10:30:28.366 INFO  - I am ready to interpret rule "lualatex".
-29 Apr 2023 10:30:28.379 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-29 Apr 2023 10:30:29.353 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
-29 Apr 2023 10:30:29.445 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 3 - HyS.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\3 - HyS
-29 Apr 2023 10:31:09.329 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+08 May 2023 11:28:28.920 INFO  - I am ready to interpret rule "lualatex".
+08 May 2023 11:28:28.991 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+08 May 2023 11:28:29.917 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
+08 May 2023 11:28:29.921 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 3 - HyS.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\3 - HyS
+08 May 2023 11:30:30.008 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4)
  system commands enabled.
 ("./3 - HyS.tex"
@@ -119,20 +119,58 @@ For additional information on amsmath, use the `?' option.
 ("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-tree.sty"))
 ("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra-abbrstyle
 s.def")) ("./3 - HyS.glstex")
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/mdframed/mdframed.sty
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvoptions/kvoptions.sty
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty))
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/zref/zref-abspage.sty
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/zref/zref-base.sty
+("C:/Program Files/MiKTeX/tex/latex/imakeidx/imakeidx.sty"
+("C:/Program Files/MiKTeX/tex/latex/tools/multicol.sty"))
+Writing index file "3 - HyS".idx
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/footmisc/footmisc.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype-luatex.d
+ef) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.cfg)
+) ("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty")
+("C:/Program Files/MiKTeX/tex/latex/hyperref/hyperref.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/kvdefinekeys/kvdefinekeys.
-sty) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/etexcmds/etexcmds.sty
-) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/auxhook/auxhook.sty))
-("C:/Program Files/MiKTeX/tex/latex/base/atbegshi-ltx.sty"))
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/needspace/needspace.sty)
+sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/pdfescape/pdfescape.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/hycolor/hycolor.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/letltxmacro/letltxmacro.sty)
+ (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/auxhook/auxhook.sty)
+("C:/Program Files/MiKTeX/tex/latex/hyperref/nameref.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/gettitlestring/gettitlestr
+ing.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvoptions/kvoptions.sty)))
+("C:/Program Files/MiKTeX/tex/latex/hyperref/pd1enc.def")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/intcalc/intcalc.sty)
+("C:/Program Files/MiKTeX/tex/latex/hyperref/puenc.def")
+("C:/Program Files/MiKTeX/tex/latex/url/url.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bitset/bitset.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty)
+) ("C:/Program Files/MiKTeX/tex/latex/base/atbegshi-ltx.sty"))
+("C:/Program Files/MiKTeX/tex/latex/hyperref/hluatex.def"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/stringenc/stringenc.sty)
+("C:/Program Files/MiKTeX/tex/latex/base/atveryend-ltx.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/cleveref/cleveref.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/lastpage/lastpage.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/siunitx/siunitx.sty
+("C:/Program Files/MiKTeX/tex/latex/tools/array.sty"))
 ("C:/Program Files/MiKTeX/tex/latex/graphics/color.sty"
 ("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
 ("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
-("C:/Program Files/MiKTeX/tex/latex/pgf/frontendlayer/tikz.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tabularray/tabularray.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/booktabs/booktabs.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifvtex.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.cfg))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/adjustbox.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/adjcalc.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/trimclip.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/collectbox/collectbox.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/tc-pgf.def
 ("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty"
 ("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common.tex")
@@ -140,7 +178,6 @@ sty) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/etexcmds/etexcmds.sty
 ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfrcs.code.tex"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/pgf.revision.tex")))
 ("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.sty"
-("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty")
 ("C:/Program Files/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.sty"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys.code.tex"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"
@@ -202,89 +239,85 @@ ex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmoduleplot.code.tex")
 ("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty"
 ) ("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
-y")) ("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgffor.sty"
-("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty"
-("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"))
-("C:/Program Files/MiKTeX/tex/latex/pgf/math/pgfmath.sty"
-("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"))
-("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgffor.code.tex"))
-("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex"
-("C:/Program Files/MiKTeX/tex/generic/pgf/libraries/pgflibraryplothandlers.code
-.tex")
-("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmodulematrix.code.tex")
-("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibr
-arytopaths.code.tex")))
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/mdframed/md-frame-1.mdf))
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/footmisc/footmisc.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.sty
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype-luatex.d
-ef) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.cfg)
-) ("C:/Program Files/MiKTeX/tex/latex/hyperref/hyperref.sty"
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/pdfescape/pdfescape.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/hycolor/hycolor.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/letltxmacro/letltxmacro.sty)
- ("C:/Program Files/MiKTeX/tex/latex/hyperref/nameref.sty"
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/gettitlestring/gettitlestr
-ing.sty)) ("C:/Program Files/MiKTeX/tex/latex/hyperref/pd1enc.def")
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/intcalc/intcalc.sty)
-("C:/Program Files/MiKTeX/tex/latex/hyperref/puenc.def")
-("C:/Program Files/MiKTeX/tex/latex/url/url.sty")
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bitset/bitset.sty
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty)
-)) ("C:/Program Files/MiKTeX/tex/latex/hyperref/hluatex.def"
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/stringenc/stringenc.sty)
-("C:/Program Files/MiKTeX/tex/latex/base/atveryend-ltx.sty")
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilechec
-k.sty
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/uniquecounter/uniquecounte
-r.sty)))
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/cleveref/cleveref.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/lastpage/lastpage.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/siunitx/siunitx.sty
-("C:/Program Files/MiKTeX/tex/latex/tools/array.sty"))
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tabularray/tabularray.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/booktabs/booktabs.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty
-("C:/Program Files/MiKTeX/tex/generic/iftex/ifvtex.sty")
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.cfg))
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/adjustbox.sty
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/adjcalc.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/trimclip.sty
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/collectbox/collectbox.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/tc-pgf.def))
+y"))))
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/ifoddpage/ifoddpage.sty)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/varwidth/varwidth.sty))
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/enumitem/enumitem.sty)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty)
 ("./3 - HyS.aux" (./src/HyS-ToC.aux) (./src/HyS-3.1.aux) (./src/HyS-3.2.aux)
-(./src/HyS-3.3.aux) (./src/HyS-3.4.aux) (./src/HyS-3.5.aux
+(./src/HyS-3.3.aux) (./src/HyS-3.4.aux) (./src/HyS-3.5.aux) (./src/HyS-3.6.aux)
+ (./src/HyS-3.7.aux
 
-LaTeX Warning: Label `changelog-3.3' multiply defined.
-
-
-LaTeX Warning: Label `changelog-3.3@cref' multiply defined.
-
-) (./src/HyS-3.6.aux) (./src/HyS-3.7.aux
-
-LaTeX Warning: Label `changelog-3.6' multiply defined.
+LaTeX Warning: Label `changelog-3.7' multiply defined.
 
 
-LaTeX Warning: Label `changelog-3.6@cref' multiply defined.
+LaTeX Warning: Label `changelog-3.7@cref' multiply defined.
 
-) (./src/HyS-3.8.aux) (./src/HyS-3.9.aux
+) (./src/HyS-3.8.aux) (./src/HyS-3.9.aux) (./src/HyS-3.10.aux
 
-LaTeX Warning: Label `changelog-3.8' multiply defined.
+LaTeX Warning: Label `changelog-3.9' multiply defined.
 
 
-LaTeX Warning: Label `changelog-3.8@cref' multiply defined.
+LaTeX Warning: Label `changelog-3.9@cref' multiply defined.
 
-) (./src/HyS-3.10.aux) (./src/HyS-3.11.aux) (./src/HyS-3.12.aux)
-(./src/HyS-3.13.aux) (./src/HyS-3.14.aux) (./src/HyS-3.15.aux)
-(./src/HyS-3.16.aux) (./src/HyS-3.17.aux) (./src/HyS-3.18.aux)
-(./src/HyS-3.19.aux) (./src/HyS-3.20.aux) (./src/HyS-3.21.aux)
-(./src/HyS-3.22.aux) (./src/HyS-3.23.aux) (./src/HyS-3.24.aux)
-(./src/HyS-3.25.aux) (./src/HyS-G.aux) (./src/HyS-I.aux))
+) (./src/HyS-3.11.aux
+
+LaTeX Warning: Label `changelog-3.9' multiply defined.
+
+
+LaTeX Warning: Label `changelog-3.9@cref' multiply defined.
+
+) (./src/HyS-3.12.aux
+
+LaTeX Warning: Label `changelog-3.9' multiply defined.
+
+
+LaTeX Warning: Label `changelog-3.9@cref' multiply defined.
+
+) (./src/HyS-3.13.aux) (./src/HyS-3.14.aux) (./src/HyS-3.15.aux
+
+LaTeX Warning: Label `changelog-3.14' multiply defined.
+
+
+LaTeX Warning: Label `changelog-3.14@cref' multiply defined.
+
+) (./src/HyS-3.16.aux
+
+LaTeX Warning: Label `changelog-3.14' multiply defined.
+
+
+LaTeX Warning: Label `changelog-3.14@cref' multiply defined.
+
+) (./src/HyS-3.17.aux
+
+LaTeX Warning: Label `changelog-3.14' multiply defined.
+
+
+LaTeX Warning: Label `changelog-3.14@cref' multiply defined.
+
+) (./src/HyS-3.18.aux) (./src/HyS-3.19.aux
+
+LaTeX Warning: Label `changelog-3.18' multiply defined.
+
+
+LaTeX Warning: Label `changelog-3.18@cref' multiply defined.
+
+) (./src/HyS-3.20.aux) (./src/HyS-3.21.aux
+
+LaTeX Warning: Label `changelog-3.20' multiply defined.
+
+
+LaTeX Warning: Label `changelog-3.20@cref' multiply defined.
+
+) (./src/HyS-3.22.aux
+
+LaTeX Warning: Label `changelog-3.20' multiply defined.
+
+
+LaTeX Warning: Label `changelog-3.20@cref' multiply defined.
+
+) (./src/HyS-3.23.aux) (./src/HyS-3.24.aux) (./src/HyS-3.25.aux)
+(./src/HyS-G.aux) (./src/HyS-I.aux))
 ("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd")
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/translations/dicts/translati
 ons-basic-dictionary-spanish.trsl)
@@ -296,11 +329,70 @@ t") ("./3 - HyS.out")
 ("C:/Program Files/MiKTeX/tex/latex/ninecolors/ninecolors.sty")
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
-(./src/HyS-3.10.tex
+(./src/HyS-ToC.tex ("./3 - HyS.toc"
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-LatinModernRoma
 n.cfg) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-cmr.cfg)
-[32{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[33]) [34] 
+[1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./RDF_Log
+o.png>] [2] [3] [4] [5] [6] [7])) [8] (./src/HyS-3.1.tex [9] [10]) [11]
+(./src/HyS-3.2.tex [12] [13]) [14] (./src/HyS-3.3.tex [15] [16]) [17]
+(./src/HyS-3.4.tex [18]) [19] (./src/HyS-3.5.tex [20]) [21] (./src/HyS-3.6.tex
+[22]) [23] (./src/HyS-3.7.tex [24] [25]) [26] (./src/HyS-3.8.tex [27]) [28]
+(./src/HyS-3.9.tex [29]) [30] (./src/HyS-3.10.tex [31] [32]) [33]
+(./src/HyS-3.11.tex [34]) [35] (./src/HyS-3.12.tex [36]) [37]
+(./src/HyS-3.13.tex [38]) [39] (./src/HyS-3.14.tex [40] [41]) [42]
+(./src/HyS-3.15.tex [43]) [44] (./src/HyS-3.16.tex [45]) [46]
+(./src/HyS-3.17.tex [47] [48]) [49] (./src/HyS-3.18.tex [50]) [51]
+(./src/HyS-3.19.tex [52]) [53] (./src/HyS-3.20.tex [54]) [55]
+(./src/HyS-3.21.tex [56]) [57] (./src/HyS-3.22.tex [58]) [59]
+(./src/HyS-3.23.tex) [60] (./src/HyS-3.24.tex [61]) [62] (./src/HyS-3.25.tex)
+[63] (./src/HyS-G.tex ("./3 - HyS.acr")) ("./3 - HyS.gls"
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textspanish' on input line 1.
+
+) [64] (./src/HyS-I.tex)tex2xindy: major issue: User/administrator updates are out-of-sync.
+Opening logfile "nul" (done)
+Reading indexstyle...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\3 - HyS\\lNfg_laANs"...
+Loading module "lang/general/latin9-lang.xdy"...
+Loading module "lang/general/latin9.xdy"...
+Finished loading module "lang/general/latin9.xdy".
+Finished loading module "lang/general/latin9-lang.xdy".
+Loading module "tex/inputenc/latin.xdy"...
+Finished loading module "tex/inputenc/latin.xdy".
+Loading module "texindy.xdy"...
+Loading module "numeric-sort.xdy"...
+Finished loading module "numeric-sort.xdy".
+Loading module "latex.xdy"...
+Loading module "tex.xdy"...
+Finished loading module "tex.xdy".
+Finished loading module "latex.xdy".
+Loading module "latex-loc-fmts.xdy"...
+Finished loading module "latex-loc-fmts.xdy".
+Loading module "makeindex.xdy"...
+Finished loading module "makeindex.xdy".
+Loading module "latin-lettergroups.xdy"...
+Finished loading module "latin-lettergroups.xdy".
+Finished loading module "texindy.xdy".
+Loading module "page-ranges.xdy"...
+Finished loading module "page-ranges.xdy".
+Loading module "word-order.xdy"...
+Finished loading module "word-order.xdy".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\3 - HyS\\lNfg_laANs".
+Finished reading indexstyle.
+Finalizing indexstyle... (done)
+
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\3 - HyS\\anaoL3BTP4"...
+Finished reading raw-index.
+
+Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Finished processing index.
+
+Writing markup... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Markup written into file "3 - HyS.ind".
+texindy: major issue: User/administrator updates are out-of-sync.
+ ("./3 - HyS.ind") [65]
+
 AED: lastpage setting LastPage
 ("./3 - HyS.aux" (./src/HyS-ToC.aux) (./src/HyS-3.1.aux) (./src/HyS-3.2.aux)
 (./src/HyS-3.3.aux) (./src/HyS-3.4.aux) (./src/HyS-3.5.aux) (./src/HyS-3.6.aux)
@@ -315,51 +407,27 @@ AED: lastpage setting LastPage
 LaTeX Warning: There were multiply-defined labels.
 
 )
- 948 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 5 kern, 1 penalty, 3 glyph, 2
-9 attribute, 103 glue_spec, 29 attribute_list, 23 write nodes
-   avail lists: 1:2,2:923,3:599,4:153,5:723,6:106,7:6240,8:2,9:808,10:3,11:711
-
-warning  (pdf backend): unreferenced destination with name 'page.65'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.10.7'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.10.6'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.10.5'
-
-warning  (pdf backend): unreferenced destination with name 'paragraph.10.4.2.1'
-
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.10.4.
-2'
-
-warning  (pdf backend): unreferenced destination with name 'subsubsection.10.4.
-1'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.10.4'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.10.3'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.10.2'
-
-warning  (pdf backend): unreferenced destination with name 'subsection.10.1'
-
-warning  (pdf backend): unreferenced destination with name 'section.10'
-<//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.ttf
-><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.ttf>
-Output written on 3 - HyS.pdf (3 pages, 52581 bytes).
+ 698 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 5 glue, 4 kern, 1 penalty, 1 margin_k
+ern, 4 glyph, 16 attribute, 68 glue_spec, 16 attribute_list, 6 write, 1 pdf_act
+ion nodes
+   avail lists: 1:3,2:1633,3:743,4:240,5:1355,6:200,7:8529,8:2,9:1818,10:10,11:
+1049
+<//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.ttf>
+<//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.ttf></
+/?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.ttf>
+Output written on 3 - HyS.pdf (65 pages, 478781 bytes).
 SyncTeX written on 3 - HyS.synctex.gz.
 Transcript written on "3 - HyS.log".
 lualatex: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-29 Apr 2023 10:31:09.336 INFO  - Task result: SUCCESS
-29 Apr 2023 10:31:09.337 INFO  - I am ready to interpret rule "bib2gls".
-29 Apr 2023 10:31:09.342 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-29 Apr 2023 10:31:09.503 INFO  - I am ready to interpret task "The Bib2Gls software" from rule "Bib2Gls".
-29 Apr 2023 10:31:09.504 INFO  - System command: [bib2gls, 3 - HyS] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\3 - HyS
-29 Apr 2023 10:31:21.160 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+08 May 2023 11:30:30.030 INFO  - Task result: SUCCESS
+08 May 2023 11:30:30.031 INFO  - I am ready to interpret rule "bib2gls".
+08 May 2023 11:30:30.067 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+08 May 2023 11:30:30.229 INFO  - I am ready to interpret task "The Bib2Gls software" from rule "Bib2Gls".
+08 May 2023 11:30:30.230 INFO  - System command: [bib2gls, 3 - HyS] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\3 - HyS
+08 May 2023 11:30:40.691 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
                 Picked up _JAVA_OPTIONS: -Xmx1024M
 bib2gls 3.3 (2023-04-24)
 Reading 3 - HyS.aux
@@ -394,10 +462,10 @@ Reading src\HyS-I.aux
 Reading ..\glosario.bib
 Encoding: UTF-8
 Writing c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\3 - HyS\3 - HyS.glstex
-67 entries written to c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\3 - HyS\3 - HyS.glstex.
+69 entries written to c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\3 - HyS\3 - HyS.glstex.
 Transcript written to 3 - HyS.glg.
 bib2gls: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-29 Apr 2023 10:31:21.162 INFO  - Task result: SUCCESS
-29 Apr 2023 10:31:21.211 INFO  - Total: 56.66 seconds
+08 May 2023 11:30:40.699 INFO  - Task result: SUCCESS
+08 May 2023 11:30:40.767 INFO  - Total: 136.227 seconds

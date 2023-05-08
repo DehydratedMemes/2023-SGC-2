@@ -5,12 +5,55 @@
       \nopagebreak
   }
 
+  \lettergroup{C}
+  \item Cloración
+    \subitem agua potable, de, \hyperpage{61}
+
+  \indexspace
+
+  \lettergroup{D}
+  \item Determinación
+    \subitem cloruro en agua, de, \hyperpage{56}
+
+  \indexspace
+
   \lettergroup{L}
+  \item Lavado
+    \subitem baño de empleados, de, \hyperpage{45}
+    \subitem comedor, del, \hyperpage{47}
+    \subitem manos, de, \hyperpage{54}
+    \subitem patio de montacargas, de, \hyperpage{34}
+    \subitem uniformes, de, \hyperpage{50}
+  \item Lavado de
+    \subitem accesorios de limpieza, \hyperpage{36}
+  \item Lavado de utensilios
+    \subitem limpieza de alérgenos, de, \hyperpage{38}
+  \item Limpieza
+    \subitem cisterna, de, \hyperpage{60}
+    \subitem derrame de químicos, en caso de, \hyperpage{58}
+    \subitem oficinas, de, \hyperpage{40}
   \item Limpieza de
-    \subitem andén, \hyperpage{16}
+    \subitem aduana sanitaria, \hyperpage{24}
+    \subitem andén, \hyperpage{15}
+    \subitem artículos del andén, \hyperpage{22}
     \subitem cámara
-      \subsubitem refrigeración, de, \hyperpage{10}
-      \subsubitem secos, de, \hyperpage{13}
-    \subitem cámaras desocupadas, \hyperpage{16}
+      \subsubitem refrigeración, de, \hyperpage{9}
+      \subsubitem secos, de, \hyperpage{12}
+    \subitem cámaras desocupadas, \hyperpage{15}
+    \subitem montacargas, \hyperpage{20}
+    \subitem patines, \hyperpage{20}
+    \subitem rampas mecánicas, de, \hyperpage{18}
+
+  \indexspace
+
+  \lettergroup{P}
+  \item Preparación de soluciones
+    \subitem desinfectante, \hyperpage{29}
+
+  \indexspace
+
+  \lettergroup{V}
+  \item Verificación
+    \subitem eficacia de POES, de la, \hyperpage{52}
 
 \end{theindex}

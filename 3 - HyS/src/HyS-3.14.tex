@@ -1,3 +1,4 @@
+\thispagestyle{formato-PI}
 \renewcommand{\MenorVer}{0}
 \renewcommand{\MayorVer}{2}
 %\renewcommand{\Edit}{\MayorVer.\MenorVer}
@@ -5,34 +6,25 @@
 \renewcommand{\FechaPub}{2023--01}
 \renewcommand{\Titulo}{Limpieza de oficinas}
 
-\section{\Titulo}
+\section{\Titulo}\index{Limpieza!oficinas, de}
 % \section{Limpieza de oficinas}
 
 \subsection{Objetivo}
-
 Establecer un procedimiento que aseguren un mantenimiento y limpieza apropiada de Oficinas.
 
 \subsection{Alcance}
-
 Todas las oficinas del almacén.
 
 \subsection{Terminología y definiciones}
-
 \begin{description}
 \defglo{limpieza}
 \defglo{sanitizacion}
 \end{description}
 
-%\subsection{Documentos y/o normas relacionadas}
-
-%N/A
-
 \subsection{Procedimiento}
-
 \subsubsection{Materiales}
-
 \begin{itemize}
-	\item Preparación de Liquid K a la concentración indicada por el proveedor (0.13\% a 0.26\% v/v)(1.3ml a 2.6ml en 1L de agua)
+	\item Preparación de \emph{Liquid K} a la concentración indicada por el proveedor \qtyrange{.13}{.26}{\percent}, o bien \qtyrange{1.3}{2.6}{\milli\liter\per\liter}.
 	\item Cubeta de \qty{20}{\litre}
 	\item Cepillo para piso color verde
 	\item Recogedor de plástico color verde
@@ -41,9 +33,7 @@ Todas las oficinas del almacén.
 \end{itemize}
 
 \subsubsection{Instrucciones}
-
 \paragraph{Limpieza de pisos}
-
 \begin{enumerate}
 	\item Barrer pisos de áreas de oficinas.
 	\item Recoger la suciedad recolectada con recogedor.
@@ -64,7 +54,6 @@ Todas las oficinas del almacén.
 \end{enumerate}
 
 \paragraph{Limpieza de ventanas:}
-
 \begin{enumerate}
 	\item Preparar disolución a dosificación indicada por el proveedor
 	\item Humedecer una toalla desechable
@@ -73,7 +62,6 @@ Todas las oficinas del almacén.
 \end{enumerate}
 
 \subsection{Responsables de la actividad}
-
 \begin{itemize}
 	\item \textbf{Ejecutado} por personal de limpieza;
 	\item \textbf{Monitoreado} por personal de mantenimiento;
@@ -81,9 +69,8 @@ Todas las oficinas del almacén.
 \end{itemize}
 
 \subsection{Acciones preventivas}
-
 \begin{itemize}
-	\item Se llevara a cabo una inspección diaria. Registrando el indicador y medida correspondiente
+	\item Se llevará a cabo una inspección diaria. Registrando el indicador y medida correspondiente
 	\item Si la desviación se repite frecuentemente se dará curso de capacitación al personal de limpieza para que realicen eficientemente su trabajo.
 	\item Si después de haber capacitado al personal de limpieza se siguen presentando desviaciones por causas injustificadas, se tomaran acciones más enérgicas con el personal por incumplimiento con sus deberes.
 \end{itemize}
@@ -96,14 +83,18 @@ Todas las oficinas del almacén.
 \end{itemize}
 
 \subsection{Frecuencia}
-
 Diario de lunes a sábado de 8:00 a 10:30.
 
-\subsection{Historial de modificaciones}
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-3.14]
+	\begin{version}[v=2.0, date=2023--01, author=Pablo E. Alanis]
+		\item Cambio de formato;
+		\item Cambios en la serialización de versiones;
+		\item Correcciones ortográficas y de estilo.
+	\end{version}
 
-\begin{itemize}
-	\item Cuarta edición: cambio de fecha de 14 de noviembre 2017 a 28 de enero 2019, se realizó cambio de código de HS-P-LO a PR-032. Y no se realizaron cambios de la revisión 003 a la 004.
-	\item Quinta edición: febrero 2020 se hizo cambio de formato y cambio de código de PR-032 a IT-OP-015. Y no se realizaron cambio de la revisión 04 a la 05.
-	\item Sexta edición: febrero 2021 no se realizaron cambios de la revisión 05 a la 06.
-	\item Séptima edición: febrero 2022 no se realizaron cambios de la revisión 06 a la 07.
-\end{itemize}
+	\begin{version}[v=1.7, date=2022--05, author=Alonso M.]
+		\item cambio de fecha;
+	\end{version}	
+
+	\shortversion{v=1.6, date=2021--05, changes=No hubo cambios}
+\end{changelog}

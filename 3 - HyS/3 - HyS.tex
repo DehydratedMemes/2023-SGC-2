@@ -84,6 +84,7 @@
 record={alsoindex},			% create group field and other stuff
 postpunc={dot},	% full stop after description
 toc=true,
+style=indexgroup,
 acronyms,
 xindy
 ]{glossaries-extra}
@@ -99,42 +100,42 @@ sort={es-MX}
 
 \renewcommand{\glossarypreamble}{\fontsize{10pt}{12pt}\selectfont}
 
-% \usepackage[xindy]{imakeidx}    % Para hacer indices
-% 	\makeindex[columns=2]   	% Estilo del indice alfabético
+\usepackage[xindy]{imakeidx}    % Para hacer indices
+	\makeindex[columns=2]   	% Estilo del indice alfabético
 
-\newcounter{note}[section]  % Nuevo contador para notas
-\renewcommand{\thenote}{\thesection.\Alph{note}}    % Definir estilo de numeración de las notas
-\usepackage[framemethod=TikZ]{mdframed}             % Motor gráfico para notas (TikZ)
-\newenvironment{note}[1][]{%                        % Nuevo entorno de Nota (note) 
-    \refstepcounter{note}
-    \begin{mdframed}[%                                  
-        frametitle={Nota \thenote\ #1},                 % Titulo de las notas
-        skipabove=\baselineskip{} plus 2pt minus 1pt,     % Espaciado superior
-        skipbelow=\baselineskip{} plus 2pt minus 1pt,     % Espaciado inferior
-        linewidth=0.5pt,                                % Tamaño de linea del recuadro
-        frametitlerule=true,                            % incluir titulo
-        frametitlebackgroundcolor=gray!30               % Color del recuadro
-    ]%
-}{%
-    \end{mdframed}
-}
+% \newcounter{note}[section]  % Nuevo contador para notas
+% \renewcommand{\thenote}{\thesection.\Alph{note}}    % Definir estilo de numeración de las notas
+% \usepackage[framemethod=TikZ]{mdframed}             % Motor gráfico para notas (TikZ)
+% \newenvironment{note}[1][]{%                        % Nuevo entorno de Nota (note) 
+%     \refstepcounter{note}
+%     \begin{mdframed}[%                                  
+%         frametitle={Nota \thenote\ #1},                 % Titulo de las notas
+%         skipabove=\baselineskip{} plus 2pt minus 1pt,     % Espaciado superior
+%         skipbelow=\baselineskip{} plus 2pt minus 1pt,     % Espaciado inferior
+%         linewidth=0.5pt,                                % Tamaño de linea del recuadro
+%         frametitlerule=true,                            % incluir titulo
+%         frametitlebackgroundcolor=gray!30               % Color del recuadro
+%     ]%
+% }{%
+%     \end{mdframed}
+% }
 
-\newcounter{contact}[section]                           % Nuevo contador para contactos
-\renewcommand{\thecontact}{\thesection.\Alph{contact}}  % Definir que la numeración sea Sección.Alfabético
+% \newcounter{contact}[section]                           % Nuevo contador para contactos
+% \renewcommand{\thecontact}{\thesection.\Alph{contact}}  % Definir que la numeración sea Sección.Alfabético
 
-\newenvironment{contact}[1][]{%
-    \refstepcounter{contact}
-    \begin{mdframed}[%
-        frametitle={Contacto \thecontact\ #1},          % Titulo del contacto
-        skipabove=\baselineskip{}plus 2pt minus 1pt,     % Espaciado superior
-        skipbelow=\baselineskip{}plus 2pt minus 1pt,     % Espaciado inferior
-        linewidth=0.5pt,                                % Tamaño de linea del recuadro
-        frametitlerule=true,                            % poner titulo
-        frametitlebackgroundcolor=yellow!30             % Color del recuadro
-    ]%
-}{%
-    \end{mdframed}
-}
+% \newenvironment{contact}[1][]{%
+%     \refstepcounter{contact}
+%     \begin{mdframed}[%
+%         frametitle={Contacto \thecontact\ #1},          % Titulo del contacto
+%         skipabove=\baselineskip{}plus 2pt minus 1pt,     % Espaciado superior
+%         skipbelow=\baselineskip{}plus 2pt minus 1pt,     % Espaciado inferior
+%         linewidth=0.5pt,                                % Tamaño de linea del recuadro
+%         frametitlerule=true,                            % poner titulo
+%         frametitlebackgroundcolor=yellow!30             % Color del recuadro
+%     ]%
+% }{%
+%     \end{mdframed}
+% }
 
 \usepackage[multiple]{footmisc}     % Cambios en la presentación de pies de página
 \usepackage{microtype}              % Ajustes de kerning y otros 
@@ -272,7 +273,7 @@ footskip=1.5em]{geometry}
 
 \newcommand{\defglo}[1]{\item[\glsname{#1}] \glsdesc{#1}} % Define un comando para dar un item en un entorno de descripción para una palabra definida en el glosario
 
-\includeonly{src/HyS-3.11.tex}
+% \includeonly{src/HyS-3.25.tex}
 
 \begin{document}
 \pagestyle{formato-PS}
