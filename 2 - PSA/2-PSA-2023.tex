@@ -1,13 +1,23 @@
 % Información para el motor (arara). Compilar en LuaLaTeX o XeLaTeX sólamente.
 
+%%arara: lualatex: {
+%%arara: --> interaction: nonstopmode,
+%%arara: --> options: ['-file-line-error'],
+%%arara: --> shell: yes,
+%%arara: --> synctex: yes,
+%%arara: --> }
+%%arara: makeglossaries
+%% arara: makeindex
+
 %arara: lualatex: {
 %arara: --> interaction: nonstopmode,
 %arara: --> options: ['-file-line-error'],
 %arara: --> shell: yes,
 %arara: --> synctex: yes,
 %arara: --> }
-%arara: makeglossaries
-%% arara: makeindex
+%arara: bib2gls if found("aux", "glsxtr@resource")
+%arara: makeglossaries if found("aux", "@istfilename")
+%arara: makeindex
 
 \documentclass[letterpaper,twoside]{article}
 
@@ -43,6 +53,9 @@
 	% \setdefaultlanguage{mexican}
 	\renewcommand{\listtablename}{Índice de tablas}
 
+\usepackage{translations}
+	\DeclareLanguage{Spanish}
+
 \usepackage{changelog}  % Control de versiones
 
 \usepackage{pdflscape}
@@ -50,27 +63,44 @@
 \newcommand{\cmark}{\ding{51}}%
 \newcommand{\xmark}{\ding{55}}%
 
-\usepackage[%
-toc=true,
-postpunc={;},
-acronyms,
-xindy]{glossaries-extra}    % Manager de glosarios, usar xindy para el indice alfabético
-% \usepackage{glossary-mcols}
-% \renewcommand{\glsmcols}{2}
-\setglossarystyle{long3col}
+% \usepackage[%
+% toc=true,
+% postpunc={;},
+% acronyms,
+% xindy]{glossaries-extra}    % Manager de glosarios, usar xindy para el indice alfabético
+% % \usepackage{glossary-mcols}
+% % \renewcommand{\glsmcols}{2}
+% \setglossarystyle{long3col}
 
-	\makeglossaries{}
-	% \setabbreviationstyle[acronym]{short-long}  % Estilo de acrónimos
-	\setabbreviationstyle[acronym]{long-short}
-	% \setglossarystyle{mcolindex}
-	\loadglsentries[main]{../glosario-def.tex}  % Archvio que LuaLaTeX toma para las definiciones
+% 	\makeglossaries{}
+% 	% \setabbreviationstyle[acronym]{short-long}  % Estilo de acrónimos
+% 	\setabbreviationstyle[acronym]{long-short}
+% 	% \setglossarystyle{mcolindex}
+% 	\loadglsentries[main]{../glosario-def.tex}  % Archvio que LuaLaTeX toma para las definiciones
 
-	\renewcommand{\glossarypreamble}{\fontsize{10pt}{12pt}\selectfont}
+\usepackage[
+	record=hybrid,% provides group and location fields (and other stuff)
+	nopostdot,
+	xindy,
+	acronym,
+	stylemods=tree]{glossaries-extra}
+\setabbreviationstyle{long-short-sc}
+\GlsXtrLoadResources[
+	src={../glosario.bib},	% bib files
+	selection={all},			% select all entries
+	sort={es-MX}
+]
+\makeglossaries
 
+
+% \setglossarystyle{longragged}
+
+
+\renewcommand{\glossarypreamble}{\fontsize{10pt}{12pt}\selectfont}
+
+\usepackage[xindy]{imakeidx}    % Para hacer indices
+	\makeindex[columns=2]   	% Estilo del indice alfabético
 	
-\usepackage{imakeidx}       % Para hacer indices
-	\makeindex[columns=2]   % Estilo del indice alfabético
-
 \newcounter{note}[section]  % Nuevo contador para notas
 \renewcommand{\thenote}{\thesection.\Alph{note}}    % Definir estilo de numeración de las notas
 \usepackage[framemethod=TikZ]{mdframed}             % Motor gráfico para notas (TikZ)
@@ -236,12 +266,10 @@ footskip=1.5em]{geometry}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 			
-\setcounter{tocdepth}{4}            % Qué tanto mostrará la tabla de contenidos
+\setcounter{tocdepth}{4}            % 4 Qué tanto mostrará la tabla de contenidos
 \setcounter{secnumdepth}{6}         % Que tantas secciones numerará LaTeX (Se ajustó hasta subparrafo)
 
-\newcommand{\defglo}[1]{\item[\glsname{#1}] \glsdesc{#1}} % Define un comando para dar un item en un entorno de descripción para una palabra definida en el glosario
-
-\includeonly{src/BPM-1.1.tex}
+\renewcommand{\Prog}{PSA} % Definirlo como sea pertinente
 
 \begin{document}
 \pagestyle{formato-PS}
