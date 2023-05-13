@@ -1,0 +1,14 @@
+\selectlanguage *[spanishoperators=all]{spanish}
+\contentsline {section}{\numberline {1}Frecuencia de capacitaciones para el personal del almacén}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivo}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Alcance}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Documentos y/o normas relacionadas}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Procedimiento}{2}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Capacitación de personal de nuevo ingreso}{2}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Capacitación de personal}{2}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}Evaluación de curso}{2}{subsubsection.1.4.3}%
+\contentsline {subsubsection}{\numberline {1.4.4}Capacitaciones}{2}{subsubsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.5}Responsables de la actividad}{3}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Frecuencia}{3}{subsection.1.6}%
+\contentsline {section}{\textspanish {Siglas}}{4}{section*.3}%
+\contentsline {section}{\textspanish {Glosario}}{4}{section*.5}%

@@ -1,12 +1,13 @@
 \thispagestyle{formato-PI}
 \renewcommand{\MayorVer}{2}
 \renewcommand{\MenorVer}{0}
-\renewcommand{\Codigo}{PSA-1-PROG} %TODO
+ %TODO
 \renewcommand{\FechaPub}{2023--01}
-%\renewcommand{\Edit}{2.1}
+\renewcommand{\TipoID}{PRO}
 
 \renewcommand{\Titulo}{Acciones correctivas y preventivas}
 \section{\Titulo}\index{Información documentada!tipo!procedimiento!Acciones correctivas y preventivas}
+\renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 
 \subsection{Objetivo}
 
@@ -30,45 +31,46 @@ Este procedimiento aplica a todas las áreas de \gls{RDF} desde la recepción ha
 	\item \textbf{No Conformidad Mayor (NCM):} Es un incumplimiento que ya ocurrió en el sistema (Incumplimiento real) que afecta a un punto completo de la norma aplicable.
 	\item \textbf{No Conformidad menor (NCm):} Es un incumplimiento que puede ya haber ocurrido (Real) o no haber ocurrido aún (Potencial) en el sistema de calidad y que solo afecta parcialmente a un punto de la norma.
 	\item \textbf{No conformidad real:} Es un incumplimiento mayor o menor que ya ocurrió
+	\item \gls{alimento-RTE}: \glsdesc{alimento-RTE}
 \end{itemize}
 
 \subsection{Documentos y/o normas relacionadas}
 
 \begin{itemize}
 	\item Procedimiento de Generación y Control de documentos y registros %TODO
-	\item 1.3 - MA-OP-001 - Manual de calidad y buenas prácticas de distribución|Manual de Calidad e Inocuidad Alimentaría %TODO
-	\item Procedimiento Trazabilidad. %TODO
-	\item 2.22 - PRO-OP-016 - Atención a quejas|Procedimiento de Manejo de Quejas %TODO
+	\item 1--BPD --- Programa de buenas prácticas de distribución
+	\item \cref{adm:quejas}
 \end{itemize}
 
 \subsection{Procedimiento}
 
 \subsubsection{Acción Preventiva}
-
-1. Se deberá tomar una Acción Preventiva cuando se detecte algún problema o situación que pueda causar una desviación en el proceso y así afectar la calidad o inocuidad del producto. Se llama Preventiva porque se actúa anticipadamente para evitar que ocurra.
-2. Para determinar la aplicación de acciones oportunas y efectivas se genera la siguiente clasificación de acciones:
-- Acción Preventiva: Cuando se genera una acción para evitar desviaciones en el proceso y/o sistema.
-- Acciones de Mejora: Cuando se generan acciones para mejorar el proceso y/o sistema.
-3. Las acciones preventivas para la eliminación de no conformidades potenciales son generadas de las siguientes fuentes:
-- Auditorías Internas
-- Desviaciones en el Proceso de Recepción hasta la entrega final
-- Desviaciones en la recepción de Materia Prima e Insumos
-- Encuestas de satisfacción del cliente y reclamaciones.
-4. Una vez detectadas las No conformidades potenciales, Aseguramiento de Calidad llena los datos solicitados en el Formato Solicitud de Acción Correctiva / Acción Preventiva F-OP-40 y registra la descripción de la No Conformidad Potencial en la sección
-5. El Jefe de Calidad entrega el Formato Solicitud de Acción Correctiva / Acción Preventiva F-OP-40 al Responsable del Área a la que se le va aplicar la Acción Preventiva para el análisis de la causa potencial y el establecimiento de la acción preventiva.
-6. El Responsable de Área realiza el análisis de la causa potencial que originó la No Conformidad Potencial, utilizando la metodología Análisis de Causa Raíz, especificado en el formato F-0016 y la registra en la sección III del Formato Solicitud de Acción Correctiva / Acción Preventiva F-OP-40; así como la acción Preventiva y las fechas compromiso de cierre y revisión de efectividad.
-
 \begin{enumerate}
-	\item El responsable del área, implementa las acciones preventivas definidas en el Formato Solicitud de Acción Correctiva / Acción Preventiva F-OP-40 antes de la fecha compromiso.
-	\item Aseguramiento de Calidad verifica el cumplimiento a la implementación de la acción preventiva acordada.
-	\item Si la acción preventiva fue cerrada en la fecha acordada marca SI en el Formato Solicitud de Acción Correctiva / Acción Preventiva F-OP-40.
-	\item Si la acción preventiva no fue cerrada en la fecha acordada, marca NO y solicita al responsable de área registrar la causa de incumplimiento, y se define nueva fecha compromiso.
-	\item El responsable de Aseguramiento de Calidad revisa la efectividad de la acción preventiva implementada en la fecha acordada registrando las acciones que realizó para medir la efectividad y registra las evidencias para la verificación de la efectividad en el Formato de Revisión de la efectividad de las Acciones Correctivas/Preventivas FC-AC-04, posteriormente firma en el campo auditor y solicita firma al Responsable de Área.
-	\item Dar folio a una solicitud de Acción Correctiva / Acción Preventiva F-OP-40
+\item Se deberá tomar una Acción Preventiva cuando se detecte algún problema o situación que pueda causar una desviación en el proceso y así afectar la calidad o inocuidad del producto.\footnote{Se llama Preventiva porque se actúa anticipadamente para evitar que ocurra.}
+\item Para determinar la aplicación de acciones oportunas y efectivas se genera la siguiente clasificación de acciones:
+\begin{itemize}
+\item \textbf{Acción Preventiva:} Cuando se genera una acción para evitar desviaciones en el proceso y/o sistema.
+\item \textbf{Acciones de Mejora:} Cuando se generan acciones para mejorar el proceso y/o sistema.
+\end{itemize}
+\item Las acciones preventivas para la eliminación de no conformidades potenciales son generadas de las siguientes fuentes:
+\begin{enumerate}
+	\item Auditorías Internas
+	\item Desviaciones en el Proceso de Recepción hasta la entrega final
+	\item Desviaciones en la recepción de Materia Prima e Insumos
+	\item Encuestas de satisfacción del cliente y reclamaciones.
+	\end{enumerate}
+\item Una vez detectadas las No conformidades potenciales, Aseguramiento de Calidad llena los datos solicitados en el \RAC~y registra la descripción de la No Conformidad Potencial en la sección
+\item El Jefe de Calidad entrega el \RAC~al Responsable del Área a la que se le va a aplicar la Acción Preventiva para el análisis de la causa potencial y el establecimiento de la acción preventiva.
+\item El Responsable de Área realiza el análisis de la causa potencial que originó la No Conformidad Potencial, utilizando la metodología Análisis de Causa Raíz, y la registra en la sección III del \RAC; así como la acción Preventiva y las fechas compromiso de cierre y revisión de efectividad.
+\item El responsable del área implementa las acciones preventivas definidas en el \RAC~antes de la fecha compromiso.
+\item Aseguramiento de Calidad verifica el cumplimiento a la implementación de la acción preventiva acordada.
+\item Si la acción preventiva fue cerrada en la fecha acordada marca SI en el \RAC.
+\item Si la acción preventiva no fue cerrada en la fecha acordada, marca NO y solicita al responsable de área registrar la causa de incumplimiento, y se define nueva fecha compromiso.
+\item El responsable de Aseguramiento de Calidad revisa la efectividad de la acción preventiva implementada en la fecha acordada registrando las acciones que realizó para medir la efectividad y registra las evidencias para la verificación de la efectividad en el Formato de Revisión de la efectividad de las Acciones Correctivas/Preventivas FC-AC-04, posteriormente firma en el campo auditor y solicita firma al Responsable de Área.
+\item Dar folio a una \RAC.
 \end{enumerate}
 
 \subsubsection{Acción Correctiva}
-
 Las acciones correctivas son generadas a partir de las siguientes fuentes:
 
 \begin{itemize}
@@ -78,31 +80,31 @@ Las acciones correctivas son generadas a partir de las siguientes fuentes:
 \end{itemize}
 
 \begin{enumerate}
-	\item Las Acciones Correctivas generadas de las Auditorías Internas y Externas son registradas en el Formato Solicitud de Acción Correctiva / Acción Preventiva F-OP-40 se especifica la descripción de la No conformidad, la causa raíz que la originó, la acción correctiva a realizar; además del responsable de llevarla a cabo y la fecha de cierre.
-	\item Aseguramiento de Calidad en conjunto con los responsables de cada acción correctiva; revisa el cumplimiento de la (s) acción (es) de acuerdo a la fecha de cierre, a fin de que se revise su efectividad.
-	\item Cuando se tiene una queja de cliente, se registra en el Formato de Recepción de Quejas F-0015, de acuerdo al Procedimiento de Manejo de Quejas QP-RMQ y se genera un análisis para determinar la causa raíz y registrar la acción en el Formato Solicitud de Acción Correctiva / Acción Preventiva F-OP-40 para corregir la No conformidad y si es necesario realizar un Retiro del Producto especificado en el Procedimiento P-T-T Trazabilidad. El control de las quejas se lleva en el formato F-0021 Formato Concentrado de Quejas.
-	\item Ejemplos de No Conformidades reportadas por el cliente:
+	\item Las Acciones Correctivas generadas con base en \emph{Auditorías Internas y Externas} son registradas en el \RAC~se especifica la descripción de la No conformidad, la causa raíz que la originó, la acción correctiva a realizar; además del responsable de llevarla a cabo y la fecha de cierre.
+	\item Aseguramiento de Calidad en conjunto con los responsables de cada acción correctiva; revisa el cumplimiento de la(s) acción(es) de acuerdo a la fecha de cierre, a fin de que se revise su efectividad.
+	\item Cuando se tiene una queja de cliente, se registra en el \RACQ, de acuerdo al Procedimiento de Manejo de Quejas y se genera un análisis para determinar la causa raíz y registrar la acción en el \RAC~para corregir la No conformidad y si es necesario realizar un Retiro del Producto especificado en el procedimiento de Trazabilidad.
+	\end{enumerate}
+
+\paragraph*{Ejemplos de No Conformidades reportadas por el cliente}
 	\begin{itemize}
 		\item Mala calidad en los productos.
-		\item Daño en almacén, proceso o en embarque.
+		\item Daño del alimento dentro del almacén, proceso o en el embarque.
 		\item Problemas de inocuidad del producto.
 	\end{itemize}
-\end{enumerate}
+
 
 \subsubsection{Acciones correctivas generadas de Auditorias Interna o Externas}
-
 \begin{enumerate}
-	\item En el Caso de la Auditoría Interna el Auditor es quien registra las No Conformidades en el Formato Solicitud de Acción Correctiva / Acción Preventiva F-OP-40 y la entrega al responsable de Aseguramiento de Calidad para que lo entregue al área correspondiente y se generen los análisis de causas raíz y se establezcan las acciones correctivas necesarias.
-	\item En el Caso de la Auditoría Interna el Auditor es quien registra las No Conformidades en el Formato Solicitud de Acción Correctiva / Acción Preventiva F-OP-40 y la entrega al responsable de Aseguramiento de Calidad para que lo entregue al área correspondiente y se generen los análisis de causas raíz y se establezcan las acciones correctivas necesarias.
-	\item En el Caso de Auditoría externas el responsable de Aseguramiento de Calidad es quien registra las No Conformidades en el Formato Solicitud de Acción Correctiva / Acción Preventiva F-OP-40 y lo entrega al responsable de área para el análisis de causa raíz y establecimiento de acciones correctivas.
+	\item En el Caso de la Auditoría Interna el Auditor es quien registra las No Conformidades en el \RAC~y la entrega al responsable de Aseguramiento de Calidad para que lo entregue al área correspondiente y se generen los análisis de causas raíz y se establezcan las acciones correctivas necesarias.
+	\item En el Caso de la Auditoría Interna el Auditor es quien registra las No Conformidades en el \RAC~y la entrega al responsable de Aseguramiento de Calidad para que lo entregue al área correspondiente y se generen los análisis de causas raíz y se establezcan las acciones correctivas necesarias.
+	\item En el Caso de Auditoría externas el responsable de Aseguramiento de Calidad es quien registra las No Conformidades en el \RAC~y lo entrega al responsable de área para el análisis de causa raíz y establecimiento de acciones correctivas.
 	\item El responsable del área auditada, firma el Formato Solicitud de Acción Correctiva / Acción Preventiva F-0013, realiza una investigación para determinar la causa raíz de la desviación y registra el resultado obtenido y posteriormente regresa el Formato al responsable de Aseguramiento de Calidad.
 	\item El Responsable de Área realiza el análisis de la causa potencial que originó la No Conformidad Potencial, utilizando la metodología Análisis de Causa Raíz, especificado en el formato F-0016 y la registra en la sección II del formato F-0016; así como la acción Correctiva y las fechas compromiso de cierre y revisión de efectividad.
 \end{enumerate}
 
 \subsubsection{Seguimiento y Validación de la Acción Correctiva de Auditoría Interna}
-
 \begin{enumerate}
-	\item Aseguramiento de verifica el cumplimiento y la implementación de la acción correctiva acordada y la efectividad de la misma:
+	\item Aseguramiento de calidad verifica el cumplimiento y la implementación de la acción correctiva acordada y la efectividad de la misma:
 	\item Si la acción correctiva fue cerrada en la fecha acordada se marca SI en el Formato Solicitud de Acción Correctiva / Acción Preventiva \RAC.
 	\item Si la Acción Correctiva no fue cerrada en la fecha acordada marca NO en el Formato Solicitud de Acción Correctiva / Acción Preventiva \RAC.se debe registrar la causa del porque no se cumplió, en este caso Aseguramiento de Calidad informa al Responsable del área, para que validen la causa y acuerden nueva fecha de cumplimiento.
 	\item El responsable de Aseguramiento de Calidad revisa la efectividad de la acción preventiva implementada en la fecha acordada registrando las acciones que realizó para medir la efectividad y registra las evidencias para la verificación de la efectividad en el Formato de Revisión de la efectividad de las Acciones Correctivas/Preventivas F-0014, posteriormente firma en el campo auditor y solicita firma al Responsable de Área.
@@ -111,21 +113,24 @@ Las acciones correctivas son generadas a partir de las siguientes fuentes:
 \end{enumerate}
 
 \subsubsection{Registros}
-
 \begin{enumerate}
-	\item Los registros de Acción Correctiva/Acción Preventiva son almacenados y mantenidos por la Gerencia de acuerdo al área de responsabilidad.
+	\item Los registros de \RAC~son almacenados y mantenidos por la Gerencia de acuerdo al área de responsabilidad.
 \end{enumerate}
 
 \subsection{Frecuencia}
-
 Al presentarse una desviación cuando se detecte algún problema o situación que pueda causar una desviación en el proceso y así afectar la calidad o inocuidad del producto.
 
-\subsection{Historial de modificaciones}
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer4]
+	\begin{version}[v=\MayorVer.\MenorVer, date=2023--01, author=Pablo E. Alanis]
+		% \fixed
+		\item Cambio de formato;
+		\item Cambios en la serialización de versiones;
+	\end{version}
 
-\begin{itemize}
-	\item \textbf{Cuarta edición:} Agosto 2021 se hizo cambio de formato y cambio de código de D-P-AC/AP a PRO-OP-003. Y no se realizaron cambios de la revisión 03 a la 04.
-	\item Quinta edición: febrero 2022 no se realizaron cambios de la revisión 04 a la 05.
-\end{itemize}
+	\begin{version}[v=1.6, date=2022--05, author=Alonso M.]
+		\item cambio de fecha;
+	\end{version}
 
-\subsection{Listado de distribución}
+	\shortversion{v=1.5, date=2021--05, changes=No hubo cambios}
+\end{changelog}
 

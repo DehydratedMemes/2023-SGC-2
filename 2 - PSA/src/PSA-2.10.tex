@@ -3,12 +3,11 @@
 \renewcommand{\MenorVer}{0}
 \renewcommand{\Codigo}{PSA-10-PRO} %TODO
 \renewcommand{\FechaPub}{2023--01}
-%\renewcommand{\Edit}{2.1}
+\renewcommand{\TipoID}{PRO}
 \renewcommand{\Titulo}{Inspección de transporte al embarque de producto}
 
 \section{\Titulo}\index{Inspección!transporte al embarque de producto, de}\index{Procedimiento!Inspección de transporte al embarque de producto}
-% \section{Inspección de transporte al embarque de producto}
-
+\renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 \subsection{Objetivo}
 Establecer un procedimiento que asegure que la unidad a cargar se encuentra en condiciones adecuadas para poder ser ingresado el producto y que la unidad cumple con lo requerido para no generar alguna contaminación o daño al producto.
 
@@ -114,8 +113,8 @@ Todas las unidades que transportan productos refrigerados o congelados para su d
 	\item Cada embarque.
 \end{itemize}
 
-\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-2.10]
-	\begin{version}[v=2.0, date=2023--01, author=Pablo E. Alanis]
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer0]
+	\begin{version}[v=\MayorVer.\MenorVer, date=2023--01, author=Pablo E. Alanis]
 		\item Cambios de formato y serialización
 	\end{version}
 	

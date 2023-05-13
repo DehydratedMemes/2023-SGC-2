@@ -2,78 +2,78 @@
 
   \item Acciones inmediatas
     \subitem en caso de avería de equipos de enfriamiento, 
-		\hyperpage{46}
-    \subitem en caso de corte de energía o desastre, \hyperpage{44}
-    \subitem en caso de corte eléctrico, \hyperpage{45}
-    \subitem en caso de incendio en la periferia, \hyperpage{44}
+		\hyperpage{41}
+    \subitem en caso de corte de energía o desastre, \hyperpage{40}
+    \subitem en caso de corte eléctrico, \hyperpage{41}
+    \subitem en caso de incendio en la periferia, \hyperpage{40}
 
   \indexspace
 
   \item Especificación de servicios
-    \subitem almacenamiento, \hyperpage{36}
+    \subitem almacenamiento, \hyperpage{34}
 
   \indexspace
 
   \item Información documentada
-    \subitem aprobación de cambios a procedimientos, \hyperpage{60}
+    \subitem aprobación de cambios a procedimientos, \hyperpage{55}
     \subitem control
-      \subsubitem almacenamiento de registros, \hyperpage{57}
+      \subsubitem almacenamiento de registros, \hyperpage{52}
   \item Inspección
-    \subitem en la recepción de productos, \hyperpage{10}
-    \subitem productos durante su almacenamiento, de, \hyperpage{16}
-    \subitem transporte al embarque de producto, de, \hyperpage{40}
+    \subitem en la recepción de productos, \hyperpage{9}
+    \subitem productos durante su almacenamiento, de, \hyperpage{15}
+    \subitem transporte al embarque de producto, de, \hyperpage{37}
   \item Instrucción
-    \subitem inspección fisica de productos, \hyperpage{11}
+    \subitem inspección fisica de productos, \hyperpage{10}
 
   \indexspace
 
   \item Lista
-    \subitem contactos de emergencia, de, \hyperpage{48}
+    \subitem contactos de emergencia, de, \hyperpage{44}
 
   \indexspace
 
   \item Manejo de producto retenido
     \subitem por cuestiones de calidad (por parte de RDF), 
-		\hyperpage{50}
+		\hyperpage{46}
     \subitem por cuestiones de calidad (por parte del cliente), 
-		\hyperpage{51}
+		\hyperpage{47}
     \subitem por cuestiones de inocuidad
-      \subsubitem destrucción de producto, \hyperpage{52}
-      \subsubitem retiro de productos, \hyperpage{52}
+      \subsubitem destrucción de producto, \hyperpage{48}
+      \subsubitem retiro de productos, \hyperpage{48}
 
   \indexspace
 
-  \item Números de contrato (\gls{CFE}), \hyperpage{45}
-  \item Números de emergencia, \hyperpage{46}
-  \item Números de transportes en caso de siniestros, \hyperpage{47}
+  \item Números de contrato (\gls{CFE}), \hyperpage{41}
+  \item Números de emergencia, \hyperpage{42}
+  \item Números de transportes en caso de siniestros, \hyperpage{42}
 
   \indexspace
 
   \item Plan de contingencia
     \subitem en caso de avería de equipos de refrigeración, 
-		\hyperpage{18}
+		\hyperpage{17}
   \item Política
-    \subitem aprobación de proveedores, de, \hyperpage{32}
-    \subitem devoluciones, de, \hyperpage{30}
+    \subitem aprobación de proveedores, de, \hyperpage{30}
+    \subitem devoluciones, de, \hyperpage{28}
     \subitem re-empaque, re-etiquetado y uso de aditivos, de, 
-		\hyperpage{55}
+		\hyperpage{51}
   \item Procedimiento
     \subitem Inspección de transporte al embarque de producto, 
-		\hyperpage{40}
-    \subitem inspección en la recepción de productos, \hyperpage{11}
-    \subitem lotificación de productos, \hyperpage{14}
-    \subitem PEPS o VENCER, \hyperpage{20}
-    \subitem solicitud de citas, \hyperpage{25}
+		\hyperpage{37}
+    \subitem inspección en la recepción de productos, \hyperpage{9}
+    \subitem lotificación de productos, \hyperpage{13}
+    \subitem PEPS o VENCER, \hyperpage{19}
+    \subitem solicitud de citas, \hyperpage{24}
   \item Producto retenido
-    \subitem manejo de, \hyperpage{50}
+    \subitem manejo de, \hyperpage{46}
 
   \indexspace
 
   \item Tiempo de permanencia máxima de alimentos en cámaras apagadas, 
-		\hyperpage{45}
+		\hyperpage{41}
 
   \indexspace
 
-  \item Área de retención, \hyperpage{17}
+  \item Área de retención, \hyperpage{16}
 
 \end{theindex}

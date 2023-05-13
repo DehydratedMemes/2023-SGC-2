@@ -1,12 +1,12 @@
 \thispagestyle{formato-PI}
 \renewcommand{\MayorVer}{2}
 \renewcommand{\MenorVer}{0}
-\renewcommand{\Codigo}{PSA-1-PROG} %TODO
+ %TODO
 \renewcommand{\FechaPub}{2023--01}
-%\renewcommand{\Edit}{2.1}
+\renewcommand{\TipoID}{PRO}
 \renewcommand{\Titulo}{Manejo de producto retenido}
 \section{\Titulo}\index{Producto retenido!manejo de}
-
+\renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 \subsection{Objetivo}
 Establecer el procedimiento adecuado para el manejo de \emph{aliemntos no comestibles} que se encuentren dentro de los almacenes de \gls{RDF}.
 
@@ -118,8 +118,8 @@ En caso de que se tenga que hacer un \gls{retiro-de-producto}, el producto reten
 
 Cada eventualidad que amerite separación de producto.
 
-\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-2.13]
-	\begin{version}[v=2.0, date=2023--01, author=Pablo E. Alanis]
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer3]
+	\begin{version}[v=\MayorVer.\MenorVer, date=2023--01, author=Pablo E. Alanis]
 		\item Cambios de formato;
 		\item cambio de código;
 		\item cambios en redacción.

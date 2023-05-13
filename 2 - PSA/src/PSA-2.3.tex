@@ -1,13 +1,12 @@
 \thispagestyle{formato-PI}
 \renewcommand{\MayorVer}{2}
 \renewcommand{\MenorVer}{0}
-\renewcommand{\Codigo}{PSA-3-PRO}
 \renewcommand{\FechaPub}{2023--01}
-%\renewcommand{\Edit}{2.1}
+\renewcommand{\TipoID}{PRO}
 \renewcommand{\Titulo}{Inspección de producto durante su almacenamiento}
 
 \section{\Titulo} \label{PRO:InspeccionDeAlimentosAlmacenados}\index{Inspección!productos durante su almacenamiento, de}
-
+\renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 \subsection{Objetivo}
 Establecer un programa de inspección que asegure que las condiciones de almacenamiento se encuentren en condiciones óptimas como resultado de un adecudo mantenimiento de instalaciones, limpieza y temperatura apropiada para la conservación de productos alimenticios.
 
@@ -118,7 +117,7 @@ Con fin de garantizar que todos los productos refrigerados y congelados se encue
 		\end{enumerate}
 \end{itemize}
 
-\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-2.3]
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer]
 
 	\begin{version}[v=2.1, date=2023--01, author=Pablo E. Alanis]
 		\item Cambio de formato;

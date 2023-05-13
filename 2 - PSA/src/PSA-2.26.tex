@@ -1,13 +1,13 @@
 \thispagestyle{formato-PI}
 \renewcommand{\MayorVer}{2}
 \renewcommand{\MenorVer}{0}
-\renewcommand{\Codigo}{PSA-1-PROG} %TODO
+ %TODO
 \renewcommand{\FechaPub}{2023--01}
-%\renewcommand{\Edit}{2.1}
+\renewcommand{\TipoID}{PRO}
 
 \renewcommand{\Titulo}{Entrega de pequeñas cantidades}
 \section{\Titulo}\index{Información documentada!tipo!política!Entrega de pequeñas cantidades}
-%\section{Entrega de pequeñas cantidades}
+\renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 
 \subsection{Objetivos}
 
@@ -79,6 +79,15 @@ De forma aleatoria, cuando se presente el caso, el \emph{personal de aseguramien
 
 Cuando se presente la necesidad.
 
-\subsection{Historial de modificaciones}
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer6]
+	\begin{version}[v=\MayorVer.\MenorVer, date=2023--01, author=Pablo E. Alanis]
+		% \fixed
+		\item Cambio de formato;
+		\item Cambios en la serialización de versiones;
+	\end{version}
 
-\textbf{2022-11:} Primera versión
+	\begin{version}[v=1.0, date=2022--05, author=Alonso M.]
+		\item Primera versión.
+	\end{version}
+
+\end{changelog}

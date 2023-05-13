@@ -4,6 +4,11 @@
   description = {zona destinada a que las personas que entrarán a áreas operativas puedan lavarse y desinfectarse las manos, así como ponerse cubrebocas y cofia con el propósito de evitar riesgos de inocuidad al entrar a dicha área.}
 }
 
+@entry{contacto-cruzado-alergenos,
+name        = {contacto cruzado de alérgenos},
+description = {la incorporación no intencionada de un componente alérgeno a algún alimento.}
+}
+
 @entry{alergeno,
   plural      = {alérgenos},
   name        = {alérgeno},
@@ -14,31 +19,21 @@
                  }
 }
 
-@entry{cisterna,
-  plural      = {cisternas},
-  name        = {cisterna},
-  description = {es un depósito subterráneo que se utiliza para recoger y guardar agua. También se denomina así a los receptáculos usados para contener líquidos, generalmente agua, y a los vehículos que los transportan. En algunos lugares se denomina también tinaco. Su capacidad va desde unos litros a miles de metros cúbicos.
-                 \begin{itemize}
-                 \item[Nota 1:] Como almacenan agua para uso o consumo humano, es rigurosamente indispensable realizar la limpieza de las cisternas con regularidad.
-                 \end{itemize}}
-}
-
-@entry{cloración,
-  name        = {cloración},
-  description = {Proceso en el que se añade o aumenta la concentración de cloro en agua mediante el uso de compuestos químicos como hipoclorito de sodio.}
-}
-
 @entry{alimento,
   plural      = {alimentos},
   name        = {alimento},
   description = {sustancia (ingrediente), ya sea procesada, semi-procesada o cruda, que se destina para consumo, e incluye bebidas, goma de mascar y cualquier sustancia que se haya utilizado en la fabricación, preparación o tratamiento de “alimentos”, pero no incluye cosméticos ni tabaco o sustancias (ingredientes) usados solamente como fármacos}
 }
 
-@abbreviation{alimento-RTE,
-  description = {alimentos preparados por el productor para su consumo directo sin necesidad de cocinarlos ni someterlos a ningún tratamiento.},
+@entry{alimento-RTE-d,
+description = {alimentos preparados por el productor para su consumo directo sin necesidad de cocinarlos ni someterlos a ningún tratamiento.},
+short       = {RTE},
+name        = {alimento listo para el consumo, del inglés \textit{ready-to-eat}}
+}
+
+@acronym{alimento-RTE,
   short       = {RTE},
-  first       = {alimento listo para el consumo, del inglés \textit{ready-to-eat} (RTE)},
-  long        = {\textit{ready-to-eat}}
+  long        = {alimento listo para el consumo, del inglés \textit{ready-to-eat}}
 }
 
 @entry{alta-direccion,
@@ -80,15 +75,29 @@
   description = {en el proceso de entrega, se refiere a una cantidad de \glsname{producto} total que no alcance a llenarse una tarima completa de \glsname{producto} pre-empacado}
 }
 
-@abbreviation{CFE,
+@acronym{CFE,
   short = {CFE},
   long  = {Comisión Federal de Electricidad}
+}
+
+@entry{cisterna,
+  plural      = {cisternas},
+  name        = {cisterna},
+  description = {es un depósito subterráneo que se utiliza para recoger y guardar agua. También se denomina así a los receptáculos usados para contener líquidos, generalmente agua, y a los vehículos que los transportan. En algunos lugares se denomina también tinaco. Su capacidad va desde unos litros a miles de metros cúbicos.
+                 \begin{itemize}
+                 \item[Nota 1:] Como almacenan agua para uso o consumo humano, es rigurosamente indispensable realizar la limpieza de las cisternas con regularidad.
+                 \end{itemize}}
 }
 
 @entry{cliente,
   plural      = {clientes},
   name        = {cliente},
   description = {persona ajena a la operación cotidiana en RDF, que tiene un acuerdo con RDF para almacenar productos en sus instalaciones.}
+}
+
+@entry{cloración,
+  name        = {cloración},
+  description = {Proceso en el que se añade o aumenta la concentración de cloro en agua mediante el uso de compuestos químicos como hipoclorito de sodio.}
 }
 
 @entry{congelacion,
@@ -220,11 +229,17 @@
   description = {El proceso de la aplicación de una secuencia planeada de observaciones o mediciones para evaluar si una medida o combinación de medidas de control están o no funcionando de la manera prevista y cumpliendo con los límites especificados}
 }
 
-@abbreviation{MSDS,
+
+@entry{MSDS-d,
   description = {Documento que imprime información sobre los compuestos químicos que contiene un determinado, así como también instrucciones de uso, información sobre los peligros y riesgos asociados, condiciones de almacenaje, indicaciones y medidas a tomar para casos de emergencia, etc.},
   short       = {MSDS},
   first       = {Hoja de Seguridad de Material, del inglés Material Safety Data Sheet (MSDS)},
-  long        = {Hoja de Seguridad de Material}
+  name        = {Hoja de Seguridad de Material}
+}
+
+@acronym{MSDS,
+short       = {MSDS},
+long       = {Hoja de Seguridad de Material, del inglés Material Safety Data Sheet (MSDS)},
 }
 
 @entry{nivel-aceptable,
@@ -251,7 +266,7 @@
                  }
 }
 
-@abbreviation{PEPS,
+@acronym{PEPS,
   short = {PEPS},
   long  = {Primeras Entradas, Primeras Salidas}
 }
@@ -280,22 +295,44 @@
                  }
 }
 
-@acronym{PPR,
-  longplural  = {programas de prerrequisitos},
-  description = {condiciones y actividades básicas que son necesarias dentro de la \glsname{organizacion} y a lo largo de la cadena alimentaria para mantener la inocuidad de los alimentos
+@entry{PPR-d,
+longplural  = {programas de prerrequisitos},
+short       = {PPR},
+description = {condiciones y actividades básicas que son necesarias dentro de la \glsname{organizacion} y a lo largo de la cadena alimentaria para mantener la inocuidad de los alimentos
                  \begin{itemize}
                  \item[Nota 1] Los PPR necesarios dependen del segmento de la cadena alimentaria en el que opera la organización y del tipo de organización;
                  \item[Nota 2] Son ejemplos de términos equivalentes: Buenas Prácticas Agrícolas (BPA), Buenas Prácticas Veterinarias (BPV), Buenas Prácticas de Fabricación/Manufactura (BPF, BPM), Buenas Prácticas de Higiene (BPH), Buenas Prácticas de Producción (BPP), Buenas Prácticas de Distribución (BPD), y Buenas Prácticas de Comercialización (BPC).
                  \end{itemize}
                  },
+name        = {programa de prerrequisito}
+}
+
+
+@acronym{PPR,
+  longplural  = {programas de prerrequisitos},
   short       = {PPR},
   long        = {programa de prerrequisito}
 }
 
 @acronym{PPRO,
+short       = {PPRO},
+long        = {Programa de Prerrequisitos Operativos}
+}
+
+@entry{metrologia,
+name = {metrología},
+description = {La metrología es la ciencia de las mediciones y sus aplicaciones. Es una disciplina que se encarga de estudiar los sistemas de medición y unidades de medida, así como de establecer los procedimientos para realizar mediciones precisas y confiables.}
+}
+
+@entry{limpieza-y-sant,
+name = {limpieza y desinfección},
+description = {La limpieza debe remover los residuos de alimento y suciedad que pueden ser una fuente de contaminación. Los métodos de limpieza adecuados y los materiales dependerán de la naturaleza del alimento}
+}
+
+@entry{PPRO-d,
   description = {\glsname{medida-de-control} o combinación de medidas de control aplicadas para prevenir o reducir un peligro significativo relacionado con la inocuidad de los \glsname{alimento} a un nivel-aceptable, y donde el \glsname{criterio-de-acción} y medición u observación permite el control efectivo del \glsname{proceso} y/o \glsname{producto}},
   short       = {PPRO},
-  long        = {Programa de Prerrequisitos Operativos}
+  name        = {Programa de Prerrequisitos Operativos}
 }
 
 @entry{proceso,
@@ -345,7 +382,7 @@
                  }
 }
 
-@abbreviation{PSA,
+@acronym{PSA,
   short = {PSA},
   long  = {Programa de Seguridad Alimentaria}
 }
@@ -417,18 +454,30 @@
                  \end{itemize}}
 }
 
-@abbreviation{SENASICA,
+@acronym{SENASICA,
   short = {SENASICA},
   long  = {Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria}
 }
 
-@abbreviation{SGA,
+@entry{SGA-d,
+  description = {parte de un sistema de gestión relacionada con los inventarios del almacén},
+  short       = {SGA},
+  name        = {Sistema de Gestión del Almacén}
+}
+
+@acronym{SGA,
   description = {parte de un sistema de gestión relacionada con los inventarios del almacén},
   short       = {SGA},
   long        = {Sistema de Gestión del Almacén}
 }
+  
+@entry{SGC-d,
+description = {parte de un sistema de gestión relacionada con la calidad},
+short       = {SGC},
+name        = {Sistema de Gestión de Calidad}
+}
 
-@abbreviation{SGC,
+@acronym{SGC,
   description = {parte de un sistema de gestión relacionada con la calidad},
   short       = {SGC},
   long        = {Sistema de Gestión de Calidad}

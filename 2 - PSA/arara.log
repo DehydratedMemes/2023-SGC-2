@@ -1,7 +1,7 @@
-05 Apr 2023 14:07:38.938 INFO  - 
-Welcome to arara 7.0.4!
+12 May 2023 15:19:49.522 INFO  - 
+Welcome to arara 7.0.5!
 -----------------------------------------------------------------
-05 Apr 2023 14:07:38.982 DEBUG - 
+12 May 2023 15:19:49.542 DEBUG - 
 ::: arara @ C:\Program Files\MiKTeX\scripts\arara
 ::: Java 19, Eclipse Adoptium
 ::: C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
@@ -9,32 +9,36 @@ Welcome to arara 7.0.4!
 ::: user.home @ C:\Users\Usuario
 ::: CF @ [none]
 -----------------------------------------------------------------
-05 Apr 2023 14:07:39.054 INFO  - Processing "2-PSA-2023.tex" (size: 11.7 kB, last modified: 2023-04-05 19:07:09), please wait.
-05 Apr 2023 14:07:39.377 INFO  - I found a potential pattern in line 3: lualatex: {
-05 Apr 2023 14:07:39.378 INFO  - I found a potential pattern in line 4: --> interaction: nonstopmode,
-05 Apr 2023 14:07:39.378 INFO  - I found a potential pattern in line 5: --> options: ['-file-line-error'],
-05 Apr 2023 14:07:39.379 INFO  - I found a potential pattern in line 6: --> shell: yes,
-05 Apr 2023 14:07:39.379 INFO  - I found a potential pattern in line 7: --> synctex: yes,
-05 Apr 2023 14:07:39.379 INFO  - I found a potential pattern in line 8: --> }
-05 Apr 2023 14:07:39.379 INFO  - I found a potential pattern in line 9: makeglossaries
-05 Apr 2023 14:07:41.304 INFO  -                     All directives were validated. We are good to go.
+12 May 2023 15:19:49.590 INFO  - Processing "2-PSA-2023.tex" (size: 12.8 kB, last modified: 2023-05-11 22:40:05), please wait.
+12 May 2023 15:19:49.740 INFO  - I found a potential pattern in line 12: lualatex: {
+12 May 2023 15:19:49.741 INFO  - I found a potential pattern in line 13: --> interaction: nonstopmode,
+12 May 2023 15:19:49.741 INFO  - I found a potential pattern in line 14: --> options: ['-file-line-error'],
+12 May 2023 15:19:49.742 INFO  - I found a potential pattern in line 15: --> shell: yes,
+12 May 2023 15:19:49.743 INFO  - I found a potential pattern in line 16: --> synctex: yes,
+12 May 2023 15:19:49.743 INFO  - I found a potential pattern in line 17: --> }
+12 May 2023 15:19:49.744 INFO  - I found a potential pattern in line 18: bib2gls if found("aux", "glsxtr@resource")
+12 May 2023 15:19:49.744 INFO  - I found a potential pattern in line 19: makeglossaries if found("aux", "@istfilename")
+12 May 2023 15:19:49.744 INFO  - I found a potential pattern in line 20: makeindex
+12 May 2023 15:19:51.434 INFO  -                     All directives were validated. We are good to go.
                     -------------------------- DIRECTIVES ---------------------------
-                    Directive(identifier='lualatex', parameters={interaction=nonstopmode, options=[-file-line-error], shell=yes, synctex=yes, reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[3, 4, 5, 6, 7, 8])
-Directive(identifier='makeglossaries', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[9])
+                    Directive(identifier='lualatex', parameters={interaction=nonstopmode, options=[-file-line-error], shell=yes, synctex=yes, reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[12, 13, 14, 15, 16, 17])
+Directive(identifier='bib2gls', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ IF, expression: found("aux", "glsxtr@resource"), lineNumbers=[18])
+Directive(identifier='makeglossaries', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ IF, expression: found("aux", "@istfilename"), lineNumbers=[19])
+Directive(identifier='makeindex', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.tex},conditional={ NONE }, lineNumbers=[20])
                     -----------------------------------------------------------------
-05 Apr 2023 14:07:41.309 INFO  - I am ready to interpret rule "lualatex".
-05 Apr 2023 14:07:41.360 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-05 Apr 2023 14:07:42.282 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
-05 Apr 2023 14:07:42.291 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 2-PSA-2023.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
-05 Apr 2023 14:10:53.923 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
-                This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12)
+12 May 2023 15:19:51.441 INFO  - I am ready to interpret rule "lualatex".
+12 May 2023 15:19:51.463 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 15:19:53.272 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
+12 May 2023 15:19:53.273 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 2-PSA-2023.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
+12 May 2023 15:23:27.352 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4)
  system commands enabled.
 (./2-PSA-2023.tex
 LaTeX2e <2022-11-01> patch level 1
- L3 programming layer <2022-12-17>
+ L3 programming layer <2023-04-20>
 ("C:/Program Files/MiKTeX/tex/latex/base/article.cls"
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-("C:/Program Files/MiKTeX/tex/latex/base/size12.clo"))
+("C:/Program Files/MiKTeX/tex/latex/base/size10.clo"))
 (../VariablesEstaticas.tex)
 ("C:/Program Files/MiKTeX/tex/latex/carlito/carlito.sty"
 ("C:/Program Files/MiKTeX/tex/generic/iftex/ifxetex.sty"
@@ -62,11 +66,22 @@ Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-latex.lde)
 )
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-spanish.ld
-f) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/changelog/changelog.sty
+f)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/translations/translations.st
 y ("C:/Program Files/MiKTeX/tex/generic/pdftexcmds/pdftexcmds.sty"
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/infwarerr/infwarerr.sty)
-(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty)))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/changelog/changelog.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/pdflscape/pdflscape.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/pdflscape/pdflscape-nometada
+ta.sty ("C:/Program Files/MiKTeX/tex/latex/graphics/lscape.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/trig.sty")
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics-def/luatex.def")))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/pifont.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/upzd.fd)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/upsy.fd))
 ("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra.sty"
 ("C:/Program Files/MiKTeX/tex/latex/glossaries/base/glossaries.sty"
 ("C:/Program Files/MiKTeX/tex/latex/base/ifthen.sty")
@@ -107,7 +122,9 @@ For additional information on amsmath, use the `?' option.
 ("C:/Program Files/MiKTeX/tex/latex/supertabular/supertabular.sty"))
 ("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-tree.sty"))
 ("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra-abbrstyle
-s.def")) (../glosario-def.tex)
+s.def")
+("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra-stylemods
+.sty")) (./2-PSA-2023.glstex)
 ("C:/Program Files/MiKTeX/tex/latex/imakeidx/imakeidx.sty"
 ("C:/Program Files/MiKTeX/tex/latex/tools/multicol.sty"))
 Writing index file 2-PSA-2023.idx
@@ -123,26 +140,21 @@ sty) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/etexcmds/etexcmds.sty
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/needspace/needspace.sty)
 ("C:/Program Files/MiKTeX/tex/latex/graphics/color.sty"
 ("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
-("C:/Program Files/MiKTeX/tex/latex/graphics-def/luatex.def")
 ("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
 ("C:/Program Files/MiKTeX/tex/latex/pgf/frontendlayer/tikz.sty"
 ("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty"
 ("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty"
-("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common.tex"
-("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common-lists.tex"))
- ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-latex.def")
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-latex.def")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfrcs.code.tex"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/pgf.revision.tex")))
 ("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.sty"
-("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty"
-("C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty"
-("C:/Program Files/MiKTeX/tex/latex/graphics/trig.sty")
-("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg")))
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty")
 ("C:/Program Files/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.sty"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys.code.tex"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"
-("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex"))
-("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgf.cfg")
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code
+.tex")) ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgf.cfg")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-luatex.def"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def")))
  ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex"
@@ -152,10 +164,9 @@ sty) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/etexcmds/etexcmds.sty
 ("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
 ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcore.code.tex"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"
-("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathcalc.code.tex"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathutil.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathparser.code.tex")
-("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex"
 )
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.trigonometric.c
@@ -169,7 +180,8 @@ ode.tex")
 ") ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.misc.code.te
 x")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.integerarithmet
-ics.code.tex")))
+ics.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathcalc.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfloat.code.tex"))
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfint.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex")
@@ -188,10 +200,9 @@ e.tex")
 .tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex")
-("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex")
-) ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex")
-
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoretransparency.code.t
 ex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex")
@@ -205,8 +216,7 @@ y")) ("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgffor.sty"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"))
 ("C:/Program Files/MiKTeX/tex/latex/pgf/math/pgfmath.sty"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"))
-("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgffor.code.tex"
-("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex")))
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgffor.code.tex"))
 ("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/libraries/pgflibraryplothandlers.code
 .tex")
@@ -261,18 +271,11 @@ r.sty)))
  (./src/PSA-2.7.aux) (./src/PSA-2.8.aux) (./src/PSA-2.9.aux)
 (./src/PSA-2.10.aux) (./src/PSA-2.11.aux) (./src/PSA-2.12.aux)
 (./src/PSA-2.13.aux) (./src/PSA-2.14.aux) (./src/PSA-2.15.aux)
-(./src/PSA-2.16.aux) (./src/PSA-2.17.aux
-
-LaTeX Warning: Label `changelog-2.16' multiply defined.
-
-
-LaTeX Warning: Label `changelog-2.16@cref' multiply defined.
-
-) (./src/PSA-2.18.aux) (./src/PSA-2.19.aux) (./src/PSA-2.20.aux)
-(./src/PSA-2.21.aux) (./src/PSA-2.22.aux) (./src/PSA-2.23.aux)
-(./src/PSA-2.24.aux) (./src/PSA-2.25.aux) (./src/PSA-2.26.aux)
-(./src/PSA-Gloss.aux) (./src/PSA-Ind.aux))
-("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd")
+(./src/PSA-2.16.aux) (./src/PSA-2.17.aux) (./src/PSA-2.18.aux)
+(./src/PSA-2.19.aux) (./src/PSA-2.20.aux) (./src/PSA-2.21.aux)
+(./src/PSA-2.22.aux) (./src/PSA-2.23.aux) (./src/PSA-2.24.aux)
+(./src/PSA-2.25.aux) (./src/PSA-2.26.aux) (./src/PSA-Gloss.aux)
+(./src/PSA-Ind.aux)) ("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd")
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/translations/dicts/translati
 ons-basic-dictionary-spanish.trsl)
 ("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
@@ -287,39 +290,74 @@ ons-basic-dictionary-spanish.trsl)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-LatinModernRoma
 n.cfg) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-cmr.cfg)
 [1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./RDF_Log
-o.png>] [2] [3] [4] [5] [6] [7]) (./2-PSA-2023.lot [8])) [9] (./src/PSA-2.1.tex
-[10] [11] [12]) [13] (./src/PSA-2.2.tex [14]) [15] (./src/PSA-2.3.tex [16]
-Underfull \vbox (badness 5403) has occurred while \output is active [17]
-[18]) [19] (./src/PSA-2.4.tex [20] [21]) [22] (./src/PSA-2.5.tex [23]) [24]
-(./src/PSA-2.6.tex [25] [26] [27] [28]) [29] (./src/PSA-2.7.tex [30]) [31]
-(./src/PSA-2.8.tex [32] [33] [34]) [35] (./src/PSA-2.9.tex [36] [37] [38])
-[39] (./src/PSA-2.10.tex [40] [41] [42]) [43] (./src/PSA-2.11.tex [44] [45]
-[46]) [47] (./src/PSA-2.12.tex
-Overfull \hbox (2.55698pt too wide) in paragraph at lines 48--51
-\TU/Carlito(0)/b/n/12 12.5.1.3 Coor-di-na-dor 3[][] \TU/Carlito(0)/m/n/12 Sal-v
-a-dor Ver-dín, Jefe de Man-te-ni-mien-to Te-lé-fono: +52 (81) 8351--0512, +52
- (81) 1706--1644.
-[48]) [49] (./src/PSA-2.13.tex [50] [51] [52] [53]) [54] (./src/PSA-2.14.tex)
-[55] [56] (./src/PSA-2.15.tex [57] [58]) [59] (./src/PSA-2.16.tex [60] [61]
-[62]) [63] (./src/PSA-2.17.tex [64] [65] [66]) [67] (./src/PSA-2.18.tex)
-[68] (./src/PSA-2.19.tex [69]) [70] (./src/PSA-2.20.tex) [71]
-(./src/PSA-2.21.tex [72] [73]) [74] (./src/PSA-2.22.tex [75] [76]) [77]
-(./src/PSA-2.23.tex) [78] (./src/PSA-2.24.tex [79] [80]
-Underfull \vbox (badness 1655) has occurred while \output is active [81])
-[82] (./src/PSA-2.25.tex [83] [84] [85] [86]) [87] (./src/PSA-2.26.tex [88])
-[89] [90] (./src/PSA-Gloss.tex) (./2-PSA-2023.gls
+o.png>] [2] [3] [4] [5] [6] [7]) (./2-PSA-2023.lot)) [8] (./src/PSA-2.1.tex
+[9] [10] [11]) [12] (./src/PSA-2.2.tex [13]) [14] (./src/PSA-2.3.tex [15]
+[16] [17]) [18] (./src/PSA-2.4.tex [19] [20]) [21] (./src/PSA-2.5.tex [22])
+[23] (./src/PSA-2.6.tex [24] [25] [26]) [27] (./src/PSA-2.7.tex [28]) [29]
+(./src/PSA-2.8.tex [30] [31]
+Underfull \vbox (badness 10000) has occurred while \output is active [32])
+[33] (./src/PSA-2.9.tex [34] [35]) [36] (./src/PSA-2.10.tex [37] [38]) [39]
+(./src/PSA-2.11.tex [40] [41] [42]) [43] (./src/PSA-2.12.tex [44]) [45]
+(./src/PSA-2.13.tex [46] [47] [48] [49]) [50] (./src/PSA-2.14.tex) [51]
+(./src/PSA-2.15.tex [52] [53]) [54] (./src/PSA-2.16.tex [55] [56] [57])
+[58] (./src/PSA-2.17.tex [59] [60]) [61] (./src/PSA-2.18.tex) [62]
+(./src/PSA-2.19.tex [63]) [64] (./src/PSA-2.20.tex) [65] (./src/PSA-2.21.tex
+[66] [67]) [68] (./src/PSA-2.22.tex [69] [70]) [71] (./src/PSA-2.23.tex)
+[72] (./src/PSA-2.24.tex
+Underfull \vbox (badness 1540) has occurred while \output is active [73]
+[74] [75]) [76] (./src/PSA-2.25.tex [77] [78] [79] [80]) [81]
+(./src/PSA-2.26.tex [82]) [83] (./src/PSA-Gloss.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textspanish' on input line 1.
+(hyperref)                removing `\textspanish' on input line 8.
 
-[91] [92] [93]) [94] (./src/PSA-Ind.tex)This is makeindex, version 2.16 [MiKTeX 22.12].
-Scanning input file 2-PSA-2023.idx....done (31 entries accepted, 11 rejected).
-Sorting entries....done (158 comparisons).
-Generating output file 2-PSA-2023.ind....done (79 lines written, 0 warnings).
-Output written in 2-PSA-2023.ind.
-Transcript written in 2-PSA-2023.ilg.
- (./2-PSA-2023.ind) [95]
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textspanish' on input line 9.
+
+[84] [85] [86] [87] [88] [89]) [90] (./src/PSA-Ind.tex)tex2xindy: major issue: User/administrator updates are out-of-sync.
+Opening logfile "nul" (done)
+Reading indexstyle...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\2uEbq1K1AI"...
+Loading module "lang/general/latin9-lang.xdy"...
+Loading module "lang/general/latin9.xdy"...
+Finished loading module "lang/general/latin9.xdy".
+Finished loading module "lang/general/latin9-lang.xdy".
+Loading module "tex/inputenc/latin.xdy"...
+Finished loading module "tex/inputenc/latin.xdy".
+Loading module "texindy.xdy"...
+Loading module "numeric-sort.xdy"...
+Finished loading module "numeric-sort.xdy".
+Loading module "latex.xdy"...
+Loading module "tex.xdy"...
+Finished loading module "tex.xdy".
+Finished loading module "latex.xdy".
+Loading module "latex-loc-fmts.xdy"...
+Finished loading module "latex-loc-fmts.xdy".
+Loading module "makeindex.xdy"...
+Finished loading module "makeindex.xdy".
+Loading module "latin-lettergroups.xdy"...
+Finished loading module "latin-lettergroups.xdy".
+Finished loading module "texindy.xdy".
+Loading module "page-ranges.xdy"...
+Finished loading module "page-ranges.xdy".
+Loading module "word-order.xdy"...
+Finished loading module "word-order.xdy".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\2uEbq1K1AI".
+Finished reading indexstyle.
+Finalizing indexstyle... (done)
+
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\77ybTObsbZ"...
+Finished reading raw-index.
+
+Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Finished processing index.
+
+Writing markup... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Markup written into file "2-PSA-2023.ind".
+texindy: major issue: User/administrator updates are out-of-sync.
+ (./2-PSA-2023.ind)
+[91] 
 AED: lastpage setting LastPage
 (./2-PSA-2023.aux (./src/PSA-ToC.aux) (./src/PSA-2.1.aux) (./src/PSA-2.2.aux)
 (./src/PSA-2.3.aux) (./src/PSA-2.4.aux) (./src/PSA-2.5.aux) (./src/PSA-2.6.aux)
@@ -330,54 +368,125 @@ AED: lastpage setting LastPage
 (./src/PSA-2.19.aux) (./src/PSA-2.20.aux) (./src/PSA-2.21.aux)
 (./src/PSA-2.22.aux) (./src/PSA-2.23.aux) (./src/PSA-2.24.aux)
 (./src/PSA-2.25.aux) (./src/PSA-2.26.aux) (./src/PSA-Gloss.aux)
-(./src/PSA-Ind.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
-)
+(./src/PSA-Ind.aux)))
 (see the transcript file for additional information)
- 1209 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 34 glue, 4 kern, 1 penalty, 3 glyph, 
-45 attribute, 108 glue_spec, 45 attribute_list, 5 write, 2 pdf_action nodes
-   avail lists: 1:2,2:2823,3:1309,4:251,5:1250,6:201,7:8807,8:125,9:2194,10:24,
-11:1169
-<//?/c:/program files/miktex/fonts/opentype/public/lm/lmmono12-regular.otf><//?
+ 1075 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 23 glue, 4 kern, 1 penalty, 3 glyph, 
+33 attribute, 108 glue_spec, 33 attribute_list, 6 write nodes
+   avail lists: 1:2,2:2842,3:1334,4:258,5:1376,6:214,7:10201,8:33,9:2216,10:24,
+11:1315
+<//?/c:/program files/miktex/fonts/opentype/public/lm/lmmono10-regular.otf><//?
 /c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bolditalic.ttf>
 <//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.ttf>
 <//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.ttf></
 /?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.ttf><
-C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on 2-PSA-2023.pdf (95 pages, 668344 bytes).
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on 2-PSA-2023.pdf (91 pages, 663383 bytes).
 SyncTeX written on 2-PSA-2023.synctex.gz.
 Transcript written on 2-PSA-2023.log.
 lualatex: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-05 Apr 2023 14:10:53.946 INFO  - Task result: SUCCESS
-05 Apr 2023 14:10:53.948 INFO  - I am ready to interpret rule "makeglossaries".
-05 Apr 2023 14:10:53.962 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
-05 Apr 2023 14:10:54.142 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
-05 Apr 2023 14:10:54.143 INFO  - System command: [makeglossaries, 2-PSA-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
-05 Apr 2023 14:11:02.128 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
-                makeglossaries version 4.51 (2022-11-02)
+12 May 2023 15:23:27.399 INFO  - Task result: SUCCESS
+12 May 2023 15:23:27.401 INFO  - I am ready to interpret rule "bib2gls".
+12 May 2023 15:23:27.406 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 15:23:27.625 INFO  - I am ready to interpret task "The Bib2Gls software" from rule "Bib2Gls".
+12 May 2023 15:23:27.627 INFO  - System command: [bib2gls, 2-PSA-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
+12 May 2023 15:23:40.508 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                Picked up _JAVA_OPTIONS: -Xmx1024M
+bib2gls 3.3 (2023-04-24)
+Reading 2-PSA-2023.aux
+Reading src\PSA-ToC.aux
+Reading src\PSA-2.1.aux
+Reading src\PSA-2.2.aux
+Reading src\PSA-2.3.aux
+Reading src\PSA-2.4.aux
+Reading src\PSA-2.5.aux
+Reading src\PSA-2.6.aux
+Reading src\PSA-2.7.aux
+Reading src\PSA-2.8.aux
+Reading src\PSA-2.9.aux
+Reading src\PSA-2.10.aux
+Reading src\PSA-2.11.aux
+Reading src\PSA-2.12.aux
+Reading src\PSA-2.13.aux
+Reading src\PSA-2.14.aux
+Reading src\PSA-2.15.aux
+Reading src\PSA-2.16.aux
+Reading src\PSA-2.17.aux
+Reading src\PSA-2.18.aux
+Reading src\PSA-2.19.aux
+Reading src\PSA-2.20.aux
+Reading src\PSA-2.21.aux
+Reading src\PSA-2.22.aux
+Reading src\PSA-2.23.aux
+Reading src\PSA-2.24.aux
+Reading src\PSA-2.25.aux
+Reading src\PSA-2.26.aux
+Reading src\PSA-Gloss.aux
+Reading src\PSA-Ind.aux
+Reading ..\glosario.bib
+Encoding: UTF-8
+Writing c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.glstex
+78 entries written to c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA\2-PSA-2023.glstex.
+Transcript written to 2-PSA-2023.glg.
+bib2gls: major issue: User/administrator updates are out-of-sync.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+12 May 2023 15:23:40.510 INFO  - Task result: SUCCESS
+12 May 2023 15:23:40.512 INFO  - I am ready to interpret rule "makeglossaries".
+12 May 2023 15:23:40.517 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 15:23:40.635 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
+12 May 2023 15:23:40.651 INFO  - System command: [makeglossaries, 2-PSA-2023] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
+12 May 2023 15:23:48.265 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                Use of uninitialized value $codepage in string eq at C:/Program Files/MiKTeX/scripts/glossaries/makeglossaries line 1444.
+makeglossaries version 4.51 (2022-11-02)
 added glossary type 'main' (glg,gls,glo)
-xindy  -L spanish -C modern-utf8 -I xindy -M "2-PSA-2023" -t "2-PSA-2023.glg" -o "2-PSA-2023.gls" "2-PSA-2023.glo"
-Opening logfile "2-PSA-2023.glg" (done)
+added glossary type 'acronym' (alg,acr,acn)
+xindy    -I xindy -M "2-PSA-2023" -t "2-PSA-2023.alg" -o "2-PSA-2023.acr" "2-PSA-2023.acn"
+Use of uninitialized value $codepage in string eq at C:/Program Files/MiKTeX/scripts/glossaries/makeglossaries line 1444.
+Opening logfile "2-PSA-2023.alg" (done)
 Reading indexstyle...
-Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\oKTzyvJyjt"...
-Loading module "lang/spanish/modern-utf8-lang.xdy"...
-Loading module "lang/spanish/modern-utf8.xdy"...
-Finished loading module "lang/spanish/modern-utf8.xdy".
-Finished loading module "lang/spanish/modern-utf8-lang.xdy".
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\rKvczE97hT"...
+Loading module "lang/general/latin9-lang.xdy"...
+Loading module "lang/general/latin9.xdy"...
+Finished loading module "lang/general/latin9.xdy".
+Finished loading module "lang/general/latin9-lang.xdy".
 Loading module "2-PSA-2023.xdy"...
 Loading module "tex.xdy"...
 Finished loading module "tex.xdy".
 Finished loading module "2-PSA-2023.xdy".
-Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\oKTzyvJyjt".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\rKvczE97hT".
 Finished reading indexstyle.
 Finalizing indexstyle... (done)
 
-Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\4LJucU8zGd"...
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\bnK9yjafT0"...
+Finished reading raw-index.
+
+Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Finished processing index.
+
+Writing markup... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Markup written into file "2-PSA-2023.acr".
+xindy: major issue: User/administrator updates are out-of-sync.
+xindy    -I xindy -M "2-PSA-2023" -t "2-PSA-2023.glg" -o "2-PSA-2023.gls" "2-PSA-2023.glo"
+Opening logfile "2-PSA-2023.glg" (done)
+Reading indexstyle...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\uVEJSy735k"...
+Loading module "lang/general/latin9-lang.xdy"...
+Loading module "lang/general/latin9.xdy"...
+Finished loading module "lang/general/latin9.xdy".
+Finished loading module "lang/general/latin9-lang.xdy".
+Loading module "2-PSA-2023.xdy"...
+Loading module "tex.xdy"...
+Finished loading module "tex.xdy".
+Finished loading module "2-PSA-2023.xdy".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\uVEJSy735k".
+Finished reading indexstyle.
+Finalizing indexstyle... (done)
+
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\ivzil8OlLl"...
 Finished reading raw-index.
 
 Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
@@ -389,5 +498,19 @@ xindy: major issue: User/administrator updates are out-of-sync.
 makeglossaries: major issue: User/administrator updates are out-of-sync.
 
                 ----------------------- END OUTPUT BUFFER -----------------------
-05 Apr 2023 14:11:02.133 INFO  - Task result: SUCCESS
-05 Apr 2023 14:11:02.210 INFO  - Total: 206.111 seconds
+12 May 2023 15:23:48.267 INFO  - Task result: SUCCESS
+12 May 2023 15:23:48.268 INFO  - I am ready to interpret rule "makeindex".
+12 May 2023 15:23:48.282 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 15:23:48.380 INFO  - I am ready to interpret task "The MakeIndex software" from rule "MakeIndex".
+12 May 2023 15:23:48.383 INFO  - System command: [makeindex, -t, 2-PSA-2023.ilg, 2-PSA-2023.idx, -o, 2-PSA-2023.ind] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\2 - PSA
+12 May 2023 15:23:50.453 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is makeindex, version 2.16 [MiKTeX 23.4].
+Scanning input file 2-PSA-2023.idx....done (31 entries accepted, 11 rejected).
+Sorting entries....done (158 comparisons).
+Generating output file 2-PSA-2023.ind....done (79 lines written, 0 warnings).
+Output written in 2-PSA-2023.ind.
+Transcript written in 2-PSA-2023.ilg.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+12 May 2023 15:23:50.454 INFO  - Task result: SUCCESS
+12 May 2023 15:23:50.528 INFO  - Total: 241.849 seconds

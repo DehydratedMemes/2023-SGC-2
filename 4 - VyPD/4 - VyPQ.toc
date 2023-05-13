@@ -1,0 +1,23 @@
+\selectlanguage *[spanishoperators=all]{spanish}
+\contentsline {section}{\numberline {1}Programa de control de vidrio y plástico quebradizo}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivo}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Alcance}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Terminología y definiciones}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Documentos y/o normas relacionadas}{2}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Procedimiento}{2}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Acciones correctivas}{3}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Frecuencia}{3}{subsection.1.7}%
+\contentsline {section}{\numberline {2}Lavado de áreas y equipos por contaminación de vidrio y plástico quebradizo}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Objetivo}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Alcance}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Terminología y definiciones}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Procedimiento}{4}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Materiales}{4}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Instrucciones}{4}{subsubsection.2.4.2}%
+\contentsline {paragraph}{\numberline {2.4.2.1}Contaminación de equipo y área}{4}{paragraph.2.4.2.1}%
+\contentsline {paragraph}{\numberline {2.4.2.2}De vidrio y/o plástico quebradizo}{5}{paragraph.2.4.2.2}%
+\contentsline {subsection}{\numberline {2.5}Responsables de la actividad}{5}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Acciones correctivas}{5}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Frecuencia}{6}{subsection.2.7}%
+\contentsline {section}{\textspanish {Siglas}}{7}{section*.4}%
+\contentsline {section}{\textspanish {Glosario}}{7}{section*.6}%

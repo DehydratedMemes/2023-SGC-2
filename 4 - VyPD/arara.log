@@ -1,0 +1,428 @@
+12 May 2023 10:42:41.465 INFO  - 
+Welcome to arara 7.0.5!
+-----------------------------------------------------------------
+12 May 2023 10:42:41.490 DEBUG - 
+::: arara @ C:\Program Files\MiKTeX\scripts\arara
+::: Java 19, Eclipse Adoptium
+::: C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
+::: Windows 10, amd64, 10.0
+::: user.home @ C:\Users\Usuario
+::: CF @ [none]
+-----------------------------------------------------------------
+12 May 2023 10:42:41.537 INFO  - Processing "4 - VyPQ.tex" (size: 11.2 kB, last modified: 2023-05-12 15:42:33), please wait.
+12 May 2023 10:42:41.727 INFO  - I found a potential pattern in line 3: lualatex: {
+12 May 2023 10:42:41.728 INFO  - I found a potential pattern in line 4: --> interaction: nonstopmode,
+12 May 2023 10:42:41.729 INFO  - I found a potential pattern in line 5: --> options: ['-file-line-error'],
+12 May 2023 10:42:41.729 INFO  - I found a potential pattern in line 6: --> shell: yes,
+12 May 2023 10:42:41.730 INFO  - I found a potential pattern in line 7: --> synctex: yes,
+12 May 2023 10:42:41.730 INFO  - I found a potential pattern in line 8: --> }
+12 May 2023 10:42:41.731 INFO  - I found a potential pattern in line 9: bib2gls if found("aux", "glsxtr@resource")
+12 May 2023 10:42:41.732 INFO  - I found a potential pattern in line 10: makeglossaries if found("aux", "@istfilename")
+12 May 2023 10:42:41.732 INFO  - I found a potential pattern in line 11: makeindex
+12 May 2023 10:42:43.136 INFO  -                     All directives were validated. We are good to go.
+                    -------------------------- DIRECTIVES ---------------------------
+                    Directive(identifier='lualatex', parameters={interaction=nonstopmode, options=[-file-line-error], shell=yes, synctex=yes, reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\4 - VyPD\4 - VyPQ.tex},conditional={ NONE }, lineNumbers=[3, 4, 5, 6, 7, 8])
+Directive(identifier='bib2gls', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\4 - VyPD\4 - VyPQ.tex},conditional={ IF, expression: found("aux", "glsxtr@resource"), lineNumbers=[9])
+Directive(identifier='makeglossaries', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\4 - VyPD\4 - VyPQ.tex},conditional={ IF, expression: found("aux", "@istfilename"), lineNumbers=[10])
+Directive(identifier='makeindex', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\4 - VyPD\4 - VyPQ.tex},conditional={ NONE }, lineNumbers=[11])
+                    -----------------------------------------------------------------
+12 May 2023 10:42:43.144 INFO  - I am ready to interpret rule "lualatex".
+12 May 2023 10:42:43.151 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 10:42:43.968 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
+12 May 2023 10:42:44.039 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 4 - VyPQ.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\4 - VyPD
+12 May 2023 10:43:39.771 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4)
+ system commands enabled.
+("./4 - VyPQ.tex"
+LaTeX2e <2022-11-01> patch level 1
+ L3 programming layer <2023-04-20>
+("C:/Program Files/MiKTeX/tex/latex/base/article.cls"
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+("C:/Program Files/MiKTeX/tex/latex/base/size10.clo"))
+(../VariablesEstaticas.tex)
+("C:/Program Files/MiKTeX/tex/latex/carlito/carlito.sty"
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifxetex.sty"
+("C:/Program Files/MiKTeX/tex/generic/iftex/iftex.sty"))
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifluatex.sty")
+("C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/xkeyval.tex"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/xkvutils.tex"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/keyval.tex"))))
+("C:/Program Files/MiKTeX/tex/latex/base/textcomp.sty")
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3packages/xparse/xparse.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3kernel/expl3.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-luatex.def")))
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec-luatex.sty"
+("C:/Program Files/MiKTeX/tex/latex/base/fontenc.sty")
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.cfg"))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/polyglossia.sty
+("C:/Program Files/MiKTeX/tex/latex/etoolbox/etoolbox.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/makecmds/makecmds.sty)
+("C:/Program Files/MiKTeX/tex/latex/l3packages/l3keys2e/l3keys2e.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/luatex/luatexbase/luatexbase.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/luatex/ctablestack/ctablestack.sty
+))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-latex.lde)
+)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-spanish.ld
+f) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/changelog/changelog.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/translations/translations.st
+y ("C:/Program Files/MiKTeX/tex/generic/pdftexcmds/pdftexcmds.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/infwarerr/infwarerr.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/pdflscape/pdflscape.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/pdflscape/pdflscape-nometada
+ta.sty ("C:/Program Files/MiKTeX/tex/latex/graphics/lscape.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/trig.sty")
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics-def/luatex.def")))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/pifont.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/upzd.fd)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/upsy.fd))
+("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra.sty"
+("C:/Program Files/MiKTeX/tex/latex/glossaries/base/glossaries.sty"
+("C:/Program Files/MiKTeX/tex/latex/base/ifthen.sty")
+("C:/Program Files/MiKTeX/tex/latex/mfirstuc/mfirstuc.sty")
+("C:/Program Files/MiKTeX/tex/latex/xfor/xfor.sty")
+("C:/Program Files/MiKTeX/tex/latex/datatool/datatool-base.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsmath.sty"
+For additional information on amsmath, use the `?' option.
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amstext.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsgen.sty"))
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsbsy.sty")
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsopn.sty"))
+("C:/Program Files/MiKTeX/tex/latex/substr/substr.sty")
+("C:/Program Files/MiKTeX/tex/latex/datatool/datatool-fp.sty"
+("C:/Program Files/MiKTeX/tex/latex/fp/fp.sty"
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+("C:/Program Files/MiKTeX/tex/latex/fp/defpattern.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-basic.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-addons.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-snap.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-exp.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-trigo.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-pas.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-random.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-eqn.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-upn.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-eval.sty"))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tracklang/tracklang.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/tracklang/tracklang.tex))
+("C:/Program Files/MiKTeX/tex/latex/glossaries-spanish/glossaries-spanish.ldf"
+("C:/Program Files/MiKTeX/tex/latex/glossaries-spanish/glossaries-spanish-noenc
+.ldf"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-hypernav.sty")
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-list.sty")
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-long.sty"
+("C:/Program Files/MiKTeX/tex/latex/tools/longtable.sty"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-super.sty"
+("C:/Program Files/MiKTeX/tex/latex/supertabular/supertabular.sty"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-tree.sty"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra-abbrstyle
+s.def")
+("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra-stylemods
+.sty")) ("./4 - VyPQ.glstex")
+("C:/Program Files/MiKTeX/tex/latex/imakeidx/imakeidx.sty"
+("C:/Program Files/MiKTeX/tex/latex/tools/multicol.sty"))
+Writing index file "4 - VyPQ".idx
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/mdframed/mdframed.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/zref/zref-abspage.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/zref/zref-base.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/kvdefinekeys/kvdefinekeys.
+sty) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/etexcmds/etexcmds.sty
+) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/auxhook/auxhook.sty))
+("C:/Program Files/MiKTeX/tex/latex/base/atbegshi-ltx.sty"))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/needspace/needspace.sty)
+("C:/Program Files/MiKTeX/tex/latex/graphics/color.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
+("C:/Program Files/MiKTeX/tex/latex/pgf/frontendlayer/tikz.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-latex.def")
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfrcs.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/pgf.revision.tex")))
+("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty")
+("C:/Program Files/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code
+.tex")) ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgf.cfg")
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-luatex.def"
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def")))
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex"
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+")) ("C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcore.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathutil.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathparser.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex"
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.trigonometric.c
+ode.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
+")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.comparison.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.base.code.tex")
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
+") ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.misc.code.te
+x")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.integerarithmet
+ics.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathcalc.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfloat.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfint.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.
+tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex"
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex")
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.t
+ex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoretransformations.cod
+e.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorequick.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex")
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoretransparency.code.t
+ex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex")
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex")))
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmoduleshapes.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmoduleplot.code.tex")
+("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty"
+) ("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y")) ("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgffor.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"))
+("C:/Program Files/MiKTeX/tex/latex/pgf/math/pgfmath.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgffor.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/libraries/pgflibraryplothandlers.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmodulematrix.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibr
+arytopaths.code.tex")))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/mdframed/md-frame-1.mdf))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/footmisc/footmisc.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype-luatex.d
+ef) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.cfg)
+) ("C:/Program Files/MiKTeX/tex/latex/hyperref/hyperref.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/pdfescape/pdfescape.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/hycolor/hycolor.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/letltxmacro/letltxmacro.sty)
+ ("C:/Program Files/MiKTeX/tex/latex/hyperref/nameref.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/gettitlestring/gettitlestr
+ing.sty)) ("C:/Program Files/MiKTeX/tex/latex/hyperref/pd1enc.def")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/intcalc/intcalc.sty)
+("C:/Program Files/MiKTeX/tex/latex/hyperref/puenc.def")
+("C:/Program Files/MiKTeX/tex/latex/url/url.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bitset/bitset.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty)
+)) ("C:/Program Files/MiKTeX/tex/latex/hyperref/hluatex.def"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/stringenc/stringenc.sty)
+("C:/Program Files/MiKTeX/tex/latex/base/atveryend-ltx.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/cleveref/cleveref.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/lastpage/lastpage.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/siunitx/siunitx.sty
+("C:/Program Files/MiKTeX/tex/latex/tools/array.sty"))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tabularray/tabularray.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/booktabs/booktabs.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifvtex.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.cfg))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/adjustbox.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/adjcalc.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/trimclip.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/collectbox/collectbox.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/tc-pgf.def))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/ifoddpage/ifoddpage.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/varwidth/varwidth.sty))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/enumitem/enumitem.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty)
+("./4 - VyPQ.aux" ("./src/VyPQ - ToC.aux") ("./src/VyPQ - 4.1.aux")
+("./src/VyPQ - G.aux") ("./src/VyPQ - I.aux"))
+("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/translations/dicts/translati
+ons-basic-dictionary-spanish.trsl)
+("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+) ("C:/Program Files/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty"
+("C:/Program Files/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg"))
+("./4 - VyPQ.out") ("./4 - VyPQ.out")
+("C:/Program Files/MiKTeX/tex/latex/ninecolors/ninecolors.sty")
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+("./src/VyPQ - ToC.tex" ("./4 - VyPQ.toc"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-LatinModernRoma
+n.cfg) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-cmr.cfg)
+)) [1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./RDF_
+Logo.png>] ("./src/VyPQ - 4.1.tex" [2]) [3] ("./src/VyPQ - 4.2.tex" [4]
+[5]) [6] ("./src/VyPQ - G.tex"
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textspanish' on input line 9.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textspanish' on input line 10.
+
+[7] [8] [9] [10] [11] [12]) [13] ("./src/VyPQ - I.tex")This is makeindex, version 2.16 [MiKTeX 23.4].
+Scanning input file 4 - VyPQ.idx....done (1 entries accepted, 1 rejected).
+Sorting entries...done (0 comparisons).
+Generating output file 4 - VyPQ.ind....done (7 lines written, 0 warnings).
+Output written in 4 - VyPQ.ind.
+Transcript written in 4 - VyPQ.ilg.
+ ("./4 - VyPQ.ind")
+[14] 
+AED: lastpage setting LastPage
+("./4 - VyPQ.aux" ("./src/VyPQ - ToC.aux") ("./src/VyPQ - 4.1.aux")
+("./src/VyPQ - 4.2.aux") ("./src/VyPQ - G.aux") ("./src/VyPQ - I.aux"))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+)
+ 857 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 3 glyph, 1
+3 attribute, 107 glue_spec, 13 attribute_list, 6 write nodes
+   avail lists: 1:1,2:1160,3:704,4:182,5:956,6:99,7:8229,8:1,9:1174,10:11,11:10
+56
+<//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bolditalic.
+ttf><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.
+ttf><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.tt
+f><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.t
+tf>
+Output written on 4 - VyPQ.pdf (14 pages, 129474 bytes).
+SyncTeX written on 4 - VyPQ.synctex.gz.
+Transcript written on "4 - VyPQ.log".
+lualatex: major issue: User/administrator updates are out-of-sync.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+12 May 2023 10:43:39.780 INFO  - Task result: SUCCESS
+12 May 2023 10:43:39.781 INFO  - I am ready to interpret rule "bib2gls".
+12 May 2023 10:43:39.797 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 10:43:40.008 INFO  - I am ready to interpret task "The Bib2Gls software" from rule "Bib2Gls".
+12 May 2023 10:43:40.024 INFO  - System command: [bib2gls, 4 - VyPQ] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\4 - VyPD
+12 May 2023 10:43:50.119 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                Picked up _JAVA_OPTIONS: -Xmx1024M
+bib2gls 3.3 (2023-04-24)
+Reading 4 - VyPQ.aux
+Reading src\VyPQ - ToC.aux
+Reading src\VyPQ - 4.1.aux
+Reading src\VyPQ - 4.2.aux
+Reading src\VyPQ - G.aux
+Reading src\VyPQ - I.aux
+Reading ..\glosario.bib
+Encoding: UTF-8
+Writing c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\4 - VyPD\4 - VyPQ.glstex
+76 entries written to c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\4 - VyPD\4 - VyPQ.glstex.
+Transcript written to 4 - VyPQ.glg.
+bib2gls: major issue: User/administrator updates are out-of-sync.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+12 May 2023 10:43:50.120 INFO  - Task result: SUCCESS
+12 May 2023 10:43:50.121 INFO  - I am ready to interpret rule "makeglossaries".
+12 May 2023 10:43:50.128 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 10:43:50.396 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
+12 May 2023 10:43:50.401 INFO  - System command: [makeglossaries, 4 - VyPQ] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\4 - VyPD
+12 May 2023 10:43:58.087 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                Use of uninitialized value $codepage in string eq at C:/Program Files/MiKTeX/scripts/glossaries/makeglossaries line 1444.
+makeglossaries version 4.51 (2022-11-02)
+added glossary type 'main' (glg,gls,glo)
+added glossary type 'acronym' (alg,acr,acn)
+xindy    -I xindy -M "4 - VyPQ" -t "4 - VyPQ.alg" -o "4 - VyPQ.acr" "4 - VyPQ.acn"
+Use of uninitialized value $codepage in string eq at C:/Program Files/MiKTeX/scripts/glossaries/makeglossaries line 1444.
+Opening logfile "4 - VyPQ.alg" (done)
+Reading indexstyle...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\4 - VyPD\\YDNbnb6DDV"...
+Loading module "lang/general/latin9-lang.xdy"...
+Loading module "lang/general/latin9.xdy"...
+Finished loading module "lang/general/latin9.xdy".
+Finished loading module "lang/general/latin9-lang.xdy".
+Loading module "4 - VyPQ.xdy"...
+Loading module "tex.xdy"...
+Finished loading module "tex.xdy".
+Finished loading module "4 - VyPQ.xdy".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\4 - VyPD\\YDNbnb6DDV".
+Finished reading indexstyle.
+Finalizing indexstyle... (done)
+
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\4 - VyPD\\snFXp32T6A"...
+Finished reading raw-index.
+
+Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Finished processing index.
+
+Writing markup... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Markup written into file "4 - VyPQ.acr".
+xindy: major issue: User/administrator updates are out-of-sync.
+xindy    -I xindy -M "4 - VyPQ" -t "4 - VyPQ.glg" -o "4 - VyPQ.gls" "4 - VyPQ.glo"
+Opening logfile "4 - VyPQ.glg" (done)
+Reading indexstyle...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\4 - VyPD\\BxzcSKjtJX"...
+Loading module "lang/general/latin9-lang.xdy"...
+Loading module "lang/general/latin9.xdy"...
+Finished loading module "lang/general/latin9.xdy".
+Finished loading module "lang/general/latin9-lang.xdy".
+Loading module "4 - VyPQ.xdy"...
+Loading module "tex.xdy"...
+Finished loading module "tex.xdy".
+Finished loading module "4 - VyPQ.xdy".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\4 - VyPD\\BxzcSKjtJX".
+Finished reading indexstyle.
+Finalizing indexstyle... (done)
+
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\4 - VyPD\\JRL4F35AcH"...
+Finished reading raw-index.
+
+Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Finished processing index.
+
+Writing markup... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Markup written into file "4 - VyPQ.gls".
+xindy: major issue: User/administrator updates are out-of-sync.
+makeglossaries: major issue: User/administrator updates are out-of-sync.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+12 May 2023 10:43:58.095 INFO  - Task result: SUCCESS
+12 May 2023 10:43:58.098 INFO  - I am ready to interpret rule "makeindex".
+12 May 2023 10:43:58.118 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 10:43:58.201 INFO  - I am ready to interpret task "The MakeIndex software" from rule "MakeIndex".
+12 May 2023 10:43:58.202 INFO  - System command: [makeindex, -t, 4 - VyPQ.ilg, 4 - VyPQ.idx, -o, 4 - VyPQ.ind] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\4 - VyPD
+12 May 2023 10:44:00.443 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is makeindex, version 2.16 [MiKTeX 23.4].
+Scanning input file 4 - VyPQ.idx....done (1 entries accepted, 1 rejected).
+Sorting entries...done (0 comparisons).
+Generating output file 4 - VyPQ.ind....done (7 lines written, 0 warnings).
+Output written in 4 - VyPQ.ind.
+Transcript written in 4 - VyPQ.ilg.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+12 May 2023 10:44:00.444 INFO  - Task result: SUCCESS
+12 May 2023 10:44:00.470 INFO  - Total: 79.888 seconds

@@ -1,16 +1,16 @@
 \thispagestyle{formato-PI}
 \renewcommand{\MayorVer}{2}
 \renewcommand{\MenorVer}{0}
-\renewcommand{\Codigo}{PSA-1-PROG}
 \renewcommand{\FechaPub}{2023--01}
-%\renewcommand{\Edit}{2.1}
+\renewcommand{\TipoID}{PRO}
 \renewcommand{\Titulo}{Inspección en la recepción de productos}
 
 \section{\Titulo}\index{Inspección!en la recepción de productos}
+\renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 
 \subsection{Objetivo}
 \begin{itemize}
-	\item \textbf{Establecer} un programa satisfactorio que asegure que la unidad de transporte se encuentra en condiciones adecuadas de mantenimiento, limpieza y temperatura apropiadas para el almacenamiento dentro de RDF.
+	\item \textbf{Establecer} un programa satisfactorio que asegure que la unidad de transporte se encuentra en condiciones adecuadas de mantenimiento, limpieza y temperatura apropiadas para el almacenamiento dentro de \gls{RDF}
 \end{itemize}
 
 \subsection{Alcance}
@@ -139,8 +139,8 @@
 
 Cada recepción de \gls{alimento}
 
-\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-1.2]
-	\begin{version}[v=2.1, date=2023--01, author=Pablo E. Alanis]
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer]
+	\begin{version}[v=\MayorVer.\MenorVer, date=2023--01, author=Pablo E. Alanis]
 		%\fixed
 		\item Cambio de formato;
 		\item Cambios en la serialización de versiones;

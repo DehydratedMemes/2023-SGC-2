@@ -1,9 +1,12 @@
 \thispagestyle{formato-PI}
 \renewcommand{\MayorVer}{1}
 \renewcommand{\MenorVer}{0}
-\renewcommand{\Codigo}{PSA-ToC}
 \renewcommand{\FechaPub}{2023--01}
-%\renewcommand{\Edit}{01}
+\renewcommand{\TipoID}{G}
 \renewcommand{\Titulo}{Programa de Seguridad Alimenticia --- Glosario}
-
-\printglossary
+\renewcommand{\Codigo}{\Prog--\TipoID}
+\printunsrtglossary[type=acronym,nonumberlist,style=long]
+\printunsrtglossary[type=\glsdefaulttype]
+% printglossary
+% \printunsrtglossary[type=acronym,nonumberlist]
+% \printunsrtglossary[type=\glsdefaulttype,nonumberlist]

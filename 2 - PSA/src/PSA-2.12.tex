@@ -1,14 +1,13 @@
 \thispagestyle{formato-PI}
 \renewcommand{\MayorVer}{2}
 \renewcommand{\MenorVer}{0}
-\renewcommand{\Codigo}{PSA-1-PROG} %TODO
+ %TODO
 \renewcommand{\FechaPub}{2023--01}
-%\renewcommand{\Edit}{2.1}
+\renewcommand{\TipoID}{L}
 \renewcommand{\Titulo}{Lista de contactos de emergencia}
 
 \section{\Titulo}\index{Lista!contactos de emergencia, de}
-
-% \section{Lista de contactos de emergencia}
+\renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 
 \subsection{Objetivo}
 \begin{itemize}
@@ -64,8 +63,8 @@ Teléfono: +52 (81) 2353--2346
 	\item Responsable de verificar de primera instancia alguna anormalidad vista desde el punto externo del almacén y dar aviso al personal correspondiente según el hallazgo detectado.
 \end{itemize}
 
-\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-2.12]
-	\begin{version}[v=2.0, date=2023--01, author=Pablo E. Alanis]
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer2]
+	\begin{version}[v=\MayorVer.\MenorVer, date=2023--01, author=Pablo E. Alanis]
 		\item Cambios de formato;
 		\item cambio de código;
 		\item se añadieron recuadros con los contactos y contratos de la \gls{CFE}.

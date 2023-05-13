@@ -1,0 +1,9 @@
+This is makeindex, version 2.16 [MiKTeX 23.4].
+Scanning input file 7 - ALE.idx....
+!! Input index error (file = 7 - ALE.idx, line = 3):
+   -- Extra `!' at position 44 of first argument.
+done (3 entries accepted, 1 rejected).
+Sorting entries....done (5 comparisons).
+Generating output file 7 - ALE.ind....done (17 lines written, 0 warnings).
+Output written in 7 - ALE.ind.
+Transcript written in 7 - ALE.ilg.

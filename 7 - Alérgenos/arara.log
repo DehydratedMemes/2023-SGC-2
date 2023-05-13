@@ -1,0 +1,426 @@
+12 May 2023 15:35:04.307 INFO  - 
+Welcome to arara 7.0.5!
+-----------------------------------------------------------------
+12 May 2023 15:35:04.333 DEBUG - 
+::: arara @ C:\Program Files\MiKTeX\scripts\arara
+::: Java 19, Eclipse Adoptium
+::: C:\Program Files\Eclipse Adoptium\jdk-19.0.0.36-hotspot
+::: Windows 10, amd64, 10.0
+::: user.home @ C:\Users\Usuario
+::: CF @ [none]
+-----------------------------------------------------------------
+12 May 2023 15:35:04.380 INFO  - Processing "7 - ALE.tex" (size: 11.2 kB, last modified: 2023-05-12 20:31:41), please wait.
+12 May 2023 15:35:04.501 INFO  - I found a potential pattern in line 3: lualatex: {
+12 May 2023 15:35:04.502 INFO  - I found a potential pattern in line 4: --> interaction: nonstopmode,
+12 May 2023 15:35:04.502 INFO  - I found a potential pattern in line 5: --> options: ['-file-line-error'],
+12 May 2023 15:35:04.504 INFO  - I found a potential pattern in line 6: --> shell: yes,
+12 May 2023 15:35:04.504 INFO  - I found a potential pattern in line 7: --> synctex: yes,
+12 May 2023 15:35:04.506 INFO  - I found a potential pattern in line 8: --> }
+12 May 2023 15:35:04.506 INFO  - I found a potential pattern in line 9: bib2gls if found("aux", "glsxtr@resource")
+12 May 2023 15:35:04.507 INFO  - I found a potential pattern in line 10: makeglossaries if found("aux", "@istfilename")
+12 May 2023 15:35:04.508 INFO  - I found a potential pattern in line 11: makeindex
+12 May 2023 15:35:05.918 INFO  -                     All directives were validated. We are good to go.
+                    -------------------------- DIRECTIVES ---------------------------
+                    Directive(identifier='lualatex', parameters={interaction=nonstopmode, options=[-file-line-error], shell=yes, synctex=yes, reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\7 - Alérgenos\7 - ALE.tex},conditional={ NONE }, lineNumbers=[3, 4, 5, 6, 7, 8])
+Directive(identifier='bib2gls', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\7 - Alérgenos\7 - ALE.tex},conditional={ IF, expression: found("aux", "glsxtr@resource"), lineNumbers=[9])
+Directive(identifier='makeglossaries', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\7 - Alérgenos\7 - ALE.tex},conditional={ IF, expression: found("aux", "@istfilename"), lineNumbers=[10])
+Directive(identifier='makeindex', parameters={reference=c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\7 - Alérgenos\7 - ALE.tex},conditional={ NONE }, lineNumbers=[11])
+                    -----------------------------------------------------------------
+12 May 2023 15:35:05.922 INFO  - I am ready to interpret rule "lualatex".
+12 May 2023 15:35:05.931 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 15:35:06.786 INFO  - I am ready to interpret task "LuaLaTeX engine" from rule "LuaLaTeX".
+12 May 2023 15:35:06.788 INFO  - System command: [lualatex, --interaction=nonstopmode, --shell-escape, --synctex=1, -file-line-error, 7 - ALE.tex] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\7 - Alérgenos
+12 May 2023 15:36:07.550 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4)
+ system commands enabled.
+("./7 - ALE.tex"
+LaTeX2e <2022-11-01> patch level 1
+ L3 programming layer <2023-04-20>
+("C:/Program Files/MiKTeX/tex/latex/base/article.cls"
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+("C:/Program Files/MiKTeX/tex/latex/base/size10.clo"))
+(../VariablesEstaticas.tex)
+("C:/Program Files/MiKTeX/tex/latex/carlito/carlito.sty"
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifxetex.sty"
+("C:/Program Files/MiKTeX/tex/generic/iftex/iftex.sty"))
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifluatex.sty")
+("C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/xkeyval.tex"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/xkvutils.tex"
+("C:/Program Files/MiKTeX/tex/generic/xkeyval/keyval.tex"))))
+("C:/Program Files/MiKTeX/tex/latex/base/textcomp.sty")
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3packages/xparse/xparse.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3kernel/expl3.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-luatex.def")))
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec-luatex.sty"
+("C:/Program Files/MiKTeX/tex/latex/base/fontenc.sty")
+("C:/Program Files/MiKTeX/tex/latex/fontspec/fontspec.cfg"))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/polyglossia.sty
+("C:/Program Files/MiKTeX/tex/latex/etoolbox/etoolbox.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/makecmds/makecmds.sty)
+("C:/Program Files/MiKTeX/tex/latex/l3packages/l3keys2e/l3keys2e.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/luatex/luatexbase/luatexbase.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/luatex/ctablestack/ctablestack.sty
+))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-latex.lde)
+)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/polyglossia/gloss-spanish.ld
+f) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/changelog/changelog.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/translations/translations.st
+y ("C:/Program Files/MiKTeX/tex/generic/pdftexcmds/pdftexcmds.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/infwarerr/infwarerr.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/pdflscape/pdflscape.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/pdflscape/pdflscape-nometada
+ta.sty ("C:/Program Files/MiKTeX/tex/latex/graphics/lscape.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/trig.sty")
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics-def/luatex.def")))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/pifont.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/upzd.fd)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/psnfss/upsy.fd))
+("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra.sty"
+("C:/Program Files/MiKTeX/tex/latex/glossaries/base/glossaries.sty"
+("C:/Program Files/MiKTeX/tex/latex/base/ifthen.sty")
+("C:/Program Files/MiKTeX/tex/latex/mfirstuc/mfirstuc.sty")
+("C:/Program Files/MiKTeX/tex/latex/xfor/xfor.sty")
+("C:/Program Files/MiKTeX/tex/latex/datatool/datatool-base.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsmath.sty"
+For additional information on amsmath, use the `?' option.
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amstext.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsgen.sty"))
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsbsy.sty")
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsopn.sty"))
+("C:/Program Files/MiKTeX/tex/latex/substr/substr.sty")
+("C:/Program Files/MiKTeX/tex/latex/datatool/datatool-fp.sty"
+("C:/Program Files/MiKTeX/tex/latex/fp/fp.sty"
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+("C:/Program Files/MiKTeX/tex/latex/fp/defpattern.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-basic.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-addons.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-snap.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-exp.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-trigo.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-pas.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-random.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-eqn.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-upn.sty")
+("C:/Program Files/MiKTeX/tex/latex/fp/fp-eval.sty"))))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tracklang/tracklang.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/tracklang/tracklang.tex))
+("C:/Program Files/MiKTeX/tex/latex/glossaries-spanish/glossaries-spanish.ldf"
+("C:/Program Files/MiKTeX/tex/latex/glossaries-spanish/glossaries-spanish-noenc
+.ldf"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-hypernav.sty")
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-list.sty")
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-long.sty"
+("C:/Program Files/MiKTeX/tex/latex/tools/longtable.sty"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-super.sty"
+("C:/Program Files/MiKTeX/tex/latex/supertabular/supertabular.sty"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries/styles/glossary-tree.sty"))
+("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra-abbrstyle
+s.def")
+("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra-stylemods
+.sty")) ("./7 - ALE.glstex")
+("C:/Program Files/MiKTeX/tex/latex/imakeidx/imakeidx.sty"
+("C:/Program Files/MiKTeX/tex/latex/tools/multicol.sty"))
+Writing index file "7 - ALE".idx
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/mdframed/mdframed.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/zref/zref-abspage.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/zref/zref-base.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/kvdefinekeys/kvdefinekeys.
+sty) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/etexcmds/etexcmds.sty
+) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/auxhook/auxhook.sty))
+("C:/Program Files/MiKTeX/tex/latex/base/atbegshi-ltx.sty"))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/needspace/needspace.sty)
+("C:/Program Files/MiKTeX/tex/latex/graphics/color.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
+("C:/Program Files/MiKTeX/tex/latex/pgf/frontendlayer/tikz.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-latex.def")
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfrcs.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/pgf.revision.tex")))
+("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty")
+("C:/Program Files/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code
+.tex")) ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgf.cfg")
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-luatex.def"
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def")))
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex"
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+")) ("C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg")
+("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcore.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathutil.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathparser.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex"
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.trigonometric.c
+ode.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
+")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.comparison.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.base.code.tex")
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
+") ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.misc.code.te
+x")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.integerarithmet
+ics.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathcalc.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfloat.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfint.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.
+tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex"
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex")
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.t
+ex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoretransformations.cod
+e.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorequick.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex")
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoretransparency.code.t
+ex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex")
+ ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex")))
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmoduleshapes.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmoduleplot.code.tex")
+("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty"
+) ("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y")) ("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgffor.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"))
+("C:/Program Files/MiKTeX/tex/latex/pgf/math/pgfmath.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgffor.code.tex"))
+("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/libraries/pgflibraryplothandlers.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmodulematrix.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibr
+arytopaths.code.tex")))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/mdframed/md-frame-1.mdf))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/footmisc/footmisc.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype-luatex.d
+ef) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.cfg)
+) ("C:/Program Files/MiKTeX/tex/latex/hyperref/hyperref.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/pdfescape/pdfescape.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/hycolor/hycolor.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/letltxmacro/letltxmacro.sty)
+ ("C:/Program Files/MiKTeX/tex/latex/hyperref/nameref.sty"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/gettitlestring/gettitlestr
+ing.sty)) ("C:/Program Files/MiKTeX/tex/latex/hyperref/pd1enc.def")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/intcalc/intcalc.sty)
+("C:/Program Files/MiKTeX/tex/latex/hyperref/puenc.def")
+("C:/Program Files/MiKTeX/tex/latex/url/url.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bitset/bitset.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty)
+)) ("C:/Program Files/MiKTeX/tex/latex/hyperref/hluatex.def"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/stringenc/stringenc.sty)
+("C:/Program Files/MiKTeX/tex/latex/base/atveryend-ltx.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/cleveref/cleveref.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/lastpage/lastpage.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/siunitx/siunitx.sty
+("C:/Program Files/MiKTeX/tex/latex/tools/array.sty"))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/tabularray/tabularray.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/booktabs/booktabs.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifvtex.sty")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.cfg))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/adjustbox.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/adjcalc.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/trimclip.sty
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/collectbox/collectbox.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/adjustbox/tc-pgf.def))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/ifoddpage/ifoddpage.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/varwidth/varwidth.sty))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/enumitem/enumitem.sty)
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty)
+("./7 - ALE.aux" ("./src/ALE - ToC.aux") ("./src/ALE - 7.1.aux")
+(./src/PSA-2.17.aux) (./src/HyS-3.13.aux) ("./src/ALE - G.aux")
+("./src/ALE - I.aux")) ("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd")
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/translations/dicts/translati
+ons-basic-dictionary-spanish.trsl)
+("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+) ("C:/Program Files/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty"
+("C:/Program Files/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg")) ("./7 - ALE.ou
+t") ("./7 - ALE.out")
+("C:/Program Files/MiKTeX/tex/latex/ninecolors/ninecolors.sty")
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+("./src/ALE - ToC.tex" ("./7 - ALE.toc"
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-LatinModernRoma
+n.cfg) (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/mt-cmr.cfg)
+[1{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./RDF_Log
+o.png>])) [2] ("./src/ALE - 7.1.tex" [3] [4]) [5] (./src/PSA-2.17.tex [6]
+[7]) [8] (./src/HyS-3.13.tex [9]) [10] ("./src/ALE - G.tex"
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textspanish' on input line 9.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textspanish' on input line 10.
+
+[11] [12] [13] [14] [15] [16]) [17] ("./src/ALE - I.tex")This is makeindex, version 2.16 [MiKTeX 23.4].
+Scanning input file 7 - ALE.idx....done (3 entries accepted, 1 rejected).
+Sorting entries....done (5 comparisons).
+Generating output file 7 - ALE.ind....done (17 lines written, 0 warnings).
+Output written in 7 - ALE.ind.
+Transcript written in 7 - ALE.ilg.
+ ("./7 - ALE.ind")
+[18] 
+AED: lastpage setting LastPage
+("./7 - ALE.aux" ("./src/ALE - ToC.aux") ("./src/ALE - 7.1.aux")
+(./src/PSA-2.17.aux) (./src/HyS-3.13.aux) ("./src/ALE - G.aux")
+("./src/ALE - I.aux")))
+ 872 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 5 glue, 4 kern, 1 penalty, 3 glyph, 1
+5 attribute, 107 glue_spec, 15 attribute_list, 6 write nodes
+   avail lists: 1:1,2:1808,3:1114,4:255,5:1025,6:202,7:8531,8:2,9:1832,10:15,11
+:1072
+<//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bolditalic.
+ttf><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.
+ttf><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.tt
+f><//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.t
+tf>
+Output written on 7 - ALE.pdf (18 pages, 167038 bytes).
+SyncTeX written on 7 - ALE.synctex.gz.
+Transcript written on "7 - ALE.log".
+lualatex: major issue: User/administrator updates are out-of-sync.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+12 May 2023 15:36:07.558 INFO  - Task result: SUCCESS
+12 May 2023 15:36:07.559 INFO  - I am ready to interpret rule "bib2gls".
+12 May 2023 15:36:07.574 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 15:36:07.763 INFO  - I am ready to interpret task "The Bib2Gls software" from rule "Bib2Gls".
+12 May 2023 15:36:07.764 INFO  - System command: [bib2gls, 7 - ALE] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\7 - Alérgenos
+12 May 2023 15:36:17.304 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                Picked up _JAVA_OPTIONS: -Xmx1024M
+bib2gls 3.3 (2023-04-24)
+Reading 7 - ALE.aux
+Reading src\ALE - ToC.aux
+Reading src\ALE - 7.1.aux
+Reading src\PSA-2.17.aux
+Reading src\HyS-3.13.aux
+Reading src\ALE - G.aux
+Reading src\ALE - I.aux
+Reading ..\glosario.bib
+Encoding: UTF-8
+Writing c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\7 - Al�rgenos\7 - ALE.glstex
+78 entries written to c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\7 - Al�rgenos\7 - ALE.glstex.
+Transcript written to 7 - ALE.glg.
+bib2gls: major issue: User/administrator updates are out-of-sync.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+12 May 2023 15:36:17.306 INFO  - Task result: SUCCESS
+12 May 2023 15:36:17.309 INFO  - I am ready to interpret rule "makeglossaries".
+12 May 2023 15:36:17.334 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 15:36:17.472 INFO  - I am ready to interpret task "The MakeGlossaries software" from rule "MakeGlossaries".
+12 May 2023 15:36:17.481 INFO  - System command: [makeglossaries, 7 - ALE] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\7 - Alérgenos
+12 May 2023 15:36:24.945 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                Use of uninitialized value $codepage in string eq at C:/Program Files/MiKTeX/scripts/glossaries/makeglossaries line 1444.
+makeglossaries version 4.51 (2022-11-02)
+added glossary type 'main' (glg,gls,glo)
+added glossary type 'acronym' (alg,acr,acn)
+xindy    -I xindy -M "7 - ALE" -t "7 - ALE.glg" -o "7 - ALE.gls" "7 - ALE.glo"
+Use of uninitialized value $codepage in string eq at C:/Program Files/MiKTeX/scripts/glossaries/makeglossaries line 1444.
+Opening logfile "7 - ALE.glg" (done)
+Reading indexstyle...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\7 - Al�rgenos\\2iRYRDJfa2"...
+Loading module "lang/general/latin9-lang.xdy"...
+Loading module "lang/general/latin9.xdy"...
+Finished loading module "lang/general/latin9.xdy".
+Finished loading module "lang/general/latin9-lang.xdy".
+Loading module "7 - ALE.xdy"...
+Loading module "tex.xdy"...
+Finished loading module "tex.xdy".
+Finished loading module "7 - ALE.xdy".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\7 - Al�rgenos\\2iRYRDJfa2".
+Finished reading indexstyle.
+Finalizing indexstyle... (done)
+
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\7 - Al�rgenos\\I4HXUggXMF"...
+Finished reading raw-index.
+
+Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Finished processing index.
+
+Writing markup... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Markup written into file "7 - ALE.gls".
+xindy: major issue: User/administrator updates are out-of-sync.
+xindy    -I xindy -M "7 - ALE" -t "7 - ALE.alg" -o "7 - ALE.acr" "7 - ALE.acn"
+Opening logfile "7 - ALE.alg" (done)
+Reading indexstyle...
+Loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\7 - Al�rgenos\\h2cqbPIZox"...
+Loading module "lang/general/latin9-lang.xdy"...
+Loading module "lang/general/latin9.xdy"...
+Finished loading module "lang/general/latin9.xdy".
+Finished loading module "lang/general/latin9-lang.xdy".
+Loading module "7 - ALE.xdy"...
+Loading module "tex.xdy"...
+Finished loading module "tex.xdy".
+Finished loading module "7 - ALE.xdy".
+Finished loading module "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\7 - Al�rgenos\\h2cqbPIZox".
+Finished reading indexstyle.
+Finalizing indexstyle... (done)
+
+Reading raw-index "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\7 - Al�rgenos\\v3FGsPDD0J"...
+Finished reading raw-index.
+
+Processing index... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Finished processing index.
+
+Writing markup... [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Markup written into file "7 - ALE.acr".
+xindy: major issue: User/administrator updates are out-of-sync.
+makeglossaries: major issue: User/administrator updates are out-of-sync.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+12 May 2023 15:36:24.948 INFO  - Task result: SUCCESS
+12 May 2023 15:36:24.950 INFO  - I am ready to interpret rule "makeindex".
+12 May 2023 15:36:24.963 INFO  - Rule location: "C:\Program Files\MiKTeX\scripts\arara\rules"
+12 May 2023 15:36:25.065 INFO  - I am ready to interpret task "The MakeIndex software" from rule "MakeIndex".
+12 May 2023 15:36:25.085 INFO  - System command: [makeindex, -t, 7 - ALE.ilg, 7 - ALE.idx, -o, 7 - ALE.ind] @ c:\Users\Usuario\Documents\SISTEMA DE GESTION DE CALIDAD\2023-SGC-2\7 - Alérgenos
+12 May 2023 15:36:26.631 INFO  -                 ---------------------- BEGIN OUTPUT BUFFER ----------------------
+                This is makeindex, version 2.16 [MiKTeX 23.4].
+Scanning input file 7 - ALE.idx....done (3 entries accepted, 1 rejected).
+Sorting entries....done (5 comparisons).
+Generating output file 7 - ALE.ind....done (17 lines written, 0 warnings).
+Output written in 7 - ALE.ind.
+Transcript written in 7 - ALE.ilg.
+
+                ----------------------- END OUTPUT BUFFER -----------------------
+12 May 2023 15:36:26.632 INFO  - Task result: SUCCESS
+12 May 2023 15:36:26.661 INFO  - Total: 83.292 seconds

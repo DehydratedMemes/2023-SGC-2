@@ -3,11 +3,11 @@
 \renewcommand{\MenorVer}{0}
 \renewcommand{\Codigo}{PSA-9-ESP} %TODO
 \renewcommand{\FechaPub}{2023--01}
-%\renewcommand{\Edit}{2.1}
+\renewcommand{\TipoID}{ESP}
 \renewcommand{\Titulo}{Especificación genérica de servicios de almacenamiento}
 
 \section{\Titulo}\index{Especificación de servicios!almacenamiento}\label{esp:generica}
-% \section{Especificación genérica de servicios de almacenamiento}
+\renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 
 \subsection{Objetivos}
 
@@ -116,7 +116,7 @@ Para definir el intervalo de control, se tomó como base la circular № 20/2018
 	\end{itemize}
 \end{itemize}
 
-\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-2.9]
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer]
 	\begin{version}[v=1.0, date=2023--01, author=Pablo E. Alanis]
 		\item Primera edición.
 	\end{version}

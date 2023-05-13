@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.5.4)  8 MAY 2023 10:28
+This is LuaHBTeX, Version 1.16.1 (MiKTeX 23.4) (format=lualatex 2023.5.4)  9 MAY 2023 11:23
  system commands enabled.
  file:line:error style messages enabled.
 **"3 - HyS.tex"
@@ -453,23 +453,18 @@ braces):
 >  {spanish/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
 >  {spanish/totalhyphenmin}  =>  {5}.
 Module polyglossia Info: Language data for spanish
-(polyglossia)            hyphenation	
-(polyglossia)            loader	loadhyph-es.tex
 (polyglossia)            righthyphenmin	2
 (polyglossia)            patterns	hyph-es.pat.txt
-(polyglossia)            synonyms	espanol
-(polyglossia)            lefthyphenmin	2 on input line 18
+(polyglossia)            loader	loadhyph-es.tex
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            hyphenation	
+(polyglossia)            synonyms	espanol on input line 18
 Module polyglossia Info: Language spanish was not yet loaded; created with id 2 
 on input line 18
 Package polyglossia Info: Option: spanish, variant=spanish.
 Package polyglossia Info: Option: Spanish, spanishoperators=none.
 )
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
 Package polyglossia Info: Default language is spanish.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
- (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/changelog/changelog.sty
-Package: changelog 2023/02/16 v2.5.0 Typesetting changelogs
 
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/translations/translations.st
 y
@@ -489,7 +484,10 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 \pdftexcmds@toks=\toks18
-)))
+))
+(C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/changelog/changelog.sty
+Package: changelog 2023/02/16 v2.5.0 Typesetting changelogs
+)
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count272
@@ -765,6 +763,10 @@ Package: supertabular 2020/02/02 v4.1g the supertabular environment
 Package: glossary-tree 2022/11/03 v4.52 (NLCT)
 \glstreeindent=\skip65
 ))
+("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra-bib2gls.s
+ty"
+Package: glossaries-extra-bib2gls 2023/04/24 v1.51 (NLCT)
+)
 \@glsxtr@leveloffset=\count311
 \glsxtrresourcecount=\count312
 \@glsxtrnewgls@inner=\count313
@@ -776,7 +778,13 @@ s.def"
 File: glossaries-extra-abbrstyles.def 2022/06/16 v1.48b (NLCT)
 )
 \mglselementindex=\count314
-) ("./3 - HyS.glstex")
+
+("C:/Program Files/MiKTeX/tex/latex/glossaries-extra/glossaries-extra-stylemods
+.sty"
+Package: glossaries-extra-stylemods 2023/04/24 v1.51 (NLCT)
+\glsxtrAltTreeIndent=\skip66
+\glsxtrtreetopindent=\skip67
+)) ("./3 - HyS.glstex")
 ("C:/Program Files/MiKTeX/tex/latex/imakeidx/imakeidx.sty"
 Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
 nous mode
@@ -795,8 +803,8 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \page@free=\dimen165
 \premulticols=\dimen166
 \postmulticols=\dimen167
-\multicolsep=\skip66
-\multicolbaselineskip=\skip67
+\multicolsep=\skip68
+\multicolbaselineskip=\skip69
 \partial@page=\box63
 \last@line=\box64
 \maxbalancingoverflow=\dimen168
@@ -891,7 +899,7 @@ Lua module: microtype 2023/03/13 3.1a microtype module.
 Module microtype Info: overwriting function `keepligature' on input line 63
 LaTeX Info: Redefining \lsstyle on input line 688.
 LaTeX Info: Redefining \lslig on input line 688.
-\MT@outer@space=\skip68
+\MT@outer@space=\skip70
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/microtype/microtype.cfg
@@ -1021,7 +1029,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip69
+\Hy@SectionHShift=\skip71
 )
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
@@ -1075,8 +1083,8 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \ar@mcellbox=\box116
 \extrarowheight=\dimen187
 \NC@list=\toks40
-\extratabsurround=\skip70
-\backup@length=\skip71
+\extratabsurround=\skip72
+\backup@length=\skip73
 \ar@cellbox=\box117
 ))
 
@@ -1494,7 +1502,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \enitkv@toks@=\toks52
-\labelindent=\skip72
+\labelindent=\skip74
 \enit@outerparindent=\dimen360
 \enit@toks=\toks53
 \enit@inbox=\box151
@@ -1509,203 +1517,119 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 (C:/Users/Usuario/AppData/Roaming/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip73
-\f@nch@O@elh=\skip74
-\f@nch@O@erh=\skip75
-\f@nch@O@olh=\skip76
-\f@nch@O@orh=\skip77
-\f@nch@O@elf=\skip78
-\f@nch@O@erf=\skip79
-\f@nch@O@olf=\skip80
-\f@nch@O@orf=\skip81
+\f@nch@headwidth=\skip75
+\f@nch@O@elh=\skip76
+\f@nch@O@erh=\skip77
+\f@nch@O@olh=\skip78
+\f@nch@O@orh=\skip79
+\f@nch@O@elf=\skip80
+\f@nch@O@erf=\skip81
+\f@nch@O@olf=\skip82
+\f@nch@O@orf=\skip83
 )
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 8.8pt on input line 278.
+(Font)              scaled to size 8.8pt on input line 292.
 
 ("./3 - HyS.aux" (./src/HyS-ToC.aux)
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-LaTeX Info: Redefining \rmfamily on input line 43.
-LaTeX Info: Redefining \sffamily on input line 43.
-LaTeX Info: Redefining \ttfamily on input line 43.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
+LaTeX Info: Redefining \rmfamily on input line 45.
+LaTeX Info: Redefining \sffamily on input line 45.
+LaTeX Info: Redefining \ttfamily on input line 45.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \lim on input line 43.
-LaTeX Info: Redefining \limsup on input line 43.
-LaTeX Info: Redefining \liminf on input line 43.
-LaTeX Info: Redefining \max on input line 43.
-LaTeX Info: Redefining \min on input line 43.
-LaTeX Info: Redefining \inf on input line 43.
-LaTeX Info: Redefining \bmod on input line 43.
-LaTeX Info: Redefining \pmod on input line 43.
-LaTeX Info: Redefining \arccos on input line 43.
-LaTeX Info: Redefining \arcsin on input line 43.
-LaTeX Info: Redefining \arctan on input line 43.
-LaTeX Info: Redefining \sin on input line 43.
-LaTeX Info: Redefining \tan on input line 43.
-LaTeX Info: Redefining \sinh on input line 43.
-LaTeX Info: Redefining \tanh on input line 43.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
  (./src/HyS-3.1.aux) (./src/HyS-3.2.aux)
-(./src/HyS-3.3.aux) (./src/HyS-3.4.aux) (./src/HyS-3.5.aux) (./src/HyS-3.6.aux) (./src/HyS-3.7.aux
-
-LaTeX Warning: Label `changelog-3.7' multiply defined.
-
-
-LaTeX Warning: Label `changelog-3.7@cref' multiply defined.
-
-) (./src/HyS-3.8.aux) (./src/HyS-3.9.aux) (./src/HyS-3.10.aux
-
-LaTeX Warning: Label `changelog-3.9' multiply defined.
-
-
-LaTeX Warning: Label `changelog-3.9@cref' multiply defined.
-
-) (./src/HyS-3.11.aux
-
-LaTeX Warning: Label `changelog-3.9' multiply defined.
-
-
-LaTeX Warning: Label `changelog-3.9@cref' multiply defined.
-
-) (./src/HyS-3.12.aux
-
-LaTeX Warning: Label `changelog-3.9' multiply defined.
-
-
-LaTeX Warning: Label `changelog-3.9@cref' multiply defined.
-
-) (./src/HyS-3.13.aux) (./src/HyS-3.14.aux) (./src/HyS-3.15.aux
-
-LaTeX Warning: Label `changelog-3.14' multiply defined.
-
-
-LaTeX Warning: Label `changelog-3.14@cref' multiply defined.
-
-) (./src/HyS-3.16.aux
-
-LaTeX Warning: Label `changelog-3.14' multiply defined.
-
-
-LaTeX Warning: Label `changelog-3.14@cref' multiply defined.
-
-) (./src/HyS-3.17.aux
-
-LaTeX Warning: Label `changelog-3.14' multiply defined.
-
-
-LaTeX Warning: Label `changelog-3.14@cref' multiply defined.
-
-) (./src/HyS-3.18.aux) (./src/HyS-3.19.aux
-
-LaTeX Warning: Label `changelog-3.18' multiply defined.
-
-
-LaTeX Warning: Label `changelog-3.18@cref' multiply defined.
-
-) (./src/HyS-3.20.aux) (./src/HyS-3.21.aux
-
-LaTeX Warning: Label `changelog-3.20' multiply defined.
-
-
-LaTeX Warning: Label `changelog-3.20@cref' multiply defined.
-
-) (./src/HyS-3.22.aux
-
-LaTeX Warning: Label `changelog-3.20' multiply defined.
-
-
-LaTeX Warning: Label `changelog-3.20@cref' multiply defined.
-
-) (./src/HyS-3.23.aux) (./src/HyS-3.24.aux) (./src/HyS-3.25.aux)
-(./src/HyS-G.aux) (./src/HyS-I.aux))
+(./src/HyS-3.3.aux) (./src/HyS-3.4.aux) (./src/HyS-3.5.aux) (./src/HyS-3.6.aux) (./src/HyS-3.7.aux) (./src/HyS-3.8.aux) (./src/HyS-3.9.aux)
+(./src/HyS-3.10.aux) (./src/HyS-3.11.aux) (./src/HyS-3.12.aux)
+(./src/HyS-3.13.aux) (./src/HyS-3.14.aux) (./src/HyS-3.15.aux)
+(./src/HyS-3.16.aux) (./src/HyS-3.17.aux) (./src/HyS-3.18.aux)
+(./src/HyS-3.19.aux) (./src/HyS-3.20.aux) (./src/HyS-3.21.aux)
+(./src/HyS-3.22.aux) (./src/HyS-3.23.aux) (./src/HyS-3.24.aux)
+(./src/HyS-3.25.aux) (./src/HyS-G.aux) (./src/HyS-I.aux))
 \openout1 = 3 - HyS.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 278.
-LaTeX Font Info:    ... okay on input line 278.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 278.
-LaTeX Font Info:    ... okay on input line 278.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 278.
-LaTeX Font Info:    ... okay on input line 278.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 278.
-LaTeX Font Info:    ... okay on input line 278.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 278.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 292.
+LaTeX Font Info:    ... okay on input line 292.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 292.
+LaTeX Font Info:    ... okay on input line 292.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 292.
+LaTeX Font Info:    ... okay on input line 292.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 292.
+LaTeX Font Info:    ... okay on input line 292.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 292.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-78.
+92.
 
 ("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd"
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 278.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 278.
-LaTeX Font Info:    ... okay on input line 278.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 278.
-LaTeX Font Info:    ... okay on input line 278.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 278.
-LaTeX Font Info:    ... okay on input line 278.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 278.
-LaTeX Font Info:    ... okay on input line 278.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 278.
-LaTeX Font Info:    ... okay on input line 278.
+LaTeX Font Info:    ... okay on input line 292.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 292.
+LaTeX Font Info:    ... okay on input line 292.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 292.
+LaTeX Font Info:    ... okay on input line 292.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 292.
+LaTeX Font Info:    ... okay on input line 292.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 292.
+LaTeX Font Info:    ... okay on input line 292.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 292.
+LaTeX Font Info:    ... okay on input line 292.
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 278.
+(Font)              scaled to size 10.0pt on input line 292.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 278.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 278.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 278.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 278.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 278.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 278.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 278.
-LaTeX Font Info:    Redeclaring math accent \check on input line 278.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 278.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 278.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 278.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 278.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 278.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 292.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 292.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 292.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 292.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 292.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 292.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 292.
+LaTeX Font Info:    Redeclaring math accent \check on input line 292.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 292.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 292.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 292.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 292.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 278.
+(Font)              `operators' in the math version `normal' on input line 292.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 278.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 292.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 278.
+(Font)              `operators' in the math version `bold' on input line 292.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 278.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 292.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 278.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 292.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 278.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 292.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 278.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 292.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Carlito(0)/m/n on input line 278.
+(Font)                  OT1/cmss/m/n --> TU/Carlito(0)/m/n on input line 292.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 278.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 292.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 278.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 292.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 278.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 292.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Carlito(0)/b/n on input line 278.
+(Font)                  OT1/cmss/bx/n --> TU/Carlito(0)/b/n on input line 292.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 278.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 292.
 The property list \__xpg_alias contains the pairs (without outer braces):
 >  {latex/target}  =>  {latex}
 >  {spanish/target}  =>  {spanish}
@@ -1726,7 +1650,7 @@ File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `spanish'. on input line 278.
+or `spanish'. on input line 292.
 
 ("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1749,19 +1673,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 ("C:/Program Files/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg"
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 278.
-Package microtype Info: Applying patch `item' on input line 278.
-Package microtype Info: Applying patch `toc' on input line 278.
-Package microtype Info: Applying patch `eqnum' on input line 278.
-Package microtype Info: Applying patch `footnote' on input line 278.
-Package microtype Info: Applying patch `verbatim' on input line 278.
+LaTeX Info: Redefining \microtypecontext on input line 292.
+Package microtype Info: Applying patch `item' on input line 292.
+Package microtype Info: Applying patch `toc' on input line 292.
+Package microtype Info: Applying patch `eqnum' on input line 292.
+Package microtype Info: Applying patch `footnote' on input line 292.
+Package microtype Info: Applying patch `verbatim' on input line 292.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 278.
+LaTeX Info: Redefining \showhyphens on input line 292.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -1769,14 +1693,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Carlito' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring OFF on input line 278.
+Package hyperref Info: Link coloring OFF on input line 292.
  ("./3 - HyS.out") ("./3 - HyS.out")
 \@outlinefile=\write5
 
 \openout5 = 3 - HyS.out
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 278.
+(lastpage)             ! on input line 292.
 
 ("C:/Program Files/MiKTeX/tex/latex/ninecolors/ninecolors.sty"
 Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
@@ -1791,7 +1715,7 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot twoside heightrounded 
 * h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
-* v-part:(T,H,B)=(28.45274pt, 738.0645pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 743.75496pt, 22.76228pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=557.38951pt
@@ -1802,7 +1726,7 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 * \headheight=110.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
-* \footskip=13.2pt
+* \footskip=17.6pt
 * \marginparwidth=121.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
@@ -1816,31 +1740,12 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-LaTeX Info: Redefining \rmfamily on input line 278.
-LaTeX Info: Redefining \sffamily on input line 278.
-LaTeX Info: Redefining \ttfamily on input line 278.
+LaTeX Info: Redefining \rmfamily on input line 292.
+LaTeX Info: Redefining \sffamily on input line 292.
+LaTeX Info: Redefining \ttfamily on input line 292.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage esp
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \lim on input line 278.
-LaTeX Info: Redefining \limsup on input line 278.
-LaTeX Info: Redefining \liminf on input line 278.
-LaTeX Info: Redefining \max on input line 278.
-LaTeX Info: Redefining \min on input line 278.
-LaTeX Info: Redefining \inf on input line 278.
-LaTeX Info: Redefining \bmod on input line 278.
-LaTeX Info: Redefining \pmod on input line 278.
-LaTeX Info: Redefining \arccos on input line 278.
-LaTeX Info: Redefining \arcsin on input line 278.
-LaTeX Info: Redefining \arctan on input line 278.
-LaTeX Info: Redefining \sin on input line 278.
-LaTeX Info: Redefining \tan on input line 278.
-LaTeX Info: Redefining \sinh on input line 278.
-LaTeX Info: Redefining \tanh on input line 278.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
 
 \openout2 = src/HyS-ToC.aux
 (./src/HyS-ToC.tex
@@ -1851,31 +1756,12 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
 LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 9.
  ("./3 - HyS.toc"
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage esp
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \lim on input line 1.
-LaTeX Info: Redefining \limsup on input line 1.
-LaTeX Info: Redefining \liminf on input line 1.
-LaTeX Info: Redefining \max on input line 1.
-LaTeX Info: Redefining \min on input line 1.
-LaTeX Info: Redefining \inf on input line 1.
-LaTeX Info: Redefining \bmod on input line 1.
-LaTeX Info: Redefining \pmod on input line 1.
-LaTeX Info: Redefining \arccos on input line 1.
-LaTeX Info: Redefining \arcsin on input line 1.
-LaTeX Info: Redefining \arctan on input line 1.
-LaTeX Info: Redefining \sin on input line 1.
-LaTeX Info: Redefining \tan on input line 1.
-LaTeX Info: Redefining \sinh on input line 1.
-LaTeX Info: Redefining \tanh on input line 1.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
 LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
 
@@ -1964,7 +1850,7 @@ uage esp
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-<./RDF_Logo.png, id=1192, 411.03563pt x 107.65219pt>
+<./RDF_Logo.png, id=1196, 411.03563pt x 107.65219pt>
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
 Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
@@ -2004,6 +1890,8 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 40.
 
 
 <./RDF_Logo.png>]
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage esp
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -2528,24 +2416,18 @@ LaTeX Info: Redefining \ttfamily on input line 302.
 luaotfload | aux : font no 30 (nil) defines no feature for script latn with lang
 uage esp
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \lim on input line 302.
-LaTeX Info: Redefining \limsup on input line 302.
-LaTeX Info: Redefining \liminf on input line 302.
-LaTeX Info: Redefining \max on input line 302.
-LaTeX Info: Redefining \min on input line 302.
-LaTeX Info: Redefining \inf on input line 302.
-LaTeX Info: Redefining \bmod on input line 302.
-LaTeX Info: Redefining \pmod on input line 302.
-LaTeX Info: Redefining \arccos on input line 302.
-LaTeX Info: Redefining \arcsin on input line 302.
-LaTeX Info: Redefining \arctan on input line 302.
-LaTeX Info: Redefining \sin on input line 302.
-LaTeX Info: Redefining \tan on input line 302.
-LaTeX Info: Redefining \sinh on input line 302.
-LaTeX Info: Redefining \tanh on input line 302.
 LaTeX Info: Redefining \rmfamily on input line 302.
 LaTeX Info: Redefining \sffamily on input line 302.
 LaTeX Info: Redefining \ttfamily on input line 302.
+LaTeX Info: Redefining \rmfamily on input line 303.
+LaTeX Info: Redefining \sffamily on input line 303.
+LaTeX Info: Redefining \ttfamily on input line 303.
+luaotfload | aux : font no 30 (nil) defines no feature for script latn with lang
+uage esp
+Package polyglossia Info: totalhyphenmin:'5'.
+LaTeX Info: Redefining \rmfamily on input line 303.
+LaTeX Info: Redefining \sffamily on input line 303.
+LaTeX Info: Redefining \ttfamily on input line 303.
 )
 \tf@toc=\write6
 
@@ -4831,36 +4713,36 @@ uage esp
 > Step: calculate cell and line sizes.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 303.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 317.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 303.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 317.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 303.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 317.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 303.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 317.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 303.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 317.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 303.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 317.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 303.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 317.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 303.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 317.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
  [60
 
@@ -4980,36 +4862,36 @@ uage esp
 > Step: calculate cell and line sizes.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 305.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 319.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 305.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 319.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 305.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 319.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 305.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 319.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 305.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 319.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 305.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 319.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 305.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 319.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 File: ./RDF_Logo.png Graphic file (type png)
 <use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 305.
+Package luatex.def Info: ./RDF_Logo.png  used on input line 319.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 
 [63
@@ -5018,38 +4900,59 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 305.
 
 ]
 \openout2 = src/HyS-G.aux
- (./src/HyS-G.tex ("./3 - HyS.acr")) ("./3 - HyS.gls"
+ (./src/HyS-G.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textspanish' on input line 1.
+(hyperref)                removing `\textspanish' on input line 8.
 
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage esp
-LaTeX Info: Redefining \rmfamily on input line 1.
-LaTeX Info: Redefining \sffamily on input line 1.
-LaTeX Info: Redefining \ttfamily on input line 1.
+LaTeX Info: Redefining \rmfamily on input line 8.
+LaTeX Info: Redefining \sffamily on input line 8.
+LaTeX Info: Redefining \ttfamily on input line 8.
 luaotfload | aux : font no 29 (nil) defines no feature for script latn with lang
 uage esp
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \lim on input line 1.
-LaTeX Info: Redefining \limsup on input line 1.
-LaTeX Info: Redefining \liminf on input line 1.
-LaTeX Info: Redefining \max on input line 1.
-LaTeX Info: Redefining \min on input line 1.
-LaTeX Info: Redefining \inf on input line 1.
-LaTeX Info: Redefining \bmod on input line 1.
-LaTeX Info: Redefining \pmod on input line 1.
-LaTeX Info: Redefining \arccos on input line 1.
-LaTeX Info: Redefining \arcsin on input line 1.
-LaTeX Info: Redefining \arctan on input line 1.
-LaTeX Info: Redefining \sin on input line 1.
-LaTeX Info: Redefining \tan on input line 1.
-LaTeX Info: Redefining \sinh on input line 1.
-LaTeX Info: Redefining \tanh on input line 1.
-LaTeX Info: Redefining \rmfamily on input line 1.
-LaTeX Info: Redefining \sffamily on input line 1.
-LaTeX Info: Redefining \ttfamily on input line 1.
-)
+LaTeX Info: Redefining \rmfamily on input line 8.
+LaTeX Info: Redefining \sffamily on input line 8.
+LaTeX Info: Redefining \ttfamily on input line 8.
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textspanish' on input line 9.
+
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+LaTeX Info: Redefining \rmfamily on input line 9.
+LaTeX Info: Redefining \sffamily on input line 9.
+LaTeX Info: Redefining \ttfamily on input line 9.
+luaotfload | aux : font no 29 (nil) defines no feature for script latn with lang
+uage esp
+Package polyglossia Info: totalhyphenmin:'5'.
+LaTeX Info: Redefining \rmfamily on input line 9.
+LaTeX Info: Redefining \sffamily on input line 9.
+LaTeX Info: Redefining \ttfamily on input line 9.
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage esp
 > Step: init table outer spec.
@@ -5060,11 +4963,193 @@ uage esp
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [64
+[64
 
 
 
 ]
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [65]
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [66]
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [67]
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [68]
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [69]
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp)
+luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
+uage esp
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [70]
 \openout2 = src/HyS-I.aux
  (./src/HyS-I.tex) ("./3 - HyS.ind"
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
@@ -5072,7 +5157,8 @@ uage esp)
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage esp
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
-uage esp [65
+uage esp
+[71
 
 
 
@@ -5144,35 +5230,15 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {spanishmx/target}  =>  {spanish}
 >  {spanishmx/variant}  =>  {mexican}
 >  {spanishmx/options}  =>  {variant=mexican}.
-
-
+ 
 AED: lastpage setting LastPage
 ("./3 - HyS.aux" (./src/HyS-ToC.aux)
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
-LaTeX Info: Redefining \rmfamily on input line 43.
-LaTeX Info: Redefining \sffamily on input line 43.
-LaTeX Info: Redefining \ttfamily on input line 43.
+LaTeX Info: Redefining \rmfamily on input line 45.
+LaTeX Info: Redefining \sffamily on input line 45.
+LaTeX Info: Redefining \ttfamily on input line 45.
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 uage esp
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
 Package polyglossia Info: totalhyphenmin:'5'.
-LaTeX Info: Redefining \lim on input line 43.
-LaTeX Info: Redefining \limsup on input line 43.
-LaTeX Info: Redefining \liminf on input line 43.
-LaTeX Info: Redefining \max on input line 43.
-LaTeX Info: Redefining \min on input line 43.
-LaTeX Info: Redefining \inf on input line 43.
-LaTeX Info: Redefining \bmod on input line 43.
-LaTeX Info: Redefining \pmod on input line 43.
-LaTeX Info: Redefining \arccos on input line 43.
-LaTeX Info: Redefining \arcsin on input line 43.
-LaTeX Info: Redefining \arctan on input line 43.
-LaTeX Info: Redefining \sin on input line 43.
-LaTeX Info: Redefining \tan on input line 43.
-LaTeX Info: Redefining \sinh on input line 43.
-LaTeX Info: Redefining \tanh on input line 43.
-Package polyglossia Info: Option: Spanish, spanishoperators=all.
  (./src/HyS-3.1.aux) (./src/HyS-3.2.aux)
 (./src/HyS-3.3.aux) (./src/HyS-3.4.aux) (./src/HyS-3.5.aux) (./src/HyS-3.6.aux) (./src/HyS-3.7.aux) (./src/HyS-3.8.aux) (./src/HyS-3.9.aux)
 (./src/HyS-3.10.aux) (./src/HyS-3.11.aux) (./src/HyS-3.12.aux)
@@ -5181,31 +5247,27 @@ Package polyglossia Info: Option: Spanish, spanishoperators=all.
 (./src/HyS-3.19.aux) (./src/HyS-3.20.aux) (./src/HyS-3.21.aux)
 (./src/HyS-3.22.aux) (./src/HyS-3.23.aux) (./src/HyS-3.24.aux)
 (./src/HyS-3.25.aux) (./src/HyS-G.aux) (./src/HyS-I.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `"3 - HyS".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 )
 
 Here is how much of LuaTeX's memory you used:
- 50252 strings out of 478263
+ 50705 strings out of 478263
  125240,4921788 words of node,token memory allocated
- 698 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 5 glue, 4 kern, 1 penalty, 1 margin_ke
-rn, 4 glyph, 16 attribute, 68 glue_spec, 16 attribute_list, 6 write, 1 pdf_actio
-n nodes
-   avail lists: 1:3,2:1633,3:743,4:240,5:1355,6:200,7:8529,8:2,9:1818,10:10,11:1
+ 687 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 5 glue, 4 kern, 1 penalty, 3 glyph, 16
+ attribute, 68 glue_spec, 16 attribute_list, 6 write, 1 pdf_action nodes
+   avail lists: 1:2,2:1637,3:749,4:241,5:1379,6:200,7:8531,8:2,9:1818,10:10,11:1
 049
- 66233 multiletter control sequences out of 65536+600000
+ 66675 multiletter control sequences out of 65536+600000
  60 fonts using 10489495 bytes
- 106i,26n,131p,5780b,1354s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,26n,131p,6015b,1610s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-italic.ttf><
 //?/c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-bold.ttf><//?
 /c:/users/usuario/appdata/local/microsoft/windows/fonts/carlito-regular.ttf>
-Output written on 3 - HyS.pdf (65 pages, 478781 bytes).
+Output written on 3 - HyS.pdf (71 pages, 506049 bytes).
 
-PDF statistics: 2346 PDF objects out of 2487 (max. 8388607)
- 636 named destinations out of 1000 (max. 131072)
- 2312 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 2413 PDF objects out of 2487 (max. 8388607)
+ 643 named destinations out of 1000 (max. 131072)
+ 2320 words of extra memory for PDF output out of 10000 (max. 100000000)
 

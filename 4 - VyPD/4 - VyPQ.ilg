@@ -1,0 +1,9 @@
+This is makeindex, version 2.16 [MiKTeX 23.4].
+Scanning input file 4 - VyPQ.idx....
+!! Input index error (file = 4 - VyPQ.idx, line = 2):
+   -- Extra `!' at position 50 of first argument.
+done (1 entries accepted, 1 rejected).
+Sorting entries...done (0 comparisons).
+Generating output file 4 - VyPQ.ind....done (7 lines written, 0 warnings).
+Output written in 4 - VyPQ.ind.
+Transcript written in 4 - VyPQ.ilg.

@@ -1,13 +1,13 @@
 \thispagestyle{formato-PI}
 \renewcommand{\MayorVer}{2}
 \renewcommand{\MenorVer}{0}
-\renewcommand{\Codigo}{PSA-1-PROG} %TODO
+ %TODO
 \renewcommand{\FechaPub}{2023--01}
-%\renewcommand{\Edit}{2.1}
+\renewcommand{\TipoID}{PRO}
 \renewcommand{\Titulo}{Aprobación de cambios a procedimientos}
 
 \section{\Titulo}\index{Información documentada!aprobación de cambios a procedimientos}
-
+\renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 \subsection{Objetivo}
 Asegurar que se aprueben las modificaciones realizadas a la \gls{informacion-documentada} con el propósito de tener un consenso en la revisión más reciente de los documentos. 
 
@@ -102,8 +102,8 @@ Se revisarán los procedimientos anualmente.
 \subsubsection{Actualización}
 Es posible realizar una actualización a algún procedimiento previo al periodo de vigencia del documento, solo debe de indicarse la nueva fecha de actualización.
 
-\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-2.16]
-	\begin{version}[v=2.0, date=2023--01, author=Pablo E. Alanis]
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer6]
+	\begin{version}[v=\MayorVer.\MenorVer, date=2023--01, author=Pablo E. Alanis]
 		\item Cambios de formato;
 		\item cambio de código;
 		\item cambios en redacción.

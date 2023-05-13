@@ -1,0 +1,62 @@
+;; This logfile was generated automatically by `xindy'
+;; at 12.05.2023  09:43:57
+;; Indexstyle: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\4 - VyPD\\BxzcSKjtJX", Rawindex: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\4 - VyPD\\JRL4F35AcH", Output: "4 - VyPQ.gls"
+
+
+Building indexentry-tree:
+Hierdepth of index is :TREE
+
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+
+Forming letter-groups:
+Letter-group: "´¨»È¨—ð€|í|—Ð¨¼œ—††¨€³¼|" -> "L"
+Letter-group: "€´¨»—¼ÚÃ|" -> "A"
+Letter-group: "ÈËÃà†ÚÃ|" -> "P"
+Letter-group: "¨¼œÃË»€†¨€³¼|" -> "I"
+Letter-group: "Ã†à»—¼ÚÃ|" -> "D"
+Letter-group: "ÃË€¼¨ð€†¨€³¼|" -> "O"
+Letter-group: "Ë—¨ÐÚËÃ|" -> "R"
+Letter-group: "—ÐÈ—†¨œ¨†€†¨€³¼|" -> "E"
+Letter-group: "¼¨å—´|€†—ÈÚ€„´—|" -> "N"
+Letter-group: "¨¼Ã†à¨€|—|´ÃÐ|€´¨»—¼ÚÃÐ|" -> "I"
+Letter-group: "ÈËÃà†ÚÃ|Ú—Ë»¨¼€Ã|" -> "P"
+Letter-group: "ÈËÃ†—ÐÃ|" -> "P"
+Letter-group: "»—¨€|—|†Ã¼ÚËÃ´|" -> "M"
+Letter-group: "†Ë¨Ú—Ë¨Ã|—|€††¨€³¼|" -> "C"
+Letter-group: "¨¼œÃË»€†¨€³¼|Ã†à»—¼Ú€€|" -> "I"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "€´¨»—¼ÚÃ|" -> "A"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "†Ë¨Ú—Ë¨Ã|—|€††¨€³¼|" -> "C"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "Ã†à»—¼ÚÃ|" -> "D"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "—ÐÈ—†¨œ¨†€†¨€³¼|" -> "E"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "¨¼œÃË»€†¨€³¼|" -> "I"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "´¨»È¨—ð€|í|—Ð¨¼œ—††¨€³¼|" -> "L"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "»—¨€|—|†Ã¼ÚËÃ´|" -> "M"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "¼¨å—´|€†—ÈÚ€„´—|" -> "N"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "ÃË€¼¨ð€†¨€³¼|" -> "O"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "ÈËÃ†—ÐÃ|" -> "P"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "Ë—¨ÐÚËÃ|" -> "R"

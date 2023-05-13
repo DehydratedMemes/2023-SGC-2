@@ -1,12 +1,13 @@
 \thispagestyle{formato-PI}
 \renewcommand{\MayorVer}{2}
 \renewcommand{\MenorVer}{0}
-\renewcommand{\Codigo}{PSA-1-PROG} %TODO
+ %TODO
 \renewcommand{\FechaPub}{2023--01}
-%\renewcommand{\Edit}{2.1}
+\renewcommand{\TipoID}{IT}
 \renewcommand{\Titulo}{Instructivo para selección de tarimas de madera}
 
 \section{\Titulo}\index{Información documentada!tipo!especificación!Instructivo para selección de tarimas de madera}
+\renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 
 \subsection{Objetivo}
 
@@ -18,15 +19,9 @@ Seleccionar tarimas en buenas condiciones para evitar riesgo de contaminación d
 
 \subsection{Términos y definiciones}
 
-N/A
-
-%\subsection{Documentos y/o normas relacionadas}
-
-%N/A
-
 \subsection{Actividades}
-
-\subsubsection{Descartar tarimas que presenten:}
+\subsubsection{Descartar tarimas}
+Las tarimas que presenten alguno de estos daños deben ser separadas de las tarimas de uso y ser desechadas del almacén para evitar ser reutilizadas.
 
 \begin{itemize}
 	\item Tarimas con restos de material orgánico que genere una posible contaminación del producto.
@@ -35,7 +30,16 @@ N/A
 	\item Tarimas con clavos expuestos.
 \end{itemize}
 
-Las tarimas que presenten alguno de estos daños deben ser separadas de las tarimas de uso y ser desechadas del almacén para evitar ser reutilizadas.
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer9]
+	\begin{version}[v=\MayorVer.\MenorVer, date=2023--01, author=Pablo E. Alanis]
+		% \fixed
+		\item Cambio de formato;
+		\item Cambios en la serialización de versiones;
+	\end{version}
 
-\subsection{Listado de distribución}
+	\begin{version}[v=1.7, date=2022--05, author=Alonso M.]
+		\item cambio de fecha;
+	\end{version}
 
+	\shortversion{v=1.6, date=2021--05, changes=No hubo cambios}
+\end{changelog}

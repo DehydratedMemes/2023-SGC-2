@@ -3,11 +3,11 @@
 \renewcommand{\MenorVer}{0}
 \renewcommand{\Codigo}{PSA-6-CE}
 \renewcommand{\FechaPub}{2023--01}
-
+\renewcommand{\TipoID}{PRO}
 \renewcommand{\Titulo}{Procedimiento para solicitud de citas}
 
 \section{\Titulo}\index{Procedimiento!solicitud de citas}
-
+\renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 Estimado cliente, a continuación le presentamos el proceso y lineamientos para la solicitud de citas tanto ingresos como salidas de material.
 
 Le solicitamos que las citas sean solicitadas mínimo con 24 horas de anticipación mediante correo electrónico al equipo de mesa de control en los siguientes horarios:
@@ -143,8 +143,8 @@ Para la \emph{salida de producto TIF} se requiere se nos informen los datos de l
 	C.P. 64410, Monterrey N.L., México
 \end{note}
 
-\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-2.6]
-	\begin{version}[v=2.0, date=2023--01, author=Pablo E. Alanis]
+\begin{changelog}[simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer]
+	\begin{version}[v=\MayorVer.\MenorVer, date=2023--01, author=Pablo E. Alanis]
 		\item Cambio de formato;
 		\item los contactos se agregaron a recuadros;
 		\item cambio de código;

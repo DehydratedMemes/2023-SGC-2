@@ -1,0 +1,40 @@
+\selectlanguage *[spanishoperators=all]{spanish}
+\contentsline {section}{\numberline {1}Programa de control de alérgenos}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivo}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Alcance}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Terminología y definiciones}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Documentos y/o normas relacionadas}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Control de alérgenos en planta}{3}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Contacto cruzado de alérgenos}{4}{subsubsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.6}Responsables de la actividad}{4}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Acciones correctivas}{4}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Frecuencia}{5}{subsection.1.8}%
+\contentsline {section}{\numberline {2}Manejo de proteína cruda fresca}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Objetivo}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Alcance}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Términos y definiciones}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Documentos y/o normas relacionadas}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Procedimiento}{6}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Precauciones de seguridad}{6}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Instrucciones}{7}{subsubsection.2.5.2}%
+\contentsline {paragraph}{\numberline {2.5.2.1}Almacenaje de proteína cruda}{7}{paragraph.2.5.2.1}%
+\contentsline {paragraph}{\numberline {2.5.2.2}Embarque de proteína cruda}{7}{paragraph.2.5.2.2}%
+\contentsline {paragraph}{\numberline {2.5.2.3}Alérgenos}{7}{paragraph.2.5.2.3}%
+\contentsline {subsection}{\numberline {2.6}Responsables de la actividad}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Acciones preventivas}{8}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Acciones correctivas}{8}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Frecuencia}{8}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Limpieza de utensilios de limpieza de alérgenos}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Objetivo}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Alcance}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Terminología y definiciones}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Procedimiento}{9}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Materiales}{9}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Instrucciones}{9}{subsubsection.3.4.2}%
+\contentsline {paragraph}{\numberline {3.4.2.1}Derrame de alérgenos en el piso de almacén, cámaras frías y andenes}{9}{paragraph.3.4.2.1}%
+\contentsline {subsection}{\numberline {3.5}Responsables de la actividad}{10}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Acciones preventivas}{10}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Acciones correctivas}{10}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Frecuencia}{10}{subsection.3.8}%
+\contentsline {section}{\textspanish {Siglas}}{11}{section*.5}%
+\contentsline {section}{\textspanish {Glosario}}{11}{section*.7}%

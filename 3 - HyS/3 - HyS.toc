@@ -1,4 +1,4 @@
-\selectlanguage *[spanishoperators=all]{spanish}
+\selectlanguage *{spanish}
 \contentsline {section}{\numberline {1}Limpieza de cámaras de refrigeración}{9}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Objetivo}{9}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Alcance}{9}{subsection.1.2}%
@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {3.6}Acciones preventivas}{16}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Acciones correctivas}{16}{subsection.3.7}%
 \contentsline {subsection}{\numberline {3.8}Frecuencia}{16}{subsection.3.8}%
-\contentsline {section}{\numberline {4}Lavado de rampas mecánicas}{18}{section.4}%
+\contentsline {section}{\numberline {4}Limpieza de rampas mecánicas}{18}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Objetivo}{18}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Alcance}{18}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Terminología y definiciones}{18}{subsection.4.3}%
@@ -48,7 +48,7 @@
 \contentsline {subsection}{\numberline {4.6}Acciones preventivas}{19}{subsection.4.6}%
 \contentsline {subsection}{\numberline {4.7}Acciones correctivas}{19}{subsection.4.7}%
 \contentsline {subsection}{\numberline {4.8}Frecuencia}{19}{subsection.4.8}%
-\contentsline {section}{\numberline {5}Lavado de montacargas y patines}{20}{section.5}%
+\contentsline {section}{\numberline {5}Limpieza de montacargas y patines}{20}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Objetivo}{20}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Alcance}{20}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Terminología y definiciones}{20}{subsection.5.3}%
@@ -61,7 +61,7 @@
 \contentsline {subsection}{\numberline {5.6}Acciones preventivas}{21}{subsection.5.6}%
 \contentsline {subsection}{\numberline {5.7}Acciones correctivas}{21}{subsection.5.7}%
 \contentsline {subsection}{\numberline {5.8}Frecuencia}{21}{subsection.5.8}%
-\contentsline {section}{\numberline {6}Lavado de artículos de andén}{22}{section.6}%
+\contentsline {section}{\numberline {6}Limpieza de artículos de andén}{22}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Objetivo}{22}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Alcance}{22}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Terminología y definiciones}{22}{subsection.6.3}%
@@ -70,233 +70,234 @@
 \contentsline {subsubsection}{\numberline {6.4.2}Instrucciones}{22}{subsubsection.6.4.2}%
 \contentsline {paragraph}{\numberline {6.4.2.1}Mesa de trabajo}{22}{paragraph.6.4.2.1}%
 \contentsline {subparagraph}{\numberline {6.4.2.1.1}Preoperativo}{22}{subparagraph.6.4.2.1.1}%
-\contentsline {section}{\numberline {7}Mesa después de inspección}{22}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Responsables de la actividad}{23}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Acciones preventivas}{23}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Acciones correctivas}{23}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Frecuencia}{23}{subsection.7.4}%
-\contentsline {section}{\numberline {8}Limpieza de aduana sanitaria}{24}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Objetivos}{24}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Alcance}{24}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Terminología y definiciones}{24}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Procedimiento}{24}{subsection.8.4}%
-\contentsline {subsubsection}{\numberline {8.4.1}Materiales}{24}{subsubsection.8.4.1}%
-\contentsline {subsubsection}{\numberline {8.4.2}Instrucciones}{24}{subsubsection.8.4.2}%
-\contentsline {paragraph}{\numberline {8.4.2.1}Preoperativo}{24}{paragraph.8.4.2.1}%
-\contentsline {subparagraph}{\numberline {8.4.2.1.1}Limpieza de aduana sanitaria}{24}{subparagraph.8.4.2.1.1}%
-\contentsline {paragraph}{\numberline {8.4.2.2}Lavado de tapete sanitario, tarja y pisos}{25}{paragraph.8.4.2.2}%
-\contentsline {subparagraph}{\numberline {8.4.2.2.1}Pisos}{25}{subparagraph.8.4.2.2.1}%
-\contentsline {subparagraph}{\numberline {8.4.2.2.2}Tapete}{25}{subparagraph.8.4.2.2.2}%
-\contentsline {subparagraph}{\numberline {8.4.2.2.3}Tarja}{25}{subparagraph.8.4.2.2.3}%
-\contentsline {subsection}{\numberline {8.5}Responsables de la actividad}{25}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Acciones preventivas}{25}{subsection.8.6}%
-\contentsline {subsection}{\numberline {8.7}Acciones correctivas}{25}{subsection.8.7}%
-\contentsline {subsection}{\numberline {8.8}Frecuencia}{26}{subsection.8.8}%
-\contentsline {section}{\numberline {9}Preparación y aplicación de solución desinfectante para unidades de transporte}{27}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Objetivo}{27}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Alcance}{27}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Terminología y definiciones}{27}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Procedimiento}{27}{subsection.9.4}%
-\contentsline {subsubsection}{\numberline {9.4.1}Materiales}{27}{subsubsection.9.4.1}%
-\contentsline {subsubsection}{\numberline {9.4.2}Instrucciones}{27}{subsubsection.9.4.2}%
-\contentsline {paragraph}{\numberline {9.4.2.1}Desinfección}{27}{paragraph.9.4.2.1}%
-\contentsline {subsection}{\numberline {9.5}Responsables de la actividad}{28}{subsection.9.5}%
-\contentsline {subsection}{\numberline {9.6}Acciones correctivas}{28}{subsection.9.6}%
-\contentsline {subsection}{\numberline {9.7}Frecuencia}{28}{subsection.9.7}%
-\contentsline {section}{\numberline {10}Preparación de solución desinfectante}{29}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Objetivo}{29}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Alcance}{29}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Terminología y definiciones}{29}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Procedimiento}{29}{subsection.10.4}%
-\contentsline {subsubsection}{\numberline {10.4.1}Materiales}{29}{subsubsection.10.4.1}%
-\contentsline {subsubsection}{\numberline {10.4.2}Instrucciones}{29}{subsubsection.10.4.2}%
-\contentsline {paragraph}{\numberline {10.4.2.1}Lavado y Desinfección}{29}{paragraph.10.4.2.1}%
-\contentsline {subsection}{\numberline {10.5}Acciones preventivas}{29}{subsection.10.5}%
-\contentsline {subsection}{\numberline {10.6}Acciones correctivas}{30}{subsection.10.6}%
-\contentsline {subsection}{\numberline {10.7}Frecuencia}{30}{subsection.10.7}%
-\contentsline {section}{\numberline {11}Lavado de patios de carga y colchonetas}{31}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Objetivo}{31}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Alcance}{31}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Terminología y definiciones}{31}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}Procedimiento}{31}{subsection.11.4}%
-\contentsline {subsubsection}{\numberline {11.4.1}Materiales}{31}{subsubsection.11.4.1}%
-\contentsline {subsubsection}{\numberline {11.4.2}Instrucciones}{31}{subsubsection.11.4.2}%
-\contentsline {paragraph}{\numberline {11.4.2.1}Preoperativo}{31}{paragraph.11.4.2.1}%
-\contentsline {subparagraph}{\numberline {11.4.2.1.1}Lavado de patios de carga}{31}{subparagraph.11.4.2.1.1}%
-\contentsline {paragraph}{\numberline {11.4.2.2}Operativo}{31}{paragraph.11.4.2.2}%
-\contentsline {subparagraph}{\numberline {11.4.2.2.1}Limpieza diaria de pisos de carga y exteriores}{32}{subparagraph.11.4.2.2.1}%
-\contentsline {subparagraph}{\numberline {11.4.2.2.2}Lavado de Colchonetas}{32}{subparagraph.11.4.2.2.2}%
-\contentsline {subsection}{\numberline {11.5}Responsables de la actividad}{32}{subsection.11.5}%
-\contentsline {subsection}{\numberline {11.6}Acciones preventivas}{32}{subsection.11.6}%
-\contentsline {subsection}{\numberline {11.7}Acciones correctivas}{32}{subsection.11.7}%
-\contentsline {subsection}{\numberline {11.8}Frecuencia}{32}{subsection.11.8}%
-\contentsline {section}{\numberline {12}Lavado de patio de montacargas}{34}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Objetivo}{34}{subsection.12.1}%
-\contentsline {subsection}{\numberline {12.2}Alcance}{34}{subsection.12.2}%
-\contentsline {subsection}{\numberline {12.3}Terminología y definiciones}{34}{subsection.12.3}%
-\contentsline {subsection}{\numberline {12.4}Procedimiento}{34}{subsection.12.4}%
-\contentsline {subsubsection}{\numberline {12.4.1}Materiales}{34}{subsubsection.12.4.1}%
-\contentsline {subsubsection}{\numberline {12.4.2}Instrucciones}{34}{subsubsection.12.4.2}%
-\contentsline {paragraph}{\numberline {12.4.2.1}Preoperativo}{34}{paragraph.12.4.2.1}%
-\contentsline {subparagraph}{\numberline {12.4.2.1.1}Limpieza de paredes y techos}{34}{subparagraph.12.4.2.1.1}%
-\contentsline {subsection}{\numberline {12.5}Responsables de la actividad}{35}{subsection.12.5}%
-\contentsline {subsection}{\numberline {12.6}Acciones preventivas}{35}{subsection.12.6}%
-\contentsline {subsection}{\numberline {12.7}Acciones correctivas}{35}{subsection.12.7}%
-\contentsline {subsection}{\numberline {12.8}Frecuencia}{35}{subsection.12.8}%
-\contentsline {section}{\numberline {13}Lavado de accesorios de limpieza}{36}{section.13}%
-\contentsline {subsection}{\numberline {13.1}Objetivo}{36}{subsection.13.1}%
-\contentsline {subsection}{\numberline {13.2}Alcance}{36}{subsection.13.2}%
-\contentsline {subsection}{\numberline {13.3}Terminología y definiciones}{36}{subsection.13.3}%
-\contentsline {subsection}{\numberline {13.4}Procedimiento}{36}{subsection.13.4}%
-\contentsline {subsubsection}{\numberline {13.4.1}Materiales}{36}{subsubsection.13.4.1}%
-\contentsline {subsubsection}{\numberline {13.4.2}Instrucciones}{36}{subsubsection.13.4.2}%
-\contentsline {paragraph}{\numberline {13.4.2.1}Operativo}{36}{paragraph.13.4.2.1}%
-\contentsline {subparagraph}{\numberline {13.4.2.1.1}Limpieza de accesorios de limpieza}{36}{subparagraph.13.4.2.1.1}%
-\contentsline {subsection}{\numberline {13.5}Responsables de la actividad}{37}{subsection.13.5}%
-\contentsline {subsection}{\numberline {13.6}Acciones preventivas}{37}{subsection.13.6}%
-\contentsline {subsection}{\numberline {13.7}Acciones correctivas}{37}{subsection.13.7}%
-\contentsline {subsection}{\numberline {13.8}Frecuencia}{37}{subsection.13.8}%
-\contentsline {section}{\numberline {14}Lavado de utensilios de limpieza de alérgenos}{38}{section.14}%
-\contentsline {subsection}{\numberline {14.1}Objetivo}{38}{subsection.14.1}%
-\contentsline {subsection}{\numberline {14.2}Alcance}{38}{subsection.14.2}%
-\contentsline {subsection}{\numberline {14.3}Terminología y definiciones}{38}{subsection.14.3}%
-\contentsline {subsection}{\numberline {14.4}Procedimiento}{38}{subsection.14.4}%
-\contentsline {subsubsection}{\numberline {14.4.1}Materiales}{38}{subsubsection.14.4.1}%
-\contentsline {subsubsection}{\numberline {14.4.2}Instrucciones}{38}{subsubsection.14.4.2}%
-\contentsline {paragraph}{\numberline {14.4.2.1}Derrame de alérgenos en el piso de almacén, cámaras frías y andenes}{38}{paragraph.14.4.2.1}%
-\contentsline {subsection}{\numberline {14.5}Responsables de la actividad}{39}{subsection.14.5}%
-\contentsline {subsection}{\numberline {14.6}Acciones preventivas}{39}{subsection.14.6}%
-\contentsline {subsection}{\numberline {14.7}Acciones correctivas}{39}{subsection.14.7}%
-\contentsline {subsection}{\numberline {14.8}Frecuencia}{39}{subsection.14.8}%
-\contentsline {section}{\numberline {15}Limpieza de oficinas}{40}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Objetivo}{40}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}Alcance}{40}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Terminología y definiciones}{40}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}Procedimiento}{40}{subsection.15.4}%
-\contentsline {subsubsection}{\numberline {15.4.1}Materiales}{40}{subsubsection.15.4.1}%
-\contentsline {subsubsection}{\numberline {15.4.2}Instrucciones}{40}{subsubsection.15.4.2}%
-\contentsline {paragraph}{\numberline {15.4.2.1}Limpieza de pisos}{40}{paragraph.15.4.2.1}%
-\contentsline {paragraph}{\numberline {15.4.2.2}Limpieza de escritorios}{41}{paragraph.15.4.2.2}%
-\contentsline {paragraph}{\numberline {15.4.2.3}Limpieza de ventanas:}{41}{paragraph.15.4.2.3}%
-\contentsline {subsection}{\numberline {15.5}Responsables de la actividad}{41}{subsection.15.5}%
-\contentsline {subsection}{\numberline {15.6}Acciones preventivas}{41}{subsection.15.6}%
-\contentsline {subsection}{\numberline {15.7}Acciones correctivas}{41}{subsection.15.7}%
-\contentsline {subsection}{\numberline {15.8}Frecuencia}{41}{subsection.15.8}%
-\contentsline {section}{\numberline {16}Lavado de contenedores de basura}{43}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Objetivo}{43}{subsection.16.1}%
-\contentsline {subsection}{\numberline {16.2}Alcance}{43}{subsection.16.2}%
-\contentsline {subsection}{\numberline {16.3}Terminología y definiciones}{43}{subsection.16.3}%
-\contentsline {subsection}{\numberline {16.4}Procedimiento}{43}{subsection.16.4}%
-\contentsline {subsubsection}{\numberline {16.4.1}Materiales}{43}{subsubsection.16.4.1}%
-\contentsline {subsubsection}{\numberline {16.4.2}Instrucciones}{43}{subsubsection.16.4.2}%
-\contentsline {subsection}{\numberline {16.5}Responsables de la actividad}{43}{subsection.16.5}%
-\contentsline {subsection}{\numberline {16.6}Acciones preventivas}{44}{subsection.16.6}%
-\contentsline {subsection}{\numberline {16.7}Acciones correctivas}{44}{subsection.16.7}%
-\contentsline {subsection}{\numberline {16.8}Frecuencia}{44}{subsection.16.8}%
-\contentsline {section}{\numberline {17}Lavado de baños de empleados}{45}{section.17}%
-\contentsline {subsection}{\numberline {17.1}Objetivo}{45}{subsection.17.1}%
-\contentsline {subsection}{\numberline {17.2}Alcance}{45}{subsection.17.2}%
-\contentsline {subsection}{\numberline {17.3}Terminología y definiciones}{45}{subsection.17.3}%
-\contentsline {subsection}{\numberline {17.4}Procedimiento}{45}{subsection.17.4}%
-\contentsline {subsubsection}{\numberline {17.4.1}Materiales}{45}{subsubsection.17.4.1}%
-\contentsline {subsubsection}{\numberline {17.4.2}Instrucciones}{45}{subsubsection.17.4.2}%
-\contentsline {paragraph}{\numberline {17.4.2.1}Operativo}{45}{paragraph.17.4.2.1}%
-\contentsline {subparagraph}{\numberline {17.4.2.1.1}Mingitorios, Sanitarios, lavamanos y pisos}{45}{subparagraph.17.4.2.1.1}%
-\contentsline {subsection}{\numberline {17.5}Responsables de la actividad}{46}{subsection.17.5}%
-\contentsline {subsection}{\numberline {17.6}Acciones preventivas}{46}{subsection.17.6}%
-\contentsline {subsection}{\numberline {17.7}Acciones correctivas}{46}{subsection.17.7}%
-\contentsline {subsection}{\numberline {17.8}Frecuencia}{46}{subsection.17.8}%
-\contentsline {section}{\numberline {18}Lavado del comedor}{47}{section.18}%
-\contentsline {subsection}{\numberline {18.1}Objetivo}{47}{subsection.18.1}%
-\contentsline {subsection}{\numberline {18.2}Alcance}{47}{subsection.18.2}%
-\contentsline {subsection}{\numberline {18.3}Terminología y definiciones}{47}{subsection.18.3}%
-\contentsline {subsection}{\numberline {18.4}Procedimiento}{47}{subsection.18.4}%
-\contentsline {subsubsection}{\numberline {18.4.1}Materiales}{47}{subsubsection.18.4.1}%
-\contentsline {subsubsection}{\numberline {18.4.2}Instrucciones}{47}{subsubsection.18.4.2}%
-\contentsline {paragraph}{\numberline {18.4.2.1}Operativo}{47}{paragraph.18.4.2.1}%
-\contentsline {subparagraph}{\numberline {18.4.2.1.1}Limpieza para mesa y equipo de comedor}{47}{subparagraph.18.4.2.1.1}%
-\contentsline {subparagraph}{\numberline {18.4.2.1.2}Limpieza de pisos}{48}{subparagraph.18.4.2.1.2}%
-\contentsline {subsection}{\numberline {18.5}Responsables de la actividad}{48}{subsection.18.5}%
-\contentsline {subsection}{\numberline {18.6}Acciones preventivas}{48}{subsection.18.6}%
-\contentsline {subsection}{\numberline {18.7}Acciones correctivas}{48}{subsection.18.7}%
-\contentsline {subsection}{\numberline {18.8}Frecuencia}{48}{subsection.18.8}%
-\contentsline {section}{\numberline {19}Lavado de uniformes}{50}{section.19}%
-\contentsline {subsection}{\numberline {19.1}Objetivo}{50}{subsection.19.1}%
-\contentsline {subsection}{\numberline {19.2}Alcance}{50}{subsection.19.2}%
-\contentsline {subsection}{\numberline {19.3}Terminología y definiciones}{50}{subsection.19.3}%
-\contentsline {subsection}{\numberline {19.4}Procedimiento}{50}{subsection.19.4}%
-\contentsline {subsubsection}{\numberline {19.4.1}Materiales}{50}{subsubsection.19.4.1}%
-\contentsline {subsubsection}{\numberline {19.4.2}Instrucciones}{50}{subsubsection.19.4.2}%
-\contentsline {paragraph}{\numberline {19.4.2.1}Lavado de uniformes}{50}{paragraph.19.4.2.1}%
-\contentsline {subsection}{\numberline {19.5}Responsables de la actividad}{50}{subsection.19.5}%
-\contentsline {subsection}{\numberline {19.6}Acciones preventivas}{51}{subsection.19.6}%
-\contentsline {subsection}{\numberline {19.7}Acciones correctivas}{51}{subsection.19.7}%
-\contentsline {subsection}{\numberline {19.8}Frecuencia}{51}{subsection.19.8}%
-\contentsline {section}{\numberline {20}Verificación de la eficacia de POES}{52}{section.20}%
-\contentsline {subsection}{\numberline {20.1}Objetivo}{52}{subsection.20.1}%
-\contentsline {subsection}{\numberline {20.2}Alcance}{52}{subsection.20.2}%
-\contentsline {subsection}{\numberline {20.3}Terminología y definiciones}{52}{subsection.20.3}%
-\contentsline {subsection}{\numberline {20.4}Procedimiento}{52}{subsection.20.4}%
-\contentsline {subsubsection}{\numberline {20.4.1}Materiales}{52}{subsubsection.20.4.1}%
-\contentsline {subsubsection}{\numberline {20.4.2}Instrucciones}{52}{subsubsection.20.4.2}%
-\contentsline {paragraph}{\numberline {20.4.2.1}Revisión visual de los equipos y áreas posterior a la realización de los procedimientos de operación estándar de sanitización}{52}{paragraph.20.4.2.1}%
-\contentsline {subsection}{\numberline {20.5}Responsables de la actividad}{52}{subsection.20.5}%
-\contentsline {subsection}{\numberline {20.6}Acciones preventivas}{52}{subsection.20.6}%
-\contentsline {subsection}{\numberline {20.7}Acciones correctivas}{53}{subsection.20.7}%
-\contentsline {subsection}{\numberline {20.8}Frecuencia}{53}{subsection.20.8}%
-\contentsline {section}{\numberline {21}Lavado de manos}{54}{section.21}%
-\contentsline {subsection}{\numberline {21.1}Objetivo}{54}{subsection.21.1}%
-\contentsline {subsection}{\numberline {21.2}Alcance}{54}{subsection.21.2}%
-\contentsline {subsection}{\numberline {21.3}Terminología y definiciones}{54}{subsection.21.3}%
-\contentsline {subsection}{\numberline {21.4}Procedimiento}{54}{subsection.21.4}%
-\contentsline {subsubsection}{\numberline {21.4.1}Materiales}{54}{subsubsection.21.4.1}%
-\contentsline {subsubsection}{\numberline {21.4.2}Instrucciones}{54}{subsubsection.21.4.2}%
-\contentsline {subsection}{\numberline {21.5}Responsables de la actividad}{55}{subsection.21.5}%
-\contentsline {subsection}{\numberline {21.6}Acciones preventivas}{55}{subsection.21.6}%
-\contentsline {subsection}{\numberline {21.7}Acciones correctivas}{55}{subsection.21.7}%
-\contentsline {subsection}{\numberline {21.8}Frecuencia}{55}{subsection.21.8}%
-\contentsline {section}{\numberline {22}Determinación de cloruro en agua}{56}{section.22}%
-\contentsline {subsection}{\numberline {22.1}Objetivo}{56}{subsection.22.1}%
-\contentsline {subsection}{\numberline {22.2}Alcance}{56}{subsection.22.2}%
-\contentsline {subsection}{\numberline {22.3}Terminología y definiciones}{56}{subsection.22.3}%
-\contentsline {subsection}{\numberline {22.4}Procedimiento}{56}{subsection.22.4}%
-\contentsline {subsubsection}{\numberline {22.4.1}Precauciones de seguridad}{56}{subsubsection.22.4.1}%
-\contentsline {subsubsection}{\numberline {22.4.2}Materiales}{56}{subsubsection.22.4.2}%
-\contentsline {subsubsection}{\numberline {22.4.3}Instrucciones}{56}{subsubsection.22.4.3}%
-\contentsline {subsection}{\numberline {22.5}Responsables de la actividad}{57}{subsection.22.5}%
-\contentsline {subsection}{\numberline {22.6}Acciones preventivas}{57}{subsection.22.6}%
-\contentsline {subsection}{\numberline {22.7}Acciones correctivas}{57}{subsection.22.7}%
-\contentsline {subsection}{\numberline {22.8}Frecuencia}{57}{subsection.22.8}%
-\contentsline {section}{\numberline {23}Limpieza en caso de derrame de químicos}{58}{section.23}%
-\contentsline {subsection}{\numberline {23.1}Objetivo}{58}{subsection.23.1}%
-\contentsline {subsection}{\numberline {23.2}Alcance}{58}{subsection.23.2}%
-\contentsline {subsection}{\numberline {23.3}Terminología y definiciones}{58}{subsection.23.3}%
-\contentsline {subsection}{\numberline {23.4}Documentos y/o normas relacionadas}{58}{subsection.23.4}%
-\contentsline {subsection}{\numberline {23.5}Procedimiento}{58}{subsection.23.5}%
-\contentsline {subsubsection}{\numberline {23.5.1}Instrucciones}{58}{subsubsection.23.5.1}%
-\contentsline {subsection}{\numberline {23.6}Responsables de la actividad}{58}{subsection.23.6}%
-\contentsline {subsection}{\numberline {23.7}Acciones correctivas}{59}{subsection.23.7}%
-\contentsline {subsection}{\numberline {23.8}Frecuencia}{59}{subsection.23.8}%
-\contentsline {section}{\numberline {24}Limpieza y desinfección de cisterna}{60}{section.24}%
-\contentsline {subsection}{\numberline {24.1}Objetivo}{60}{subsection.24.1}%
-\contentsline {subsection}{\numberline {24.2}Alcance}{60}{subsection.24.2}%
-\contentsline {subsection}{\numberline {24.3}Terminología y definiciones}{60}{subsection.24.3}%
-\contentsline {subsection}{\numberline {24.4}Procedimiento}{60}{subsection.24.4}%
-\contentsline {section}{\numberline {25}Cloración de agua potable}{61}{section.25}%
-\contentsline {subsection}{\numberline {25.1}Objetivo}{61}{subsection.25.1}%
-\contentsline {subsection}{\numberline {25.2}Alcance}{61}{subsection.25.2}%
-\contentsline {subsection}{\numberline {25.3}Terminología y definiciones}{61}{subsection.25.3}%
-\contentsline {subsection}{\numberline {25.4}Documentos y/o normas relacionadas}{61}{subsection.25.4}%
-\contentsline {subsection}{\numberline {25.5}Procedimiento}{61}{subsection.25.5}%
-\contentsline {subsubsection}{\numberline {25.5.1}Precauciones de seguridad}{61}{subsubsection.25.5.1}%
-\contentsline {subsubsection}{\numberline {25.5.2}Materiales}{61}{subsubsection.25.5.2}%
-\contentsline {subsubsection}{\numberline {25.5.3}Instrucciones}{61}{subsubsection.25.5.3}%
-\contentsline {subsection}{\numberline {25.6}Responsables de la actividad}{62}{subsection.25.6}%
-\contentsline {subsection}{\numberline {25.7}Acciones preventivas}{62}{subsection.25.7}%
-\contentsline {subsection}{\numberline {25.8}Acciones correctivas}{62}{subsection.25.8}%
-\contentsline {subsection}{\numberline {25.9}Frecuencia}{62}{subsection.25.9}%
-\contentsline {subsection}{\numberline {25.10}Historial de modificaciones}{62}{subsection.25.10}%
-\contentsline {section}{\numberline {26}Lista maestra de productos químicos}{63}{section.26}%
-\contentsline {subsection}{\numberline {26.1}Sanidad}{63}{subsection.26.1}%
-\contentsline {subsection}{\numberline {26.2}Montacargas}{63}{subsection.26.2}%
-\contentsline {section}{\textspanish {Glosario}}{64}{section*.25}%
+\contentsline {subsection}{\numberline {6.5}Mesa después de inspección}{22}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Responsables de la actividad}{23}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Acciones preventivas}{23}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Acciones correctivas}{23}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Frecuencia}{23}{subsection.6.9}%
+\contentsline {section}{\numberline {7}Limpieza de aduana sanitaria}{24}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Objetivos}{24}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Alcance}{24}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Terminología y definiciones}{24}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Procedimiento}{24}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}Materiales}{24}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}Instrucciones}{24}{subsubsection.7.4.2}%
+\contentsline {paragraph}{\numberline {7.4.2.1}Preoperativo}{24}{paragraph.7.4.2.1}%
+\contentsline {subparagraph}{\numberline {7.4.2.1.1}Limpieza de aduana sanitaria}{24}{subparagraph.7.4.2.1.1}%
+\contentsline {paragraph}{\numberline {7.4.2.2}Limpieza de tapete sanitario, tarja y pisos}{25}{paragraph.7.4.2.2}%
+\contentsline {subparagraph}{\numberline {7.4.2.2.1}Pisos}{25}{subparagraph.7.4.2.2.1}%
+\contentsline {subparagraph}{\numberline {7.4.2.2.2}Tapete}{25}{subparagraph.7.4.2.2.2}%
+\contentsline {subparagraph}{\numberline {7.4.2.2.3}Tarja}{25}{subparagraph.7.4.2.2.3}%
+\contentsline {subsection}{\numberline {7.5}Responsables de la actividad}{25}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Acciones preventivas}{25}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Acciones correctivas}{25}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Frecuencia}{26}{subsection.7.8}%
+\contentsline {section}{\numberline {8}Preparación y aplicación de solución desinfectante para unidades de transporte}{27}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Objetivo}{27}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Alcance}{27}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Terminología y definiciones}{27}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Procedimiento}{27}{subsection.8.4}%
+\contentsline {subsubsection}{\numberline {8.4.1}Materiales}{27}{subsubsection.8.4.1}%
+\contentsline {subsubsection}{\numberline {8.4.2}Instrucciones}{27}{subsubsection.8.4.2}%
+\contentsline {paragraph}{\numberline {8.4.2.1}Desinfección}{27}{paragraph.8.4.2.1}%
+\contentsline {subsection}{\numberline {8.5}Responsables de la actividad}{28}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Acciones correctivas}{28}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Frecuencia}{28}{subsection.8.7}%
+\contentsline {section}{\numberline {9}Preparación de solución desinfectante}{29}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Objetivo}{29}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Alcance}{29}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Terminología y definiciones}{29}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Procedimiento}{29}{subsection.9.4}%
+\contentsline {subsubsection}{\numberline {9.4.1}Materiales}{29}{subsubsection.9.4.1}%
+\contentsline {subsubsection}{\numberline {9.4.2}Instrucciones}{29}{subsubsection.9.4.2}%
+\contentsline {paragraph}{\numberline {9.4.2.1}Limpieza y desinfección}{29}{paragraph.9.4.2.1}%
+\contentsline {subsection}{\numberline {9.5}Acciones preventivas}{29}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Acciones correctivas}{30}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}Frecuencia}{30}{subsection.9.7}%
+\contentsline {section}{\numberline {10}Limpieza de patios de carga y colchonetas}{31}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Objetivo}{31}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Alcance}{31}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Terminología y definiciones}{31}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Procedimiento}{31}{subsection.10.4}%
+\contentsline {subsubsection}{\numberline {10.4.1}Materiales}{31}{subsubsection.10.4.1}%
+\contentsline {subsubsection}{\numberline {10.4.2}Instrucciones}{31}{subsubsection.10.4.2}%
+\contentsline {paragraph}{\numberline {10.4.2.1}Preoperativo}{31}{paragraph.10.4.2.1}%
+\contentsline {subparagraph}{\numberline {10.4.2.1.1}Limpieza de patios de carga}{31}{subparagraph.10.4.2.1.1}%
+\contentsline {paragraph}{\numberline {10.4.2.2}Operativo}{31}{paragraph.10.4.2.2}%
+\contentsline {subparagraph}{\numberline {10.4.2.2.1}Limpieza diaria de pisos de carga y exteriores}{32}{subparagraph.10.4.2.2.1}%
+\contentsline {subparagraph}{\numberline {10.4.2.2.2}Limpieza de Colchonetas}{32}{subparagraph.10.4.2.2.2}%
+\contentsline {subsection}{\numberline {10.5}Responsables de la actividad}{32}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}Acciones preventivas}{32}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}Acciones correctivas}{32}{subsection.10.7}%
+\contentsline {subsection}{\numberline {10.8}Frecuencia}{32}{subsection.10.8}%
+\contentsline {section}{\numberline {11}Limpieza de patio de montacargas}{34}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Objetivo}{34}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Alcance}{34}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Terminología y definiciones}{34}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Procedimiento}{34}{subsection.11.4}%
+\contentsline {subsubsection}{\numberline {11.4.1}Materiales}{34}{subsubsection.11.4.1}%
+\contentsline {subsubsection}{\numberline {11.4.2}Instrucciones}{34}{subsubsection.11.4.2}%
+\contentsline {paragraph}{\numberline {11.4.2.1}Preoperativo}{34}{paragraph.11.4.2.1}%
+\contentsline {subparagraph}{\numberline {11.4.2.1.1}Limpieza de paredes y techos}{34}{subparagraph.11.4.2.1.1}%
+\contentsline {subsection}{\numberline {11.5}Responsables de la actividad}{35}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}Acciones preventivas}{35}{subsection.11.6}%
+\contentsline {subsection}{\numberline {11.7}Acciones correctivas}{35}{subsection.11.7}%
+\contentsline {subsection}{\numberline {11.8}Frecuencia}{35}{subsection.11.8}%
+\contentsline {section}{\numberline {12}Limpieza de accesorios de limpieza}{36}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Objetivo}{36}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Alcance}{36}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Terminología y definiciones}{36}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Procedimiento}{36}{subsection.12.4}%
+\contentsline {subsubsection}{\numberline {12.4.1}Materiales}{36}{subsubsection.12.4.1}%
+\contentsline {subsubsection}{\numberline {12.4.2}Instrucciones}{36}{subsubsection.12.4.2}%
+\contentsline {paragraph}{\numberline {12.4.2.1}Operativo}{36}{paragraph.12.4.2.1}%
+\contentsline {subparagraph}{\numberline {12.4.2.1.1}Limpieza de accesorios de limpieza}{36}{subparagraph.12.4.2.1.1}%
+\contentsline {subsection}{\numberline {12.5}Responsables de la actividad}{37}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.6}Acciones preventivas}{37}{subsection.12.6}%
+\contentsline {subsection}{\numberline {12.7}Acciones correctivas}{37}{subsection.12.7}%
+\contentsline {subsection}{\numberline {12.8}Frecuencia}{37}{subsection.12.8}%
+\contentsline {section}{\numberline {13}Limpieza de utensilios de limpieza de alérgenos}{38}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Objetivo}{38}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Alcance}{38}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Terminología y definiciones}{38}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Procedimiento}{38}{subsection.13.4}%
+\contentsline {subsubsection}{\numberline {13.4.1}Materiales}{38}{subsubsection.13.4.1}%
+\contentsline {subsubsection}{\numberline {13.4.2}Instrucciones}{38}{subsubsection.13.4.2}%
+\contentsline {paragraph}{\numberline {13.4.2.1}Derrame de alérgenos en el piso de almacén, cámaras frías y andenes}{38}{paragraph.13.4.2.1}%
+\contentsline {subsection}{\numberline {13.5}Responsables de la actividad}{39}{subsection.13.5}%
+\contentsline {subsection}{\numberline {13.6}Acciones preventivas}{39}{subsection.13.6}%
+\contentsline {subsection}{\numberline {13.7}Acciones correctivas}{39}{subsection.13.7}%
+\contentsline {subsection}{\numberline {13.8}Frecuencia}{39}{subsection.13.8}%
+\contentsline {section}{\numberline {14}Limpieza de oficinas}{40}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Objetivo}{40}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Alcance}{40}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Terminología y definiciones}{40}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}Procedimiento}{40}{subsection.14.4}%
+\contentsline {subsubsection}{\numberline {14.4.1}Materiales}{40}{subsubsection.14.4.1}%
+\contentsline {subsubsection}{\numberline {14.4.2}Instrucciones}{40}{subsubsection.14.4.2}%
+\contentsline {paragraph}{\numberline {14.4.2.1}Limpieza de pisos}{40}{paragraph.14.4.2.1}%
+\contentsline {paragraph}{\numberline {14.4.2.2}Limpieza de escritorios}{41}{paragraph.14.4.2.2}%
+\contentsline {paragraph}{\numberline {14.4.2.3}Limpieza de ventanas:}{41}{paragraph.14.4.2.3}%
+\contentsline {subsection}{\numberline {14.5}Responsables de la actividad}{41}{subsection.14.5}%
+\contentsline {subsection}{\numberline {14.6}Acciones preventivas}{41}{subsection.14.6}%
+\contentsline {subsection}{\numberline {14.7}Acciones correctivas}{41}{subsection.14.7}%
+\contentsline {subsection}{\numberline {14.8}Frecuencia}{41}{subsection.14.8}%
+\contentsline {section}{\numberline {15}Limpieza de contenedores de basura}{43}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Objetivo}{43}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Alcance}{43}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Terminología y definiciones}{43}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}Procedimiento}{43}{subsection.15.4}%
+\contentsline {subsubsection}{\numberline {15.4.1}Materiales}{43}{subsubsection.15.4.1}%
+\contentsline {subsubsection}{\numberline {15.4.2}Instrucciones}{43}{subsubsection.15.4.2}%
+\contentsline {subsection}{\numberline {15.5}Responsables de la actividad}{43}{subsection.15.5}%
+\contentsline {subsection}{\numberline {15.6}Acciones preventivas}{44}{subsection.15.6}%
+\contentsline {subsection}{\numberline {15.7}Acciones correctivas}{44}{subsection.15.7}%
+\contentsline {subsection}{\numberline {15.8}Frecuencia}{44}{subsection.15.8}%
+\contentsline {section}{\numberline {16}Limpieza de baños de empleados}{45}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Objetivo}{45}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Alcance}{45}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Terminología y definiciones}{45}{subsection.16.3}%
+\contentsline {subsection}{\numberline {16.4}Procedimiento}{45}{subsection.16.4}%
+\contentsline {subsubsection}{\numberline {16.4.1}Materiales}{45}{subsubsection.16.4.1}%
+\contentsline {subsubsection}{\numberline {16.4.2}Instrucciones}{45}{subsubsection.16.4.2}%
+\contentsline {paragraph}{\numberline {16.4.2.1}Operativo}{45}{paragraph.16.4.2.1}%
+\contentsline {subparagraph}{\numberline {16.4.2.1.1}Mingitorios, Sanitarios, lavamanos y pisos}{45}{subparagraph.16.4.2.1.1}%
+\contentsline {subsection}{\numberline {16.5}Responsables de la actividad}{46}{subsection.16.5}%
+\contentsline {subsection}{\numberline {16.6}Acciones preventivas}{46}{subsection.16.6}%
+\contentsline {subsection}{\numberline {16.7}Acciones correctivas}{46}{subsection.16.7}%
+\contentsline {subsection}{\numberline {16.8}Frecuencia}{46}{subsection.16.8}%
+\contentsline {section}{\numberline {17}Lavado del comedor}{47}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Objetivo}{47}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Alcance}{47}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Terminología y definiciones}{47}{subsection.17.3}%
+\contentsline {subsection}{\numberline {17.4}Procedimiento}{47}{subsection.17.4}%
+\contentsline {subsubsection}{\numberline {17.4.1}Materiales}{47}{subsubsection.17.4.1}%
+\contentsline {subsubsection}{\numberline {17.4.2}Instrucciones}{47}{subsubsection.17.4.2}%
+\contentsline {paragraph}{\numberline {17.4.2.1}Operativo}{47}{paragraph.17.4.2.1}%
+\contentsline {subparagraph}{\numberline {17.4.2.1.1}Limpieza para mesa y equipo de comedor}{47}{subparagraph.17.4.2.1.1}%
+\contentsline {subparagraph}{\numberline {17.4.2.1.2}Limpieza de pisos}{48}{subparagraph.17.4.2.1.2}%
+\contentsline {subsection}{\numberline {17.5}Responsables de la actividad}{48}{subsection.17.5}%
+\contentsline {subsection}{\numberline {17.6}Acciones preventivas}{48}{subsection.17.6}%
+\contentsline {subsection}{\numberline {17.7}Acciones correctivas}{48}{subsection.17.7}%
+\contentsline {subsection}{\numberline {17.8}Frecuencia}{48}{subsection.17.8}%
+\contentsline {section}{\numberline {18}Limpieza de uniformes}{50}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Objetivo}{50}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Alcance}{50}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Terminología y definiciones}{50}{subsection.18.3}%
+\contentsline {subsection}{\numberline {18.4}Procedimiento}{50}{subsection.18.4}%
+\contentsline {subsubsection}{\numberline {18.4.1}Materiales}{50}{subsubsection.18.4.1}%
+\contentsline {subsubsection}{\numberline {18.4.2}Instrucciones}{50}{subsubsection.18.4.2}%
+\contentsline {paragraph}{\numberline {18.4.2.1}Limpieza de uniformes}{50}{paragraph.18.4.2.1}%
+\contentsline {subsection}{\numberline {18.5}Responsables de la actividad}{50}{subsection.18.5}%
+\contentsline {subsection}{\numberline {18.6}Acciones preventivas}{51}{subsection.18.6}%
+\contentsline {subsection}{\numberline {18.7}Acciones correctivas}{51}{subsection.18.7}%
+\contentsline {subsection}{\numberline {18.8}Frecuencia}{51}{subsection.18.8}%
+\contentsline {section}{\numberline {19}Verificación de la eficacia de POES}{52}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Objetivo}{52}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Alcance}{52}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}Terminología y definiciones}{52}{subsection.19.3}%
+\contentsline {subsection}{\numberline {19.4}Procedimiento}{52}{subsection.19.4}%
+\contentsline {subsubsection}{\numberline {19.4.1}Materiales}{52}{subsubsection.19.4.1}%
+\contentsline {subsubsection}{\numberline {19.4.2}Instrucciones}{52}{subsubsection.19.4.2}%
+\contentsline {paragraph}{\numberline {19.4.2.1}Revisión visual de los equipos y áreas posterior a la realización de los procedimientos de operación estándar de sanitización}{52}{paragraph.19.4.2.1}%
+\contentsline {subsection}{\numberline {19.5}Responsables de la actividad}{52}{subsection.19.5}%
+\contentsline {subsection}{\numberline {19.6}Acciones preventivas}{52}{subsection.19.6}%
+\contentsline {subsection}{\numberline {19.7}Acciones correctivas}{53}{subsection.19.7}%
+\contentsline {subsection}{\numberline {19.8}Frecuencia}{53}{subsection.19.8}%
+\contentsline {section}{\numberline {20}Limpieza de manos}{54}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Objetivo}{54}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}Alcance}{54}{subsection.20.2}%
+\contentsline {subsection}{\numberline {20.3}Terminología y definiciones}{54}{subsection.20.3}%
+\contentsline {subsection}{\numberline {20.4}Procedimiento}{54}{subsection.20.4}%
+\contentsline {subsubsection}{\numberline {20.4.1}Materiales}{54}{subsubsection.20.4.1}%
+\contentsline {subsubsection}{\numberline {20.4.2}Instrucciones}{54}{subsubsection.20.4.2}%
+\contentsline {subsection}{\numberline {20.5}Responsables de la actividad}{55}{subsection.20.5}%
+\contentsline {subsection}{\numberline {20.6}Acciones preventivas}{55}{subsection.20.6}%
+\contentsline {subsection}{\numberline {20.7}Acciones correctivas}{55}{subsection.20.7}%
+\contentsline {subsection}{\numberline {20.8}Frecuencia}{55}{subsection.20.8}%
+\contentsline {section}{\numberline {21}Determinación de cloruro en agua}{56}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Objetivo}{56}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Alcance}{56}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Terminología y definiciones}{56}{subsection.21.3}%
+\contentsline {subsection}{\numberline {21.4}Procedimiento}{56}{subsection.21.4}%
+\contentsline {subsubsection}{\numberline {21.4.1}Precauciones de seguridad}{56}{subsubsection.21.4.1}%
+\contentsline {subsubsection}{\numberline {21.4.2}Materiales}{56}{subsubsection.21.4.2}%
+\contentsline {subsubsection}{\numberline {21.4.3}Instrucciones}{56}{subsubsection.21.4.3}%
+\contentsline {subsection}{\numberline {21.5}Responsables de la actividad}{57}{subsection.21.5}%
+\contentsline {subsection}{\numberline {21.6}Acciones preventivas}{57}{subsection.21.6}%
+\contentsline {subsection}{\numberline {21.7}Acciones correctivas}{57}{subsection.21.7}%
+\contentsline {subsection}{\numberline {21.8}Frecuencia}{57}{subsection.21.8}%
+\contentsline {section}{\numberline {22}Limpieza en caso de derrame de químicos}{58}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Objetivo}{58}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Alcance}{58}{subsection.22.2}%
+\contentsline {subsection}{\numberline {22.3}Terminología y definiciones}{58}{subsection.22.3}%
+\contentsline {subsection}{\numberline {22.4}Documentos y/o normas relacionadas}{58}{subsection.22.4}%
+\contentsline {subsection}{\numberline {22.5}Procedimiento}{58}{subsection.22.5}%
+\contentsline {subsubsection}{\numberline {22.5.1}Instrucciones}{58}{subsubsection.22.5.1}%
+\contentsline {subsection}{\numberline {22.6}Responsables de la actividad}{58}{subsection.22.6}%
+\contentsline {subsection}{\numberline {22.7}Acciones correctivas}{59}{subsection.22.7}%
+\contentsline {subsection}{\numberline {22.8}Frecuencia}{59}{subsection.22.8}%
+\contentsline {section}{\numberline {23}Limpieza y desinfección de cisterna}{60}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Objetivo}{60}{subsection.23.1}%
+\contentsline {subsection}{\numberline {23.2}Alcance}{60}{subsection.23.2}%
+\contentsline {subsection}{\numberline {23.3}Terminología y definiciones}{60}{subsection.23.3}%
+\contentsline {subsection}{\numberline {23.4}Procedimiento}{60}{subsection.23.4}%
+\contentsline {section}{\numberline {24}Cloración de agua potable}{61}{section.24}%
+\contentsline {subsection}{\numberline {24.1}Objetivo}{61}{subsection.24.1}%
+\contentsline {subsection}{\numberline {24.2}Alcance}{61}{subsection.24.2}%
+\contentsline {subsection}{\numberline {24.3}Terminología y definiciones}{61}{subsection.24.3}%
+\contentsline {subsection}{\numberline {24.4}Documentos y/o normas relacionadas}{61}{subsection.24.4}%
+\contentsline {subsection}{\numberline {24.5}Procedimiento}{61}{subsection.24.5}%
+\contentsline {subsubsection}{\numberline {24.5.1}Precauciones de seguridad}{61}{subsubsection.24.5.1}%
+\contentsline {subsubsection}{\numberline {24.5.2}Materiales}{61}{subsubsection.24.5.2}%
+\contentsline {subsubsection}{\numberline {24.5.3}Instrucciones}{61}{subsubsection.24.5.3}%
+\contentsline {subsection}{\numberline {24.6}Responsables de la actividad}{62}{subsection.24.6}%
+\contentsline {subsection}{\numberline {24.7}Acciones preventivas}{62}{subsection.24.7}%
+\contentsline {subsection}{\numberline {24.8}Acciones correctivas}{62}{subsection.24.8}%
+\contentsline {subsection}{\numberline {24.9}Frecuencia}{62}{subsection.24.9}%
+\contentsline {subsection}{\numberline {24.10}Historial de modificaciones}{62}{subsection.24.10}%
+\contentsline {section}{\numberline {25}Lista maestra de productos químicos}{63}{section.25}%
+\contentsline {subsection}{\numberline {25.1}Sanidad}{63}{subsection.25.1}%
+\contentsline {subsection}{\numberline {25.2}Montacargas}{63}{subsection.25.2}%
+\contentsline {section}{\textspanish {Siglas}}{64}{section*.25}%
+\contentsline {section}{\textspanish {Glosario}}{64}{section*.27}%
