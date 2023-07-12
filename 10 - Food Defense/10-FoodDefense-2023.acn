@@ -4,6 +4,7 @@
 (indexentry :tkey (("RDF" "\\glossentry{RDF}") ) :locref "{}{7}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("RDF" "\\glossentry{RDF}") ) :locref "{}{7}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("PPRO" "\\glossentry{PPRO}") ) :locref "{}{12}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("RDF" "\\glossentry{RDF}") ) :locref "{}{13}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("RDF" "\\glossentry{RDF}") ) :locref "{}{16}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("HACCP" "\\glossentry{HACCP}") ) :locref "{}{16}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("RDF" "\\glossentry{RDF}") ) :locref "{}{20}" :attr "pageglsnumberformat" ) 

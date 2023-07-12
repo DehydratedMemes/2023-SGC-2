@@ -1,3 +1,4 @@
+\xpginauxfiletrue 
 \selectlanguage *[spanishoperators=all]{spanish}
 \contentsline {section}{\numberline {1}Inspección en la recepción de productos}{9}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Objetivo}{9}{subsection.1.1}%
@@ -251,43 +252,44 @@
 \contentsline {subsection}{\numberline {24.5}Procedimiento}{74}{subsection.24.5}%
 \contentsline {subsubsection}{\numberline {24.5.1}Acción Preventiva}{74}{subsubsection.24.5.1}%
 \contentsline {subsubsection}{\numberline {24.5.2}Acción Correctiva}{74}{subsubsection.24.5.2}%
+\contentsline {paragraph}{\numberline {24.5.2.1}Instrucciones para hacer una lluvia de ideas}{75}{paragraph.24.5.2.1}%
 \contentsline {subsubsection}{\numberline {24.5.3}Acciones correctivas generadas de Auditorias Interna o Externas}{75}{subsubsection.24.5.3}%
-\contentsline {subsubsection}{\numberline {24.5.4}Seguimiento y Validación de la Acción Correctiva de Auditoría Interna}{75}{subsubsection.24.5.4}%
+\contentsline {subsubsection}{\numberline {24.5.4}Seguimiento y Validación de la Acción Correctiva de Auditoría Interna}{76}{subsubsection.24.5.4}%
 \contentsline {subsubsection}{\numberline {24.5.5}Registros}{76}{subsubsection.24.5.5}%
 \contentsline {subsection}{\numberline {24.6}Frecuencia}{76}{subsection.24.6}%
-\contentsline {section}{\numberline {25}Elaboración y control de documentos}{77}{section.25}%
-\contentsline {subsection}{\numberline {25.1}Objetivo}{77}{subsection.25.1}%
-\contentsline {subsection}{\numberline {25.2}Alcance}{77}{subsection.25.2}%
-\contentsline {subsection}{\numberline {25.3}Términos y definiciones}{77}{subsection.25.3}%
-\contentsline {subsection}{\numberline {25.4}Responsables de la actividad}{78}{subsection.25.4}%
-\contentsline {subsubsection}{\numberline {25.4.1}Aseguramiento de Calidad}{78}{subsubsection.25.4.1}%
-\contentsline {subsubsection}{\numberline {25.4.2}Gerente de Mantenimiento}{78}{subsubsection.25.4.2}%
-\contentsline {subsubsection}{\numberline {25.4.3}Gerente de Operaciones}{78}{subsubsection.25.4.3}%
-\contentsline {subsection}{\numberline {25.5}Procedimiento}{78}{subsection.25.5}%
-\contentsline {subsubsection}{\numberline {25.5.1}Generación de Documentos}{78}{subsubsection.25.5.1}%
-\contentsline {paragraph}{\numberline {25.5.1.1}Estructura}{78}{paragraph.25.5.1.1}%
-\contentsline {paragraph}{\numberline {25.5.1.2}Edición}{78}{paragraph.25.5.1.2}%
-\contentsline {paragraph}{\numberline {25.5.1.3}Fecha de Publicación}{79}{paragraph.25.5.1.3}%
-\contentsline {paragraph}{\numberline {25.5.1.4}Contenido}{79}{paragraph.25.5.1.4}%
-\contentsline {paragraph}{\numberline {25.5.1.5}Tipo de letra}{79}{paragraph.25.5.1.5}%
-\contentsline {paragraph}{\numberline {25.5.1.6}Numeración}{79}{paragraph.25.5.1.6}%
-\contentsline {paragraph}{\numberline {25.5.1.7}Revisión y aprobación de Documentos}{79}{paragraph.25.5.1.7}%
-\contentsline {paragraph}{\numberline {25.5.1.8}Distribución, implementación y control de Documentos}{80}{paragraph.25.5.1.8}%
-\contentsline {paragraph}{\numberline {25.5.1.9}Cambios, alta o baja de documentos}{80}{paragraph.25.5.1.9}%
-\contentsline {paragraph}{\numberline {25.5.1.10}Control de documentos obsoletos:}{80}{paragraph.25.5.1.10}%
-\contentsline {subsubsection}{\numberline {25.5.2}Respaldo de la información}{81}{subsubsection.25.5.2}%
-\contentsline {subsection}{\numberline {25.6}Frecuencia}{81}{subsection.25.6}%
-\contentsline {section}{\numberline {26}Entrega de pequeñas cantidades}{82}{section.26}%
-\contentsline {subsection}{\numberline {26.1}Objetivos}{82}{subsection.26.1}%
-\contentsline {subsection}{\numberline {26.2}Alcance}{82}{subsection.26.2}%
-\contentsline {subsection}{\numberline {26.3}Términos y definiciones}{82}{subsection.26.3}%
-\contentsline {subsection}{\numberline {26.4}Documentos y/o normas relacionadas}{82}{subsection.26.4}%
-\contentsline {subsection}{\numberline {26.5}Procedimiento}{82}{subsection.26.5}%
-\contentsline {subsubsection}{\numberline {26.5.1}Precauciones de seguridad}{82}{subsubsection.26.5.1}%
-\contentsline {subsubsection}{\numberline {26.5.2}Instrucciones}{83}{subsubsection.26.5.2}%
-\contentsline {subsection}{\numberline {26.6}Responsables de la actividad}{83}{subsection.26.6}%
-\contentsline {subsection}{\numberline {26.7}Acciones preventivas}{83}{subsection.26.7}%
-\contentsline {subsection}{\numberline {26.8}Acciones correctivas}{83}{subsection.26.8}%
-\contentsline {subsection}{\numberline {26.9}Frecuencia}{83}{subsection.26.9}%
-\contentsline {section}{\textspanish {Siglas}}{84}{section*.26}%
-\contentsline {section}{\textspanish {Glosario}}{84}{section*.28}%
+\contentsline {section}{\numberline {25}Elaboración y control de documentos}{78}{section.25}%
+\contentsline {subsection}{\numberline {25.1}Objetivo}{78}{subsection.25.1}%
+\contentsline {subsection}{\numberline {25.2}Alcance}{78}{subsection.25.2}%
+\contentsline {subsection}{\numberline {25.3}Términos y definiciones}{78}{subsection.25.3}%
+\contentsline {subsection}{\numberline {25.4}Responsables de la actividad}{79}{subsection.25.4}%
+\contentsline {subsubsection}{\numberline {25.4.1}Aseguramiento de Calidad}{79}{subsubsection.25.4.1}%
+\contentsline {subsubsection}{\numberline {25.4.2}Gerente de Mantenimiento}{79}{subsubsection.25.4.2}%
+\contentsline {subsubsection}{\numberline {25.4.3}Gerente de Operaciones}{79}{subsubsection.25.4.3}%
+\contentsline {subsection}{\numberline {25.5}Procedimiento}{79}{subsection.25.5}%
+\contentsline {subsubsection}{\numberline {25.5.1}Generación de Documentos}{79}{subsubsection.25.5.1}%
+\contentsline {paragraph}{\numberline {25.5.1.1}Estructura}{79}{paragraph.25.5.1.1}%
+\contentsline {paragraph}{\numberline {25.5.1.2}Edición}{79}{paragraph.25.5.1.2}%
+\contentsline {paragraph}{\numberline {25.5.1.3}Fecha de Publicación}{80}{paragraph.25.5.1.3}%
+\contentsline {paragraph}{\numberline {25.5.1.4}Contenido}{80}{paragraph.25.5.1.4}%
+\contentsline {paragraph}{\numberline {25.5.1.5}Tipo de letra}{80}{paragraph.25.5.1.5}%
+\contentsline {paragraph}{\numberline {25.5.1.6}Numeración}{80}{paragraph.25.5.1.6}%
+\contentsline {paragraph}{\numberline {25.5.1.7}Revisión y aprobación de Documentos}{80}{paragraph.25.5.1.7}%
+\contentsline {paragraph}{\numberline {25.5.1.8}Distribución, implementación y control de Documentos}{81}{paragraph.25.5.1.8}%
+\contentsline {paragraph}{\numberline {25.5.1.9}Cambios, alta o baja de documentos}{81}{paragraph.25.5.1.9}%
+\contentsline {paragraph}{\numberline {25.5.1.10}Control de documentos obsoletos:}{81}{paragraph.25.5.1.10}%
+\contentsline {subsubsection}{\numberline {25.5.2}Respaldo de la información}{82}{subsubsection.25.5.2}%
+\contentsline {subsection}{\numberline {25.6}Frecuencia}{82}{subsection.25.6}%
+\contentsline {section}{\numberline {26}Entrega de pequeñas cantidades}{83}{section.26}%
+\contentsline {subsection}{\numberline {26.1}Objetivos}{83}{subsection.26.1}%
+\contentsline {subsection}{\numberline {26.2}Alcance}{83}{subsection.26.2}%
+\contentsline {subsection}{\numberline {26.3}Términos y definiciones}{83}{subsection.26.3}%
+\contentsline {subsection}{\numberline {26.4}Documentos y/o normas relacionadas}{83}{subsection.26.4}%
+\contentsline {subsection}{\numberline {26.5}Procedimiento}{83}{subsection.26.5}%
+\contentsline {subsubsection}{\numberline {26.5.1}Precauciones de seguridad}{83}{subsubsection.26.5.1}%
+\contentsline {subsubsection}{\numberline {26.5.2}Instrucciones}{84}{subsubsection.26.5.2}%
+\contentsline {subsection}{\numberline {26.6}Responsables de la actividad}{84}{subsection.26.6}%
+\contentsline {subsection}{\numberline {26.7}Acciones preventivas}{84}{subsection.26.7}%
+\contentsline {subsection}{\numberline {26.8}Acciones correctivas}{84}{subsection.26.8}%
+\contentsline {subsection}{\numberline {26.9}Frecuencia}{84}{subsection.26.9}%
+\contentsline {section}{\textspanish {Siglas}}{85}{section*.26}%
+\contentsline {section}{\textspanish {Glosario}}{85}{section*.28}%

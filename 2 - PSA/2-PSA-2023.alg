@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 12.05.2023  14:23:43
-;; Indexstyle: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\rKvczE97hT", Rawindex: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\2 - PSA\\bnK9yjafT0", Output: "2-PSA-2023.acr"
+;; at 06.07.2023  14:40:12
+;; Indexstyle: "/tmp/_bUD92BNlw", Rawindex: "/tmp/vxsFc33gNe", Output: "2-PSA-2023.acr"
 
 
 Building indexentry-tree:

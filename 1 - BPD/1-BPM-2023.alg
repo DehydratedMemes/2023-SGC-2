@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 17.04.2023  14:08:32
-;; Indexstyle: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\1 - BPD\\eUZ0YX7MDr", Rawindex: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\1 - BPD\\yPS64_wI6f", Output: "1-BPM-2023.acr"
+;; at 12.07.2023  10:58:32
+;; Indexstyle: "/tmp/qE3Ck3IOZS", Rawindex: "/tmp/K5EsUyh68C", Output: "1-BPM-2023.acr"
 
 
 Building indexentry-tree:

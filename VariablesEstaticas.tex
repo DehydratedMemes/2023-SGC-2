@@ -71,3 +71,7 @@
 %%%%%%%%%%%%%%%% PSA-2.15 | Almacenamiento de registros %%%%%%%%%%%%%%%%
 \newcommand{\VigenciaAlmacRegistros}{2 años}
 \newcommand{\VigenciaAlmacRegistrosElec}{3 años}
+
+%%%%%%%%%%%%%%%% GLOBAL | Resetear glosarios en cada sección %%%%%%%%%%%%%%%%
+\usepackage{etoolbox}
+\preto\section{\glsresetall}

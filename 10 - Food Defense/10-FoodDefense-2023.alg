@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 15.04.2023  10:15:59
-;; Indexstyle: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\HBJlAa27wL", Rawindex: "C:\\Users\\Usuario\\Documents\\SISTEMA DE GESTION DE CALIDAD\\2023-SGC-2\\10 - Food Defense\\NzivKEHwOE", Output: "10-FoodDefense-2023.acr"
+;; at 11.07.2023  08:37:31
+;; Indexstyle: "/tmp/SsdCuz0KG7", Rawindex: "/tmp/mpCDE45n1D", Output: "10-FoodDefense-2023.acr"
 
 
 Building indexentry-tree:
