@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 12.07.2023  11:00:10
-;; Indexstyle: "/tmp/4pdy2yic1h", Rawindex: "/tmp/psqZpL6xGw", Output: "1-BPM-2023.acr"
+;; at 12.07.2023  11:00:58
+;; Indexstyle: "/tmp/XbsxWYI2K8", Rawindex: "/tmp/hfifYIi3X2", Output: "1-BPM-2023.acr"
 
 
 Building indexentry-tree:
