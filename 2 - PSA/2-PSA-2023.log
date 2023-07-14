@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.7.10)  14 JUL 2023 14:01
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.7.10)  14 JUL 2023 14:16
  system commands enabled.
  file:line:error style messages enabled.
 **2-PSA-2023.tex
@@ -368,11 +368,11 @@ braces):
 >  {spanish/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
 >  {spanish/totalhyphenmin}  =>  {5}.
 Module polyglossia Info: Language data for spanish
-(polyglossia)            loader	loadhyph-es.tex
-(polyglossia)            patterns	hyph-es.pat.txt
+(polyglossia)            hyphenation	
 (polyglossia)            synonyms	espanol
 (polyglossia)            righthyphenmin	2
-(polyglossia)            hyphenation	
+(polyglossia)            patterns	hyph-es.pat.txt
+(polyglossia)            loader	loadhyph-es.tex
 (polyglossia)            lefthyphenmin	2 on input line 18
 Module polyglossia Info: Language spanish was not yet loaded; created with id 2 on input line 18
 Package polyglossia Info: Option: spanish, variant=spanish.
@@ -1490,20 +1490,20 @@ Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includehead includefoot twoside heightrounded 
-* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
+* modes: includehead includefoot twoside heightrounded showframe 
+* h-part:(L,W,R)=(42.67912pt, 543.16313pt, 28.45274pt)
 * v-part:(T,H,B)=(28.45274pt, 738.0645pt, 28.45274pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=557.38951pt
+* \textwidth=543.16313pt
 * \textheight=586.0pt
-* \oddsidemargin=-43.81725pt
+* \oddsidemargin=-29.59087pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-43.81725pt
 * \headheight=110.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
-* \footskip=13.2pt
+* \footskip=17.6pt
 * \marginparwidth=121.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
@@ -1809,7 +1809,7 @@ Here is how much of LuaTeX's memory you used:
  125236,2373549 words of node,token memory allocated
  1086 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 local_par, 9 glue, 4 kern, 1 penalty, 3 glyph, 47 attribute, 103 glue_spec, 47 attribute_list, 35 write nodes
-   avail lists: 1:1,2:1992,3:740,4:186,5:1046,6:112,7:9675,8:2,9:1177,10:33,11:1190
+   avail lists: 1:1,2:1989,3:740,4:186,5:1046,6:112,7:9735,8:2,9:1237,10:33,11:1190
  69513 multiletter control sequences out of 65536+600000
  62 fonts using 11380231 bytes
  111i,25n,131p,5781b,1241s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1818,7 +1818,7 @@ warning  (pdf backend): unreferenced destination with name 'section.9'
 
 warning  (pdf backend): unreferenced destination with name 'page.89'
 </usr/local/texlive/2023/texmf-dist/fonts/truetype/google/carlito/Carlito-BoldItalic.ttf></usr/local/texlive/2023/texmf-dist/fonts/truetype/google/carlito/Carlito-Italic.ttf></usr/local/texlive/2023/texmf-dist/fonts/truetype/google/carlito/Carlito-Bold.ttf></usr/local/texlive/2023/texmf-dist/fonts/truetype/google/carlito/Carlito-Regular.ttf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 2-PSA-2023.pdf (5 pages, 103101 bytes).
+Output written on 2-PSA-2023.pdf (5 pages, 103543 bytes).
 
 PDF statistics: 213 PDF objects out of 1000 (max. 8388607)
  170 compressed objects within 2 object streams
