@@ -87,7 +87,6 @@
 		\item Para \emph{alimentos congelados,} se estableció que la temperatura de almacenamiento debe de ser \qty{<= -12}{\degreeCelsius}.
 	\end{itemize}
 \end{note}
-
 \begin{note}[Criterios de acción para la aceptación de alimentos]\label{criterios:aceptacion}
 	Si la temperatura de los alimentos al realizar la inspección de la mercancía para su \emph{ingreso} está fuera del rango establecido según los rangos establecidos en el \cref{esp:generica}, se deben de tomar en cuenta las siguientes consideraciones para su aceptación:
 
@@ -122,9 +121,7 @@
 % 	      \end{itemize}
 % \end{itemize}
 
-
 \paragraph{Identificación del alimento}
-
 \begin{enumerate}
 	\item Al momento del envío de alimentos por parte de los proveedores se genera el documento de STOCK TRANFER el cual de manera inmediata es enviado a \gls{RDF} (control de Inventarios).
 	\item Mesa de control recibe el documento \textit{STOCK TRANSFER} y genera el \emph{identificador de control de interno\footnote{Este es nombre que recibe el identificador de tarima.}} antes de la llegada del alimento.
@@ -135,8 +132,8 @@
 
 \paragraph{Reglamento de permanencia de alimento en andén de carga}
 \begin{itemize}
-	\item Para \emph{\textbf{alimentos congelados:}} \TiempoAndenCong;
-	\item Para \emph{\textbf{alimentos refrigerados:}} \TiempoAndenRefri.
+	\item \emph{\textbf{Para alimentos congelados:}} \TiempoAndenCong;
+	\item \emph{\textbf{Para alimentos refrigerados:}} \TiempoAndenRefri.
 	\item[\textbf{NOTA:}] Este tiempo de permanencia en el andén no aplica para \emph{descargas a granel.}
 \end{itemize}
 
@@ -165,16 +162,15 @@
 
 Cada recepción de \gls{alimento}
 
-\begin{changelog}[title=Registro de cambios,simple, sectioncmd=\subsection*,]
+\begin{changelog}[title=Registro de cambios,simple, sectioncmd=\subsection*]
 	\begin{version}[v=2.0, date=2023--01, author=Pablo E. Alanis]
 			\item Cambio de formato;
 			\item Cambios en la serialización de versiones;
 			\item Se cambió "producto" por "alimento";
-
 			\item Separación entre PPR y PPRO.
 		\end{version}
 
-	\begin{shortversion}[v=2.1, date=2023--07, author=Pablo E. Alanis,label=changelog-\thesection-\MayorVer.\MenorVer]
+	\begin{version}[v=2.1, date=2023--07, author=Pablo E. Alanis]
 		\item Correcciones a rangos de temperatura.
-	\end{shortversion}
+	\end{version}
 \end{changelog}
