@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.7.17)  17 JUL 2023 16:14
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.7.17)  17 JUL 2023 16:31
  system commands enabled.
  file:line:error style messages enabled.
 **2-PSA-2023.tex
@@ -54,81 +54,7 @@ luaotfload | db : Font names database loaded from /home/pabloalanis/.texlive2023
 ) (../VariablesEstaticas.tex (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count191
-)) (../Formato.tex (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-06-30 L3 programming layer (loader) 
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count192
-Inserting `l3color' in `luaotfload.parse_color'.
-\l__pdf_internal_box=\box51
-))
-Package: xparse 2023-02-02 L3 Experimental document command parser
-)
-Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
-Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count193
-\l__fontspec_language_int=\count194
-\l__fontspec_strnum_int=\count195
-\l__fontspec_tmp_int=\count196
-\l__fontspec_tmpa_int=\count197
-\l__fontspec_tmpb_int=\count198
-\l__fontspec_tmpc_int=\count199
-\l__fontspec_em_int=\count266
-\l__fontspec_emdef_int=\count267
-\l__fontspec_strong_int=\count268
-\l__fontspec_strongdef_int=\count269
-\l__fontspec_tmpa_dim=\dimen140
-\l__fontspec_tmpb_dim=\dimen141
-\l__fontspec_tmpc_dim=\dimen142
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/local/texlive/2023/texmf-dist/tex/lualatex/luaquotes/luaquotes.sty
-Package: luaquotes 2023/01/251.4.0smart quotes with lua
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (/usr/local/texlive/2023/texmf-dist/tex/lualatex/luacode/luacode.sty
-Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
-Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
- (/usr/local/texlive/2023/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
-Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count270
-)
-\CatcodeTableOther=\catcodetable14
-\CatcodeTableExpl=\catcodetable15
-)
-\luacode@lines=\toks17
-\luacode@table@soft=\catcodetable16
-))
-luaotfload | cache : Lookup cache loaded from /home/pabloalanis/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
-luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
-luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
-
-Package fontspec Info: Font family 'SourceSansPro(0)' created for font 'Source
-(fontspec)             Sans Pro' with options [Ligatures=TeX].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"SourceSansPro:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"SourceSansPro:mode=node;script=latn;language=dflt;+tlig;+smcp;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"SourceSansPro/B:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"SourceSansPro/B:mode=node;script=latn;language=dflt;+tlig;+smcp;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"SourceSansPro/I:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"SourceSansPro/BI:mode=node;script=latn;language=dflt;+tlig;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
- (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
+)) (../Formato.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2023/07/15 v3.92 The Babel package
  (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
 \bbl@readstream=\read2
@@ -219,18 +145,18 @@ Package babel Info: Non-standard hyphenation setup on input line 118.
 \l@ukrainian=\language85
 \l@uppersorbian=\language86
 \l@welsh=\language87
-\babelcatcodetablenum=\catcodetable17
-\bbl@pattcodes=\catcodetable18
+\babelcatcodetablenum=\catcodetable14
+\bbl@pattcodes=\catcodetable15
 )
-\babel@savecnt=\count271
-\U@D=\dimen143
+\babel@savecnt=\count192
+\U@D=\dimen140
 \l@unhyphenated=\language88
  (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
 \bbl@attr@locale=\attribute4
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks18
-\es@quotdepth=\count272
+\es@quottoks=\toks17
+\es@quotdepth=\count193
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -238,6 +164,82 @@ Package babel Info: Making > an active character on input line 722.
  (/usr/local/texlive/2023/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-es.tex UTF-8 Spanish hyphenation patterns (/usr/local/texlive/2023/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-es.tex)))) (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-06-30 L3 programming layer (loader) 
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count194
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box51
+))
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count195
+\l__fontspec_language_int=\count196
+\l__fontspec_strnum_int=\count197
+\l__fontspec_tmp_int=\count198
+\l__fontspec_tmpa_int=\count199
+\l__fontspec_tmpb_int=\count266
+\l__fontspec_tmpc_int=\count267
+\l__fontspec_em_int=\count268
+\l__fontspec_emdef_int=\count269
+\l__fontspec_strong_int=\count270
+\l__fontspec_strongdef_int=\count271
+\l__fontspec_tmpa_dim=\dimen141
+\l__fontspec_tmpb_dim=\dimen142
+\l__fontspec_tmpc_dim=\dimen143
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/local/texlive/2023/texmf-dist/tex/lualatex/luaquotes/luaquotes.sty
+Package: luaquotes 2023/01/251.4.0smart quotes with lua
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/local/texlive/2023/texmf-dist/tex/lualatex/luacode/luacode.sty
+Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+ (/usr/local/texlive/2023/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count272
+)
+\CatcodeTableOther=\catcodetable16
+\CatcodeTableExpl=\catcodetable17
+)
+\luacode@lines=\toks18
+\luacode@table@soft=\catcodetable18
+))
+luaotfload | cache : Lookup cache loaded from /home/pabloalanis/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn with language dflt
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
+
+Package fontspec Info: Font family 'SourceSansPro(0)' created for font 'Source
+(fontspec)             Sans Pro' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"SourceSansPro:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"SourceSansPro:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"SourceSansPro/B:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"SourceSansPro/B:mode=node;script=latn;language=dflt;+tlig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"SourceSansPro/I:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"SourceSansPro/BI:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/snapshot/snapshot.sty
+Package: snapshot 2020/06/17 v2.14
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/changelog/changelog.sty
 Package: changelog 2023/02/16 v2.5.0 Typesetting changelogs
  (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
@@ -714,11 +716,11 @@ Package: glossaries-extra-stylemods 2023/06/28 v1.52 (NLCT)
 \glo@main@file=\write5
 
 \openout5 = 2-PSA-2023.glo
-Package glossaries Info: Writing glossary file 2-PSA-2023.glo on input line 61.
+Package glossaries Info: Writing glossary file 2-PSA-2023.glo on input line 56.
 \glo@acronym@file=\write6
 
 \openout6 = 2-PSA-2023.acn
-Package glossaries Info: Writing glossary file 2-PSA-2023.acn on input line 61.
+Package glossaries Info: Writing glossary file 2-PSA-2023.acn on input line 56.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/structuredlog.sty
 Package: structuredlog 2023/04/02 vv1.0o Structuring the TeX transcript file
 \g__filehook_nesting_level_int=\count341
@@ -1551,6 +1553,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
@@ -1647,8 +1651,6 @@ Inserting `doublequotes' in `process_input_buffer'.
 Inserting `singlequotelinestart' in `process_input_buffer'.
 Inserting `singlequotes' in `process_input_buffer'.
 Inserting `psinglequotes' in `process_input_buffer'.
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
  (LEVEL 0 START) translations-basic-dictionary-spanish.trsl
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-dictionary-spanish.trsl
@@ -1954,17 +1956,22 @@ Package cleveref Info: loaded `spanish' language definitions on input line 47.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
+\snap@out=\write9
+
+\openout9 = 2-PSA-2023.dep
+
+Dependency list written on 2-PSA-2023.dep.
 Package rerunfilecheck Info: File `2-PSA-2023.out' has not changed.
 (rerunfilecheck)             Checksum: 39D46A0318625E1271B56B0951CE11FE;2819.
 )
 
 Here is how much of LuaTeX's memory you used:
- 50856 strings out of 477545
+ 50989 strings out of 477545
  125236,2373549 words of node,token memory allocated
  1163 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 9 glue, 4 kern, 1 penalty, 3 glyph, 82 attribute, 106 glue_spec, 43 attribute_list, 32 write nodes
    avail lists: 1:2,2:3750,3:779,4:197,5:1444,6:118,7:9988,8:2,9:1576,10:33,11:1122
- 70372 multiletter control sequences out of 65536+600000
+ 70498 multiletter control sequences out of 65536+600000
  64 fonts using 10816151 bytes
  122i,25n,131p,5781b,1296s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1972,7 +1979,7 @@ warning  (pdf backend): unreferenced destination with name 'section.9'
 
 warning  (pdf backend): unreferenced destination with name 'page.84'
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-BoldIt.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-RegularIt.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Regular.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 2-PSA-2023.pdf (7 pages, 237688 bytes).
+Output written on 2-PSA-2023.pdf (7 pages, 237687 bytes).
 
 PDF statistics: 346 PDF objects out of 1000 (max. 8388607)
  242 compressed objects within 3 object streams

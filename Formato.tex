@@ -1,9 +1,4 @@
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%% ESPECIALES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \RequirePackage{expl3}    % \usepackage cannot be used before \documentclass
-% \ExplSyntaxOn             % Switch on expl3 syntax
-% \pdf_version_gset:n{1.7}  % Use provided expl3 function
-% \ExplSyntaxOff            % Switch off expl3 syntax
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Tipografía %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -13,15 +8,15 @@
 
 % \usepackage{lucidabr}/usr/share/fonts/tex-gyre/texgyreheros-regular.otf
 
+\usepackage{babel}
 \usepackage{fontspec}
 \usepackage{luaquotes}
-% \setmainfont{Tex Gyre Heros}
 \setmainfont{Source Sans Pro}
-% \usepackage[sfdefault,t,lf]{carlito}
-
 \fontsize{8.8pt}{12pt}\selectfont
+% \setmainfont{Tex Gyre Heros}
+% \usepackage[sfdefault,t,lf]{carlito}
+\usepackage{snapshot}
 
-\usepackage{babel}
 \usepackage{changelog}  % Control de versiones
 \usepackage{todonotes}
 

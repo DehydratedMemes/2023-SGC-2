@@ -1,0 +1,185 @@
+\RequireVersions{
+  *{application}{luaTeX}  {0000/00/00 v1.17.0}
+  *{format} {LaTeX2e}     {2023-06-01 v2.e}
+  *{class}  {article}     {2023/05/17 v1.4n}
+  *{file}   {size10.clo}  {2023/05/17 v1.4n}
+  *{file}   {../VariablesEstaticas.tex}{0000/00/00 v0.0}
+  *{package}{etoolbox}    {2020/10/05 v2.5k}
+  *{file}   {../Formato.tex}{0000/00/00 v0.0}
+  *{package}{babel}       {2023/07/15 v3.92}
+  *{file}   {spanish.ldf} {0000/00/00 v0.0}
+  *{file}   {babel-spanish.tex}{0000/00/00 v0.0}
+  *{package}{fontspec}    {2022/01/15 v2.8a}
+  *{package}{xparse}      {2023-02-02 v3}
+  *{package}{expl3}       {2023-06-30 v3}
+  *{file}   {l3backend-luatex.def}{2023-04-19 v3}
+  *{package}{fontspec-luatex}{2022/01/15 v2.8a}
+  *{package}{fontenc}     {0000/00/00 v0.0}
+  *{file}   {fontspec.cfg}{0000/00/00 v0.0}
+  *{package}{luaquotes}   {2023/01/251.4.0smart v0.0}
+  *{package}{iftex}       {2022/02/03 v1.0f}
+  *{package}{luacode}     {2012/01/23 v1.2a}
+  *{package}{ifluatex}    {2019/10/25 v1.5}
+  *{package}{luatexbase}  {2015/10/04 v1.3}
+  *{package}{ctablestack} {2015/10/01 v1.0}
+  *{package}{snapshot}    {2020/06/17 v2.14}
+  *{package}{changelog}   {2023/02/16 v2.5.0}
+  *{package}{translations}{2022/02/05 v1.12}
+  *{package}{pdftexcmds}  {2020-06-27 v0.33}
+  *{package}{infwarerr}   {2019/12/03 v1.5}
+  *{package}{ltxcmds}     {2020-05-10 v1.25}
+  *{package}{todonotes}   {2023/01/31 v0.0}
+  *{package}{ifthen}      {2022/04/13 v1.1d}
+  *{package}{xkeyval}     {2022/06/16 v2.9}
+  *{file}   {xkeyval.tex} {2014/12/03 v2.7a}
+  *{package}{xcolor}      {2022/06/12 v2.14}
+  *{file}   {color.cfg}   {2016/01/02 v1.6}
+  *{file}   {luatex.def}  {2022/09/22 v1.2d}
+  *{file}   {mathcolor.ltx}{0000/00/00 v0.0}
+  *{package}{tikz}        {2023-01-15 v3.1.10}
+  *{package}{pgf}         {2023-01-15 v3.1.10}
+  *{package}{pgfrcs}      {2023-01-15 v3.1.10}
+  *{file}   {pgfrcs.code.tex}{0000/00/00 v0.0}
+  *{package}{pgfcore}     {2023-01-15 v3.1.10}
+  *{package}{graphicx}    {2021/09/16 v1.2d}
+  *{package}{graphics}    {2022/03/10 v1.4e}
+  *{package}{trig}        {2021/08/11 v1.11}
+  *{file}   {graphics.cfg}{2016/06/04 v1.11}
+  *{package}{pgfsys}      {2023-01-15 v3.1.10}
+  *{file}   {pgfsys.code.tex}{0000/00/00 v0.0}
+  *{file}   {pgfsyssoftpath.code.tex}{2023-01-15 v3.1.10}
+  *{file}   {pgfsysprotocol.code.tex}{2023-01-15 v3.1.10}
+  *{file}   {pgfcore.code.tex}{0000/00/00 v0.0}
+  *{package}{pgfcomp-version-0-65}{2023-01-15 v3.1.10}
+  *{package}{pgfcomp-version-1-18}{2023-01-15 v3.1.10}
+  *{package}{pgffor}      {2023-01-15 v3.1.10}
+  *{package}{pgfkeys}     {0000/00/00 v0.0}
+  *{file}   {pgfkeys.code.tex}{0000/00/00 v0.0}
+  *{package}{pgfmath}     {0000/00/00 v0.0}
+  *{file}   {pgfmath.code.tex}{0000/00/00 v0.0}
+  *{file}   {pgffor.code.tex}{0000/00/00 v0.0}
+  *{file}   {tikz.code.tex}{0000/00/00 v0.0}
+  *{package}{calc}        {2017/05/25 v4.3}
+  *{package}{pdflscape}   {2022-10-27 v0.13}
+  *{package}{pdflscape-nometadata}{2022-10-28 v0.13}
+  *{package}{lscape}      {2020/05/28 v3.02}
+  *{package}{pifont}      {2020/03/25 v9.3}
+  *{file}   {upzd.fd}     {2001/06/04 v0.0}
+  *{file}   {upsy.fd}     {2001/06/04 v0.0}
+  *{package}{glossaries-extra}{2023/06/28 v1.52}
+  *{package}{glossaries}  {2022/11/03 v4.52}
+  *{package}{mfirstuc}    {2022/10/14 v2.08}
+  *{package}{xfor}        {2009/02/05 v1.05}
+  *{package}{datatool-base}{2019/09/27 v2.32}
+  *{package}{amsmath}     {2023/05/13 v2.17o}
+  *{package}{amstext}     {2021/08/26 v2.01}
+  *{package}{amsgen}      {1999/11/30 v2.0}
+  *{package}{amsbsy}      {1999/11/29 v1.2d}
+  *{package}{amsopn}      {2022/04/08 v2.04}
+  *{package}{substr}      {2009/10/20 v1.2}
+  *{package}{datatool-fp} {2019/09/27 v2.32}
+  *{package}{fp}          {1995/04/02 v0.0}
+  *{package}{defpattern}  {1994/10/12 v0.0}
+  *{package}{fp-basic}    {1996/05/13 v0.0}
+  *{package}{fp-addons}   {1995/03/15 v0.0}
+  *{package}{fp-snap}     {1995/04/05 v0.0}
+  *{package}{fp-exp}      {1995/04/03 v0.0}
+  *{package}{fp-trigo}    {1995/04/14 v0.0}
+  *{package}{fp-pas}      {1994/08/29 v0.0}
+  *{package}{fp-random}   {1995/02/23 v0.0}
+  *{package}{fp-eqn}      {1995/04/03 v0.0}
+  *{package}{fp-upn}      {1996/10/21 v0.0}
+  *{package}{fp-eval}     {1995/04/03 v0.0}
+  *{package}{tracklang}   {2022/12/13 v1.6.1}
+  *{file}   {tracklang.tex}{2022/12/13 v1.6.1}
+  *{file}   {glossaries-spanish.ldf}{2014/11/23 v1.0}
+  *{file}   {glossaries-spanish-noenc.ldf}{0000/00/00 v0.0}
+  *{package}{glossary-hypernav}{2022/11/03 v4.52}
+  *{package}{glossary-list}{2022/11/03 v4.52}
+  *{package}{glossary-long}{2022/11/03 v4.52}
+  *{package}{longtable}   {2021-09-01 v4.17}
+  *{package}{glossary-super}{2022/11/03 v4.52}
+  *{package}{supertabular}{2020/02/02 v4.1g}
+  *{package}{glossary-tree}{2022/11/03 v4.52}
+  *{file}   {glossaries-extra-abbrstyles.def}{2023/06/28 v1.52}
+  *{package}{glossaries-extra-stylemods}{2023/06/28 v1.52}
+  *{package}{structuredlog}{2023/04/02 v1.0o}
+  *{package}{makeidx}     {2021/10/04 v1.0m}
+  *{package}{mdframed}    {2013/07/01 v1.9b:}
+  *{package}{kvoptions}   {2022-06-15 v3.15}
+  *{package}{kvsetkeys}   {2022-10-05 v1.19}
+  *{package}{zref-abspage}{2022-04-07 v2.34}
+  *{package}{zref-base}   {2022-04-07 v2.34}
+  *{package}{kvdefinekeys}{2019-12-19 v1.6}
+  *{package}{etexcmds}    {2019/12/15 v1.7}
+  *{package}{auxhook}     {2019-12-17 v1.6}
+  *{package}{atbegshi-ltx}{2021/01/10 v1.0c}
+  *{package}{needspace}   {2010/09/12 v1.3d}
+  *{file}   {md-frame-1.mdf}{2013/07/01\ 1.9b: v1}
+  *{package}{footmisc}    {2023/07/05 v6.0f}
+  *{package}{microtype}   {2023/03/13 v3.1a}
+  *{file}   {microtype-luatex.def}{2023/03/13 v3.1a}
+  *{file}   {microtype.cfg}{2023/03/13 v3.1a}
+  *{package}{hyperref}    {2023-07-08 v7.01b}
+  *{package}{pdfescape}   {2019/12/09 v1.15}
+  *{package}{hycolor}     {2020-01-27 v1.10}
+  *{package}{letltxmacro} {2019/12/03 v1.6}
+  *{package}{nameref}     {2023-08-07 v2.53}
+  *{package}{refcount}    {2019/12/15 v3.6}
+  *{package}{gettitlestring}{2019/12/15 v1.6}
+  *{file}   {pd1enc.def}  {2023-07-08 v7.01b}
+  *{package}{intcalc}     {2019/12/15 v1.3}
+  *{file}   {puenc.def}   {2023-07-08 v7.01b}
+  *{package}{url}         {2013/09/16 v3.4}
+  *{package}{bitset}      {2019/12/09 v1.3}
+  *{package}{bigintcalc}  {2019/12/15 v1.5}
+  *{file}   {hluatex.def} {2023-07-08 v7.01b}
+  *{package}{stringenc}   {2019/11/29 v1.12}
+  *{package}{atveryend-ltx}{2020/08/19 v1.0a}
+  *{package}{rerunfilecheck}{2022-07-10 v1.10}
+  *{package}{uniquecounter}{2019/12/15 v1.4}
+  *{package}{cleveref}    {2018/03/27 v0.21.4}
+  *{package}{lastpage}    {2023/04/12 v2.0b}
+  *{package}{lastpage2e}  {2023/04/12 v2.0b}
+  *{package}{lastpagemodern}{2023-04-12 v2.0b}
+  *{package}{siunitx}     {2023-06-12 v3.2.6}
+  *{package}{array}       {2022/09/04 v2.5g}
+  *{package}{tabularray}  {2023-03-01 v2023A}
+  *{package}{booktabs}    {2020/01/12 v1.61803398}
+  *{package}{geometry}    {2020/01/02 v5.9}
+  *{package}{ifvtex}      {2019/10/25 v1.7}
+  *{package}{afterpage}   {2014/10/28 v1.08}
+  *{package}{lineno}      {2023/05/20 v5.3}
+  *{package}{adjustbox}   {2022/10/17 v1.3a}
+  *{package}{adjcalc}     {2012/05/16 v1.1}
+  *{package}{trimclip}    {2020/08/19 v1.2}
+  *{package}{collectbox}  {2022/10/17 v0.4c}
+  *{file}   {tc-pgf.def}  {2019/01/04 v2.2}
+  *{package}{ifoddpage}   {2022/10/18 v1.2}
+  *{package}{varwidth}    {2009/03/30 v0.92;}
+  *{package}{enumitem}    {2019/06/20 v3.9}
+  *{package}{fancyhdr}    {2022/11/09 v4.1}
+  *{file}   {ts1cmr.fd}   {2023/04/13 v2.5m}
+  *{-------}{Document-specific files:}{----}
+  *{file}   {translations-basic-dictionary-spanish.trsl}{(spanish v0.0}
+  *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
+  *{package}{epstopdf-base}{2020-01-24 v2.11}
+  *{file}   {epstopdf-sys.cfg}{2010/07/13 v1.3}
+  *{file}   {2-PSA-2023.out}{0000/00/00 v0.0}
+  *{file}   {2-PSA-2023.out}{0000/00/00 v0.0}
+  *{package}{ninecolors}  {2022-02-13 v2022D}
+  *{file}   {src/PSA-2.1.tex}{0000/00/00 v0.0}
+  *{file}   {../IT/IT-1-InspeccionDeUnidades.tex}{0000/00/00 v0.0}
+  *{file}   {mt-cmr.cfg}  {2013/05/19 v2.2}
+  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../IT/IT-1-InspeccionDeUnidades.pdf}{0000/00/00 v0.0}
+  *{file}   {../IT/IT-2-DescargaDeUnidades.tex}{0000/00/00 v0.0}
+  *{file}   {../IT/IT-2.pdf}{0000/00/00 v0.0}
+}
