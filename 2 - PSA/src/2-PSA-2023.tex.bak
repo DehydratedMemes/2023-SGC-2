@@ -192,22 +192,8 @@
 \begin{document}
 \pagestyle{formato}
 \include{src/PSA-ToC.tex}	
-\include{src/PSA-2.1.tex}	% REVISADO
-\include{src/PSA-2.2.tex}	% REVISADO
-\include{src/PSA-2.3.tex}	% REVISADO
-\include{src/PSA-2.4.tex}	% REVISADO
-\include{src/PSA-2.5.tex}	% TODO: VERIFICAR
-\include{src/PSA-2.6.tex}	% REVISADO
-\include{src/PSA-2.7.tex}	% REVISADO
-\include{src/PSA-2.8.tex}	% REVISADO
-\include{src/PSA-2.9.tex}	% REVISADO
-\include{src/PSA-2.10.tex}	% REVISADO
-\include{src/PSA-2.11.tex}	% REVISADO
-\include{src/PSA-2.12.tex}	% REVISADO
-\include{src/PSA-2.13.tex}	% REVISADO
-\include{src/PSA-2.14.tex}	% REVISADO
-\include{src/PSA-2.15.tex}	% REVISADO
-\include{src/PSA-2.16.tex}	% 
+\include{src/PSA-2.1.tex}\include{src/PSA-2.2.tex}\include{src/PSA-2.3.tex}\include{src/PSA-2.4.tex}\include{src/PSA-2.5.tex}	% TODO: VERIFICAR
+\include{src/PSA-2.6.tex}\include{src/PSA-2.7.tex}\include{src/PSA-2.8.tex}\include{src/PSA-2.9.tex}\include{src/PSA-2.10.tex}\include{src/PSA-2.11.tex}\include{src/PSA-2.12.tex}\include{src/PSA-2.13.tex}\include{src/PSA-2.14.tex}\include{src/PSA-2.15.tex}\include{src/PSA-2.16.tex}	% 
 \include{src/PSA-2.17.tex}
 \include{src/PSA-2.18.tex}
 \include{src/PSA-2.19.tex}
