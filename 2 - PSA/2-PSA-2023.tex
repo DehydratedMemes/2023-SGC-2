@@ -1,15 +1,15 @@
 % Información para el motor (arara). Compilar en LuaLaTeX o XeLaTeX sólamente.
-%lualatex-dev
-% arara: lualatex: {
-% arara: --> interaction: nonstopmode,
-% arara: --> options: ['-file-line-error'],
-% arara: --> shell: yes,
-% arara: --> synctex: yes,
-% arara: --> }
+
+%arara: lualatex: {
+%arara: --> interaction: nonstopmode,
+%arara: --> options: ['-file-line-error'],
+%arara: --> shell: yes,
+%arara: --> synctex: yes,
+%arara: --> }
 %arara: bib2gls if found("aux", "glsxtr@resource")
 %arara: makeglossaries if found("aux", "@istfilename")
 %arara: makeindex
-\DocumentMetadata{phase-III}
+
 \documentclass[letterpaper,twoside,spanish]{article}
 
 \input{../VariablesEstaticas.tex}	% Definición de variables estáticas

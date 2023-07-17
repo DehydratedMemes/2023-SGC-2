@@ -51,12 +51,12 @@
 \subsubsection{Instrucciones de trabajo}
 \input{../IT/IT-1-InspeccionDeUnidades.tex}
 
-\begin{note}[Criterios de acción para la aceptación de alimentos congelados]\label{criterios:aceptacion-cong}
+\begin{note}[Criterios de acción para la aceptación de alimentos de especificación genérica]\label{criterios:aceptacion-cong}
 	Si la temperatura de los alimentos al realizar la inspección de la mercancía para su \emph{ingreso} está fuera del rango establecido en el \cref{esp:generica}, se deben de tomar en cuenta las siguientes consideraciones para su aceptación:
 
 	\begin{longtblr}[%
-		label={esp.crit.acep},
-		caption={Criterios de acción para la descarga de alimentos al almacén.},
+		label={esp.crit.acep-cong},
+		caption={Criterios de acción para la descarga de alimentos congelados al almacén.},
 		note{\(\dagger\)} = Se tiene que contactar al cliente previo a cualquier procedimiento de acondicionamiento. El cliente es responsable de la preservación del alimento en caso de que rechace el servicio de ráfaga.,
 		note{\(\ddagger\)} = La aceptación de esta carga está a disposición de la disponibilidad de la ráfaga.
 		]{%
@@ -72,10 +72,25 @@
 		\qtyrange{-11}{-8}{\degreeCelsius} & Se acepta la carga con cobro adicional por acondicionamiento                                                                                                                                                                                                                 \\
 		\qty{\leq -12}{\degreeCelsius}     & Se acepta la carga sin cobro adicional por acondicionamiento                                                                                                                                                                                                                 \\ \bottomrule
 	\end{longtblr}
+
+	\begin{longtblr}[%
+		label={esp.crit.acep-refri},
+		caption={Criterios de acción para la descarga de alimentos refrigerados al almacén.},
+		]{%
+		colspec={X[c]X[3,c]},
+		width = 0.7\linewidth,
+		rowhead = 1
+		}
+		\toprule
+		\textbf{Intervalo}              & \textbf{Acción}                                                                                                                                                                               \\
+		\midrule
+		\qty{\geq 8}{\degreeCelsius}    & Se rechaza la carga                                                                                                                                                                           \\
+		\qtyrange{5}{8}{\degreeCelsius} & Se acepta la carga con cobro adicional por acondicionamiento                                                                                                                                  \\
+		\qtyrange{0}{4}{\degreeCelsius} & Se acepta la carga sin cobro adicional por acondicionamiento                                                                                                                                  \\
+		\qty{\leq -1}{\degreeCelsius}   & Se tiene que inspeccionar la carga para determinar si es que no presenta signos de congelación no intencionada; y se contactará al cliente para informarle la condición en la que arribó su alimento. \\
+		\bottomrule
+	\end{longtblr}
 \end{note}
-
-\todo{Hacer la misma tabla para alimentos refrigerados}
-
 
 \begin{note}[Sobre las temperaturas de los alimentos en la recepción]
 	Es importante mencionar que las temperaturas obtenidas al llegar los alimentos al almacén son registradas con un \emph{termómetro infrarrojo (IR),} este en realidad nos arroja la \emph{temperatura superficial del objeto} que vayamos a medir, por lo que \emph{la temperatura \textbf{puede ser mayor} a la de los criterios de aceptación} para la recepción de alimentos, los rangos de temperatura de almacenamiento estan descritos en \cref{esp:generica}, a continuación se detallan de forma resumida:
@@ -103,11 +118,11 @@
 \end{itemize}
 
 \subsubsection{Acciones preventivas}
-	Se llevará a cabo una inspección, registrando el indicador y medida correspondiente;
-	\begin{enumerate}
-		\item \textbf{Si ocurre una insatisfacción:}\\ se capacitará al personal involucrado en ese momento;
-		\item \textbf{Si repite una insatisfacción:}\\ si después de la instrucción, se repite la insatisfacción, se tomarán acciones correctivas (\cref{sec:2.1:acc}).
-	\end{enumerate}
+Se llevará a cabo una inspección, registrando el indicador y medida correspondiente;
+\begin{enumerate}
+	\item \textbf{Si ocurre una insatisfacción:}\\ se capacitará al personal involucrado en ese momento;
+	\item \textbf{Si repite una insatisfacción:}\\ si después de la instrucción, se repite la insatisfacción, se tomarán acciones correctivas (\cref{sec:2.1:acc}).
+\end{enumerate}
 
 \subsubsection{Acciones correctivas}\label{sec:2.1:acc}
 \begin{itemize}
