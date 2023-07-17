@@ -2,13 +2,13 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossentry{alimento}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{9\delimN 10}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{12}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{14}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossentry{criterio-de-acción}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{8}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossentry{peligro-relacionado-con-la-inocuidad-de-los-alimentos}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{11}}}%
+		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{11\delimN 12}}}%
 \end{theglossary}\glossarypostamble

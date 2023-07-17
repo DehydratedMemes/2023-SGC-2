@@ -1,13 +1,20 @@
 \begin{theindex}
 
   \item Inspección
-    \subitem en la recepción de alimentos, \hyperpage{9}
+    \subitem en la recepción de alimentos, \hyperpage{8}
   \item Instrucción
-    \subitem inspección fisica de los alimentos, \hyperpage{10}
+    \subitem descarga de alimentos de la unidad de transporte, 
+		\hyperpage{11}
+    \subitem inspección fisica de los alimentos, \hyperpage{9}
 
   \indexspace
 
   \item Procedimiento
-    \subitem inspección en la recepción de alimentos, \hyperpage{9}
+    \subitem inspección en la recepción de alimentos, \hyperpage{8}
+
+  \indexspace
+
+  \item Tiempo máximo de permanencia de alimentos en el andén, 
+		\hyperpage{14}
 
 \end{theindex}

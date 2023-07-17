@@ -7,31 +7,24 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Tipografía %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage[sfdefault,t,lf]{carlito}    % Alternativa OpenSource a Calibri, definir sans serif como predeterminado, numerales tabulares
+% \usepackage[sfdefault,t,lf]{carlito}    % Alternativa OpenSource a Calibri, definir sans serif como predeterminado, numerales tabulares
 % \usepackage[default,lnum]{opensans}
 % \usepackage{CormorantGaramond}
 
-% \usepackage{lucidabr}
+% \usepackage{lucidabr}/usr/share/fonts/tex-gyre/texgyreheros-regular.otf
 
-% \usepackage{fontspec}
+\usepackage{fontspec}
+\usepackage{luaquotes}
+% \setmainfont{Tex Gyre Heros}
+\setmainfont{Source Sans Pro}
+% \usepackage[sfdefault,t,lf]{carlito}
 
 \fontsize{8.8pt}{12pt}\selectfont
-\renewcommand{\baselinestretch}{1.2}
 
-% \linespread{1.3}
-% \DeclareUnicodeCharacter{2212}{-}
-
-\usepackage{polyglossia}
-	\setdefaultlanguage[spanishoperators=all]{spanish}  % Definir la localización del documento como es-MX (para que cuadro sea tabla, etc.)
-	% \setdefaultlanguage{mexican}
-	\renewcommand{\listtablename}{Índice de tablas}
-
-\usepackage{translations}
-	\DeclareLanguage{Spanish}
-
-\usepackage{tikz}
-
+\usepackage{babel}
 \usepackage{changelog}  % Control de versiones
+\usepackage{todonotes}
+
 
 \usepackage{pdflscape}
 \usepackage{pifont}
@@ -66,6 +59,8 @@
 ]
 \makeglossaries
 
+\usepackage{structuredlog}
+
 
 % \setglossarystyle{longragged}
 
@@ -78,6 +73,29 @@
 % \usepackage[xindy]{imakeidx}    % Para hacer indices
 % 	\makeindex[columns=2]   	% Estilo del indice alfabético
 	
+\makeatletter
+\newcounter{scheme}% the counter
+\renewcommand*\thescheme{\arabic{scheme}}% the default format for the counter
+\newcommand*\fps@scheme{tbp}% default floating options
+\newcommand*\ftype@scheme{4}% float type number, needs to be a power of 2;
+% \ftype@figure=1, \ftype@table=2
+\newcommand*\ext@scheme{los}% extension of file for the list of schemes
+\newcommand*\fnum@scheme{\schemename\nobreakspace\thescheme}% used in caption
+\newcommand*\schemename{Diagrama}% the name
+\newcommand*\listschemename{Lista de diagramas}% the name of the list
+\newenvironment{scheme}{\@float{scheme}}{\end@float}% the environment
+\newenvironment{scheme*}{\@dblfloat{scheme}}{\end@dblfloat}% the starred
+% version for twocolumn documents
+\newcommand*\listofschemes{% the list of schemes
+	\section*{\listschemename}
+	\@mkboth
+	{\MakeUppercase\listschemename}
+	{\MakeUppercase\listschemename}
+	\@starttoc{\ext@scheme}
+}
+\let\l@scheme\l@figure % layout of list is the same as for figures
+\makeatother
+
 \newcounter{note}[section]  % Nuevo contador para notas
 \renewcommand{\thenote}{\thesection.\Alph{note}}    % Definir estilo de numeración de las notas
 \usepackage[framemethod=TikZ]{mdframed}             % Motor gráfico para notas (TikZ)
@@ -149,16 +167,35 @@
 % \newgeometry{includeheadfoot, heightrounded, left=1cm, right=1cm, top=1cm, bottom=4.5cm, headheight=7em, footskip=1.5em, showcrop, showframe}
 %     \savegeometry{L2}
 
-\usepackage[%
-includeheadfoot,
+\newcommand{\nocumple}{\item[\small{\textbf{Si no cumple:}}]}
+
+% \usepackage[%
+% includeheadfoot,
 % showframe,
-heightrounded,
-left=1.5cm,
-right=1cm,
-top=1cm,
-bottom=1cm,
-headheight=110pt,
-footskip=2em]{geometry}    
+% heightrounded,
+% left=2cm,
+% right=1cm,
+% top=1cm,
+% bottom=1cm,
+% headheight=110pt,
+% footskip=1em]{geometry}    
+
+\usepackage[
+	letterpaper,
+	headheight=90pt,
+	footskip=2em,
+	bottom=1in,
+	marginparwidth=1in,
+	marginparsep=0.2in
+	% textwidth={\dimexpr 5in+2.5cm+2\columnsep}
+]{geometry}
+
+\addtolength{\topmargin}{3em}
+
+\usepackage{afterpage}
+
+\usepackage{lineno}
+
 \usepackage[export]{adjustbox}
 \usepackage{enumitem}
 	\setlist[1]{labelindent=\parindent} % Indentación como parrafo para listas
