@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.7.17)  17 JUL 2023 16:31
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.7.17)  17 JUL 2023 16:38
  system commands enabled.
  file:line:error style messages enabled.
 **2-PSA-2023.tex
@@ -1900,11 +1900,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-<../IT/IT-2.pdf, id=204, 394.47375pt x 848.16875pt>
+<../IT/IT-2.pdf, id=204, 607.26875pt x 1058.95625pt>
 File: ../IT/IT-2.pdf Graphic file (type pdf)
 <use ../IT/IT-2.pdf>
 Package luatex.def Info: ../IT/IT-2.pdf  used on input line 42.
-(luatex.def)             Requested size: 262.58658pt x 564.56853pt.
+(luatex.def)             Requested size: 323.75974pt x 564.56853pt.
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1979,10 +1979,10 @@ warning  (pdf backend): unreferenced destination with name 'section.9'
 
 warning  (pdf backend): unreferenced destination with name 'page.84'
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-BoldIt.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-RegularIt.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Regular.otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on 2-PSA-2023.pdf (7 pages, 237687 bytes).
+Output written on 2-PSA-2023.pdf (7 pages, 267197 bytes).
 
-PDF statistics: 346 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
+PDF statistics: 358 PDF objects out of 1000 (max. 8388607)
+ 248 compressed objects within 3 object streams
  65 named destinations out of 1000 (max. 131072)
  136 words of extra memory for PDF output out of 10000 (max. 100000000)
 
