@@ -1,22 +1,46 @@
 % Información para el motor (arara). Compilar en LuaLaTeX o XeLaTeX sólamente.
-
-%arara: lualatex: {
-%arara: --> interaction: nonstopmode,
-%arara: --> options: ['-file-line-error'],
-%arara: --> shell: yes,
-%arara: --> synctex: yes,
-%arara: --> }
-%arara: bib2gls if found("aux", "glsxtr@resource")
-%arara: makeglossaries if found("aux", "@istfilename")
+% developer branch
+%arara: lualatex: { branch: developer, interaction: errorstopmode,
+%arara: --> shell: yes, synctex: yes }
+%arara: bib2gls: { group: true, verbose: true, locale: es-MX}
+%arara: --> if found('aux', 'glsxtr@resource')
+% arara: makeglossaries if found("aux", "@istfilename")
 %arara: makeindex
 
-\documentclass[letterpaper,twoside,spanish]{article}
+% \DocumentMetadata{testphase=phase-III}
+\DocumentMetadata{lang=es-MX}
+
+\documentclass[letterpaper,twoside,11pt]{article}
 
 \input{../VariablesEstaticas.tex}	% Definición de variables estáticas
 \input{../Formato.tex}				% Define el formato
 \renewcommand{\Prog}{PSA} % Definirlo como sea pertinente
 
-\includeonly{src/PSA-2.1.tex}
+% \includeonly{src/PSA-2.2.tex}
+
+\newcommand{\AcPGen}{%
+\subsection{Acciones preventivas}
+Se llevará a cabo una inspección, registrando el indicador y medida correspondiente;
+\begin{enumerate}
+    \item \textbf{Si ocurre una insatisfacción:}\\ se capacitará al personal involucrado en ese momento;
+    \item \textbf{Si repite una insatisfacción:}\\ si después de la instrucción, se repite la insatisfacción, se tomarán acciones correctivas (\cref{sec:2.1:acc}).
+\end{enumerate}}
+
+% \newcomand{\AcCGen}{%
+% \subsubsection{Acciones correctivas}
+% \begin{itemize}
+    % \item En caso de no-conformidad, reportar en el formulario de {\slshape \RAC.}
+% \end{itemize}
+% }
+
+\newcommand\Resp[3]{%
+\subsubsection{Responsables de la actividad}
+\begin{itemize}
+    \item[\textbf{Ejecuta}] #1;
+    \item[\textbf{Monitorea}] #2;
+    \item[\textbf{Verifica}] #3.
+\end{itemize}
+}
 
 \begin{document}
 \pagestyle{formato-PS}

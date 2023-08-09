@@ -1,7 +1,608 @@
-This is makeindex, version 2.17 [TeX Live 2023] (kpathsea + Thai support).
-Scanning style file ./2-PSA-2023.ist...........................done (27 attributes redefined, 0 ignored).
-Scanning input file 2-PSA-2023.glo....done (10 entries accepted, 0 rejected).
-Sorting entries....done (34 comparisons).
-Generating output file 2-PSA-2023.gls....done (14 lines written, 0 warnings).
-Output written in 2-PSA-2023.gls.
-Transcript written in 2-PSA-2023.glg.
+bib2gls 3.4 (2023-06-29)
+Detected package glossaries-extra 2023/06/28
+Detected package glossaries 2022/11/03
+Detected package mfirstuc 2022/10/14
+No sentence case protection required now
+Default setting --no-mfirstuc-protection now applied, use --mfirstuc-protection to revert
+Default setting --no-mfirstuc-math-protection now applied, use --mfirstuc-math-protection to revert
+Reading 2-PSA-2023.aux
+Reading src/PSA-ToC.aux
+Reading src/PSA-2.1.aux
+Reading src/PSA-2.2.aux
+Reading src/PSA-2.3.aux
+Reading src/PSA-2.4.aux
+Reading src/PSA-2.5.aux
+Reading src/PSA-2.6.aux
+Reading src/PSA-2.7.aux
+Reading src/PSA-2.8.aux
+Reading src/PSA-2.9.aux
+Reading src/PSA-2.10.aux
+Reading src/PSA-2.11.aux
+Reading src/PSA-2.12.aux
+Reading src/PSA-2.13.aux
+Reading src/PSA-2.14.aux
+Reading src/PSA-2.15.aux
+Reading src/PSA-2.16.aux
+Reading src/PSA-2.17.aux
+Reading src/PSA-2.18.aux
+Reading src/PSA-2.19.aux
+Reading src/PSA-2.20.aux
+Reading src/PSA-2.21.aux
+Reading src/PSA-2.22.aux
+Reading src/PSA-2.23.aux
+Reading src/PSA-2.24.aux
+Reading src/PSA-2.25.aux
+Reading src/PSA-2.26.aux
+Reading src/PSA-Gloss.aux
+Reading src/PSA-Ind.aux
+TeX character encoding: UTF-8
+Default document locale: es Spanish
+Initialising resource 2-PSA-2023.glstex.
+
+Selection mode: all
+Sort mode: es-MX
+Sort field: sort
+Dual sort mode: combine
+Dual sort field: sort
+Label prefix: 
+Dual label prefix: dual.
+Tertiary label prefix: tertiary.
+
+Dual entry mappings:
+descriptionplural -> plural
+plural -> descriptionplural
+name -> description
+description -> name
+
+Dual symbol mappings:
+symbol -> name
+plural -> symbolplural
+symbolplural -> plural
+name -> symbol
+
+Dual abbreviation mappings:
+duallong -> long
+longplural -> duallongplural
+dualshort -> short
+short -> dualshort
+dualshortplural -> shortplural
+shortplural -> dualshortplural
+long -> duallong
+duallongplural -> longplural
+
+Dual abbreviation-entry mappings:
+longplural -> plural
+short -> text
+long -> name
+
+Dual index-entry mappings:
+name -> name
+
+Dual index-symbol mappings:
+symbol -> name
+plural -> symbolplural
+symbolplural -> plural
+name -> symbol
+
+Dual index-abbreviation mappings:
+name -> name
+
+Parsing bib files for resource 2-PSA-2023.glstex.
+Default encoding: not set
+Detected encoding: UTF-8
+Reading ../glosario.bib
+Encoding: UTF-8
+Cross-resource references allowed.
+Processing resource 2-PSA-2023.glstex.
+Checking cross-references for: aduana
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: contacto-cruzado-alergenos
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: lote
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: alergeno
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: alimento
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: alimento-RTE-d
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: alimento-RTE
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: alta-direccion
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: area-operativa
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: BPD
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: BPH
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry cadena-alimentaria: found cross-reference (\glsname): alimento
+Checking cross-references for: cadena-alimentaria
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry cantidades-pequeñas: found cross-reference (\glsname): producto
+Entry cantidades-pequeñas: found cross-reference (\glsname): producto
+Checking cross-references for: cantidades-pequeñas
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: CFE
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: cisterna
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: cliente
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: cloración
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: congelacion
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: contaminacion-cruzada
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry criterio-de-acción: found cross-reference (\glsname): PPRO
+Checking cross-references for: criterio-de-acción
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: desastre-natural
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry documento: found cross-reference (\glsname): informacion
+Checking cross-references for: documento
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: emergencia
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry especificacion: found cross-reference (\glsname): documento
+Checking cross-references for: especificacion
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: FD
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: HACCP
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: idoneidad-de-los-alimentos
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: informacion
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry informacion-documentada: found cross-reference (\glsname): informacion
+Entry informacion-documentada: found cross-reference (\glsname): organizacion
+Entry informacion-documentada: found cross-reference (\glsname): registro
+Checking cross-references for: informacion-documentada
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: inocuidad-de-los-alimentos
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: inventario-de-suministros-y-materiales
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: limpieza
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: LPA
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry manual-de-calidad: found cross-reference (\glsname): especificacion
+Entry manual-de-calidad: found cross-reference (\glsname): organizacion
+Checking cross-references for: manual-de-calidad
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry medida-de-control: found cross-reference (\glsname): alimento
+Entry medida-de-control: found cross-reference (\glsname): nivel-aceptable
+Checking cross-references for: medida-de-control
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: monitoreo
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: MSDS-d
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: MSDS
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry nivel-aceptable: found cross-reference (\glsname): inocuidad-de-los-alimentos
+Entry nivel-aceptable: found cross-reference (\glsname): producto-terminado
+Entry nivel-aceptable: found cross-reference (\glsname): organizacion
+Checking cross-references for: nivel-aceptable
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: organizacion
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry peligro-relacionado-con-la-inocuidad-de-los-alimentos: found cross-reference (\glsname): alimento
+Checking cross-references for: peligro-relacionado-con-la-inocuidad-de-los-alimentos
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: PEPS
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: personal-interno
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: plan-de-la-calidad
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: politica
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: politica-de-calidad
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry PPR-d: found cross-reference (\glsname): organizacion
+Checking cross-references for: PPR-d
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: PPR
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: PPRO
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: metrologia
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: limpieza-y-sant
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry PPRO-d: found cross-reference (\glsname): medida-de-control
+Entry PPRO-d: found cross-reference (\glsname): alimento
+Entry PPRO-d: found cross-reference (\glsname): criterio-de-acción
+Entry PPRO-d: found cross-reference (\glsname): proceso
+Entry PPRO-d: found cross-reference (\glsname): producto
+Checking cross-references for: PPRO-d
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: proceso
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry producto: found cross-reference (\glsname): proceso
+Checking cross-references for: producto
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry producto-terminado: found cross-reference (\glsname): producto
+Checking cross-references for: producto-terminado
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: proteina-cruda
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: proveedor
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: proveedor-externo
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: PSA
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: RDF
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: recuperación-de-producto
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: refrigeracion
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry registro: found cross-reference (\glsname): documento
+Checking cross-references for: registro
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry requisito: found cross-reference (\glsname): organizacion
+Entry requisito: found cross-reference (\glsname): informacion-documentada
+Entry requisito: found cross-reference (\glsname): producto
+Checking cross-references for: requisito
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: retiro-de-producto
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: revision-documental
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: SADER
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: sanitizacion
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry seguimiento: found cross-reference (\glsname): proceso
+Checking cross-references for: seguimiento
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: SENASICA
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: SGAd
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: SGA
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: SGC-d
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: SGC
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry sistema-de-gestion: found cross-reference (\glsname): organizacion
+Checking cross-references for: sistema-de-gestion
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Entry tarima-compuesta: found cross-reference (\glsname): RDF
+Checking cross-references for: tarima-compuesta
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: uniforme-completo
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: validacion-documental
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Checking cross-references for: visitante
+Field alias not set.
+Field see not set.
+Field seealso not set.
+Selecting entries for resource 2-PSA-2023.glstex.
+79 entries selected.
+aduana -> 'aduana|sanitaria|' (A) [0 83 0 86 0 105 0 83 0 97 0 83 0 66 0 103 0 83 0 97 0 92 0 104 0 83 0 102 0 92 0 83 0 66 0 0 0 0]
+contacto-cruzado-alergenos -> 'contacto|cruzado|de|alérgenos|' (C) [0 85 0 99 0 97 0 104 0 83 0 85 0 104 0 99 0 66 0 85 0 102 0 105 0 110 0 83 0 86 0 99 0 66 0 86 0 88 0 66 0 83 0 95 0 88 0 102 0 90 0 88 0 97 0 99 0 103 0 66 0 0 0 0]
+lote -> 'lote|' (L) [0 95 0 99 0 104 0 88 0 66 0 0 0 0]
+alergeno -> 'alérgeno|' (A) [0 83 0 95 0 88 0 102 0 90 0 88 0 97 0 99 0 66 0 0 0 0]
+alimento -> 'alimento|' (A) [0 83 0 95 0 92 0 96 0 88 0 97 0 104 0 99 0 66 0 0 0 0]
+texparserlib: alimento listo para el consumo, del inglés \textit{ready-to-eat} -> alimento listo para el consumo, del inglés ready-to-eat
+alimento-RTE-d -> 'alimento|listo|para|el|consumo|del|inglés|ready-to-eat|' (A) [0 83 0 95 0 92 0 96 0 88 0 97 0 104 0 99 0 66 0 95 0 92 0 103 0 104 0 99 0 66 0 100 0 83 0 102 0 83 0 66 0 88 0 95 0 66 0 85 0 99 0 97 0 103 0 105 0 96 0 99 0 66 0 86 0 88 0 95 0 66 0 92 0 97 0 90 0 95 0 88 0 103 0 66 0 102 0 88 0 83 0 86 0 109 0 104 0 99 0 88 0 83 0 104 0 66 0 0 0 0]
+alimento-RTE -> 'RTE|' (R) [0 102 0 104 0 88 0 66 0 0 0 0]
+alta-direccion -> 'alta|dirección|' (A) [0 83 0 95 0 104 0 83 0 66 0 86 0 92 0 102 0 88 0 85 0 85 0 92 0 99 0 97 0 66 0 0 0 0]
+area-operativa -> 'área|operativa|' (A) [0 83 0 102 0 88 0 83 0 66 0 99 0 100 0 88 0 102 0 83 0 104 0 92 0 106 0 83 0 66 0 0 0 0]
+BPD -> 'BPD|' (B) [0 84 0 100 0 86 0 66 0 0 0 0]
+BPH -> 'BPH|' (B) [0 84 0 100 0 91 0 66 0 0 0 0]
+cadena-alimentaria -> 'cadena|alimentaria|' (C) [0 85 0 83 0 86 0 88 0 97 0 83 0 66 0 83 0 95 0 92 0 96 0 88 0 97 0 104 0 83 0 102 0 92 0 83 0 66 0 0 0 0]
+cantidades-pequeñas -> 'cantidades|pequeñas|' (C) [0 85 0 83 0 97 0 104 0 92 0 86 0 83 0 86 0 88 0 103 0 66 0 100 0 88 0 101 0 105 0 88 0 98 0 83 0 103 0 66 0 0 0 0]
+CFE -> 'CFE|' (C) [0 85 0 89 0 88 0 66 0 0 0 0]
+cisterna -> 'cisterna|' (C) [0 85 0 92 0 103 0 104 0 88 0 102 0 97 0 83 0 66 0 0 0 0]
+cliente -> 'cliente|' (C) [0 85 0 95 0 92 0 88 0 97 0 104 0 88 0 66 0 0 0 0]
+cloración -> 'cloración|' (C) [0 85 0 95 0 99 0 102 0 83 0 85 0 92 0 99 0 97 0 66 0 0 0 0]
+congelacion -> 'congelación|' (C) [0 85 0 99 0 97 0 90 0 88 0 95 0 83 0 85 0 92 0 99 0 97 0 66 0 0 0 0]
+contaminacion-cruzada -> 'contaminación|cruzada|' (C) [0 85 0 99 0 97 0 104 0 83 0 96 0 92 0 97 0 83 0 85 0 92 0 99 0 97 0 66 0 85 0 102 0 105 0 110 0 83 0 86 0 83 0 66 0 0 0 0]
+criterio-de-acción -> 'criterio|de|acción|' (C) [0 85 0 102 0 92 0 104 0 88 0 102 0 92 0 99 0 66 0 86 0 88 0 66 0 83 0 85 0 85 0 92 0 99 0 97 0 66 0 0 0 0]
+desastre-natural -> 'desastre|natural|' (D) [0 86 0 88 0 103 0 83 0 103 0 104 0 102 0 88 0 66 0 97 0 83 0 104 0 105 0 102 0 83 0 95 0 66 0 0 0 0]
+documento -> 'documento|' (D) [0 86 0 99 0 85 0 105 0 96 0 88 0 97 0 104 0 99 0 66 0 0 0 0]
+emergencia -> 'emergencia|' (E) [0 88 0 96 0 88 0 102 0 90 0 88 0 97 0 85 0 92 0 83 0 66 0 0 0 0]
+especificacion -> 'especificación|' (E) [0 88 0 103 0 100 0 88 0 85 0 92 0 89 0 92 0 85 0 83 0 85 0 92 0 99 0 97 0 66 0 0 0 0]
+FD -> 'defensa|alimentaria|' (D) [0 86 0 88 0 89 0 88 0 97 0 103 0 83 0 66 0 83 0 95 0 92 0 96 0 88 0 97 0 104 0 83 0 102 0 92 0 83 0 66 0 0 0 0]
+HACCP -> 'HACCP|' (H) [0 91 0 83 0 85 0 85 0 100 0 66 0 0 0 0]
+idoneidad-de-los-alimentos -> 'idoneidad|de|los|alimentos|' (I) [0 92 0 86 0 99 0 97 0 88 0 92 0 86 0 83 0 86 0 66 0 86 0 88 0 66 0 95 0 99 0 103 0 66 0 83 0 95 0 92 0 96 0 88 0 97 0 104 0 99 0 103 0 66 0 0 0 0]
+informacion -> 'información|' (I) [0 92 0 97 0 89 0 99 0 102 0 96 0 83 0 85 0 92 0 99 0 97 0 66 0 0 0 0]
+informacion-documentada -> 'información|documentada|' (I) [0 92 0 97 0 89 0 99 0 102 0 96 0 83 0 85 0 92 0 99 0 97 0 66 0 86 0 99 0 85 0 105 0 96 0 88 0 97 0 104 0 83 0 86 0 83 0 66 0 0 0 0]
+inocuidad-de-los-alimentos -> 'inocuidad|de|los|alimentos|' (I) [0 92 0 97 0 99 0 85 0 105 0 92 0 86 0 83 0 86 0 66 0 86 0 88 0 66 0 95 0 99 0 103 0 66 0 83 0 95 0 92 0 96 0 88 0 97 0 104 0 99 0 103 0 66 0 0 0 0]
+inventario-de-suministros-y-materiales -> 'inventario|de|suministros|y|materiales|' (I) [0 92 0 97 0 106 0 88 0 97 0 104 0 83 0 102 0 92 0 99 0 66 0 86 0 88 0 66 0 103 0 105 0 96 0 92 0 97 0 92 0 103 0 104 0 102 0 99 0 103 0 66 0 109 0 66 0 96 0 83 0 104 0 88 0 102 0 92 0 83 0 95 0 88 0 103 0 66 0 0 0 0]
+limpieza -> 'limpieza|' (L) [0 95 0 92 0 96 0 100 0 92 0 88 0 110 0 83 0 66 0 0 0 0]
+LPA -> 'LPA|' (L) [0 95 0 100 0 83 0 66 0 0 0 0]
+manual-de-calidad -> 'manual|de|calidad|' (M) [0 96 0 83 0 97 0 105 0 83 0 95 0 66 0 86 0 88 0 66 0 85 0 83 0 95 0 92 0 86 0 83 0 86 0 66 0 0 0 0]
+medida-de-control -> 'medida|de|control|' (M) [0 96 0 88 0 86 0 92 0 86 0 83 0 66 0 86 0 88 0 66 0 85 0 99 0 97 0 104 0 102 0 99 0 95 0 66 0 0 0 0]
+monitoreo -> 'monitoreo|' (M) [0 96 0 99 0 97 0 92 0 104 0 99 0 102 0 88 0 99 0 66 0 0 0 0]
+MSDS-d -> 'Hoja|de|Seguridad|de|Material|' (H) [0 91 0 99 0 93 0 83 0 66 0 86 0 88 0 66 0 103 0 88 0 90 0 105 0 102 0 92 0 86 0 83 0 86 0 66 0 86 0 88 0 66 0 96 0 83 0 104 0 88 0 102 0 92 0 83 0 95 0 66 0 0 0 0]
+MSDS -> 'MSDS|' (M) [0 96 0 103 0 86 0 103 0 66 0 0 0 0]
+nivel-aceptable -> 'nivel|aceptable|' (N) [0 97 0 92 0 106 0 88 0 95 0 66 0 83 0 85 0 88 0 100 0 104 0 83 0 84 0 95 0 88 0 66 0 0 0 0]
+organizacion -> 'organización|' (O) [0 99 0 102 0 90 0 83 0 97 0 92 0 110 0 83 0 85 0 92 0 99 0 97 0 66 0 0 0 0]
+peligro-relacionado-con-la-inocuidad-de-los-alimentos -> 'peligro|relacionado|con|la|inocuidad|de|los|alimentos|' (P) [0 100 0 88 0 95 0 92 0 90 0 102 0 99 0 66 0 102 0 88 0 95 0 83 0 85 0 92 0 99 0 97 0 83 0 86 0 99 0 66 0 85 0 99 0 97 0 66 0 95 0 83 0 66 0 92 0 97 0 99 0 85 0 105 0 92 0 86 0 83 0 86 0 66 0 86 0 88 0 66 0 95 0 99 0 103 0 66 0 83 0 95 0 92 0 96 0 88 0 97 0 104 0 99 0 103 0 66 0 0 0 0]
+PEPS -> 'PEPS|' (P) [0 100 0 88 0 100 0 103 0 66 0 0 0 0]
+personal-interno -> 'personal|interno|' (P) [0 100 0 88 0 102 0 103 0 99 0 97 0 83 0 95 0 66 0 92 0 97 0 104 0 88 0 102 0 97 0 99 0 66 0 0 0 0]
+plan-de-la-calidad -> 'plan|de|la|calidad|' (P) [0 100 0 95 0 83 0 97 0 66 0 86 0 88 0 66 0 95 0 83 0 66 0 85 0 83 0 95 0 92 0 86 0 83 0 86 0 66 0 0 0 0]
+politica -> 'politica|' (P) [0 100 0 99 0 95 0 92 0 104 0 92 0 85 0 83 0 66 0 0 0 0]
+politica-de-calidad -> 'política|de|calidad|' (P) [0 100 0 99 0 95 0 92 0 104 0 92 0 85 0 83 0 66 0 86 0 88 0 66 0 85 0 83 0 95 0 92 0 86 0 83 0 86 0 66 0 0 0 0]
+PPR-d -> 'programa|de|prerrequisito|' (P) [0 100 0 102 0 99 0 90 0 102 0 83 0 96 0 83 0 66 0 86 0 88 0 66 0 100 0 102 0 88 0 102 0 102 0 88 0 101 0 105 0 92 0 103 0 92 0 104 0 99 0 66 0 0 0 0]
+PPR -> 'PPR|' (P) [0 100 0 100 0 102 0 66 0 0 0 0]
+PPRO -> 'PPRO|' (P) [0 100 0 100 0 102 0 99 0 66 0 0 0 0]
+metrologia -> 'metrología|' (M) [0 96 0 88 0 104 0 102 0 99 0 95 0 99 0 90 0 92 0 83 0 66 0 0 0 0]
+limpieza-y-sant -> 'limpieza|y|desinfección|' (L) [0 95 0 92 0 96 0 100 0 92 0 88 0 110 0 83 0 66 0 109 0 66 0 86 0 88 0 103 0 92 0 97 0 89 0 88 0 85 0 85 0 92 0 99 0 97 0 66 0 0 0 0]
+PPRO-d -> 'Programa|de|Prerrequisitos|Operativos|' (P) [0 100 0 102 0 99 0 90 0 102 0 83 0 96 0 83 0 66 0 86 0 88 0 66 0 100 0 102 0 88 0 102 0 102 0 88 0 101 0 105 0 92 0 103 0 92 0 104 0 99 0 103 0 66 0 99 0 100 0 88 0 102 0 83 0 104 0 92 0 106 0 99 0 103 0 66 0 0 0 0]
+proceso -> 'proceso|' (P) [0 100 0 102 0 99 0 85 0 88 0 103 0 99 0 66 0 0 0 0]
+producto -> 'producto|' (P) [0 100 0 102 0 99 0 86 0 105 0 85 0 104 0 99 0 66 0 0 0 0]
+producto-terminado -> 'producto|terminado|' (P) [0 100 0 102 0 99 0 86 0 105 0 85 0 104 0 99 0 66 0 104 0 88 0 102 0 96 0 92 0 97 0 83 0 86 0 99 0 66 0 0 0 0]
+proteina-cruda -> 'proteína|cruda|' (P) [0 100 0 102 0 99 0 104 0 88 0 92 0 97 0 83 0 66 0 85 0 102 0 105 0 86 0 83 0 66 0 0 0 0]
+proveedor -> 'proveedor|' (P) [0 100 0 102 0 99 0 106 0 88 0 88 0 86 0 99 0 102 0 66 0 0 0 0]
+proveedor-externo -> 'proveedor|externo|' (P) [0 100 0 102 0 99 0 106 0 88 0 88 0 86 0 99 0 102 0 66 0 88 0 108 0 104 0 88 0 102 0 97 0 99 0 66 0 0 0 0]
+PSA -> 'PSA|' (P) [0 100 0 103 0 83 0 66 0 0 0 0]
+RDF -> 'RDF|' (R) [0 102 0 86 0 89 0 66 0 0 0 0]
+recuperación-de-producto -> 'recuperación|de|producto|' (R) [0 102 0 88 0 85 0 105 0 100 0 88 0 102 0 83 0 85 0 92 0 99 0 97 0 66 0 86 0 88 0 66 0 100 0 102 0 99 0 86 0 105 0 85 0 104 0 99 0 66 0 0 0 0]
+refrigeracion -> 'refrigeración|' (R) [0 102 0 88 0 89 0 102 0 92 0 90 0 88 0 102 0 83 0 85 0 92 0 99 0 97 0 66 0 0 0 0]
+registro -> 'registro|' (R) [0 102 0 88 0 90 0 92 0 103 0 104 0 102 0 99 0 66 0 0 0 0]
+requisito -> 'requisito|' (R) [0 102 0 88 0 101 0 105 0 92 0 103 0 92 0 104 0 99 0 66 0 0 0 0]
+retiro-de-producto -> 'retiro|de|producto|' (R) [0 102 0 88 0 104 0 92 0 102 0 99 0 66 0 86 0 88 0 66 0 100 0 102 0 99 0 86 0 105 0 85 0 104 0 99 0 66 0 0 0 0]
+revision-documental -> 'revisión|documental|' (R) [0 102 0 88 0 106 0 92 0 103 0 92 0 99 0 97 0 66 0 86 0 99 0 85 0 105 0 96 0 88 0 97 0 104 0 83 0 95 0 66 0 0 0 0]
+SADER -> 'SADER|' (S) [0 103 0 83 0 86 0 88 0 102 0 66 0 0 0 0]
+sanitizacion -> 'sanitización|' (S) [0 103 0 83 0 97 0 92 0 104 0 92 0 110 0 83 0 85 0 92 0 99 0 97 0 66 0 0 0 0]
+seguimiento -> 'seguimiento|' (S) [0 103 0 88 0 90 0 105 0 92 0 96 0 92 0 88 0 97 0 104 0 99 0 66 0 0 0 0]
+SENASICA -> 'SENASICA|' (S) [0 103 0 88 0 97 0 83 0 103 0 92 0 85 0 83 0 66 0 0 0 0]
+SGAd -> 'Sistema|de|Gestión|del|Almacén|' (S) [0 103 0 92 0 103 0 104 0 88 0 96 0 83 0 66 0 86 0 88 0 66 0 90 0 88 0 103 0 104 0 92 0 99 0 97 0 66 0 86 0 88 0 95 0 66 0 83 0 95 0 96 0 83 0 85 0 88 0 97 0 66 0 0 0 0]
+SGA -> 'SGA|' (S) [0 103 0 90 0 83 0 66 0 0 0 0]
+SGC-d -> 'Sistema|de|Gestión|de|Calidad|' (S) [0 103 0 92 0 103 0 104 0 88 0 96 0 83 0 66 0 86 0 88 0 66 0 90 0 88 0 103 0 104 0 92 0 99 0 97 0 66 0 86 0 88 0 66 0 85 0 83 0 95 0 92 0 86 0 83 0 86 0 66 0 0 0 0]
+SGC -> 'SGC|' (S) [0 103 0 90 0 85 0 66 0 0 0 0]
+sistema-de-gestion -> 'sistema|de|gestión|' (S) [0 103 0 92 0 103 0 104 0 88 0 96 0 83 0 66 0 86 0 88 0 66 0 90 0 88 0 103 0 104 0 92 0 99 0 97 0 66 0 0 0 0]
+tarima-compuesta -> 'tarima|compuesta|' (T) [0 104 0 83 0 102 0 92 0 96 0 83 0 66 0 85 0 99 0 96 0 100 0 105 0 88 0 103 0 104 0 83 0 66 0 0 0 0]
+uniforme-completo -> 'uniforme|completo|' (U) [0 105 0 97 0 92 0 89 0 99 0 102 0 96 0 88 0 66 0 85 0 99 0 96 0 100 0 95 0 88 0 104 0 99 0 66 0 0 0 0]
+validacion-documental -> 'validación|documental|' (V) [0 106 0 83 0 95 0 92 0 86 0 83 0 85 0 92 0 99 0 97 0 66 0 86 0 99 0 85 0 105 0 96 0 88 0 97 0 104 0 83 0 95 0 66 0 0 0 0]
+visitante -> 'visitante|' (V) [0 106 0 92 0 103 0 92 0 104 0 83 0 97 0 104 0 88 0 66 0 0 0 0]
+Writing /home/pabloalanis/Documents/2023-SGC-2/2 - PSA/2-PSA-2023.glstex
+Encoding: UTF-8
+aduana
+alergeno
+alimento
+alimento-RTE-d
+alta-direccion
+area-operativa
+BPD
+BPH
+cadena-alimentaria
+cantidades-pequeñas
+CFE
+cisterna
+cliente
+cloración
+congelacion
+contacto-cruzado-alergenos
+contaminacion-cruzada
+criterio-de-acción
+FD
+desastre-natural
+documento
+emergencia
+especificacion
+HACCP
+MSDS-d
+idoneidad-de-los-alimentos
+informacion
+informacion-documentada
+inocuidad-de-los-alimentos
+inventario-de-suministros-y-materiales
+limpieza
+limpieza-y-sant
+lote
+LPA
+manual-de-calidad
+medida-de-control
+metrologia
+monitoreo
+MSDS
+nivel-aceptable
+organizacion
+peligro-relacionado-con-la-inocuidad-de-los-alimentos
+PEPS
+personal-interno
+plan-de-la-calidad
+politica
+politica-de-calidad
+PPR
+PPRO
+proceso
+producto
+producto-terminado
+PPR-d
+PPRO-d
+proteina-cruda
+proveedor
+proveedor-externo
+PSA
+RDF
+recuperación-de-producto
+refrigeracion
+registro
+requisito
+retiro-de-producto
+revision-documental
+alimento-RTE
+SADER
+sanitizacion
+seguimiento
+SENASICA
+SGA
+SGC
+sistema-de-gestion
+SGC-d
+SGAd
+tarima-compuesta
+uniforme-completo
+validacion-documental
+visitante
+79 entries written to /home/pabloalanis/Documents/2023-SGC-2/2 - PSA/2-PSA-2023.glstex.

@@ -2,7 +2,7 @@
 % Aqui se definen las variables para diferentes procedimientos.
 % Verificar que las unidades coincidan si se deciden cambiar.
 
-\newcommand{\defglo}[1]{\item[\glsname{#1}] \glsdesc{#1}} % Define un comando para dar un item en un entorno de descripción para una palabra definida en el glosario
+\newcommand{\defglo}[1]{\item[{\bfseries \glsname{#1}}] \glsdesc{#1}} % Define un comando para dar un item en un entorno de descripción para una palabra definida en el glosario
 % \includeonly{src/PSA-2.19.tex,src/PSA-Gloss.tex}
 \newcommand{\TipoID}{TEMP} % Definirlo como: PRO, PROG, ToC, G, L, CE, CI, I, etc.
 \newcommand{\Prog}{TEMP}
@@ -12,7 +12,6 @@
 \newcommand{\eg}{\emph{e.g.}}
 
 %%%%%%%%%%%%%%%% Formularios %%%%%%%%%%%%%%%%
-
 \newcommand{\IdFormAACC}{F-OP-40}
 
 \newcommand{\BitES}{Bitácora de entradas y salidas --- Clientes (F-AD-1)}
@@ -53,12 +52,13 @@
 \newcommand{\REvCA}{Registro de evento de contaminación por alérgeno (F-SEG-3)}
 
 
+
 %%%%%%%%%%%%%%%% CÓDIGOS PSA %%%%%%%%%%%%%%%%
 % \newcommand{\PSA}{PSA-3-PRO}                 % PSA-2.3 Inspección de producto durante su almacenamiento
 
 %%%%%%%%%%%%%%%% PSA-2.3 | Inspección de producto durante su almacenamiento %%%%%%%%%%%%%%%%
-\newcommand{\TiempoAndenCong}{\qty{<=30}{\minute}}
-\newcommand{\TiempoAndenRefri}{\qty{<=30}{\minute}}
+\newcommand{\TiempoAndenCong}{\qty{\leq 30}{\minute}}
+\newcommand{\TiempoAndenRefri}{\qty{\leq 30}{\minute}}
 \newcommand{\TiempoAveriaRefri}{4}              % Tiempo máximo de permanencia de alimento refrigerado en cámara averiada (en horas) 
 \newcommand{\TiempoAveriaConge}{10}             % Tiempo máximo de permanencia de alimento congelado en cámara averiada (en horas)
 \newcommand{\EspacioMinimoParedProducto}{30}    % Espacio entre tarima y pared (en centimetros)
@@ -79,3 +79,10 @@
 %%%%%%%%%%%%%%%% GLOBAL | Resetear glosarios en cada sección %%%%%%%%%%%%%%%%
 \usepackage{etoolbox}
 \preto\section{\glsresetall}
+
+\newcommand{\AC}{aseguramiento de calidad}
+\newcommand{\G}{gerencia}
+\newcommand{\AD}{alta dirección}
+\newcommand{\OP}{operaciones}
+\newcommand{\Emb}{embarques}
+\newcommand{\MC}{mesa de control}

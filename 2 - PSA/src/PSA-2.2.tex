@@ -1,7 +1,7 @@
 \thispagestyle{formato-PI}
 \renewcommand{\MayorVer}{2}
 \renewcommand{\MenorVer}{0}
-\renewcommand{\Codigo}{PSA-2-PRO} 
+\renewcommand{\Codigo}{PSA-2-PRO}
 \renewcommand{\FechaPub}{2023--01}
 \renewcommand{\TipoID}{PRO}
 \renewcommand{\Titulo}{Procedimiento de lotificación de productos para su almacenamiento}
@@ -10,7 +10,6 @@
 \renewcommand{\Codigo}{\Prog--\thesection--\TipoID}
 
 % \section{Procedimiento de lotificación de productos para su almacenamiento}
-
 \subsection{Objetivo}
 
 \begin{itemize}
@@ -18,73 +17,50 @@
 \end{itemize}
 
 \subsection{Alcance}
-
 \begin{itemize}
-	\item Este documento es aplicable a todas las tarimas con producto que almacenadas en RDF.
+	\item Este documento es aplicable para la lotificación interna dentro del \gls{SGA} de \gls{RDF}.
 \end{itemize}
 
 \subsection{Términos y definiciones}
-%TODO definiciones
+\begin{description}
+	\defglo{lote}
+\end{description}
 
 \subsection{Procedimiento}
 
 \subsubsection{Fundamento}
-
 Los establecimientos y equipos dedicados al proceso de alimentos para consumo humano deben mantener los registros y el control de los productos y materiales de empaque por medio de la notificación de los mismos, con el cual es posible la realización de un sistema de rastreo desde su producción hasta su distribución.
 
-\subsection{Materiales}
-
+\subsubsection{Materiales}
 \begin{itemize}
-	\item Factura de entrada
+	\item \Oent\ llenado.
 \end{itemize}
 
-\subsection{Instrucciones}
+\subsubsection{Instrucciones}
+\input{../IT/IT-3 - Lotificación de tarimas.tex}
 
+\Resp{\OP\ y \MC}{\AC}{\G} % Responsables
+
+\AcPGen	% Acciones preventivas genericas
+
+% \AcCGen	% Acciones correctivas genericas
+
+\subsubsection{Acciones correctivas}
 \begin{itemize}
-	\item Cada vez que se reciba en el área de almacén, productos o materiales de empaque, se debe registrar el lote que el cliente designado a este producto.
-	\item El personal de recepción debe de verificar que el lote de los registros coincidan con el lote marcado en las tarimas del producto;
-	\item Estos se darán de alta en el sistema de la empresa con el lote asignado por el proveedor o cliente.
-	\begin{itemize}
-		\item Si el producto no tiene lote o este no coincide se dará aviso al Supervisor de almacén (el lote asignado será asignado con el número de entrada)
-	\end{itemize}
-	\item Las tarimas que contienen el producto son marcadas con \emph{etiqueta de recepción de producto,} en ella se coloca la fecha de recepción, nombre del cliente, nombre del producto, fecha de caducidad, orden de compra o lotificación, numero de entrada, cantidad por tarima.
-\end{itemize}
-
-\subsection{Responsables de la actividad}
-
-\begin{itemize}
-	\item \textbf{Ejecutado} por personal de operaciones;
-	\item \textbf{Monitoreado} por personal de calidad;
-	\item \textbf{Verificado} por personal de gerencia.
-\end{itemize}
-
-\subsection{Acciones preventivas}
-
-\begin{itemize}
-	\item Se llevará a cabo una inspección. Registrando el indicador y medida correspondiente;
-	\item Si la desviación se repite frecuentemente se dará curso de capacitación al personal de almacén y limpieza para que realicen eficientemente su trabajo;
-	\item Si después de haber capacitado al personal de almacén se siguen presentando desviaciones por causas injustificadas, se tomaran acciones más enérgicas con el personal por incumplimiento con sus deberes.
-\end{itemize}
-
-\subsection{Acciones correctivas}
-
-\begin{itemize}
-	\item En caso contrario la tarea se deberá volver a realizar como se indica en el procedimiento.
-	\item En caso de no conformidad reportar en \RAC.
+\item En caso de no-conformidad, reportar en \mbox{formulario de {\slshape \RAC.}}
 \end{itemize}
 
 \subsection{Frecuencia}
-
 \begin{itemize}
-	\item Cada recepción de Producto
-	\item Cada entrega de producto.
+	\item Cada recepción de alimento;
+	\item Cada entrega de alimento.
 \end{itemize}
 
 \begin{changelog}[title=Registro de cambios,simple, sectioncmd=\subsection*,label=changelog-\thesection-\MayorVer.\MenorVer]
-	
+
 	\begin{version}[v=2.1, date=2023--01, author=Pablo E. Alanis]
-			\item Cambio de formato;
-			\item Cambios en la serialización de versiones;
+		\item Cambio de formato;
+		\item Cambios en la serialización de versiones;
 	\end{version}
 
 	\begin{version}[v=1.3, date=2022--05, author=Alonso M.]

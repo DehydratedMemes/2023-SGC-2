@@ -1,20 +1,83 @@
 \begin{theindex}
 
+  \item Acciones inmediatas
+    \subitem en caso de avería de equipos de enfriamiento, 
+		\hyperpage{44}
+    \subitem en caso de corte de energía o desastre, \hyperpage{43}
+    \subitem en caso de corte eléctrico, \hyperpage{44}
+    \subitem en caso de incendio en la periferia, \hyperpage{43}
+
+  \indexspace
+
+  \item Especificación de servicios
+    \subitem almacenamiento, \hyperpage{37}
+
+  \indexspace
+
+  \item Información documentada
+    \subitem aprobación de cambios a procedimientos, \hyperpage{58}
+    \subitem control
+      \subsubitem almacenamiento de registros, \hyperpage{55}
   \item Inspección
-    \subitem en la recepción de alimentos, \hyperpage{8}
+    \subitem en la recepción de alimentos, \hyperpage{9}
+    \subitem productos durante su almacenamiento, de, \hyperpage{19}
+    \subitem transporte al embarque de producto, de, \hyperpage{40}
   \item Instrucción
     \subitem descarga de alimentos de la unidad de transporte, 
-		\hyperpage{12}
+		\hyperpage{13}
     \subitem inspección fisica de los alimentos, \hyperpage{9}
 
   \indexspace
 
-  \item Procedimiento
-    \subitem inspección en la recepción de alimentos, \hyperpage{8}
+  \item Lista
+    \subitem contactos de emergencia, de, \hyperpage{47}
 
   \indexspace
 
+  \item Manejo de producto retenido
+    \subitem por cuestiones de calidad (por parte de RDF), 
+		\hyperpage{49}
+    \subitem por cuestiones de calidad (por parte del cliente), 
+		\hyperpage{50}
+    \subitem por cuestiones de inocuidad
+      \subsubitem destrucción de producto, \hyperpage{51}
+      \subsubitem retiro de productos, \hyperpage{51}
+
+  \indexspace
+
+  \item Números de contrato (\gls{CFE}), \hyperpage{44}
+  \item Números de emergencia, \hyperpage{45}
+  \item Números de transportes en caso de siniestros, \hyperpage{45}
+
+  \indexspace
+
+  \item Plan de contingencia
+    \subitem en caso de avería de equipos de refrigeración, 
+		\hyperpage{21}
+  \item Política
+    \subitem aprobación de proveedores, de, \hyperpage{33}
+    \subitem devoluciones, de, \hyperpage{31}
+    \subitem re-empaque, re-etiquetado y uso de aditivos, de, 
+		\hyperpage{54}
+  \item Procedimiento
+    \subitem Inspección de transporte al embarque de producto, 
+		\hyperpage{40}
+    \subitem inspección en la recepción de alimentos, \hyperpage{9}
+    \subitem lotificación de productos, \hyperpage{16}
+    \subitem PEPS o VENCER, \hyperpage{23}
+    \subitem solicitud de citas, \hyperpage{28}
+  \item Producto retenido
+    \subitem manejo de, \hyperpage{49}
+
+  \indexspace
+
+  \item Tiempo de permanencia máxima de alimentos en cámaras apagadas, 
+		\hyperpage{44}
   \item Tiempo máximo de permanencia de alimentos en el andén, 
-		\hyperpage{14}
+		\hyperpage{15}
+
+  \indexspace
+
+  \item Área de retención, \hyperpage{20}
 
 \end{theindex}

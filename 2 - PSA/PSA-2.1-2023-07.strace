@@ -1,0 +1,24 @@
+12505 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/bin/x86_64-linux/texmf.cnf", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/bin/texmf.cnf", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/texmf.cnf", R_OK) = 0
+12505 access("/usr/local/texlive/2023/texmf-local/web2c/texmf.cnf", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf", R_OK) = 0
+12505 access("/usr/local/texlive/2023/texmf-local/ls-r", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/texmf-local/ls-R", R_OK) = 0
+12505 access("/usr/local/texlive/2023/texmf-config/ls-r", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/texmf-config/ls-R", R_OK) = 0
+12505 access("/usr/local/texlive/2023/texmf-var/ls-r", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/texmf-var/ls-R", R_OK) = 0
+12505 access("/usr/local/texlive/2023/texmf-dist/ls-r", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/texmf-dist/ls-R", R_OK) = 0
+12505 access("/usr/local/texlive/2023/texmf-local/aliases", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/texmf-config/aliases", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/texmf-var/aliases", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/texmf-dist/aliases", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("./PSA-2.1-2023-07.tex", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("./pdflatex.fmt", R_OK)    = -1 ENOENT (No such file or directory)
+12505 access("/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt", R_OK) = 0
+12505 access("./PSA-2.1-2023-07.tex", R_OK) = -1 ENOENT (No such file or directory)
+12505 access("./PSA-2.1-2023-07.tex", R_OK) = -1 ENOENT (No such file or directory)
+12505 +++ exited with 1 +++

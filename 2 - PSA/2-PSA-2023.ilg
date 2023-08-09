@@ -1,6 +1,30 @@
 This is makeindex, version 2.17 [TeX Live 2023] (kpathsea + Thai support).
-Scanning input file 2-PSA-2023.idx....done (5 entries accepted, 0 rejected).
-Sorting entries....done (11 comparisons).
-Generating output file 2-PSA-2023.ind....done (20 lines written, 0 warnings).
+Scanning input file 2-PSA-2023.idx....
+!! Input index error (file = 2-PSA-2023.idx, line = 31):
+   -- Extra `!' at position 81 of first argument.
+
+!! Input index error (file = 2-PSA-2023.idx, line = 35):
+   -- Extra `!' at position 44 of first argument.
+!! Input index error (file = 2-PSA-2023.idx, line = 36):
+   -- Extra `!' at position 36 of first argument.
+!! Input index error (file = 2-PSA-2023.idx, line = 37):
+   -- Extra `!' at position 46 of first argument.
+!! Input index error (file = 2-PSA-2023.idx, line = 38):
+   -- Extra `!' at position 46 of first argument.
+!! Input index error (file = 2-PSA-2023.idx, line = 39):
+   -- Extra `!' at position 44 of first argument.
+!! Input index error (file = 2-PSA-2023.idx, line = 40):
+   -- Extra `!' at position 44 of first argument.
+!! Input index error (file = 2-PSA-2023.idx, line = 41):
+   -- Extra `!' at position 46 of first argument.
+!! Input index error (file = 2-PSA-2023.idx, line = 42):
+   -- Extra `!' at position 44 of first argument.
+!! Input index error (file = 2-PSA-2023.idx, line = 43):
+   -- Extra `!' at position 44 of first argument.
+!! Input index error (file = 2-PSA-2023.idx, line = 44):
+   -- Extra `!' at position 40 of first argument.
+done (33 entries accepted, 11 rejected).
+Sorting entries....done (199 comparisons).
+Generating output file 2-PSA-2023.ind....done (83 lines written, 0 warnings).
 Output written in 2-PSA-2023.ind.
 Transcript written in 2-PSA-2023.ilg.

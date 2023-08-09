@@ -1697,50 +1697,50 @@ luaotfload | aux : font no 27 (nil) defines no feature for script latn with lang
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-<./RDF_Logo.png, id=503, 411.03563pt x 107.65219pt>
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 41.
+<../RDF_Logo.png, id=503, 411.03563pt x 107.65219pt>
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 41.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 41.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 41.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 41.
 LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 41.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 41.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 41.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 41.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 41.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 41.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 41.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 41.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 41.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 41.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 41.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 41.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 41.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
  [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 \openout3 = 10-FoodDefense-2023.xdy
 
-<./RDF_Logo.png>]
+<../RDF_Logo.png>]
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with language esp
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with language esp
 luaotfload | aux : font no 27 (nil) defines no feature for script latn with language esp
@@ -1912,38 +1912,38 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/b/it' will be
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 34.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 34.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 34.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 34.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 34.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 34.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 34.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 34.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 34.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
  [5
 
@@ -1962,38 +1962,38 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/b/n' will be
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 42.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 42.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 42.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 42.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 42.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 42.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 42.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 42.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 42.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
  [6
 
@@ -2068,38 +2068,38 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 51.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 51.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 51.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 51.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 51.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 51.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 51.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 51.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 51.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 [13
 
@@ -2139,38 +2139,38 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/m/n' will be
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 49.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 49.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 49.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 49.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 49.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 49.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 49.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 49.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 49.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
  [16
 
@@ -2206,38 +2206,38 @@ LaTeX Warning: Reference `carta.compromiso' on page 1 undefined on input line 13
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 4.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 4.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 4.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 4.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 4.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 4.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 4.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 4.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
  [19] ("../1 - BPD/src/BPM-1.6.tex"
 > Step: init table outer spec.
@@ -2247,38 +2247,38 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 4.
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 58.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 58.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 58.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 58.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 58.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 58.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 58.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 58.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 58.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
  [20]
 
@@ -2301,38 +2301,38 @@ LaTeX Warning: Reference `F-amonest' on page 1 undefined on input line 84.
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 52.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 52.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 52.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 52.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 52.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 52.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 52.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 52.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 52.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
  [22]
 Package mdframed Info: mdframed works in twoside mode on input line 61.
@@ -2365,38 +2365,38 @@ LaTeX Font Info:    Font shape `TU/Carlito(0)/m/it' will be
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 65.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 65.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 65.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 65.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 65.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 65.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 65.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 65.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 65.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 65.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 65.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 65.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 65.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 65.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 65.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 65.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
  [25])
 > Step: init table outer spec.
@@ -2415,38 +2415,38 @@ Package luatex.def Info: ./RDF_Logo.png  used on input line 65.
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 46.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 46.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 46.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 46.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 46.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 46.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 46.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 46.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 46.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
  [27]
 Package mdframed Info: mdframed works in twoside mode on input line 71.
@@ -2487,38 +2487,38 @@ LaTeX Warning: Reference `sec:AccEnCasoDeEmergencia' on page 1 undefined on inpu
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 62.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 62.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 62.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 62.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 62.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 62.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 62.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 62.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 62.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 62.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 62.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 62.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 62.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 62.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 62.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 62.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 [31])
 > Step: init table outer spec.
@@ -2604,38 +2604,38 @@ Overfull \hbox (22.91104pt too wide) in alignment at lines 25--89
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 89.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 89.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 89.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 89.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 89.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 89.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 > Step: build the whole table.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 89.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
-File: ./RDF_Logo.png Graphic file (type png)
-<use ./RDF_Logo.png>
-Package luatex.def Info: ./RDF_Logo.png  used on input line 89.
+File: ../RDF_Logo.png Graphic file (type png)
+<use ../RDF_Logo.png>
+Package luatex.def Info: ../RDF_Logo.png  used on input line 89.
 (luatex.def)             Requested size: 114.54353pt x 30.0pt.
 [33
 

@@ -1,5 +1,4 @@
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Tipografía %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \usepackage[sfdefault,t,lf]{carlito}    % Alternativa OpenSource a Calibri, definir sans serif como predeterminado, numerales tabulares
@@ -8,11 +7,42 @@
 
 % \usepackage{lucidabr}/usr/share/fonts/tex-gyre/texgyreheros-regular.otf
 
-\usepackage{babel}
+\usepackage[spanish,mexico]{babel}
 \usepackage{fontspec}
 \usepackage{luaquotes}
-\setmainfont{Source Sans Pro}
-\fontsize{8.8pt}{12pt}\selectfont
+% \setmainfont{Source Sans Pro}
+% \setmainfont{FPL Neu}
+
+% \setmainfont{Gandhi Sans}
+\setmainfont{Gandhi Serif}[
+	Ligatures={TeX,Rare}]
+\setsansfont{Gandhi Sans}[
+	Ligatures={TeX,Rare}]
+\renewcommand{\familydefault}{\sfdefault}
+
+
+% \setmainfont{GaramondNo8 Expert}
+% [	Extension 		= .otf,
+% UprightFont 	= *-Roman,
+% ItalicFont 		= *-It,
+% BoldFont 		= *-Bd,
+% BoldItalicFont 	= *-BdIt]
+
+% \setmainfont{HelveticaNeueLTStd}
+% [	Extension 		= .otf,
+% 	UprightFont 	= *-Roman,
+% 	ItalicFont 		= *-It,
+% 	BoldFont 		= *-Bd,
+% 	BoldItalicFont 	= *-BdIt]
+
+% \fontsize{8.8pt}{12pt}\selectfont
+% \linespread{1.5}\selectfont
+
+\usepackage{parskip}
+
+\usepackage{microtype}              % Ajustes de kerning y otros
+% \LoadMicrotypeFile{ptm}
+
 % \setmainfont{Tex Gyre Heros}
 % \usepackage[sfdefault,t,lf]{carlito}
 \usepackage{snapshot}
@@ -25,6 +55,11 @@
 \usepackage{pifont}
 \newcommand{\cmark}{\ding{51}}%
 \newcommand{\xmark}{\ding{55}}%
+
+\usepackage[%
+	font={sf,bf,small},
+	textfont={md}
+]{caption}
 
 % \usepackage[%
 % toc=true,
@@ -42,32 +77,41 @@
 % 	\loadglsentries[main]{../glosario-def.tex}  % Archvio que LuaLaTeX toma para las definiciones
 
 \usepackage[
-	record=hybrid,% provides group and location fields (and other stuff)
+	record,
 	nopostdot,
 	acronym,
 	stylemods=tree]{glossaries-extra}
-\setabbreviationstyle{long-short-sc}
+% \setabbreviationstyle{long-short-sc}
+\setabbreviationstyle[acronym]{long-short-sc}
+% \makeglossaries
+% \loadglsentries{../glosario-nv}
 \GlsXtrLoadResources[
 	src={../glosario.bib},	% bib files
 	selection={all},			% select all entries
-	sort={es-MX}
-]
-\makeglossaries
+	sort={es-MX}]
+
 
 \usepackage{structuredlog}
+\usepackage{kantlipsum}
 
+\usepackage{tcolorbox,nameref}
+	\tcbuselibrary{skins,breakable}
+	\tcbset{skin=enhanced, breakable, colframe=blue!75!black, drop fuzzy shadow, hyperref, fonttitle=\rmfamily\bfseries, interior style={left color= blue!20,right color=white}}
 
+\newtcolorbox[auto counter,number within=section,number format=\Alph]{nota}[3][]{skin=enhanced,breakable,colframe=gray!30!black,drop fuzzy shadow,hyperref,fonttitle=\rmfamily,interior style={left color= gray!30,right color=white},label=#3,nameref=#2, title={\rmfamily\bfseries Nota~\thetcbcounter:}~#2,#1}
+% nameref=#2
 % \setglossarystyle{longragged}
 
 
-\renewcommand{\glossarypreamble}{\fontsize{10pt}{12pt}\selectfont}
+
+% \renewcommand{\glossarypreamble}{\fontsize{10pt}{12pt}\selectfont}
 
 \usepackage{makeidx}
 \makeindex
 
 % \usepackage[xindy]{imakeidx}    % Para hacer indices
 % 	\makeindex[columns=2]   	% Estilo del indice alfabético
-	
+
 \makeatletter
 \newcounter{scheme}% the counter
 \renewcommand*\thescheme{\arabic{scheme}}% the default format for the counter
@@ -93,69 +137,74 @@
 
 \newcounter{note}[section]  % Nuevo contador para notas
 \renewcommand{\thenote}{\thesection.\Alph{note}}    % Definir estilo de numeración de las notas
+
+
+
+
+
 \usepackage[framemethod=TikZ]{mdframed}             % Motor gráfico para notas (TikZ)
 \newenvironment{note}[1][]{%                        % Nuevo entorno de Nota (note) 
-    \refstepcounter{note}
-    \begin{mdframed}[%                                  
-        frametitle={Nota \thenote\ #1},                 % Titulo de las notas
-        skipabove=\baselineskip{} plus 2pt minus 1pt,     % Espaciado superior
-        skipbelow=\baselineskip{} plus 2pt minus 1pt,     % Espaciado inferior
-        linewidth=0.5pt,                                % Tamaño de linea del recuadro
-        frametitlerule=true,                            % incluir titulo
-        frametitlebackgroundcolor=gray!30               % Color del recuadro
-    ]%
-}{%
-    \end{mdframed}
+	\refstepcounter{note}
+	\begin{mdframed}[%                                  
+			frametitle={Nota \thenote\ #1},                 % Titulo de las notas
+			skipabove=\baselineskip{} plus 2pt minus 1pt,     % Espaciado superior
+			skipbelow=\baselineskip{} plus 2pt minus 1pt,     % Espaciado inferior
+			linewidth=0.5pt,                                % Tamaño de linea del recuadro
+			frametitlerule=true,                            % incluir titulo
+			frametitlebackgroundcolor=gray!30               % Color del recuadro
+		]%
+		}{%
+	\end{mdframed}
 }
 
 \newcounter{contact}[section]                           % Nuevo contador para contactos
 \renewcommand{\thecontact}{\thesection.\Alph{contact}}  % Definir que la numeración sea Sección.Alfabético
 
 \newenvironment{contact}[1][]{%
-    \refstepcounter{contact}
-    \begin{mdframed}[%
-        frametitle={Contacto \thecontact\ #1},          % Titulo del contacto
-        skipabove=\baselineskip{}plus 2pt minus 1pt,     % Espaciado superior
-        skipbelow=\baselineskip{}plus 2pt minus 1pt,     % Espaciado inferior
-        linewidth=0.5pt,                                % Tamaño de linea del recuadro
-        frametitlerule=true,                            % poner titulo
-        frametitlebackgroundcolor=yellow!30             % Color del recuadro
-    ]%
-}{%
-    \end{mdframed}
+	\refstepcounter{contact}
+	\begin{mdframed}[%
+			frametitle={Contacto \thecontact\ #1},          % Titulo del contacto
+			skipabove=\baselineskip{}plus 2pt minus 1pt,     % Espaciado superior
+			skipbelow=\baselineskip{}plus 2pt minus 1pt,     % Espaciado inferior
+			linewidth=0.5pt,                                % Tamaño de linea del recuadro
+			frametitlerule=true,                            % poner titulo
+			frametitlebackgroundcolor=yellow!30             % Color del recuadro
+		]%
+		}{%
+	\end{mdframed}
 }
 
 \usepackage[multiple]{footmisc}     % Cambios en la presentación de pies de página
-\usepackage{microtype}              % Ajustes de kerning y otros 
+
 \usepackage{graphicx}               % Mejora al motor de imagenes
-\usepackage{hyperref}               % Referencias cruzadas en PDF
+\usepackage[pdflang=es-MX]{hyperref}               % Referencias cruzadas en PDF
 \usepackage{cleveref}               % Referencias cruzadas en texto
 %%%%%% REDEFINICIONES DE REFERENCIAS CRUZADAS %%%%%%%%%
-    \crefname{note}{nota}{notas}    
-	\Crefname{note}{Nota}{Notas}
-	\crefname{contact}{contacto}{contactos}
-	\Crefname{contact}{Contacto}{Contactos}
-	\crefname{paragraph}{parrafo}{parrafos}
-	\Crefname{paragraph}{Parrafo}{Parrafos}
+\crefname{nota}{nota}{notas}
+\Crefname{nota}{Nota}{Notas}
+\crefname{contact}{contacto}{contactos}
+\Crefname{contact}{Contacto}{Contactos}
+\crefname{paragraph}{parrafo}{parrafos}
+\Crefname{paragraph}{Parrafo}{Parrafos}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\email}[1]{\href{mailto:#1}{#1}}    % Comando para hacer que se puedan clickear emails
 \newcommand{\cels}[1]{\qty{#1}{\celsius}}       % Escrir celsius rapido
 
 \usepackage{lastpage}   % Definir variable para el numero total de páginas
 \usepackage{siunitx}    % Unidades internacionales y alineamiento de decimales en tablas
-	\sisetup{detect-all}    % Detectar automaticamente que la tipografía es sans serif
+\sisetup{detect-all}    % Detectar automaticamente que la tipografía es sans serif
 
 \usepackage{color}  % definir colores nuevos
 
 \usepackage{tabularray} % Creación de tablas
-	\UseTblrLibrary{booktabs,siunitx}   % librerias parea tablas correctas, unidades internacionales
-	\definecolor{Gallery}{rgb}{0.929,0.929,0.929}   % definición del color "Gallery"
-	\DefTblrTemplate{contfoot-text}{normal}{\textit{Continúa en la siguiente página}}   % Continuación de tabla
-	\SetTblrTemplate{contfoot-text}{normal} % Continuación de tabla normal (footer)
-	\DefTblrTemplate{conthead-text}{normal}{\textit{(Continuación)}}    % Continuación de tabla
-	\SetTblrTemplate{conthead-text}{normal} % Continuación de tabla (header)
+\UseTblrLibrary{booktabs,siunitx}   % librerias parea tablas correctas, unidades internacionales
+\definecolor{Gallery}{rgb}{0.929,0.929,0.929}   % definición del color "Gallery"
+\DefTblrTemplate{contfoot-text}{normal}{\textit{Continúa en la siguiente página}}   % Continuación de tabla
+\SetTblrTemplate{contfoot-text}{normal} % Continuación de tabla normal (footer)
+\DefTblrTemplate{conthead-text}{normal}{\textit{(Continuación)}}    % Continuación de tabla
+\SetTblrTemplate{conthead-text}{normal} % Continuación de tabla (header)
 
-    % \usepackage[margin=1cm,bmargin=2cm,tmargin=5cm,headheight=110pt]{geometry}   % Dispoción espacial del documento
+% \usepackage[margin=1cm,bmargin=2cm,tmargin=5cm,headheight=110pt]{geometry}   % Dispoción espacial del documento
 % \newgeometry{includeheadfoot, heightrounded, left=1cm, right=1cm, top=1cm, bottom=4cm, headheight=6em, footskip=1.5em}    
 %     \savegeometry{L1}
 
@@ -186,6 +235,8 @@
 ]{geometry}
 
 \addtolength{\topmargin}{3em}
+\setlength{\headheight}{98pt}
+
 
 \usepackage{afterpage}
 
@@ -193,35 +244,46 @@
 
 \usepackage[export]{adjustbox}
 \usepackage{enumitem}
-	\setlist[1]{labelindent=\parindent} % Indentación como parrafo para listas
-	\setlist[description]{style=nextline}
-	\setlist[itemize]{leftmargin=*} 	% Eliminar margen en izq
-	\setlist[itemize,1]{label=---}  	% Viñeta como em-dash
-	\setlist[itemize,2]{label=--}
-	\setlist{noitemsep} 				% Que no se separen los item
-	% [label={\theparagraph--\arabic*}] % Numerarar parrafo-numero
+\setlist[1]{labelindent=\parindent} % Indentación como parrafo para listas
 
-	\newlist{ListaSec}{enumerate}{3}
-	\setlist[ListaSec]{label* = \arabic*., name* = \arabic{section}.\arabic{subsection}}
+\newlist{steps}{enumerate}{3}
+	\setlist[steps]{label={\arabic*.}}
+	\setlist[steps,2,3]{label={\itshape \alph*)}}
+
+\newlist{condition}{description}{1}
+	\setlist[condition]{label={{\itshape \alph*)}}}
+	\setlist[condition]{labelindent=20pt}
+
+\newlist{definiciones}{description}{1}
+	\setlist[definiciones]{style=nextline}
+
+\setlist[itemize]{leftmargin=*} 	% Eliminar margen en izq
+\setlist[itemize,1]{label=---}  	% Viñeta como em-dash
+\setlist[itemize,2]{label=--}
+\setlist{noitemsep} 				% Que no se separen los item
+% [label={\theparagraph--\arabic*}] % Numerarar parrafo-numero
+
+\newlist{ListaSec}{enumerate}{3}
+\setlist[ListaSec]{label* = \arabic*., name* = \arabic{section}.\arabic{subsection}}
 
 
 %%%%%%%%%%%%%%%% DEFINICIÓN DE CABECERA %%%%%%%%%%%%%%%%
 \usepackage{fancyhdr}   % Usar fancy headers y footers
-	\renewcommand{\headrulewidth}{0pt}  % Grosor de regla del header
-	\fancyhead[CE,CO,LE,LO,RE,RO]{} % Resetear headers    
-    \fancyfoot[CE,CO,LE,LO,RE,RO]{} % Resetear footers
+\renewcommand{\headrulewidth}{0pt}  % Grosor de regla del header
+\fancyhead[CE,CO,LE,LO,RE,RO]{} % Resetear headers    
+\fancyfoot[CE,CO,LE,LO,RE,RO]{} % Resetear footers
 
 %%%%%%%%%%%%%%%%%%%%%% VARIABLES DE CADA DOCUMENTO DENTRO DE UN PROGRAMA %%%%%%%%%%%%%%%%%%%%%
-	\newcommand{\Codigo}{}                  % Codigo del documento
-	\newcommand{\FechaPub}{}                % Fecha de publicación
-	\newcommand{\Titulo}{}                  % Titulo del documento
-	\newcommand{\MayorVer}{}                % Versión mayor
-	\newcommand{\MenorVer}{}                % Verisón menor
-	\newcommand{\Edit}{\MayorVer.\MenorVer} % Definición de la edición
+\newcommand{\Codigo}{}                  % Codigo del documento
+\newcommand{\FechaPub}{}                % Fecha de publicación
+\newcommand{\Titulo}{}                  % Titulo del documento
+\newcommand{\MayorVer}{}                % Versión mayor
+\newcommand{\MenorVer}{}                % Verisón menor
+\newcommand{\Edit}{\MayorVer.\MenorVer} % Definición de la edición
 
-    \newcommand{\Elaboro}{}                 % Nombre de quien lo elaboró
-    \newcommand{\Reviso}{}                  % Nombre de quien revisó el documento
-    \newcommand{\Autorizo}{}                % Nombre de quien aprobó el documento
+\newcommand{\Elaboro}{}                 % Nombre de quien lo elaboró
+\newcommand{\Reviso}{}                  % Nombre de quien revisó el documento
+\newcommand{\Autorizo}{}                % Nombre de quien aprobó el documento
 
 %%%%%%%%%%%%%%%%%% Formato por defecto para informaicón documentada general %%%%%%%%%%%%%%%%%%
 \fancypagestyle{formato-PS}{%
@@ -233,8 +295,8 @@
 			hlines,
 			vlines,
 			width = 0.35\linewidth,}%
-			{\textbf{Código:}\\ \Codigo} 				 & {\textbf{Edición:}\\ \MayorVer.\MenorVer} 			\\ 	% Logotipo (2 columnas), red de frios (3 columnas), código del documento
-			{\textbf{Fecha de publicación:}\\ \FechaPub} & {Página~\thepage~de~\pageref{LastPage}} 		% Titulo (4 columnas), Fecha, edición
+			{\textbf{\small Código:}               \\ \Codigo} 				 & {\textbf{\small Edición:}\\ \MayorVer.\MenorVer} 			\\ 	% Logotipo (2 columnas), red de frios (3 columnas), código del documento
+			{\textbf{Fecha de publicación:} \\ \FechaPub} & {\small \thepage~de~\pageref{LastPage}} 		% Titulo (4 columnas), Fecha, edición
 		\end{tblr}
 	}%
 
@@ -244,8 +306,8 @@
 			hlines,
 			vlines,
 			width = 0.35\linewidth,}%
-			{\textbf{Código:}\\ \Codigo} 					& {\textbf{Edición:}\\ \MayorVer.\MenorVer} 			\\	% Logotipo (2 columnas), red de frios (3 columnas), código del documento
-			{\textbf{Fecha de publicación:}\\\FechaPub}	& {Página~\thepage~de~\pageref{LastPage}} 		% Titulo (4 columnas), Fecha, edición
+			{\small \textbf{Código:}               \\ \Codigo} 					& {\small \textbf{Edición:}\\ \MayorVer.\MenorVer} 			\\	% Logotipo (2 columnas), red de frios (3 columnas), código del documento
+			{\textbf{Fecha de publicación:} \\\FechaPub}	& {\thepage~de~\pageref{LastPage}} 		% Titulo (4 columnas), Fecha, edición
 		\end{tblr}
 	}%
 
@@ -257,19 +319,19 @@
 \fancypagestyle{formato-PI}{%
 	\fancyhead{}
 	\fancyfoot{}
-    \fancyhead[C]{%
-	    \begin{tblr}{%	
-            colspec = {X[c,m]X[c,m]X[c,m]X[c,m]X[c,m]X[c,m]},    % Especificación de columnas: Anchura estática, centrado en medio
-            hlines,
-            vlines,
+	\fancyhead[C]{%
+		\begin{tblr}{%	
+			colspec = {X[c,m]X[c,m]X[c,m]X[c,m]X[c,m]X[c,m]},    % Especificación de columnas: Anchura estática, centrado en medio
+			hlines,
+			vlines,
 			width = \linewidth,}%
-			\SetCell[c=2]{} \includegraphics[height=3em, valign=c]{./RDF_Logo.png}	&	& \SetCell[c=3]{} \large{Red de fríos S.A. de C.V.}	&	&												& {\textbf{Código:}\\ \Codigo}	\\ % Logotipo (2 columnas), red de frios (3 columnas), código del documento
-			\SetCell[c=4]{} {\textbf{Titulo:}\\ \Titulo} 							&	&													&	& {\textbf{Fecha de publicación:}\\ \FechaPub}	& {\textbf{Edición:}\\ \Edit}	\\ % Titulo (4 columnas), Fecha, edición
-            \end{tblr}
+			\SetCell[c=2]{} \includegraphics[height=3em, valign=c]{../RDF_Logo.png} &  & \SetCell[c=3]{} \large{\textsc{Red de Fríos S.A. de C.V.}} &  &  & {\textbf{Código:} \\ \Codigo}	\\ % Logotipo (2 columnas), red de frios (3 columnas), código del documento
+			\SetCell[c=4]{} {\textbf{Titulo:}                                                                                                                                \\ \Titulo} 							&	&													&	& {\textbf{Fecha de publicación:}\\ \FechaPub}	& {\textbf{Edición:}\\ \Edit}	\\ % Titulo (4 columnas), Fecha, edición
+		\end{tblr}
 	}
-    \fancyfoot[C]{Página~\thepage~de~\pageref{LastPage}}   % Para que muestre Página # de #
-    \fancyfoot[L]{\textbf{CONFIDENCIAL}}                    % CONFIDENCIAL
-    \fancyfoot[R]{\Codigo~v.\Edit}                          % Estructura del código CODIGO v.EDICION
+	\fancyfoot[C]{Página~\thepage~de~\pageref{LastPage}}   % Para que muestre Página # de #
+	\fancyfoot[L]{\textbf{CONFIDENCIAL}}                    % CONFIDENCIAL
+	\fancyfoot[R]{\Codigo~v.\Edit}                          % Estructura del código CODIGO v.EDICION
 }%
 
 \setcounter{tocdepth}{4}            % 4 Qué tanto mostrará la tabla de contenidos

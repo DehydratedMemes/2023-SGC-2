@@ -307,7 +307,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--56
 )
 Underfull \vbox (badness 10000) has occurred while \output is active [42]
 Overfull \vbox (8.05392pt too high) has occurred while \output is active
-[43<./RDF_Logo.png>] (./src/BPM-Gloss.tex (./1-BPM-2023.acr
+[43<../RDF_Logo.png>] (./src/BPM-Gloss.tex (./1-BPM-2023.acr
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\textspanish' on input line 1.

@@ -1,8 +1,17 @@
 \RequireVersions{
   *{application}{luaTeX}  {0000/00/00 v1.17.0}
-  *{format} {LaTeX2e}     {2023-06-01 v2.e}
+  *{format} {LaTeX2e}     {2023-11-01 v2.e}
+  *{file}   {documentmetadata-support.ltx}{0000/00/00 v0.0}
+  *{package}{pdfmanagement-testphase}{2023-03-09 v0.95x}
+  *{package}{tagpdf-base} {2023-07-08 v0.98j}
+  *{file}   {pdfmanagement-testphase.ltx}{2023-03-09 v0.95x}
+  *{package}{l3bitset}    {2023-05-11 v3}
+  *{file}   {l3backend-luatex.def}{2023-04-19 v3}
+  *{file}   {l3backend-testphase-luatex.def}{2023-03-09 v0.0}
+  *{package}{l3ref-tmp}   {2021-06-23 v3}
+  *{package}{pdfmanagement-firstaid}{2023-03-09 v0.95x}
   *{class}  {article}     {2023/05/17 v1.4n}
-  *{file}   {size10.clo}  {2023/05/17 v1.4n}
+  *{file}   {size11.clo}  {2023/05/17 v1.4n}
   *{file}   {../VariablesEstaticas.tex}{0000/00/00 v0.0}
   *{package}{etoolbox}    {2020/10/05 v2.5k}
   *{file}   {../Formato.tex}{0000/00/00 v0.0}
@@ -12,7 +21,6 @@
   *{package}{fontspec}    {2022/01/15 v2.8a}
   *{package}{xparse}      {2023-02-02 v3}
   *{package}{expl3}       {2023-06-30 v3}
-  *{file}   {l3backend-luatex.def}{2023-04-19 v3}
   *{package}{fontspec-luatex}{2022/01/15 v2.8a}
   *{package}{fontenc}     {0000/00/00 v0.0}
   *{file}   {fontspec.cfg}{0000/00/00 v0.0}
@@ -22,12 +30,19 @@
   *{package}{ifluatex}    {2019/10/25 v1.5}
   *{package}{luatexbase}  {2015/10/04 v1.3}
   *{package}{ctablestack} {2015/10/01 v1.0}
+  *{package}{parskip}     {2021-03-14 v2.0h}
+  *{package}{kvoptions}   {2022-06-15 v3.15}
+  *{package}{keyval}      {2022/05/29 v1.15}
+  *{package}{ltxcmds}     {2020-05-10 v1.25}
+  *{package}{kvsetkeys}   {2022-10-05 v1.19}
+  *{package}{microtype}   {2023/03/13 v3.1a}
+  *{file}   {microtype-luatex.def}{2023/03/13 v3.1a}
+  *{file}   {microtype.cfg}{2023/03/13 v3.1a}
   *{package}{snapshot}    {2020/06/17 v2.14}
   *{package}{changelog}   {2023/02/16 v2.5.0}
   *{package}{translations}{2022/02/05 v1.12}
   *{package}{pdftexcmds}  {2020-06-27 v0.33}
   *{package}{infwarerr}   {2019/12/03 v1.5}
-  *{package}{ltxcmds}     {2020-05-10 v1.25}
   *{package}{todonotes}   {2023/01/31 v0.0}
   *{package}{ifthen}      {2022/04/13 v1.1d}
   *{package}{xkeyval}     {2022/06/16 v2.9}
@@ -36,6 +51,7 @@
   *{file}   {color.cfg}   {2016/01/02 v1.6}
   *{file}   {luatex.def}  {2022/09/22 v1.2d}
   *{file}   {mathcolor.ltx}{0000/00/00 v0.0}
+  *{package}{xcolor-patches-tmp-ltx}{2023-03-09 v0.95x}
   *{package}{tikz}        {2023-01-15 v3.1.10}
   *{package}{pgf}         {2023-01-15 v3.1.10}
   *{package}{pgfrcs}      {2023-01-15 v3.1.10}
@@ -61,11 +77,12 @@
   *{file}   {tikz.code.tex}{0000/00/00 v0.0}
   *{package}{calc}        {2017/05/25 v4.3}
   *{package}{pdflscape}   {2022-10-27 v0.13}
-  *{package}{pdflscape-nometadata}{2022-10-28 v0.13}
   *{package}{lscape}      {2020/05/28 v3.02}
   *{package}{pifont}      {2020/03/25 v9.3}
   *{file}   {upzd.fd}     {2001/06/04 v0.0}
   *{file}   {upsy.fd}     {2001/06/04 v0.0}
+  *{package}{caption}     {2023/03/12 v3.6j}
+  *{package}{caption3}    {2023/03/12 v2.4}
   *{package}{glossaries-extra}{2023/06/28 v1.52}
   *{package}{glossaries}  {2022/11/03 v4.52}
   *{package}{mfirstuc}    {2022/10/14 v2.08}
@@ -101,13 +118,23 @@
   *{package}{glossary-super}{2022/11/03 v4.52}
   *{package}{supertabular}{2020/02/02 v4.1g}
   *{package}{glossary-tree}{2022/11/03 v4.52}
+  *{package}{glossaries-extra-bib2gls}{2023/06/28 v1.52}
   *{file}   {glossaries-extra-abbrstyles.def}{2023/06/28 v1.52}
   *{package}{glossaries-extra-stylemods}{2023/06/28 v1.52}
   *{package}{structuredlog}{2023/04/02 v1.0o}
+  *{package}{kantlipsum}  {2019/07/23 v0.8}
+  *{package}{tcolorbox}   {2023/06/19 v6.0.4}
+  *{package}{verbatim}    {2022-07-02 v1.5u}
+  *{package}{environ}     {2014/05/04 v0.3}
+  *{package}{trimspaces}  {2009/09/17 v1.1}
+  *{package}{nameref}     {2023-08-07 v2.53}
+  *{package}{refcount}    {2019/12/15 v3.6}
+  *{package}{gettitlestring}{2019/12/15 v1.6}
+  *{package}{tikzfill.image}{2022/07/20 v1.0.0}
+  *{package}{tikzfill-common}{2022/07/20 v1.0.0}
+  *{package}{pdfcol}      {2022-09-21 v1.7}
   *{package}{makeidx}     {2021/10/04 v1.0m}
   *{package}{mdframed}    {2013/07/01 v1.9b:}
-  *{package}{kvoptions}   {2022-06-15 v3.15}
-  *{package}{kvsetkeys}   {2022-10-05 v1.19}
   *{package}{zref-abspage}{2022-04-07 v2.34}
   *{package}{zref-base}   {2022-04-07 v2.34}
   *{package}{kvdefinekeys}{2019-12-19 v1.6}
@@ -117,32 +144,23 @@
   *{package}{needspace}   {2010/09/12 v1.3d}
   *{file}   {md-frame-1.mdf}{2013/07/01\ 1.9b: v1}
   *{package}{footmisc}    {2023/07/05 v6.0f}
-  *{package}{microtype}   {2023/03/13 v3.1a}
-  *{file}   {microtype-luatex.def}{2023/03/13 v3.1a}
-  *{file}   {microtype.cfg}{2023/03/13 v3.1a}
   *{package}{hyperref}    {2023-07-08 v7.01b}
   *{package}{pdfescape}   {2019/12/09 v1.15}
   *{package}{hycolor}     {2020-01-27 v1.10}
   *{package}{letltxmacro} {2019/12/03 v1.6}
-  *{package}{nameref}     {2023-08-07 v2.53}
-  *{package}{refcount}    {2019/12/15 v3.6}
-  *{package}{gettitlestring}{2019/12/15 v1.6}
   *{file}   {pd1enc.def}  {2023-07-08 v7.01b}
   *{package}{intcalc}     {2019/12/15 v1.3}
   *{file}   {puenc.def}   {2023-07-08 v7.01b}
   *{package}{url}         {2013/09/16 v3.4}
   *{package}{bitset}      {2019/12/09 v1.3}
   *{package}{bigintcalc}  {2019/12/15 v1.5}
-  *{file}   {hluatex.def} {2023-07-08 v7.01b}
-  *{package}{stringenc}   {2019/11/29 v1.12}
-  *{package}{atveryend-ltx}{2020/08/19 v1.0a}
-  *{package}{rerunfilecheck}{2022-07-10 v1.10}
-  *{package}{uniquecounter}{2019/12/15 v1.4}
+  *{file}   {hgeneric-testphase.def}{2023-03-09 v0.95x}
+  *{file}   {hyperref-colorschemes.def}{0000/00/00 v0.0}
   *{package}{cleveref}    {2018/03/27 v0.21.4}
-  *{package}{lastpage}    {2023/04/12 v2.0b}
-  *{package}{lastpage2e}  {2023/04/12 v2.0b}
-  *{package}{lastpagemodern}{2023-04-12 v2.0b}
-  *{package}{siunitx}     {2023-06-12 v3.2.6}
+  *{package}{lastpage}    {2023/07/24 v2.0c}
+  *{package}{lastpage2e}  {2023/07/24 v2.0c}
+  *{package}{lastpagemodern}{2023-07-24 v2.0c}
+  *{package}{siunitx}     {2023-07-26 v3.2.9}
   *{package}{array}       {2022/09/04 v2.5g}
   *{package}{tabularray}  {2023-03-01 v2023A}
   *{package}{booktabs}    {2020/01/12 v1.61803398}
@@ -159,27 +177,277 @@
   *{package}{varwidth}    {2009/03/30 v0.92;}
   *{package}{enumitem}    {2019/06/20 v3.9}
   *{package}{fancyhdr}    {2022/11/09 v4.1}
+  *{package}{bookmark}    {2020-11-06 v1.29}
+  *{file}   {bkm-pdftex.def}{2020-11-06 v1.29}
   *{file}   {ts1cmr.fd}   {2023/04/13 v2.5m}
   *{-------}{Document-specific files:}{----}
   *{file}   {translations-basic-dictionary-spanish.trsl}{(spanish v0.0}
   *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
   *{package}{epstopdf-base}{2020-01-24 v2.11}
   *{file}   {epstopdf-sys.cfg}{2010/07/13 v1.3}
-  *{file}   {2-PSA-2023.out}{0000/00/00 v0.0}
-  *{file}   {2-PSA-2023.out}{0000/00/00 v0.0}
+  *{package}{ltcaption}   {2021/01/08 v1.4c}
   *{package}{ninecolors}  {2022-02-13 v2022D}
+  *{file}   {src/PSA-ToC.tex}{0000/00/00 v0.0}
+  *{file}   {mt-cmr.cfg}  {2013/05/19 v2.2}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
   *{file}   {src/PSA-2.1.tex}{0000/00/00 v0.0}
   *{file}   {../IT/IT-1-InspeccionDeUnidades.tex}{0000/00/00 v0.0}
-  *{file}   {mt-cmr.cfg}  {2013/05/19 v2.2}
-  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
-  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
-  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
-  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
-  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
-  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
-  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
-  *{file}   {./RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
   *{file}   {../IT/IT-1-InspeccionDeUnidades.pdf}{0000/00/00 v0.0}
   *{file}   {../IT/IT-2-DescargaDeUnidades.tex}{0000/00/00 v0.0}
   *{file}   {../IT/IT-2.pdf}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.2.tex}{0000/00/00 v0.0}
+  *{file}   {../IT/IT-3 - Lotificación de tarimas.tex}{0000/00/00 v0.0}
+  *{file}   {../IT/IT-3 - Lotificación de tarimas.pdf}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.3.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.4.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.5.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.6.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.7.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.8.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.9.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.10.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.11.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.12.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.13.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.14.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.15.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.16.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.17.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.18.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.19.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.20.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.21.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.22.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.23.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.24.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.25.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-2.26.tex}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-Gloss.tex}{0000/00/00 v0.0}
+  *{file}   {2-PSA-2023.acr}{0000/00/00 v0.0}
+  *{file}   {2-PSA-2023.gls}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {../RDF_Logo.png}{0000/00/00 v0.0}
+  *{file}   {src/PSA-Ind.tex}{0000/00/00 v0.0}
+  *{file}   {2-PSA-2023.ind}{0000/00/00 v0.0}
 }
